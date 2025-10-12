@@ -1,0 +1,541 @@
+{
+  "1-1": {
+    "nombre": "Misionero",
+    "descripcion": "Ambos frente a frente, disfrutando del contacto visual y la cercanía. Es una postura clásica, romántica y llena de ternura.",
+    "ventajas": [
+      "Es fácil y cómoda para ambos.",
+      "Permite contacto visual cercano.",
+      "Ideal para principiantes."
+    ],
+    "desventajas": [
+      "Puede resultar monótona si se repite demasiado.",
+      "No permite demasiada variedad en los ángulos."
+    ],
+    "dato_curioso": "Es una de las posiciones más antiguas y universales.",
+    "imagen": "assets/img/nivel1/1-1.jpeg"
+  },
+  "1-2": {
+    "nombre": "Cucharita",
+    "descripcion": "Ambos se acuestan de lado, uno detrás del otro, creando una sensación de abrazo constante. Cómoda y muy cariñosa.",
+    "ventajas": [
+      "Muy íntima y tierna.",
+      "Relajada y cómoda, ideal para caricias.",
+      "Perfecta para juegos lentos."
+    ],
+    "desventajas": [
+      "No permite demasiado contacto visual.",
+      "El ritmo puede ser limitado."
+    ],
+    "dato_curioso": "En muchas culturas se asocia con la ternura y el descanso.",
+    "imagen": "assets/img/nivel1/1-2.jpeg"
+  },
+  "1-3": {
+    "nombre": "Loto",
+    "descripcion": "Sentados frente a frente, se entrelazan las piernas y los brazos, respirando juntos. Es una postura de conexión total y calma.",
+    "ventajas": [
+      "Contacto visual y emocional intenso.",
+      "Sensación de unión y cercanía.",
+      "Ideal para ritmos lentos y sensuales."
+    ],
+    "desventajas": [
+      "Puede cansar piernas y espalda con el tiempo.",
+      "Requiere un poco de flexibilidad."
+    ],
+    "dato_curioso": "Está inspirada en la postura de yoga Padmasana.",
+    "imagen": "assets/img/nivel1/1-3.jpeg"
+  },
+  "1-4": {
+    "nombre": "Amazonas Suave",
+    "descripcion": "Una persona se sienta mientras la otra se acomoda encima suavemente, guiando el ritmo y los movimientos con calma.",
+    "ventajas": [
+      "La pareja receptora puede relajarse.",
+      "Permite explorar el control y el ritmo.",
+      "Da un toque juguetón al intercambio."
+    ],
+    "desventajas": [
+      "La persona arriba puede cansarse.",
+      "Requiere equilibrio para mayor comodidad."
+    ],
+    "dato_curioso": "Su nombre proviene de la imagen de guerreras montadas a caballo.",
+    "imagen": "assets/img/nivel1/1-4.png"
+  },
+  "1-5": {
+    "nombre": "De lado frente a frente",
+    "descripcion": "Ambos se acuestan de lado mirándose, abrazados. Es una posición simple pero muy íntima, perfecta para risas y besos.",
+    "ventajas": [
+      "Cómoda y relajada.",
+      "Permite abrazos y besos con facilidad.",
+      "Ambos tienen control del ritmo."
+    ],
+    "desventajas": [
+      "Puede ser limitada en movimientos.",
+      "No siempre es estable si se mueven mucho."
+    ],
+    "dato_curioso": "Es una evolución natural de la cucharita, pero más juguetona.",
+    "imagen": "assets/img/nivel1/1-5.jpeg"
+  },
+  "1-6": {
+    "nombre": "Sentados frente a frente",
+    "descripcion": "Ambos sentados, uno frente al otro, compartiendo miradas, caricias y risas. Cálida y muy romántica.",
+    "ventajas": [
+      "Conexión visual intensa.",
+      "Permite hablar, besar y acariciar libremente.",
+      "Ideal para juegos tranquilos."
+    ],
+    "desventajas": [
+      "Puede cansar la espalda.",
+      "Requiere un poco de equilibrio."
+    ],
+    "dato_curioso": "Se asocia con la intimidad en culturas orientales.",
+    "imagen": "assets/img/nivel1/1-6.png"
+  },
+  "2-1": {
+    "nombre": "La Tijera",
+    "descripcion": "Ambos se acuestan de lado entrelazando las piernas, formando una figura similar a una tijera. Cercana y rítmica.",
+    "ventajas": [
+      "Más variedad en ángulos y sensaciones.",
+      "Permite un juego rítmico muy romántico.",
+      "Fomenta la cercanía y las risas espontáneas."
+    ],
+    "desventajas": [
+      "Puede requerir equilibrio y coordinación.",
+      "Menos cómoda si no hay sincronía."
+    ],
+    "dato_curioso": "La postura de la Tijera es símbolo de confianza y complicidad, ¡perfecta para quienes se entienden con una mirada!",
+    "imagen": "assets/img/nivel2/2-1.png"
+  },
+  "2-2": {
+    "nombre": "El Puente",
+    "descripcion": "Una persona arquea el cuerpo hacia arriba mientras la otra acompaña el movimiento. Visualmente elegante y enérgica.",
+    "ventajas": [
+      "Favorece el contacto visual y el trabajo en equipo.",
+      "Ideal para una conexión energética y romántica.",
+      "Ayuda a fortalecer el abdomen y la espalda."
+    ],
+    "desventajas": [
+      "Requiere algo de fuerza y equilibrio.",
+      "Puede ser intensa si se mantiene mucho tiempo."
+    ],
+    "dato_curioso": "El Puente combina sensualidad con ejercicio, una mezcla que puede despertar carcajadas y chispas.",
+    "imagen": "assets/img/nivel2/2-2.png"
+  },
+  "2-3": {
+    "nombre": "La Amazona",
+    "descripcion": "Una persona se sienta mientras la otra se coloca sobre ella, guiando el movimiento con confianza y coquetería.",
+    "ventajas": [
+      "Ofrece control y protagonismo a quien se sienta arriba.",
+      "Permite una comunicación visual constante.",
+      "Excelente para explorar ritmos y estilos distintos."
+    ],
+    "desventajas": [
+      "Requiere algo de fuerza en las piernas.",
+      "Puede cansar si se prolonga demasiado."
+    ],
+    "dato_curioso": "La Amazona simboliza el equilibrio entre libertad y conexión, perfecta para explorar con confianza.",
+    "imagen": "assets/img/nivel2/2-3.png"
+  },
+  "2-4": {
+    "nombre": "El Arco",
+    "descripcion": "Una de las personas se recuesta arqueando la espalda suavemente, mientras la otra la acompaña. Elegante y llena de energía.",
+    "ventajas": [
+      "Postura visualmente elegante y romántica.",
+      "Fomenta el estiramiento y la flexibilidad.",
+      "Perfecta para quienes disfrutan del juego lento y coqueto."
+    ],
+    "desventajas": [
+      "Requiere elasticidad y confianza.",
+      "Puede ser incómoda en superficies duras."
+    ],
+    "dato_curioso": "El Arco es una de las posturas más retratadas en ilustraciones clásicas del amor oriental.",
+    "imagen": "assets/img/nivel2/2-4.png"
+  },
+  "2-5": {
+    "nombre": "El Molino",
+    "descripcion": "Una postura dinámica que invita a girar y cambiar de ángulo, como un molino en movimiento lleno de energía y risas.",
+    "ventajas": [
+      "Permite experimentar desde distintos ángulos.",
+      "Muy divertida y espontánea para parejas creativas.",
+      "Ideal para romper la rutina y reír juntos."
+    ],
+    "desventajas": [
+      "Puede requerir coordinación y buena comunicación.",
+      "No apta para espacios reducidos."
+    ],
+    "dato_curioso": "El Molino es símbolo del movimiento constante, donde el ritmo se convierte en diversión pura.",
+    "imagen": "assets/img/nivel2/2-5.png"
+  },
+  "2-6": {
+    "nombre": "El Columpio",
+    "descripcion": "Inspirada en el balanceo, una persona se sostiene mientras la otra acompaña el ritmo. Alegre, rítmica y divertida.",
+    "ventajas": [
+      "Combina equilibrio con juego y risas.",
+      "Permite movimientos balanceados y sensuales.",
+      "Excelente para parejas aventureras."
+    ],
+    "desventajas": [
+      "Difícil sin un buen soporte o fuerza en el tronco.",
+      "No recomendada para principiantes."
+    ],
+    "dato_curioso": "El Columpio representa la libertad del deseo en movimiento: ¡todo es cuestión de balance!",
+    "imagen": "assets/img/nivel2/2-6.png"
+  },
+  "3-1": {
+    "nombre": "El Delfín",
+    "descripcion": "Una persona se apoya sobre los antebrazos mientras la otra acompaña desde atrás, moviéndose con ritmo suave y fluido como el mar.",
+    "ventajas": [
+      "Permite un movimiento controlado y constante.",
+      "Estimula la conexión corporal y rítmica.",
+      "Ideal para quienes buscan algo más dinámico."
+    ],
+    "desventajas": [
+      "Puede requerir fuerza en brazos y abdomen.",
+      "No es cómoda por mucho tiempo."
+    ],
+    "dato_curioso": "El nombre viene por el balanceo del cuerpo que recuerda al movimiento de un delfín en el agua.",
+    "imagen": "assets/img/nivel3/3-1.png"
+  },
+  "3-2": {
+    "nombre": "El Cuatro",
+    "descripcion": "Una persona se coloca apoyando manos y rodillas, mientras la otra acompaña el ritmo desde atrás, como un juego coordinado y coqueto.",
+    "ventajas": [
+      "Facilita los movimientos amplios y controlados.",
+      "Permite explorar la sincronía en pareja.",
+      "Da una sensación de energía y vitalidad."
+    ],
+    "desventajas": [
+      "Puede cansar las muñecas o rodillas.",
+      "Requiere buena comunicación para mantener el ritmo."
+    ],
+    "dato_curioso": "Una de las más populares por su equilibrio entre comodidad y dinamismo.",
+    "imagen": "assets/img/nivel3/3-2.png"
+  },
+  "3-3": {
+    "nombre": "El Lazo",
+    "descripcion": "Una persona se sienta mientras la otra se inclina hacia atrás, creando un lazo con sus cuerpos que simboliza unión y complicidad.",
+    "ventajas": [
+      "Postura envolvente y estética.",
+      "Permite contacto visual constante.",
+      "Excelente para juegos lentos y coordinados."
+    ],
+    "desventajas": [
+      "Requiere equilibrio y algo de flexibilidad.",
+      "Puede cansar la zona lumbar."
+    ],
+    "dato_curioso": "El Lazo es símbolo de conexión emocional y juego compartido.",
+    "imagen": "assets/img/nivel3/3-3.png"
+  },
+  "3-4": {
+    "nombre": "El Paseo",
+    "descripcion": "Ambos de rodillas, uno frente al otro, se mueven lentamente coordinando respiraciones y risas. Natural y romántica.",
+    "ventajas": [
+      "Equilibra cercanía y movimiento.",
+      "Ideal para quienes disfrutan el contacto visual.",
+      "Permite mantener control sobre la intensidad."
+    ],
+    "desventajas": [
+      "Puede cansar las rodillas.",
+      "Requiere ritmo y paciencia."
+    ],
+    "dato_curioso": "Llamada así porque parece un paseo lento entre caricias y sonrisas.",
+    "imagen": "assets/img/nivel3/3-4.png"
+  },
+  "3-5": {
+    "nombre": "El Giro",
+    "descripcion": "Una postura donde uno se acuesta y el otro se coloca de lado, girando suavemente para cambiar de ángulo. Fluida y divertida.",
+    "ventajas": [
+      "Permite variar sin perder el contacto.",
+      "Ideal para parejas curiosas.",
+      "Fomenta la improvisación."
+    ],
+    "desventajas": [
+      "Puede ser inestable si hay demasiado movimiento.",
+      "No recomendable en superficies blandas."
+    ],
+    "dato_curioso": "Se le conoce como ‘el giro del deseo’ en antiguas descripciones orientales.",
+    "imagen": "assets/img/nivel3/3-5.png"
+  },
+  "3-6": {
+    "nombre": "El Abrazo Infinito",
+    "descripcion": "Ambos entrelazan brazos y piernas en un abrazo continuo, moviéndose lentamente como si el tiempo se detuviera.",
+    "ventajas": [
+      "Conexión profunda y romántica.",
+      "Ideal para cerrar una sesión de juego o caricias.",
+      "Refuerza la intimidad."
+    ],
+    "desventajas": [
+      "Difícil de mantener por largo tiempo.",
+      "Puede limitar el movimiento."
+    ],
+    "dato_curioso": "Inspirada en los entrelazados de esculturas antiguas de amor eterno.",
+    "imagen": "assets/img/nivel3/3-6.png"
+  },
+  "4-1": {
+    "nombre": "El Balancín",
+    "descripcion": "Una persona se recuesta mientras la otra balancea suavemente su cuerpo sobre ella. Movimiento rítmico y elegante.",
+    "ventajas": [
+      "Perfecta para explorar ritmo y coordinación.",
+      "Combina energía y ternura.",
+      "Ideal para quienes disfrutan del balanceo."
+    ],
+    "desventajas": [
+      "Requiere algo de equilibrio.",
+      "Puede cansar los músculos del core."
+    ],
+    "dato_curioso": "Su nombre viene del vaivén constante, como el de un columpio de emociones.",
+    "imagen": "assets/img/nivel4/4-1.png"
+  },
+  "4-2": {
+    "nombre": "El Caballo Alado",
+    "descripcion": "Una variación dinámica de 'El Jinete' donde quien está arriba se inclina hacia adelante, generando una sensación de fluidez y energía. Ideal para quienes buscan ritmo y movimiento con elegancia.",
+    "ventajas": [
+      "Permite control del ritmo y profundidad.",
+      "Crea una sensación visual elegante y poderosa.",
+      "Combina fuerza y fluidez en un mismo movimiento."
+    ],
+    "desventajas": [
+      "Requiere algo de equilibrio y resistencia.",
+      "Puede cansar si se mantiene mucho tiempo."
+    ],
+    "dato_curioso": "El nombre 'Caballo Alado' evoca el movimiento libre y elegante de un vuelo, inspirado en la fuerza y la gracia.",
+    "imagen": "assets/img/nivel4/4-3.png"
+  },
+"4-3": {
+  "nombre": "El Puente del Deseo",
+  "descripcion": "Una persona se recuesta boca arriba con las rodillas flexionadas y la pelvis ligeramente elevada, mientras la otra se inclina hacia adelante apoyando las manos junto a sus hombros. El movimiento es fluido, combinando fuerza y ternura.",
+  "ventajas": [
+    "Estimula el contacto visual y corporal de forma intensa.",
+    "Permite ajustar el ritmo con delicadeza o energía.",
+    "Fortalece piernas, abdomen y espalda de forma divertida."
+  ],
+  "desventajas": [
+    "Requiere equilibrio y fuerza en el core.",
+    "Puede ser incómoda si se mantiene por mucho tiempo sin apoyo."
+  ],
+  "dato_curioso": "En textos modernos del Kamasutra, esta postura representa el equilibrio entre energía física y conexión emocional, como un puente entre ambos cuerpos.",
+  "imagen": "assets/img/nivel4/4-3.png"
+},
+  "4-4": {
+    "nombre": "El Trono",
+    "descripcion": "Una persona sentada mientras la otra se acomoda de espaldas, reclinándose suavemente. Cálida y envolvente.",
+    "ventajas": [
+      "Permite abrazos y caricias al mismo tiempo.",
+      "Ideal para quienes disfrutan de la cercanía física.",
+      "Perfecta para conversaciones coquetas."
+    ],
+    "desventajas": [
+      "Puede cansar la espalda.",
+      "Requiere sincronía para el equilibrio."
+    ],
+    "dato_curioso": "El Trono aparece en pinturas renacentistas como símbolo de intimidad elegante.",
+    "imagen": "assets/img/nivel4/4-4.png"
+  },
+  "4-5": {
+    "nombre": "La Media Luna",
+    "descripcion": "Ambos se recuestan de lado formando una curva con sus cuerpos, como una luna abrazando la noche.",
+    "ventajas": [
+      "Cómoda y relajada.",
+      "Perfecta para juegos suaves y sensuales.",
+      "Permite contacto visual lateral."
+    ],
+    "desventajas": [
+      "Limitada en movimiento.",
+      "Requiere coordinación en el ritmo."
+    ],
+    "dato_curioso": "Su forma recuerda los antiguos símbolos de unión en equilibrio.",
+    "imagen": "assets/img/nivel4/4-5.png"
+  },
+  "4-6": {
+    "nombre": "El Encuentro",
+    "descripcion": "Ambos de pie, frente a frente, ella con una pierna alrededor de su cintura, sosteniéndose por la cintura o los hombros. Intensa, divertida y llena de energía.",
+    "ventajas": [
+      "Ideal para improvisar.",
+      "Romántica y apasionada.",
+      "Permite conexión completa de cuerpo y mirada."
+    ],
+    "desventajas": [
+      "Puede cansar las piernas.",
+      "Difícil mantener equilibrio sin apoyo."
+    ],
+    "dato_curioso": "El Encuentro representa el deseo espontáneo, sin reglas, solo conexión.",
+    "imagen": "assets/img/nivel4/4-6.png"
+  },
+  "5-1": {
+    "nombre": "El Elevador",
+    "descripcion": "Una persona sostiene a la otra parcialmente, combinando fuerza y balance. Activa y apasionada.",
+    "ventajas": [
+      "Perfecta para quienes buscan adrenalina y complicidad.",
+      "Permite explorar el control y la fuerza.",
+      "Ideal para parejas con buena coordinación."
+    ],
+    "desventajas": [
+      "Requiere fuerza y práctica.",
+      "No apta para sesiones largas."
+    ],
+    "dato_curioso": "El Elevador simboliza la confianza total entre ambos cuerpos.",
+    "imagen": "assets/img/nivel5/5-1.png"
+  },
+"5-2": {
+  "nombre": "La Inclinación de Pie",
+  "descripcion": "Ambos de pie, una persona se inclina ligeramente hacia adelante mientras la otra la sostiene desde atrás. Requiere coordinación y equilibrio, pero es muy estimulante.",
+  "ventajas": [
+    "Permite gran cercanía física y visual si hay un espejo o pared.",
+    "Ideal para quienes buscan intensidad con poco esfuerzo.",
+    "Se puede realizar en espacios pequeños o improvisados."
+  ],
+  "desventajas": [
+    "Puede requerir buena estabilidad o apoyo en superficies firmes.",
+    "No es recomendable para periodos prolongados si hay diferencia de altura significativa."
+  ],
+  "dato_curioso": "Esta postura aparece en versiones occidentales del Kamasutra y es símbolo de pasión espontánea. Muy popular en ilustraciones modernas.",
+  "imagen": "assets/img/nivel5/5-2.png"
+},
+  "5-3": {
+    "nombre": "El Tigre",
+    "descripcion": "Una persona se apoya firmemente mientras la otra se arquea hacia ella, formando una figura de fuerza y deseo.",
+    "ventajas": [
+      "Enérgica y desafiante.",
+      "Permite juego de fuerza y ritmo.",
+      "Fomenta la confianza y la emoción."
+    ],
+    "desventajas": [
+      "Puede ser exigente físicamente.",
+      "No apta para principiantes."
+    ],
+    "dato_curioso": "Inspirada en la agilidad y fuerza del tigre, símbolo de deseo y respeto.",
+    "imagen": "assets/img/nivel5/5-3.png"
+  },
+  "5-4": {
+    "nombre": "El Ala Abierta",
+    "descripcion": "Una persona se inclina hacia atrás mientras la otra la sostiene. Es elegante, teatral y visualmente encantadora.",
+    "ventajas": [
+      "Postura muy estética.",
+      "Fomenta el trabajo en equipo.",
+      "Ideal para momentos intensos y coquetos."
+    ],
+    "desventajas": [
+      "Puede cansar los brazos y piernas.",
+      "Requiere confianza mutua."
+    ],
+    "dato_curioso": "El Ala Abierta aparece en obras artísticas como metáfora de la entrega.",
+    "imagen": "assets/img/nivel5/5-4.png"
+  },
+  "5-5": {
+  "nombre": "La Mariposa",
+  "descripcion": "Una postura que evoca ligereza y conexión. Uno de los dos se recuesta mientras el otro se inclina suavemente, creando una sensación de vuelo compartido y cercanía juguetona.",
+  "ventajas": [
+    "Fomenta la confianza y la relajación.",
+    "Ideal para momentos de cariño y ternura.",
+    "Permite una conexión visual encantadora."
+  ],
+  "desventajas": [
+    "Puede requerir algo de equilibrio.",
+    "Mejor sobre una superficie cómoda."
+  ],
+  "dato_curioso": "El nombre proviene del aleteo sutil de una mariposa, símbolo de transformación y ligereza.",
+  "imagen": "assets/img/nivel5/5-5.png"
+},  
+"5-6": {
+  "nombre": "Spiderman",
+  "descripcion": "Una postura en la cual la mujer acostada boca arriba sobre el borde de la cama y el hombre parado o rodillas junto a ella",
+  "ventajas": [
+    "Fomenta la confianza",
+    "Ideal para momentos donde se quiere explorar",
+    "Permite una conexión visual"
+  ],
+  "desventajas": [
+    "Puede generar ahogo",
+    "Mejor sobre una superficie cómoda."
+  ],
+  "dato_curioso": "El nombre proviene del aleteo sutil de una mariposa, símbolo de transformación y ligereza.",
+  "imagen": "assets/img/nivel5/5-5.png"
+},
+  "6-1": {
+    "nombre": "Pino Indio",
+    "descripcion": "La mujer apoyadada con sun brazos estirados, el hombre de pie sujeta la cintura",
+    "ventajas": [
+      "Gran desafío físico y de equilibrio.",
+      "Permite explorar",
+      "Ideal para parejas con experiencia."
+    ],
+    "desventajas": [
+      "Requiere mucha fuerza y coordinación.",
+      "No apta para principiantes."
+    ],
+    "dato_curioso": "El Cometa simboliza la energía que se eleva y se conecta en un solo punto.",
+    "imagen": "assets/img/nivel6/6-1.png"
+  },
+  "6-2": {
+    "nombre": "La trasera tumbada",
+    "descripcion": "Una postura para una mejor sensacion y conexion.",
+    "ventajas": [
+      "Mejor penetracion.",
+      "Control del ritmo.",
+      "Ideal para finalizar."
+    ],
+    "desventajas": [
+      "Puede resultar sobre-estimulante"
+    ],
+    "dato_curioso": "El Dragón representa la fusión de la energía y la pasión con equilibrio absoluto.",
+    "imagen": "assets/img/nivel6/6-2.png"
+  },
+  "6-3": {
+  "nombre": "El Triángulo",
+  "descripcion": "Ambos se colocan formando una figura triangular, uno inclinado hacia adelante y el otro sosteniendo el equilibrio. Es una postura que combina armonía, fuerza y complicidad.",
+  "ventajas": [
+    "Favorece la cercanía y la sincronía entre ambos.",
+    "Permite mantener contacto visual y gestual constante.",
+    "Estimula la conexión física y emocional con equilibrio."
+  ],
+  "desventajas": [
+    "Puede requerir algo de fuerza o elasticidad.",
+    "No recomendable mantenerla demasiado tiempo si se busca relajación."
+  ],
+  "dato_curioso": "El nombre hace alusión al triángulo como símbolo de unión, energía y balance entre deseo, confianza y juego.",
+  "imagen": "assets/img/nivel6/6-3.png"
+},
+"6-4": {
+  "nombre": "El Espejo",
+  "descripcion": "Ambos se colocan frente a frente, reflejando los movimientos y gestos del otro como si fueran su propio reflejo. Todo gira en torno a la sincronía y la complicidad.",
+  "ventajas": [
+    "Fomenta la conexión visual y emocional intensa.",
+    "Ideal para parejas que disfrutan de la armonía y la observación mutua.",
+    "Permite jugar con el ritmo y la energía de manera elegante."
+  ],
+  "desventajas": [
+    "Puede ser difícil mantener la postura si no hay equilibrio.",
+    "Requiere concentración para conservar la sincronía sin perder naturalidad."
+  ],
+  "dato_curioso": "El nombre proviene de la sensación de verse reflejados en el otro, una metáfora del equilibrio entre deseo y ternura.",
+  "imagen": "assets/img/nivel6/6-4.png"
+},
+"6-5": {
+  "nombre": "La profunda",
+  "descripcion": "Una variacion del Misionero, pero con las piernas en los hombros del hombre",
+  "ventajas": [
+    "Fomenta la conexión visual y emocional intensa.",
+    "Ideal para parejas que disfrutan de la armonía y la observación mutua.",
+    "Mayor penetracion"
+  ],
+  "desventajas": [
+    "Puede ser doloroso si no existe la costumbre.",
+    "Requiere un poco de flexibilidad."
+  ],
+  "dato_curioso": "El nombre proviene de la sensación de verse reflejados en el otro, una metáfora del equilibrio entre deseo y ternura.",
+  "imagen": "assets/img/nivel6/6-4.png"
+},
+"6-6": {
+  "nombre": "Vela",
+  "descripcion": "La mujer siendo elevada de frente y sostenida por los braxos del hombre mientras mantiene las piernas abiertas.",
+  "ventajas": [
+    "Exotica para los que les gusta experimentar.",
+    "Ideal para parejas con buen estado fisico.",
+    "Se puede practicar frente a un espejo"
+  ],
+  "desventajas": [
+    "Se necesita fuerza en los brazos.",
+    "Requiere un poco de flexibilidad."
+  ],
+  "dato_curioso": "El nombre proviene de la sensación de verse reflejados en el otro, una metáfora del equilibrio entre deseo y ternura.",
+  "imagen": "assets/img/nivel6/6-6.png"
+}
+}
