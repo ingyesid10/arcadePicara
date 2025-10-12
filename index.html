@@ -58,7 +58,7 @@
     width:86%;
     /* background:#0e0e13; */
     border-radius:12px;padding:12px;display:flex;align-items:center;gap:12px;color:#ffd046;cursor:pointer;
-    display: flex
+    display: flex;
     flex-direction: column;
     align-self: center;
     gap: 0;
@@ -294,6 +294,7 @@
   .main-row {
     flex-direction: row;
     min-height: 500px;
+    height: 100svh;
   }
 
   .sidebar {
@@ -559,14 +560,14 @@
   }
 
   .arcade-logo span {
-    font-size: 22px;
+    font-size: 14px;
   }
 }
 
 /* Pantallas extra pequeñas (<= 360px) */
 @media (max-width: 360px) {
   .sidebar {
-    width: 60px;
+    width: 86px;
   }
   
   .sidebar.collapsed {
@@ -590,8 +591,8 @@
   }
 
   .select-card .inner {
-    width: 80px;
-    height: 80px;
+    width: 110px;
+    height: 110px;
   }
 
   .select-card i {
