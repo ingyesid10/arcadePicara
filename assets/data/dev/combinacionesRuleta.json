@@ -1,0 +1,60 @@
+{
+  "ruleta": {
+    "BESO": [
+      "Un beso en la mejilla 🥰",
+      "Un beso en el cuello 😳",
+      "Un beso en la mano 💋",
+      "Un beso en la frente 😚",
+      "Un beso robado sorpresa 💞"
+    ],
+    "VERDAD": [
+      "¿Cuál ha sido tu mayor secreto inconfesable? 😏",
+      "¿Alguna vez te han descubierto en algo vergonzoso?",
+      "¿Qué es lo más loco que has hecho por amor?",
+      "¿A quién del grupo besarías sin dudarlo?",
+      "¿Qué mentira dijiste para impresionar a alguien?"
+    ],
+    "RETO": [
+      "Haz un baile sensual durante 10 segundos 💃",
+      "Canta un pedazo de tu canción favorita 🎤",
+      "Imita a alguien del grupo 😆",
+      "Envía un mensaje picante a tu contacto más reciente 😳",
+      "Deja que otro jugador elija tu reto"
+    ],
+    "PISTA": [
+      "Revela una pista sobre tu último enamoramiento 💌",
+      "Di el color de ropa interior de alguien del grupo 😅",
+      "Confiesa un secreto sobre una cita 💘",
+      "Da una pista sobre algo que te da vergüenza 🙈",
+      "Pista libre: inventa una para otro jugador 😉"
+    ],
+    "PUEDE": [
+      "Puedes cambiar de reto con otro jugador 🔄",
+      "Puedes pedir un beso o un abrazo 🤗",
+      "Puedes evitar la siguiente pregunta 🙊",
+      "Puedes girar de nuevo la ruleta 🎯",
+      "Puedes hacer un reto a quien elijas 😎"
+    ],
+    "SUSPENDE": [
+      "Suspende tu turno y elige a alguien más 🔁",
+      "Pierdes tu siguiente oportunidad 😅",
+      "No haces nada, pero tomas un sorbo 🍹",
+      "Suspende y elige a otro jugador para retarlo 🔥",
+      "Pierdes un punto imaginario 😂"
+    ],
+    "BAILA": [
+      "Haz un mini baile con la persona de tu derecha 💃🕺",
+      "Baila una canción elegida por otro jugador 🎶",
+      "Haz un baile lento con quien tú elijas ❤️",
+      "Baila como un robot durante 15 segundos 🤖",
+      "Improvisa un paso nuevo y nómbralo tú 😄"
+    ],
+    "CANTA": [
+      "Canta la primera canción que se te venga a la cabeza 🎵",
+      "Canta fingiendo que estás en un karaoke profesional 🎤",
+      "Haz un dueto con quien elijas 😍",
+      "Canta usando voz de caricatura 😂",
+      "Canta una canción inventada en el momento 🎶"
+    ]
+  }
+}
