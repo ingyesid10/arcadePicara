@@ -12,7 +12,7 @@
       "No permite demasiada variedad en los ángulos."
     ],
     "dato_curioso": "Es una de las posiciones más antiguas y universales.",
-    "imagen": "/arcadePicara/assets/img/nivel1/1-1.jpeg"
+    "imagen": "assets/img/nivel1/1-1.jpeg"
   },
   "1-2": {
     "nombre": "Cucharita",
@@ -27,7 +27,7 @@
       "El ritmo puede ser limitado."
     ],
     "dato_curioso": "En muchas culturas se asocia con la ternura y el descanso.",
-    "imagen": "/arcadePicara/assets/img/nivel1/1-2.jpeg"
+    "imagen": "assets/img/nivel1/1-2.jpeg"
   },
   "1-3": {
     "nombre": "Loto",
@@ -42,7 +42,7 @@
       "Requiere un poco de flexibilidad."
     ],
     "dato_curioso": "Está inspirada en la postura de yoga Padmasana.",
-    "imagen": "/arcadePicara/assets/img/nivel1/1-3.jpeg"
+    "imagen": "assets/img/nivel1/1-3.jpeg"
   },
   "1-4": {
     "nombre": "Amazonas Suave",
@@ -57,7 +57,7 @@
       "Requiere equilibrio para mayor comodidad."
     ],
     "dato_curioso": "Su nombre proviene de la imagen de guerreras montadas a caballo.",
-    "imagen": "/arcadePicara/assets/img/nivel1/1-4.png"
+    "imagen": "assets/img/nivel1/1-4.png"
   },
   "1-5": {
     "nombre": "De lado frente a frente",
@@ -72,7 +72,7 @@
       "No siempre es estable si se mueven mucho."
     ],
     "dato_curioso": "Es una evolución natural de la cucharita, pero más juguetona.",
-    "imagen": "/arcadePicara/assets/img/nivel1/1-5.jpeg"
+    "imagen": "assets/img/nivel1/1-5.jpeg"
   },
   "1-6": {
     "nombre": "Sentados frente a frente",
@@ -87,7 +87,7 @@
       "Requiere un poco de equilibrio."
     ],
     "dato_curioso": "Se asocia con la intimidad en culturas orientales.",
-    "imagen": "/arcadePicara/assets/img/nivel1/1-6.png"
+    "imagen": "assets/img/nivel1/1-6.png"
   },
   "2-1": {
     "nombre": "La Tijera",
@@ -102,7 +102,7 @@
       "Menos cómoda si no hay sincronía."
     ],
     "dato_curioso": "La postura de la Tijera es símbolo de confianza y complicidad, ¡perfecta para quienes se entienden con una mirada!",
-    "imagen": "/arcadePicara/assets/img/nivel2/2-1.png"
+    "imagen": "assets/img/nivel2/2-1.png"
   },
   "2-2": {
     "nombre": "El Puente",
@@ -117,7 +117,7 @@
       "Puede ser intensa si se mantiene mucho tiempo."
     ],
     "dato_curioso": "El Puente combina sensualidad con ejercicio, una mezcla que puede despertar carcajadas y chispas.",
-    "imagen": "/arcadePicara/assets/img/nivel2/2-2.png"
+    "imagen": "assets/img/nivel2/2-2.png"
   },
   "2-3": {
     "nombre": "La Amazona",
@@ -132,7 +132,7 @@
       "Puede cansar si se prolonga demasiado."
     ],
     "dato_curioso": "La Amazona simboliza el equilibrio entre libertad y conexión, perfecta para explorar con confianza.",
-    "imagen": "/arcadePicara/assets/img/nivel2/2-3.png"
+    "imagen": "assets/img/nivel2/2-3.png"
   },
   "2-4": {
     "nombre": "El Arco",
@@ -147,7 +147,7 @@
       "Puede ser incómoda en superficies duras."
     ],
     "dato_curioso": "El Arco es una de las posturas más retratadas en ilustraciones clásicas del amor oriental.",
-    "imagen": "/arcadePicara/assets/img/nivel2/2-4.png"
+    "imagen": "assets/img/nivel2/2-4.png"
   },
   "2-5": {
     "nombre": "El Molino",
@@ -162,7 +162,7 @@
       "No apta para espacios reducidos."
     ],
     "dato_curioso": "El Molino es símbolo del movimiento constante, donde el ritmo se convierte en diversión pura.",
-    "imagen": "/arcadePicara/assets/img/nivel2/2-5.png"
+    "imagen": "assets/img/nivel2/2-5.png"
   },
   "2-6": {
     "nombre": "El Columpio",
@@ -177,7 +177,7 @@
       "No recomendada para principiantes."
     ],
     "dato_curioso": "El Columpio representa la libertad del deseo en movimiento: ¡todo es cuestión de balance!",
-    "imagen": "/arcadePicara/assets/img/nivel2/2-6.png"
+    "imagen": "assets/img/nivel2/2-6.png"
   },
   "3-1": {
     "nombre": "El Delfín",
@@ -192,7 +192,7 @@
       "No es cómoda por mucho tiempo."
     ],
     "dato_curioso": "El nombre viene por el balanceo del cuerpo que recuerda al movimiento de un delfín en el agua.",
-    "imagen": "/arcadePicara/assets/img/nivel3/3-1.png"
+    "imagen": "assets/img/nivel3/3-1.png"
   },
   "3-2": {
     "nombre": "El Cuatro",
@@ -207,7 +207,7 @@
       "Requiere buena comunicación para mantener el ritmo."
     ],
     "dato_curioso": "Una de las más populares por su equilibrio entre comodidad y dinamismo.",
-    "imagen": "/arcadePicara/assets/img/nivel3/3-2.png"
+    "imagen": "assets/img/nivel3/3-2.png"
   },
   "3-3": {
     "nombre": "El Lazo",
@@ -222,7 +222,7 @@
       "Puede cansar la zona lumbar."
     ],
     "dato_curioso": "El Lazo es símbolo de conexión emocional y juego compartido.",
-    "imagen": "/arcadePicara/assets/img/nivel3/3-3.png"
+    "imagen": "assets/img/nivel3/3-3.png"
   },
   "3-4": {
     "nombre": "El Paseo",
@@ -237,7 +237,7 @@
       "Requiere ritmo y paciencia."
     ],
     "dato_curioso": "Llamada así porque parece un paseo lento entre caricias y sonrisas.",
-    "imagen": "/arcadePicara/assets/img/nivel3/3-4.png"
+    "imagen": "assets/img/nivel3/3-4.png"
   },
   "3-5": {
     "nombre": "El Giro",
@@ -252,7 +252,7 @@
       "No recomendable en superficies blandas."
     ],
     "dato_curioso": "Se le conoce como ‘el giro del deseo’ en antiguas descripciones orientales.",
-    "imagen": "/arcadePicara/assets/img/nivel3/3-5.png"
+    "imagen": "assets/img/nivel3/3-5.png"
   },
   "3-6": {
     "nombre": "El Abrazo Infinito",
@@ -267,7 +267,7 @@
       "Puede limitar el movimiento."
     ],
     "dato_curioso": "Inspirada en los entrelazados de esculturas antiguas de amor eterno.",
-    "imagen": "/arcadePicara/assets/img/nivel3/3-6.png"
+    "imagen": "assets/img/nivel3/3-6.png"
   },
   "4-1": {
     "nombre": "El Balancín",
@@ -282,7 +282,7 @@
       "Puede cansar los músculos del core."
     ],
     "dato_curioso": "Su nombre viene del vaivén constante, como el de un columpio de emociones.",
-    "imagen": "/arcadePicara/assets/img/nivel4/4-1.png"
+    "imagen": "assets/img/nivel4/4-1.png"
   },
   "4-2": {
     "nombre": "El Caballo Alado",
@@ -297,7 +297,7 @@
       "Puede cansar si se mantiene mucho tiempo."
     ],
     "dato_curioso": "El nombre 'Caballo Alado' evoca el movimiento libre y elegante de un vuelo, inspirado en la fuerza y la gracia.",
-    "imagen": "/arcadePicara/assets/img/nivel4/4-3.png"
+    "imagen": "assets/img/nivel4/4-3.png"
   },
 "4-3": {
   "nombre": "El Puente del Deseo",
@@ -312,7 +312,7 @@
     "Puede ser incómoda si se mantiene por mucho tiempo sin apoyo."
   ],
   "dato_curioso": "En textos modernos del Kamasutra, esta postura representa el equilibrio entre energía física y conexión emocional, como un puente entre ambos cuerpos.",
-  "imagen": "/arcadePicara/assets/img/nivel4/4-3.png"
+  "imagen": "assets/img/nivel4/4-3.png"
 },
   "4-4": {
     "nombre": "El Trono",
@@ -327,7 +327,7 @@
       "Requiere sincronía para el equilibrio."
     ],
     "dato_curioso": "El Trono aparece en pinturas renacentistas como símbolo de intimidad elegante.",
-    "imagen": "/arcadePicara/assets/img/nivel4/4-4.png"
+    "imagen": "assets/img/nivel4/4-4.png"
   },
   "4-5": {
     "nombre": "La Media Luna",
@@ -342,7 +342,7 @@
       "Requiere coordinación en el ritmo."
     ],
     "dato_curioso": "Su forma recuerda los antiguos símbolos de unión en equilibrio.",
-    "imagen": "/arcadePicara/assets/img/nivel4/4-5.png"
+    "imagen": "assets/img/nivel4/4-5.png"
   },
   "4-6": {
     "nombre": "El Encuentro",
@@ -357,7 +357,7 @@
       "Difícil mantener equilibrio sin apoyo."
     ],
     "dato_curioso": "El Encuentro representa el deseo espontáneo, sin reglas, solo conexión.",
-    "imagen": "/arcadePicara/assets/img/nivel4/4-6.png"
+    "imagen": "assets/img/nivel4/4-6.png"
   },
   "5-1": {
     "nombre": "El Elevador",
@@ -372,7 +372,7 @@
       "No apta para sesiones largas."
     ],
     "dato_curioso": "El Elevador simboliza la confianza total entre ambos cuerpos.",
-    "imagen": "/arcadePicara/assets/img/nivel5/5-1.png"
+    "imagen": "assets/img/nivel5/5-1.png"
   },
 "5-2": {
   "nombre": "La Inclinación de Pie",
@@ -387,7 +387,7 @@
     "No es recomendable para periodos prolongados si hay diferencia de altura significativa."
   ],
   "dato_curioso": "Esta postura aparece en versiones occidentales del Kamasutra y es símbolo de pasión espontánea. Muy popular en ilustraciones modernas.",
-  "imagen": "/arcadePicara/assets/img/nivel5/5-2.png"
+  "imagen": "assets/img/nivel5/5-2.png"
 },
   "5-3": {
     "nombre": "El Tigre",
@@ -402,7 +402,7 @@
       "No apta para principiantes."
     ],
     "dato_curioso": "Inspirada en la agilidad y fuerza del tigre, símbolo de deseo y respeto.",
-    "imagen": "/arcadePicara/assets/img/nivel5/5-3.png"
+    "imagen": "assets/img/nivel5/5-3.png"
   },
   "5-4": {
     "nombre": "El Ala Abierta",
@@ -417,7 +417,7 @@
       "Requiere confianza mutua."
     ],
     "dato_curioso": "El Ala Abierta aparece en obras artísticas como metáfora de la entrega.",
-    "imagen": "/arcadePicara/assets/img/nivel5/5-4.png"
+    "imagen": "assets/img/nivel5/5-4.png"
   },
   "5-5": {
   "nombre": "La Mariposa",
@@ -432,7 +432,7 @@
     "Mejor sobre una superficie cómoda."
   ],
   "dato_curioso": "El nombre proviene del aleteo sutil de una mariposa, símbolo de transformación y ligereza.",
-  "imagen": "/arcadePicara/assets/img/nivel5/5-5.png"
+  "imagen": "assets/img/nivel5/5-5.png"
 },  
 "5-6": {
   "nombre": "Spiderman",
@@ -447,7 +447,7 @@
     "Mejor sobre una superficie cómoda."
   ],
   "dato_curioso": "El nombre proviene del aleteo sutil de una mariposa, símbolo de transformación y ligereza.",
-  "imagen": "/arcadePicara/assets/img/nivel5/5-5.png"
+  "imagen": "assets/img/nivel5/5-5.png"
 },
   "6-1": {
     "nombre": "Pino Indio",
@@ -462,7 +462,7 @@
       "No apta para principiantes."
     ],
     "dato_curioso": "El Cometa simboliza la energía que se eleva y se conecta en un solo punto.",
-    "imagen": "/arcadePicara/assets/img/nivel6/6-1.png"
+    "imagen": "assets/img/nivel6/6-1.png"
   },
   "6-2": {
     "nombre": "La trasera tumbada",
@@ -476,7 +476,7 @@
       "Puede resultar sobre-estimulante"
     ],
     "dato_curioso": "El Dragón representa la fusión de la energía y la pasión con equilibrio absoluto.",
-    "imagen": "/arcadePicara/assets/img/nivel6/6-2.png"
+    "imagen": "assets/img/nivel6/6-2.png"
   },
   "6-3": {
   "nombre": "El Triángulo",
@@ -491,7 +491,7 @@
     "No recomendable mantenerla demasiado tiempo si se busca relajación."
   ],
   "dato_curioso": "El nombre hace alusión al triángulo como símbolo de unión, energía y balance entre deseo, confianza y juego.",
-  "imagen": "/arcadePicara/assets/img/nivel6/6-3.png"
+  "imagen": "assets/img/nivel6/6-3.png"
 },
 "6-4": {
   "nombre": "El Espejo",
@@ -506,7 +506,7 @@
     "Requiere concentración para conservar la sincronía sin perder naturalidad."
   ],
   "dato_curioso": "El nombre proviene de la sensación de verse reflejados en el otro, una metáfora del equilibrio entre deseo y ternura.",
-  "imagen": "/arcadePicara/assets/img/nivel6/6-4.png"
+  "imagen": "assets/img/nivel6/6-4.png"
 },
 "6-5": {
   "nombre": "La profunda",
@@ -521,7 +521,7 @@
     "Requiere un poco de flexibilidad."
   ],
   "dato_curioso": "El nombre proviene de la sensación de verse reflejados en el otro, una metáfora del equilibrio entre deseo y ternura.",
-  "imagen": "/arcadePicara/assets/img/nivel6/6-4.png"
+  "imagen": "assets/img/nivel6/6-4.png"
 },
 "6-6": {
   "nombre": "Vela",
@@ -536,6 +536,6 @@
     "Requiere un poco de flexibilidad."
   ],
   "dato_curioso": "El nombre proviene de la sensación de verse reflejados en el otro, una metáfora del equilibrio entre deseo y ternura.",
-  "imagen": "/arcadePicara/assets/img/nivel6/6-6.png"
+  "imagen": "assets/img/nivel6/6-6.png"
 }
 }
