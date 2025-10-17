@@ -1,0 +1,122 @@
+{
+  "META": {
+    "TITLE": "Reto Hot 🔥 | Daring and Fun Adult Games",
+    "DESCRIPTION": "Discover adult mini-games, daring challenges, and fun for couples or parties. Laugh, play, and light up the night with Reto Hot 🔥."
+  },
+  "HOME": {
+    "TITLE": "🔥 Reto Hot: spicy games for couples and friends 🔥",
+    "TITLE_TEXT": "Welcome, choose a category:",
+    "COUPLE_MODE": "Couple Mode",
+    "PARTY_MODE": "Party Mode",
+    "INTRO": "🔥 <strong>Welcome to Hot Arcade Games!</strong> The <em>adult mini-game</em> portal where fun and desire meet in retro arcade style.<br><br><strong>💞 Couple Mode:</strong> Designed for <em>couples’ games</em> looking to break the routine. With <em>sensual challenges, hot games, and romantic dynamics</em>, each round sparks passion and connection.<br><br><strong>🎉 Party Mode:</strong> Perfect for <em>groups of friends</em> ready to laugh and dare. Discover <em>drinking games, daring challenges</em>, and spicy surprises.<br><br>💫 Play, laugh, and let the night begin with Hot Arcade Games!",
+    "RANDOM_MESSAGES": [
+      "🎮 This is just the beginning! New games and challenges arrive every day.",
+      "🔥 The fun never stops! More games and experiences are coming soon.",
+      "💫 Every day brings something new! More games, more challenges, and more spice.",
+      "😏 Had fun? This is just the start.",
+      "🎲 New adventures every day! Stay tuned for the next round.",
+      "💥 Don’t go far! More irresistible games and experiences are on the way.",
+      "🔥 More fun, more madness, more passion every day!"
+    ]
+  },
+  "CATEGORIES": {
+    "COUPLE": "Couple",
+    "PARTY": "Party Mode"
+  },
+  "GAMES": {
+    "DICE_KAMASUTRA": "Kamasutra Dice",
+    "CHALLENGE_ROULETTE": "Challenges, dance, questions...",
+    "TRUTH_OR_DARE_PENALTY": "Truth/Dare or Forfeit...",
+    "TRUTH_OR_DARE_SIMPLE": "Simple Truth/Dare",
+    "DICE_ORAL": "Kamasutra Dice (Oral only)",
+    "SPIN_BEER": "Spin Beer...",
+    "COUPLES_CHALLENGE": "Couples Challenge"
+  },
+  "TRUTH_OR_DARE": {
+    "TITLE": "🎯 Truth or Dare",
+    "DESCRIPTION": "Spin the wheel and let fate play with you... 😜",
+    "SPIN": "Spin",
+    "RETRY": "Spin again",
+    "RESET": "Reset",
+    "TRUTH_LABEL_SHORT": "TRUTH",
+    "DARE_LABEL_SHORT": "DARE",
+    "TRUTH_LABEL": "💫 TRUTH! 💫",
+    "DARE_LABEL": "💫 DARE! 💫",
+    "TRUTH_DESCRIPTION": "😏 You got <strong>TRUTH</strong>...<br>Your partner or the group can ask you <em>anything</em>.<br>No filters, no excuses... answer honestly or face a penalty! 🔥",
+    "DARE_DESCRIPTION": "🔥 Now your partner or the group has the power...<br>They’ll decide your dare, and you must do it — no excuses 😈.<br>Make it daring, fun, or a little naughty! 💋"
+  },
+  "SPIN_BEER": {
+    "VIEW_RULES": "View Game Rules",
+    "ROLL": "Roll",
+    "ROLL_AGAIN": "Roll Again",
+    "ROLLING": "Rolling...",
+    "RULES_TITLE": "Game Rules",
+    "UNDERSTOOD": "Got it",
+    "RULES": {
+      "7": { "name": "Left drinks", "desc": "The person to your left drinks" },
+      "8": { "name": "Right drinks", "desc": "The person to your right drinks" },
+      "9": { "name": "Center drinks", "desc": "You and your neighbors drink" },
+      "DOUBLE1": { "name": "All drink", "desc": "Everyone drinks and you roll again" },
+      "DOUBLE6": { "name": "All drink", "desc": "Everyone drinks and you roll again" },
+      "PAIR": { "name": "Roller drinks", "desc": "You drink and roll again" },
+      "DEFAULT": { "name": "No action", "desc": "Next player's turn" }
+    },
+    "RULES_LIST": [
+      { "value": "7", "description": "Left person drinks" },
+      { "value": "8", "description": "Right person drinks" },
+      { "value": "9", "description": "Left, right, and roller drink" },
+      { "value": "Double 1 or Double 6", "description": "All drink and roller rolls again" },
+      { "value": "Pair (other numbers)", "description": "Roller drinks and rolls again" }
+    ]
+  },
+  "ROULETTE": {
+    "TITLE": "🎰 Hot Roulette",
+    "DESCRIPTION": "Spin the wheel and wait for the result. Then press 'Start' to begin the timer.",
+    "TIME": "Time (sec):",
+    "SPIN": "Spin",
+    "RETRY": "Spin again",
+    "START": "Start",
+    "RESET": "Reset",
+    "RESULT_LABEL": "Result: {{segment}}",
+    "NO_OPTIONS": "No options available.",
+    "TIME_UP": "⏰ Time is up!"
+  },
+    "dice": {
+    "roll": "🎲 Roll",
+    "advantages": "Advantages",
+    "disadvantages": "Disadvantages",
+    "curiousFact": "Fun Fact",
+    "start": "Start",
+    "rollAgain": "Roll Again",
+    "remainingTime": "Time Remaining",
+    "timeUp": "⏰ Time’s up!"
+  },
+"desprendete": {
+  "title": "Let Loose",
+  "description": "Spin the wheel and complete the dares or answer the truths.",
+  "viewRules": "View Game Rules",
+  "addPlayer": "+ Add Player",
+  "time": "Time (seconds)",
+  "spin": "Spin",
+  "spinAgain": "Spin Again",
+  "start": "Start",
+  "reset": "Reset",
+  "answerTruth": "Answer Truth",
+  "pass": "Pass",
+  "truth": "TRUTH",
+  "challenge": "DARE",
+  "needTwoPlayers": "You need at least 2 players to start.",
+  "noClothes": "{{name}} has no clothes left 😅",
+  "noWinner": "No winner this time.",
+  "rules": "Game Rules",
+  "rulesContent": "Each player spins the wheel. If it lands on TRUTH, they must answer the question; if it lands on DARE, they must complete the challenge. The goal is to have fun, loosen up, and be bold!",
+  "understood": "Got it",
+  "smallRouletteTitle": "Mini Final Wheel",
+  "spinning": "Spinning...",
+  "spinSmall": "Spin mini wheel",
+  "running": "In progress..."
+  },
+  "BUTTONS": {
+    "BACK": "⬅ Back to Home"
+  }
+}

@@ -1,0 +1,540 @@
+{
+  "1-1": {
+    "name": "Missionary",
+    "description": "Both partners face each other, enjoying visual contact and closeness. It is a classic, romantic, and tender position.",
+    "advantages": [
+      "It is easy and comfortable for both.",
+      "Allows for close eye contact.",
+      "Ideal for beginners."
+    ],
+    "disadvantages": [
+      "Can become monotonous if repeated too often.",
+      "Does not allow for much variety in angles."
+    ],
+    "fun_fact": "It is one of the oldest and most universal positions.",
+    "image": "assets/img/nivel1/1-1.jpeg"
+  },
+  "1-2": {
+    "name": "Spooning",
+    "description": "Both lie on their sides, one behind the other, creating a constant sensation of embrace. Comfortable and very affectionate.",
+    "advantages": [
+      "Very intimate and tender.",
+      "Relaxed and comfortable, ideal for caressing.",
+      "Perfect for slow, sensual play."
+    ],
+    "disadvantages": [
+      "Does not allow for much eye contact.",
+      "The rhythm can be limited."
+    ],
+    "fun_fact": "In many cultures, it is associated with tenderness and rest.",
+    "image": "assets/img/nivel1/1-2.jpeg"
+  },
+  "1-3": {
+    "name": "Lotus",
+    "description": "Sitting facing each other, legs and arms intertwined, breathing together. It is a position of total connection and calm.",
+    "advantages": [
+      "Intense eye and emotional contact.",
+      "A feeling of union and closeness.",
+      "Ideal for slow and sensual rhythms."
+    ],
+    "disadvantages": [
+      "Can tire legs and back over time.",
+      "Requires a bit of flexibility."
+    ],
+    "fun_fact": "It is inspired by the Padmasana yoga pose.",
+    "image": "assets/img/nivel1/1-3.jpeg"
+  },
+  "1-4": {
+    "name": "Gentle Cowgirl",
+    "description": "One person sits while the other gently settles on top, guiding the rhythm and movements calmly.",
+    "advantages": [
+      "The receiving partner can relax.",
+      "Allows for exploration of control and rhythm.",
+      "Adds a playful touch to the exchange."
+    ],
+    "disadvantages": [
+      "The person on top can get tired.",
+      "Requires balance for greater comfort."
+    ],
+    "fun_fact": "Its name comes from the image of mounted warriors.",
+    "image": "assets/img/nivel1/1-4.png"
+  },
+  "1-5": {
+    "name": "Side-by-Side Facing",
+    "description": "Both lie on their sides facing each other, embraced. It is a simple but very intimate position, perfect for laughter and kisses.",
+    "advantages": [
+      "Comfortable and relaxed.",
+      "Allows for easy hugging and kissing.",
+      "Both partners have control over the rhythm."
+    ],
+    "disadvantages": [
+      "Can be limited in movement.",
+      "Not always stable if there is a lot of movement."
+    ],
+    "fun_fact": "It is a natural evolution of spooning, but more playful.",
+    "image": "assets/img/nivel1/1-5.jpeg"
+  },
+  "1-6": {
+    "name": "Sitting Facing",
+    "description": "Both seated, facing each other, sharing glances, caresses, and laughter. Warm and very romantic.",
+    "advantages": [
+      "Intense visual connection.",
+      "Allows for free talking, kissing, and caressing.",
+      "Ideal for calm, playful sessions."
+    ],
+    "disadvantages": [
+      "Can tire the back.",
+      "Requires a bit of balance."
+    ],
+    "fun_fact": "It is associated with intimacy in Eastern cultures.",
+    "image": "assets/img/nivel1/1-6.png"
+  },
+  "2-1": {
+    "name": "The Scissors",
+    "description": "Both lie on their sides, intertwining their legs, forming a figure similar to scissors. Close and rhythmic.",
+    "advantages": [
+      "More variety in angles and sensations.",
+      "Allows for very romantic rhythmic play.",
+      "Encourages closeness and spontaneous laughter."
+    ],
+    "disadvantages": [
+      "May require balance and coordination.",
+      "Less comfortable if there is no synchrony."
+    ],
+    "fun_fact": "The Scissors position is a symbol of trust and complicity, perfect for those who understand each other with a glance!",
+    "image": "assets/img/nivel2/2-1.png"
+  },
+  "2-2": {
+    "name": "The Bridge",
+    "description": "One person arches their body upwards while the other accompanies the movement. Visually elegant and energetic.",
+    "advantages": [
+      "Promotes eye contact and teamwork.",
+      "Ideal for an energetic and romantic connection.",
+      "Helps strengthen the abdomen and back."
+    ],
+    "disadvantages": [
+      "Requires some strength and balance.",
+      "Can be intense if maintained for too long."
+    ],
+    "fun_fact": "The Bridge combines sensuality with exercise, a mix that can spark laughter and sparks.",
+    "image": "assets/img/nivel2/2-2.png"
+  },
+  "2-3": {
+    "name": "The Cowgirl",
+    "description": "One person sits while the other positions themselves on top, guiding the movement with confidence and playfulness.",
+    "advantages": [
+      "Offers control and prominence to the person on top.",
+      "Allows for constant visual communication.",
+      "Excellent for exploring different rhythms and styles."
+    ],
+    "disadvantages": [
+      "Requires some leg strength.",
+      "Can be tiring if prolonged."
+    ],
+    "fun_fact": "The Cowgirl symbolizes the balance between freedom and connection, perfect for exploring with confidence.",
+    "image": "assets/img/nivel2/2-3.png"
+  },
+  "2-4": {
+    "name": "The Arch",
+    "description": "One person reclines, gently arching their back, while the other accompanies them. Elegant and full of energy.",
+    "advantages": [
+      "Visually elegant and romantic posture.",
+      "Encourages stretching and flexibility.",
+      "Perfect for those who enjoy slow, flirtatious play."
+    ],
+    "disadvantages": [
+      "Requires elasticity and confidence.",
+      "Can be uncomfortable on hard surfaces."
+    ],
+    "fun_fact": "The Arch is one of the most depicted postures in classic illustrations of Eastern love.",
+    "image": "assets/img/nivel2/2-4.png"
+  },
+  "2-5": {
+    "name": "The Windmill",
+    "description": "A dynamic posture that invites turning and changing angles, like a windmill in motion, full of energy and laughter.",
+    "advantages": [
+      "Allows experimentation from different angles.",
+      "Very fun and spontaneous for creative couples.",
+      "Ideal for breaking the routine and laughing together."
+    ],
+    "disadvantages": [
+      "May require coordination and good communication.",
+      "Not suitable for small spaces."
+    ],
+    "fun_fact": "The Windmill is a symbol of constant movement, where rhythm becomes pure fun.",
+    "image": "assets/img/nivel2/2-5.png"
+  },
+  "2-6": {
+    "name": "The Swing",
+    "description": "Inspired by swinging, one person holds on while the other accompanies the rhythm. Joyful, rhythmic, and fun.",
+    "advantages": [
+      "Combines balance with play and laughter.",
+      "Allows for balanced and sensual movements.",
+      "Excellent for adventurous couples."
+    ],
+    "disadvantages": [
+      "Difficult without good support or core strength.",
+      "Not recommended for beginners."
+    ],
+    "fun_fact": "The Swing represents the freedom of desire in motion: it's all about balance!",
+    "image": "assets/img/nivel2/2-6.png"
+  },
+  "3-1": {
+    "name": "The Dolphin",
+    "description": "One person supports themselves on their forearms while the other accompanies from behind, moving with a smooth, fluid rhythm like the sea.",
+    "advantages": [
+      "Allows for controlled and constant movement.",
+      "Stimulates bodily and rhythmic connection.",
+      "Ideal for those seeking something more dynamic."
+    ],
+    "disadvantages": [
+      "May require strength in arms and abdomen.",
+      "Not comfortable for long periods."
+    ],
+    "fun_fact": "The name comes from the body's rocking, reminiscent of a dolphin's movement in water.",
+    "image": "assets/img/nivel3/3-1.png"
+  },
+  "3-2": {
+    "name": "Doggy Style",
+    "description": "One person positions themselves on hands and knees, while the other accompanies the rhythm from behind, like a coordinated and flirtatious game.",
+    "advantages": [
+      "Facilitates broad and controlled movements.",
+      "Allows exploration of synchrony as a couple.",
+      "Gives a sensation of energy and vitality."
+    ],
+    "disadvantages": [
+      "Can tire wrists or knees.",
+      "Requires good communication to maintain rhythm."
+    ],
+    "fun_fact": "One of the most popular due to its balance between comfort and dynamism.",
+    "image": "assets/img/nivel3/3-2.png"
+  },
+  "3-3": {
+    "name": "The Knot",
+    "description": "One person sits while the other leans back, creating a knot with their bodies that symbolizes union and complicity.",
+    "advantages": [
+      "Enveloping and aesthetic posture.",
+      "Allows for constant eye contact.",
+      "Excellent for slow, coordinated games."
+    ],
+    "disadvantages": [
+      "Requires balance and some flexibility.",
+      "Can tire the lumbar region."
+    ],
+    "fun_fact": "The Knot is a symbol of emotional connection and shared play.",
+    "image": "assets/img/nivel3/3-3.png"
+  },
+  "3-4": {
+    "name": "The Stroll",
+    "description": "Both on their knees, facing each other, they move slowly, coordinating breaths and laughter. Natural and romantic.",
+    "advantages": [
+      "Balances closeness and movement.",
+      "Ideal for those who enjoy eye contact.",
+      "Allows control over intensity."
+    ],
+    "disadvantages": [
+      "Can tire the knees.",
+      "Requires rhythm and patience."
+    ],
+    "fun_fact": "Called so because it resembles a slow walk shared between caresses and smiles.",
+    "image": "assets/img/nivel3/3-4.png"
+  },
+  "3-5": {
+    "name": "The Twist",
+    "description": "A posture where one lies down and the other positions themselves on their side, gently turning to change the angle. Fluid and fun.",
+    "advantages": [
+      "Allows variation without losing contact.",
+      "Ideal for curious couples.",
+      "Encourages improvisation."
+    ],
+    "disadvantages": [
+      "Can be unstable if there is too much movement.",
+      "Not recommended on soft surfaces."
+    ],
+    "fun_fact": "Known as 'the twist of desire' in ancient Eastern descriptions.",
+    "image": "assets/img/nivel3/3-5.png"
+  },
+  "3-6": {
+    "name": "The Infinite Embrace",
+    "description": "Both intertwine arms and legs in a continuous embrace, moving slowly as if time had stopped.",
+    "advantages": [
+      "Deep and romantic connection.",
+      "Ideal for ending a session of play or caresses.",
+      "Reinforces intimacy."
+    ],
+    "disadvantages": [
+      "Difficult to maintain for a long time.",
+      "Can limit movement."
+    ],
+    "fun_fact": "Inspired by the intertwining of ancient sculptures of eternal love.",
+    "image": "assets/img/nivel3/3-6.png"
+  },
+   "4-1": {
+    "name": "The Seesaw",
+    "description": "One person reclines while the other gently rocks their body on top. A rhythmic and elegant movement.",
+    "advantages": [
+      "Perfect for exploring rhythm and coordination.",
+      "Combines energy and tenderness.",
+      "Ideal for those who enjoy rocking."
+    ],
+    "disadvantages": [
+      "Requires some balance.",
+      "Can tire the core muscles."
+    ],
+    "fun_fact": "Its name comes from the constant back-and-forth, like a seesaw of emotions.",
+    "image": "assets/img/nivel4/4-1.png"
+  },
+  "4-2": {
+    "name": "The Winged Horse",
+    "description": "A dynamic variation of 'The Rider' where the person on top leans forward, creating a sensation of fluidity and energy. Ideal for those seeking rhythm and movement with elegance.",
+    "advantages": [
+      "Allows control of rhythm and depth.",
+      "Creates an elegant and powerful visual sensation.",
+      "Combines strength and fluidity in the same movement."
+    ],
+    "disadvantages": [
+      "Requires some balance and endurance.",
+      "Can be tiring if maintained for too long."
+    ],
+    "fun_fact": "The name 'Winged Horse' evokes the free and elegant movement of flight, inspired by strength and grace.",
+    "image": "assets/img/nivel4/4-3.png"
+  },
+  "4-3": {
+    "name": "The Bridge of Desire",
+    "description": "One person lies on their back with knees bent and pelvis slightly elevated, while the other leans forward, placing their hands near their shoulders. The movement is fluid, combining strength and tenderness.",
+    "advantages": [
+      "Stimulates intense visual and bodily contact.",
+      "Allows adjusting the rhythm with delicacy or energy.",
+      "Strengthens legs, abdomen, and back in a fun way."
+    ],
+    "disadvantages": [
+      "Requires balance and core strength.",
+      "Can be uncomfortable if maintained for too long without support."
+    ],
+    "fun_fact": "In modern Kamasutra texts, this posture represents the balance between physical energy and emotional connection, like a bridge between both bodies.",
+    "image": "assets/img/nivel4/4-3.png"
+  },
+  "4-4": {
+    "name": "The Throne",
+    "description": "One person sits while the other settles with their back to them, leaning back gently. Warm and enveloping.",
+    "advantages": [
+      "Allows for hugging and caressing at the same time.",
+      "Ideal for those who enjoy physical closeness.",
+      "Perfect for flirtatious conversations."
+    ],
+    "disadvantages": [
+      "Can tire the back.",
+      "Requires synchrony for balance."
+    ],
+    "fun_fact": "The Throne appears in Renaissance paintings as a symbol of elegant intimacy.",
+    "image": "assets/img/nivel4/4-4.png"
+  },
+  "4-5": {
+    "name": "The Crescent Moon",
+    "description": "Both recline on their side, forming a curve with their bodies, like a moon embracing the night.",
+    "advantages": [
+      "Comfortable and relaxed.",
+      "Perfect for soft and sensual play.",
+      "Allows for lateral eye contact."
+    ],
+    "disadvantages": [
+      "Limited in movement.",
+      "Requires coordination in rhythm."
+    ],
+    "fun_fact": "Its shape recalls ancient symbols of union in balance.",
+    "image": "assets/img/nivel4/4-5.png"
+  },
+  "4-6": {
+    "name": "The Encounter",
+    "description": "Both standing, facing each other, with one partner wrapping a leg around the other's waist, holding onto the waist or shoulders. Intense, fun, and full of energy.",
+    "advantages": [
+      "Ideal for improvising.",
+      "Romantic and passionate.",
+      "Allows for complete body and eye connection."
+    ],
+    "disadvantages": [
+      "Can tire the legs.",
+      "Difficult to maintain balance without support."
+    ],
+    "fun_fact": "The Encounter represents spontaneous desire, without rules, only connection.",
+    "image": "assets/img/nivel4/4-6.jpeg"
+  }, "5-1": {
+    "name": "The Elevator",
+    "description": "One partner partially lifts the other, combining strength and balance in a passionate, energetic pose.",
+    "advantages": [
+      "Perfect for those seeking adrenaline and complicity.",
+      "Encourages exploration of control and power.",
+      "Ideal for couples with good coordination."
+    ],
+    "disadvantages": [
+      "Requires strength and some practice.",
+      "Not suitable for long sessions."
+    ],
+    "fun_fact": "The Elevator symbolizes total trust between two bodies.",
+    "image": "assets/img/nivel5/5-1.png"
+  },
+  "5-2": {
+    "name": "The Standing Tilt",
+    "description": "Both partners stand; one leans slightly forward while the other holds them from behind. It requires coordination and balance but is highly stimulating.",
+    "advantages": [
+      "Allows great physical and visual closeness, especially with a mirror or wall.",
+      "Ideal for those who enjoy intensity with minimal effort.",
+      "Can be performed in small or improvised spaces."
+    ],
+    "disadvantages": [
+      "May require solid balance or support on a firm surface.",
+      "Not recommended for long periods if there’s a significant height difference."
+    ],
+    "fun_fact": "This position appears in Western versions of the Kama Sutra and symbolizes spontaneous passion. Very popular in modern illustrations.",
+    "image": "assets/img/nivel5/5-2.png"
+  },
+  "5-3": {
+    "name": "The Tiger",
+    "description": "One partner braces firmly while the other arches toward them, creating a figure of strength and desire.",
+    "advantages": [
+      "Energetic and challenging.",
+      "Encourages a playful rhythm and power exchange.",
+      "Fosters trust and excitement."
+    ],
+    "disadvantages": [
+      "Can be physically demanding.",
+      "Not ideal for beginners."
+    ],
+    "fun_fact": "Inspired by the tiger’s agility and strength — a symbol of desire and respect.",
+    "image": "assets/img/nivel5/5-3.png"
+  },
+  "5-4": {
+    "name": "The Open Wing",
+    "description": "One partner leans back while the other supports them. Elegant, theatrical, and visually captivating.",
+    "advantages": [
+      "Aesthetically beautiful position.",
+      "Promotes teamwork and balance.",
+      "Perfect for intense and playful moments."
+    ],
+    "disadvantages": [
+      "Can tire the arms and legs.",
+      "Requires mutual trust."
+    ],
+    "fun_fact": "The Open Wing has appeared in art as a metaphor for surrender and emotional openness.",
+    "image": "assets/img/nivel5/5-4.png"
+  },
+  "5-5": {
+    "name": "The Butterfly",
+    "description": "A light and intimate pose. One partner reclines while the other leans gently forward, creating a shared sensation of flight and playful closeness.",
+    "advantages": [
+      "Encourages trust and relaxation.",
+      "Ideal for affectionate and tender moments.",
+      "Allows charming eye contact."
+    ],
+    "disadvantages": [
+      "May require a bit of balance.",
+      "Best performed on a comfortable surface."
+    ],
+    "fun_fact": "Named after the soft flutter of a butterfly — a symbol of transformation and lightness.",
+    "image": "assets/img/nivel5/5-5.png"
+  },
+  "5-6": {
+    "name": "Spiderman",
+    "description": "In this position, the woman lies on her back at the edge of the bed while the man stands or kneels beside her, creating an intense and connected experience.",
+    "advantages": [
+      "Fosters trust and closeness.",
+      "Ideal for moments of exploration.",
+      "Allows deep eye contact."
+    ],
+    "disadvantages": [
+      "May cause strain if not well supported.",
+      "Best done on a comfortable, secure surface."
+    ],
+    "fun_fact": "Inspired by the upside-down kiss of the iconic superhero — a mix of playfulness and intensity.",
+    "image": "assets/img/nivel5/5-6.png"
+  },
+   "6-1": {
+    "name": "Indian Handstand",
+    "description": "The woman supports herself with her arms extended while the man, standing, holds her by the waist.",
+    "advantages": [
+      "A great physical and balance challenge.",
+      "Encourages exploration and control.",
+      "Ideal for experienced couples."
+    ],
+    "disadvantages": [
+      "Requires significant strength and coordination.",
+      "Not suitable for beginners."
+    ],
+    "fun_fact": "The Comet symbolizes the energy that rises and connects at a single point.",
+    "image": "assets/img/nivel6/6-1.png"
+  },
+  "6-2": {
+    "name": "Reclined Rear",
+    "description": "A posture that enhances sensation and connection between partners.",
+    "advantages": [
+      "Allows deeper penetration.",
+      "Provides rhythm control.",
+      "Perfect for finishing moments with intensity."
+    ],
+    "disadvantages": [
+      "May become overstimulating if prolonged."
+    ],
+    "fun_fact": "The Dragon represents the fusion of energy and passion with perfect balance.",
+    "image": "assets/img/nivel6/6-2.png"
+  },
+  "6-3": {
+    "name": "The Triangle",
+    "description": "Both partners position themselves forming a triangular figure — one leaning forward while the other provides support. A posture that combines harmony, strength, and complicity.",
+    "advantages": [
+      "Encourages closeness and synchronization.",
+      "Maintains constant visual and physical connection.",
+      "Balances emotional and physical intimacy beautifully."
+    ],
+    "disadvantages": [
+      "Requires some strength and flexibility.",
+      "Not ideal for long sessions if relaxation is desired."
+    ],
+    "fun_fact": "The triangle symbolizes unity, energy, and balance between desire, trust, and play.",
+    "image": "assets/img/nivel6/6-3.png"
+  },
+  "6-4": {
+    "name": "The Mirror",
+    "description": "Both partners face each other, mirroring movements and gestures as if reflecting one another. Everything revolves around synchronization and complicity.",
+    "advantages": [
+      "Promotes intense emotional and visual connection.",
+      "Perfect for couples who enjoy harmony and mutual observation.",
+      "Allows elegant rhythm and energy play."
+    ],
+    "disadvantages": [
+      "Can be difficult to maintain without proper balance.",
+      "Requires focus to keep synchronization natural."
+    ],
+    "fun_fact": "Named for the sensation of seeing yourself reflected in your partner — a metaphor for the balance between desire and tenderness.",
+    "image": "assets/img/nivel6/6-4.png"
+  },
+  "6-5": {
+    "name": "The Deep",
+    "description": "A variation of the missionary position, but with the legs resting on the man’s shoulders for enhanced depth and connection.",
+    "advantages": [
+      "Creates a powerful visual and emotional bond.",
+      "Ideal for couples who enjoy harmony and intimacy.",
+      "Allows deeper penetration and greater stimulation."
+    ],
+    "disadvantages": [
+      "Can be uncomfortable if not used to it.",
+      "Requires some flexibility."
+    ],
+    "fun_fact": "A classic of intimacy — the deeper the connection, the stronger the desire.",
+    "image": "assets/img/nivel6/6-5.png"
+  },
+  "6-6": {
+    "name": "The Candle",
+    "description": "The woman is lifted facing her partner and supported by his arms while keeping her legs open in balance.",
+    "advantages": [
+      "Exotic and ideal for those who love to experiment.",
+      "Perfect for couples in good physical condition.",
+      "Can be performed in front of a mirror for added excitement."
+    ],
+    "disadvantages": [
+      "Requires arm strength and coordination.",
+      "Demands flexibility and control."
+    ],
+    "fun_fact": "Named after its upright form, representing stability, energy, and shared intensity.",
+    "image": "assets/img/nivel6/6-6.png"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "META": {
+    "TITLE": "Reto Hot 🔥 | Juegos atrevidos y divertidos para adultos",
+    "DESCRIPTION": "Descubre minijuegos para adultos, retos atrevidos y juegos de pareja o fiesta. Ríe, juega y enciende la noche con Reto Hot 🔥."
+  },
+  "HOME": {
+    "TITLE": "🔥 Reto Hot: juegos picantes para parejas y amigos 🔥",
+    "TITLE_TEXT": "Bienvenido, elige una categoría:",
+    "COUPLE_MODE": "Modo Pareja",
+    "PARTY_MODE": "Modo Fiesta",
+    "INTRO": "🔥 <strong>¡Bienvenidos a Hot Arcade Games!</strong> El portal de <em>minijuegos para adultos</em> donde la diversión y el deseo se mezclan al estilo retro arcade.<br><br><strong>💞 Modo Pareja:</strong> Diseñado para <em>juegos para parejas</em> que buscan salir de la rutina. Con <em>retos sensuales, juegos calientes y dinámicas románticas</em>, cada partida despierta la pasión y la conexión.<br><br><strong>🎉 Modo Fiesta:</strong> Perfecto para <em>grupos de amigos</em> con ganas de reír y atreverse. Descubre <em>juegos de beber, retos atrevidos</em> y desafíos que suben la temperatura.<br><br>💫 ¡Juega, ríe y deja que la noche comience con Hot Arcade Games!",
+    "RANDOM_MESSAGES": [
+      "🎮 ¡Esto apenas comienza! Nuevos juegos y retos llegan cada día.",
+      "🔥 ¡La diversión no se detiene! Nuevos juegos y experiencias están por llegar.",
+      "💫 ¡Cada día hay algo nuevo! Más juegos, más retos y experiencias más picantes.",
+      "😏 ¿Te divertiste? Esto solo fue el comienzo.",
+      "🎲 ¡Nuevas aventuras cada día! Mantente atento y no dejes pasar la próxima ronda.",
+      "💥 ¡No te vayas muy lejos! Estamos preparando más juegos y experiencias irresistibles.",
+      "🔥 ¡Cada día más diversión, más locura y más pasión!"
+    ]
+  },
+  "CATEGORIES": {
+    "COUPLE": "Pareja",
+    "PARTY": "Modo Fiesta"
+  },
+  "GAMES": {
+    "DICE_KAMASUTRA": "Dados Kamasutra",
+    "CHALLENGE_ROULETTE": "Retos, baile, preguntas...",
+    "TRUTH_OR_DARE_PENALTY": "Verdad/Reto o Prenda...",
+    "TRUTH_OR_DARE_SIMPLE": "Verdad/Reto simple",
+    "DICE_ORAL": "Dados Kamasutra solo oral",
+    "SPIN_BEER": "Spin Beer...",
+    "COUPLES_CHALLENGE": "Desafío de Parejas"
+  },
+  "TRUTH_OR_DARE": {
+    "TITLE": "🎯 Verdad o Reto",
+    "DESCRIPTION": "Gira la ruleta y deja que el destino juegue contigo... 😜",
+    "SPIN": "Girar",
+    "RETRY": "Volver a girar",
+    "RESET": "Reiniciar",
+    "TRUTH_LABEL_SHORT": "VERDAD",
+    "DARE_LABEL_SHORT": "RETO",
+    "TRUTH_LABEL": "💫 ¡VERDAD! 💫",
+    "DARE_LABEL": "💫 ¡RETO! 💫",
+    "TRUTH_DESCRIPTION": "😏 Te tocó <strong>VERDAD</strong>...<br>El grupo o tu pareja puede preguntarte <em>lo que quieran</em>.<br>Sin filtros, sin excusas... ¡responde con sinceridad o se viene un castigo! 🔥",
+    "DARE_DESCRIPTION": "🔥 Ahora el grupo o tu pareja tiene el poder...<br>Ellos decidirán tu reto, y tú tendrás que hacerlo, sin peros 😈.<br>¡Que sea algo atrevido, divertido o un poco travieso! 💋"
+  },
+  "SPIN_BEER": {
+    "VIEW_RULES": "Ver Reglas del Juego",
+    "ROLL": "Lanzar",
+    "ROLL_AGAIN": "Lanzar de nuevo",
+    "ROLLING": "Lanzando...",
+    "RULES_TITLE": "Reglas del Juego",
+    "UNDERSTOOD": "Entendido",
+    "RULES": {
+      "7": {
+        "name": "Toma izquierda",
+        "desc": "La persona a tu izquierda debe tomar"
+      },
+      "8": {
+        "name": "Toma derecha",
+        "desc": "La persona a tu derecha debe tomar"
+      },
+      "9": {
+        "name": "Toma centro",
+        "desc": "Tú y las personas a tu izquierda y derecha deben tomar"
+      },
+      "DOUBLE1": {
+        "name": "Toman todos",
+        "desc": "Todos toman y tú vuelves a lanzar"
+      },
+      "DOUBLE6": {
+        "name": "Toman todos",
+        "desc": "Todos toman y tú vuelves a lanzar"
+      },
+      "PAIR": {
+        "name": "Toma lanzador",
+        "desc": "Tú tomas y vuelves a lanzar"
+      },
+      "DEFAULT": {
+        "name": "Sin acción",
+        "desc": "Continúa el siguiente jugador"
+      }
+    },
+    "RULES_LIST": [
+      {
+        "value": "7",
+        "description": "Toma la persona de la izquierda"
+      },
+      {
+        "value": "8",
+        "description": "Toma la persona de la derecha"
+      },
+      {
+        "value": "9",
+        "description": "Toman izquierda, derecha y el que lanzó"
+      },
+      {
+        "value": "Doble 1 o Doble 6",
+        "description": "Toman todos y el que lanzó vuelve a lanzar"
+      },
+      {
+        "value": "Par (otros números)",
+        "description": "Toma el que lanzó y vuelve a lanzar"
+      }
+    ]
+  },
+  "ROULETTE": {
+    "TITLE": "🎰 Ruleta Picante",
+    "DESCRIPTION": "Gira la ruleta y espera el resultado. Luego presiona “Iniciar” para comenzar el tiempo.",
+    "TIME": "Tiempo (seg):",
+    "SPIN": "Girar",
+    "RETRY": "Volver a girar",
+    "START": "Iniciar",
+    "RESET": "Reiniciar",
+    "RESULT_LABEL": "Resultado: {{segment}}",
+    "NO_OPTIONS": "Sin opciones disponibles.",
+    "TIME_UP": "⏰ ¡Tiempo finalizado!"
+  },
+  "dice": {
+    "roll": "🎲 Lanzar",
+    "advantages": "Ventajas",
+    "disadvantages": "Desventajas",
+    "curiousFact": "Dato curioso",
+    "start": "Empezar",
+    "rollAgain": "Lanzar de nuevo",
+    "remainingTime": "Tiempo restante",
+    "timeUp": "⏰ ¡Tiempo finalizado!"
+  },
+  "desprendete": {
+    "title": "Despréndete",
+    "description": "Gira la ruleta y completa los retos o responde las verdades",
+    "viewRules": "Ver Reglas del Juego",
+    "addPlayer": "+ Agregar Jugador",
+    "time": "Tiempo (segundos)",
+    "spinAgain": "Volver a girar",
+    "spin": "Girar",
+    "start": "Iniciar",
+    "reset": "Reiniciar",
+    "answerTruth": "Contestar Verdad",
+    "pass": "Pasar",
+    "truth": "VERDAD",
+    "challenge": "RETO",
+    "needTwoPlayers": "Necesitas al menos 2 jugadores para comenzar",
+    "noClothes": "{{name}} se ha quedado sin prendas 😅",
+    "noWinner": "No hay ganador",
+    "rules": "Reglas del Juego",
+    "rulesContent": "Cada jugador gira la ruleta. Si sale VERDAD, debe responder la pregunta; si sale RETO, debe cumplir el desafío. ¡El objetivo es divertirse y atreverse!",
+    "understood": "Entendido",
+    "smallRouletteTitle": "Mini Ruleta Final",
+    "spinning": "Girando...",
+    "spinSmall": "Girar mini ruleta",
+    "running": "En curso..."
+  },
+  "BUTTONS": {
+    "BACK": "⬅ Volver al inicio"
+  }
+}
