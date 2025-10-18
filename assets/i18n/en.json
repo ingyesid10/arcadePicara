@@ -1,122 +1,243 @@
 {
-  "META": {
-    "TITLE": "Reto Hot 🔥 | Daring and Fun Adult Games",
-    "DESCRIPTION": "Discover adult mini-games, daring challenges, and fun for couples or parties. Laugh, play, and light up the night with Reto Hot 🔥."
-  },
-  "HOME": {
-    "TITLE": "🔥 Reto Hot: spicy games for couples and friends 🔥",
-    "TITLE_TEXT": "Welcome, choose a category:",
-    "COUPLE_MODE": "Couple Mode",
-    "PARTY_MODE": "Party Mode",
-    "INTRO": "🔥 <strong>Welcome to Hot Arcade Games!</strong> The <em>adult mini-game</em> portal where fun and desire meet in retro arcade style.<br><br><strong>💞 Couple Mode:</strong> Designed for <em>couples’ games</em> looking to break the routine. With <em>sensual challenges, hot games, and romantic dynamics</em>, each round sparks passion and connection.<br><br><strong>🎉 Party Mode:</strong> Perfect for <em>groups of friends</em> ready to laugh and dare. Discover <em>drinking games, daring challenges</em>, and spicy surprises.<br><br>💫 Play, laugh, and let the night begin with Hot Arcade Games!",
-    "RANDOM_MESSAGES": [
-      "🎮 This is just the beginning! New games and challenges arrive every day.",
-      "🔥 The fun never stops! More games and experiences are coming soon.",
-      "💫 Every day brings something new! More games, more challenges, and more spice.",
-      "😏 Had fun? This is just the start.",
-      "🎲 New adventures every day! Stay tuned for the next round.",
-      "💥 Don’t go far! More irresistible games and experiences are on the way.",
-      "🔥 More fun, more madness, more passion every day!"
-    ]
-  },
-  "CATEGORIES": {
-    "COUPLE": "Couple",
-    "PARTY": "Party Mode"
-  },
-  "GAMES": {
-    "DICE_KAMASUTRA": "Kamasutra Dice",
-    "CHALLENGE_ROULETTE": "Challenges, dance, questions...",
-    "TRUTH_OR_DARE_PENALTY": "Truth/Dare or Forfeit...",
-    "TRUTH_OR_DARE_SIMPLE": "Simple Truth/Dare",
-    "DICE_ORAL": "Kamasutra Dice (Oral only)",
-    "SPIN_BEER": "Spin Beer...",
-    "COUPLES_CHALLENGE": "Couples Challenge"
-  },
-  "TRUTH_OR_DARE": {
-    "TITLE": "🎯 Truth or Dare",
-    "DESCRIPTION": "Spin the wheel and let fate play with you... 😜",
-    "SPIN": "Spin",
-    "RETRY": "Spin again",
-    "RESET": "Reset",
-    "TRUTH_LABEL_SHORT": "TRUTH",
-    "DARE_LABEL_SHORT": "DARE",
-    "TRUTH_LABEL": "💫 TRUTH! 💫",
-    "DARE_LABEL": "💫 DARE! 💫",
-    "TRUTH_DESCRIPTION": "😏 You got <strong>TRUTH</strong>...<br>Your partner or the group can ask you <em>anything</em>.<br>No filters, no excuses... answer honestly or face a penalty! 🔥",
-    "DARE_DESCRIPTION": "🔥 Now your partner or the group has the power...<br>They’ll decide your dare, and you must do it — no excuses 😈.<br>Make it daring, fun, or a little naughty! 💋"
-  },
-  "SPIN_BEER": {
-    "VIEW_RULES": "View Game Rules",
-    "ROLL": "Roll",
-    "ROLL_AGAIN": "Roll Again",
-    "ROLLING": "Rolling...",
-    "RULES_TITLE": "Game Rules",
-    "UNDERSTOOD": "Got it",
-    "RULES": {
-      "7": { "name": "Left drinks", "desc": "The person to your left drinks" },
-      "8": { "name": "Right drinks", "desc": "The person to your right drinks" },
-      "9": { "name": "Center drinks", "desc": "You and your neighbors drink" },
-      "DOUBLE1": { "name": "All drink", "desc": "Everyone drinks and you roll again" },
-      "DOUBLE6": { "name": "All drink", "desc": "Everyone drinks and you roll again" },
-      "PAIR": { "name": "Roller drinks", "desc": "You drink and roll again" },
-      "DEFAULT": { "name": "No action", "desc": "Next player's turn" }
+    "META": {
+        "TITLE": "Reto Hot 🔥 | Daring and Fun Adult Games",
+        "DESCRIPTION": "Discover adult mini-games, daring challenges, and fun for couples or parties. Laugh, play, and light up the night with Reto Hot 🔥."
     },
-    "RULES_LIST": [
-      { "value": "7", "description": "Left person drinks" },
-      { "value": "8", "description": "Right person drinks" },
-      { "value": "9", "description": "Left, right, and roller drink" },
-      { "value": "Double 1 or Double 6", "description": "All drink and roller rolls again" },
-      { "value": "Pair (other numbers)", "description": "Roller drinks and rolls again" }
-    ]
-  },
-  "ROULETTE": {
-    "TITLE": "🎰 Hot Roulette",
-    "DESCRIPTION": "Spin the wheel and wait for the result. Then press 'Start' to begin the timer.",
-    "TIME": "Time (sec):",
-    "SPIN": "Spin",
-    "RETRY": "Spin again",
-    "START": "Start",
-    "RESET": "Reset",
-    "RESULT_LABEL": "Result: {{segment}}",
-    "NO_OPTIONS": "No options available.",
-    "TIME_UP": "⏰ Time is up!"
-  },
+    "HOME": {
+        "TITLE": "🔥 Reto Hot: spicy games for couples and friends 🔥",
+        "TITLE_TEXT": "Welcome, choose a category:",
+        "COUPLE_MODE": "Couple Mode",
+        "PARTY_MODE": "Party Mode",
+        "INTRO": "🔥 <strong>Welcome to Hot Arcade Games!</strong> The <em>adult mini-game</em> portal where fun and desire meet in retro arcade style.<br><br><strong>💞 Couple Mode:</strong> Designed for <em>couples’ games</em> looking to break the routine. With <em>sensual challenges, hot games, and romantic dynamics</em>, each round sparks passion and connection.<br><br><strong>🎉 Party Mode:</strong> Perfect for <em>groups of friends</em> ready to laugh and dare. Discover <em>drinking games, daring challenges</em>, and spicy surprises.<br><br>💫 Play, laugh, and let the night begin with Hot Arcade Games!",
+        "RANDOM_MESSAGES": [
+            "🎮 This is just the beginning! New games and challenges arrive every day.",
+            "🔥 The fun never stops! More games and experiences are coming soon.",
+            "💫 Every day brings something new! More games, more challenges, and more spice.",
+            "😏 Had fun? This is just the start.",
+            "🎲 New adventures every day! Stay tuned for the next round.",
+            "💥 Don’t go far! More irresistible games and experiences are on the way.",
+            "🔥 More fun, more madness, more passion every day!"
+        ]
+    },
+    "CATEGORIES": {
+        "COUPLE": "Couple",
+        "PARTY": "Party Mode"
+    },
+    "GAMES": {
+        "DICE_KAMASUTRA": "Kamasutra Dice",
+        "CHALLENGE_ROULETTE": "Challenges, dance, questions...",
+        "TRUTH_OR_DARE_PENALTY": "Truth/Dare or Forfeit...",
+        "TRUTH_OR_DARE_SIMPLE": "Simple Truth/Dare",
+        "DICE_ORAL": "Kamasutra Dice (Oral only)",
+        "SPIN_BEER": "Spin Beer...",
+        "COUPLES_CHALLENGE": "Couples Challenge",
+        "KISS_ROULETTE": "Kiss Roulette"
+    },
+    "TRUTH_OR_DARE": {
+        "TITLE": "🎯 Truth or Dare",
+        "DESCRIPTION": "Spin the wheel and let fate play with you... 😜",
+        "SPIN": "Spin",
+        "RETRY": "Spin again",
+        "RESET": "Reset",
+        "TRUTH_LABEL_SHORT": "TRUTH",
+        "DARE_LABEL_SHORT": "DARE",
+        "TRUTH_LABEL": "💫 TRUTH! 💫",
+        "DARE_LABEL": "💫 DARE! 💫",
+        "TRUTH_DESCRIPTION": "😏 You got <strong>TRUTH</strong>...<br>Your partner or the group can ask you <em>anything</em>.<br>No filters, no excuses... answer honestly or face a penalty! 🔥",
+        "DARE_DESCRIPTION": "🔥 Now your partner or the group has the power...<br>They’ll decide your dare, and you must do it — no excuses 😈.<br>Make it daring, fun, or a little naughty! 💋"
+    },
+    "SPIN_BEER": {
+        "VIEW_RULES": "View Game Rules",
+        "ROLL": "Roll",
+        "ROLL_AGAIN": "Roll Again",
+        "ROLLING": "Rolling...",
+        "RULES_TITLE": "Game Rules",
+        "UNDERSTOOD": "Got it",
+        "RULES": {
+            "7": {
+                "name": "Left drinks",
+                "desc": "The person to your left drinks"
+            },
+            "8": {
+                "name": "Right drinks",
+                "desc": "The person to your right drinks"
+            },
+            "9": {
+                "name": "Center drinks",
+                "desc": "You and your neighbors drink"
+            },
+            "DOUBLE1": {
+                "name": "All drink",
+                "desc": "Everyone drinks and you roll again"
+            },
+            "DOUBLE6": {
+                "name": "All drink",
+                "desc": "Everyone drinks and you roll again"
+            },
+            "PAIR": {
+                "name": "Roller drinks",
+                "desc": "You drink and roll again"
+            },
+            "DEFAULT": {
+                "name": "No action",
+                "desc": "Next player's turn"
+            }
+        },
+        "RULES_LIST": [
+            {
+                "value": "7",
+                "description": "Left person drinks"
+            },
+            {
+                "value": "8",
+                "description": "Right person drinks"
+            },
+            {
+                "value": "9",
+                "description": "Left, right, and roller drink"
+            },
+            {
+                "value": "Double 1 or Double 6",
+                "description": "All drink and roller rolls again"
+            },
+            {
+                "value": "Pair (other numbers)",
+                "description": "Roller drinks and rolls again"
+            }
+        ]
+    },
+    "ROULETTE": {
+        "TITLE": "🎰 Hot Roulette",
+        "DESCRIPTION": "Spin the wheel and wait for the result. Then press 'Start' to begin the timer.",
+        "TIME": "Time (sec):",
+        "SPIN": "Spin",
+        "RETRY": "Spin again",
+        "START": "Start",
+        "RESET": "Reset",
+        "RESULT_LABEL": "Result: {{segment}}",
+        "NO_OPTIONS": "No options available.",
+        "TIME_UP": "⏰ Time is up!"
+    },
     "dice": {
-    "roll": "🎲 Roll",
-    "advantages": "Advantages",
-    "disadvantages": "Disadvantages",
-    "curiousFact": "Fun Fact",
-    "start": "Start",
-    "rollAgain": "Roll Again",
-    "remainingTime": "Time Remaining",
-    "timeUp": "⏰ Time’s up!"
-  },
-"desprendete": {
-  "title": "Let Loose",
-  "description": "Spin the wheel and complete the dares or answer the truths.",
-  "viewRules": "View Game Rules",
-  "addPlayer": "+ Add Player",
-  "time": "Time (seconds)",
-  "spin": "Spin",
-  "spinAgain": "Spin Again",
-  "start": "Start",
-  "reset": "Reset",
-  "answerTruth": "Answer Truth",
-  "pass": "Pass",
-  "truth": "TRUTH",
-  "challenge": "DARE",
-  "needTwoPlayers": "You need at least 2 players to start.",
-  "noClothes": "{{name}} has no clothes left 😅",
-  "noWinner": "No winner this time.",
-  "rules": "Game Rules",
-  "rulesContent": "Each player spins the wheel. If it lands on TRUTH, they must answer the question; if it lands on DARE, they must complete the challenge. The goal is to have fun, loosen up, and be bold!",
-  "understood": "Got it",
-  "smallRouletteTitle": "Mini Final Wheel",
-  "spinning": "Spinning...",
-  "spinSmall": "Spin mini wheel",
-  "running": "In progress..."
-  },
-  "BUTTONS": {
-    "BACK": "⬅ Back to Home"
-  }
+        "roll": "🎲 Roll",
+        "advantages": "Advantages",
+        "disadvantages": "Disadvantages",
+        "curiousFact": "Fun Fact",
+        "start": "Start",
+        "rollAgain": "Roll Again",
+        "remainingTime": "Time Remaining",
+        "timeUp": "⏰ Time’s up!"
+    },
+    "desprendete": {
+        "title": "Let Loose",
+        "description": "Spin the wheel and complete the dares or answer the truths.",
+        "viewRules": "View Game Rules",
+        "addPlayer": "+ Add Player",
+        "time": "Time (seconds)",
+        "spin": "Spin",
+        "spinAgain": "Spin Again",
+        "start": "Start",
+        "reset": "Reset",
+        "answerTruth": "Answer Truth",
+        "pass": "Pass",
+        "truth": "TRUTH",
+        "challenge": "DARE",
+        "needTwoPlayers": "You need at least 2 players to start.",
+        "noClothes": "{{name}} has no clothes left 😅",
+        "noWinner": "No winner this time.",
+        "rules": "Game Rules",
+        "rulesContent": "Each player spins the wheel. If it lands on TRUTH, they must answer the question; if it lands on DARE, they must complete the challenge. The goal is to have fun, loosen up, and be bold!",
+        "understood": "Got it",
+        "smallRouletteTitle": "Mini Final Wheel",
+        "spinning": "Spinning...",
+        "spinSmall": "Spin mini wheel",
+        "running": "In progress..."
+    },
+    "KISS_ROULETTE": {
+        "INSTRUCTIONS": {
+            "SHOW": "Instructions",
+            "TITLE": "How to Play - Kiss Roulette",
+            "STEP1_TITLE": "Add Players",
+            "STEP1_DESC": "Add at least 2 players with their names and genders",
+            "STEP2_TITLE": "Game Setup",
+            "STEP2_DESC": "Select kiss duration and whether to include intimate parts",
+            "STEP3_TITLE": "Spin the Roulettes",
+            "STEP3_DESC": "Each player spins to discover which body part to kiss and who to kiss",
+            "STEP4_TITLE": "Execute the Kiss",
+            "STEP4_DESC": "Press 'Start Kiss' and perform the action for the selected time",
+            "STEP5_TITLE": "Next Turn",
+            "STEP5_DESC": "Continue with the next player and repeat the fun",
+            "TIPS_TITLE": "Important Tips",
+            "TIP1": "All participants must agree with the rules",
+            "TIP2": "You can skip intimate parts if you prefer a softer game",
+            "TIP3": "Respect and consent are fundamental",
+            "TIP4": "Have fun and create memorable moments!",
+            "UNDERSTAND": "Got it! Start"
+        },
+        "SETUP": {
+            "TITLE": "Kiss Game Setup",
+            "ADD_PLAYERS": "Add Players",
+            "PLAYER_NAME": "Player name",
+            "MALE": "Male",
+            "FEMALE": "Female",
+            "ADD": "Add",
+            "PLAYERS_LIST": "Players",
+            "KISS_DURATION": "Kiss Duration",
+            "DURATION_SELECTED": "Selected duration",
+            "INCLUDE_INTIMATE": "Include intimate parts (daring mode)",
+            "START_GAME": "Start Game",
+            "NEED_PLAYERS": "Add at least 2 players"
+        },
+        "SPINNING": {
+            "YOUR_TURN": "It's your turn to spin",
+            "BODY_PART": "Body Part",
+            "WHERE_KISS": "Where to kiss?",
+            "PLAYER": "Player",
+            "WHO_KISS": "Who to kiss?",
+            "SPIN_ROULETTES": "Spin Roulettes",
+            "RESPIN": "Spin Again",
+            "VIEW_RESULT": "View Result",
+            "BACK_HOME": "Back to Home"
+        },
+        "RESULT": {
+            "TURN_OF": "Turn of",
+            "BODY_PART": "Body Part",
+            "WHERE_KISS": "Where to kiss?",
+            "PLAYER": "Player",
+            "WHO_KISS": "Who to kiss?",
+            "START_KISS": "Start Kiss",
+            "NEXT_TURN": "Next Turn",
+            "BACK_HOME": "Back to Home"
+        },
+        "COUNTDOWN": {
+            "KISS_INSTRUCTION": "must kiss",
+            "BODY_PART_INSTRUCTION": "on",
+            "COUNTDOWN_LABEL": "The kiss ends when it reaches zero!",
+            "STOP_KISS": "Stop Kiss"
+        },
+        "TIME_OPTIONS": {
+            "10_SEC": "10 sec",
+            "30_SEC": "30 sec",
+            "1_MIN": "1 min",
+            "1_5_MIN": "1.5 min",
+            "2_MIN": "2 min"
+        },
+        "BODY_PARTS": {
+            "HAND": "HAND",
+            "CHEEK": "CHEEK",
+            "FOREHEAD": "FOREHEAD",
+            "SHOULDER": "SHOULDER",
+            "BACK": "BACK",
+            "NECK": "NECK",
+            "FOOT": "FOOT",
+            "NAVEL": "NAVEL",
+            "THIGH": "THIGH",
+            "CHEST": "CHEST",
+            "BUTTOCKS": "BUTTOCKS",
+            "INTIMATE_PART": "INTIMATE PART"
+        }
+    },
+    "BUTTONS": {
+        "BACK": "⬅ Back to Home"
+    }
 }

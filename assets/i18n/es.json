@@ -30,7 +30,8 @@
     "TRUTH_OR_DARE_SIMPLE": "Verdad/Reto simple",
     "DICE_ORAL": "Dados Kamasutra solo oral",
     "SPIN_BEER": "Spin Beer...",
-    "COUPLES_CHALLENGE": "Desafío de Parejas"
+    "COUPLES_CHALLENGE": "Desafío de Parejas",
+    "KISS_ROULETTE": "Ruleta de Besos"
   },
   "TRUTH_OR_DARE": {
     "TITLE": "🎯 Verdad o Reto",
@@ -151,6 +152,90 @@
     "spinning": "Girando...",
     "spinSmall": "Girar mini ruleta",
     "running": "En curso..."
+  },
+  "KISS_ROULETTE": {
+    "INSTRUCTIONS": {
+      "SHOW": "Instrucciones",
+      "TITLE": "Cómo Jugar - Ruleta de Besos",
+      "STEP1_TITLE": "Agrega Jugadores",
+      "STEP1_DESC": "Agrega al menos 2 jugadores con sus nombres y géneros",
+      "STEP2_TITLE": "Configura el Juego",
+      "STEP2_DESC": "Selecciona la duración del beso y si quieres incluir partes íntimas",
+      "STEP3_TITLE": "Gira las Ruletas",
+      "STEP3_DESC": "Cada jugador gira para descubrir qué parte del cuerpo besar y a quién",
+      "STEP4_TITLE": "Ejecuta el Beso",
+      "STEP4_DESC": "Presiona 'Iniciar Beso' y cumple la acción durante el tiempo seleccionado",
+      "STEP5_TITLE": "Siguiente Turno",
+      "STEP5_DESC": "Continúa con el siguiente jugador y repite la diversión",
+      "TIPS_TITLE": "Consejos Importantes",
+      "TIP1": "Todos los participantes deben estar de acuerdo con las reglas",
+      "TIP2": "Puedes omitir partes íntimas si prefieres un juego más suave",
+      "TIP3": "El respeto y consentimiento son fundamentales",
+      "TIP4": "¡Diviértete y crea momentos memorables!",
+      "UNDERSTAND": "¡Entendido! Comenzar"
+    },
+    "SETUP": {
+      "TITLE": "Configuración del Juego de Besos",
+      "ADD_PLAYERS": "Agregar Jugadores",
+      "PLAYER_NAME": "Nombre del jugador",
+      "MALE": "Hombre",
+      "FEMALE": "Mujer",
+      "ADD": "Agregar",
+      "PLAYERS_LIST": "Jugadores",
+      "KISS_DURATION": "Duración del Beso",
+      "DURATION_SELECTED": "Duración seleccionada",
+      "INCLUDE_INTIMATE": "Incluir partes íntimas (modo atrevido)",
+      "START_GAME": "Iniciar Juego",
+      "NEED_PLAYERS": "Agrega al menos 2 jugadores"
+    },
+    "SPINNING": {
+      "YOUR_TURN": "¡Le toca girar a",
+      "BODY_PART": "Parte del Cuerpo",
+      "WHERE_KISS": "¿Dónde besar?",
+      "PLAYER": "Jugador",
+      "WHO_KISS": "¿A quién besar?",
+      "SPIN_ROULETTES": "Girar Ruletas",
+      "RESPIN": "Volver a Girar",
+      "VIEW_RESULT": "Ver Resultado",
+      "BACK_HOME": "Volver al Inicio"
+    },
+    "RESULT": {
+      "TURN_OF": "Turno de",
+      "BODY_PART": "Parte del Cuerpo",
+      "WHERE_KISS": "¿Dónde besar?",
+      "PLAYER": "Jugador",
+      "WHO_KISS": "¿A quién besar?",
+      "START_KISS": "Iniciar Beso",
+      "NEXT_TURN": "Siguiente Turno",
+      "BACK_HOME": "Volver al Inicio"
+    },
+    "COUNTDOWN": {
+      "KISS_INSTRUCTION": "debe besar a",
+      "BODY_PART_INSTRUCTION": "en",
+      "COUNTDOWN_LABEL": "¡El beso termina cuando llegue a cero!",
+      "STOP_KISS": "Terminar Beso"
+    },
+    "TIME_OPTIONS": {
+      "10_SEC": "10 seg",
+      "30_SEC": "30 seg",
+      "1_MIN": "1 min",
+      "1_5_MIN": "1.5 min",
+      "2_MIN": "2 min"
+    },
+    "BODY_PARTS": {
+      "HAND": "MANO",
+      "CHEEK": "MEJILLA",
+      "FOREHEAD": "FRENTE",
+      "SHOULDER": "HOMBRO",
+      "BACK": "ESPALDA",
+      "NECK": "CUELLO",
+      "FOOT": "PIE",
+      "NAVEL": "OMBLIGO",
+      "THIGH": "MUSLO",
+      "CHEST": "PECHO",
+      "BUTTOCKS": "GLÚTEOS",
+      "INTIMATE_PART": "PARTE ÍNTIMA"
+    }
   },
   "BUTTONS": {
     "BACK": "⬅ Volver al inicio"
