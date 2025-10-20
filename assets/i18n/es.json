@@ -139,7 +139,7 @@
     "spin": "Girar",
     "start": "Iniciar",
     "reset": "Reiniciar",
-    "answerTruth": "Contestar Verdad",
+    "answerTruth": "Conteste con la verdad",
     "pass": "Pasar",
     "truth": "VERDAD",
     "challenge": "RETO",
@@ -152,7 +152,9 @@
     "smallRouletteTitle": "Mini Ruleta Final",
     "spinning": "Girando...",
     "spinSmall": "Girar mini ruleta",
-    "running": "En curso..."
+    "running": "En curso...",
+    "completeChallenge": "Reto completado",
+    "players": "Jugadores"
   },
   "KISS_ROULETTE": {
     "INSTRUCTIONS": {

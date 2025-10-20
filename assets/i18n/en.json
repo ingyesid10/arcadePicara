@@ -152,7 +152,9 @@
         "smallRouletteTitle": "Mini Final Wheel",
         "spinning": "Spinning...",
         "spinSmall": "Spin mini wheel",
-        "running": "In progress..."
+        "running": "In progress...",
+        "completeChallenge": "Challenge completed",
+        "players": "Players"
     },
     "KISS_ROULETTE": {
         "INSTRUCTIONS": {
