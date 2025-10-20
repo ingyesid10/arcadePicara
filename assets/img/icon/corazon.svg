@@ -1,0 +1,65 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!-- Corazón vectorial más ancho estilo emoji -->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-label="Corazón rosa ancho estilo emoji">
+  <defs>
+    <!-- Degradado principal -->
+    <linearGradient id="gradMain" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff82b4"></stop>
+      <stop offset="40%" stop-color="#ff4fa3"></stop>
+      <stop offset="100%" stop-color="#ff237d"></stop>
+    </linearGradient>
+
+    <!-- Brillo superior -->
+    <radialGradient id="shine" cx="25%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.85)"></stop>
+      <stop offset="80%" stop-color="rgba(255,255,255,0)"></stop>
+    </radialGradient>
+
+    <!-- Sombra interior -->
+    <radialGradient id="innerShade" cx="40%" cy="60%" r="75%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.15)"></stop>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"></stop>
+    </radialGradient>
+
+    <!-- Glow rosado -->
+    <filter id="glow" x="-200%" y="-200%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="18" result="g"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="g"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+    <!-- Contorno principal -->
+    <linearGradient id="strokeGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#3a0938"></stop>
+      <stop offset="100%" stop-color="#5c0b58"></stop>
+    </linearGradient>
+
+    <!-- Trayectoria del corazón más ancho -->
+    <path id="heartPathWide" d="
+      M400,160
+      C300,40 90,120 120,310
+      C150,470 310,600 400,660
+      C490,600 650,470 680,310
+      C710,120 500,40 400,160 Z"></path>
+  </defs>
+
+  <!-- sombra inferior -->
+  <use href="#heartPathWide" fill="#000" opacity="0.25" transform="translate(0,18)"></use>
+
+  <!-- cuerpo principal -->
+  <use href="#heartPathWide" fill="url(#gradMain)" stroke="url(#strokeGrad)" stroke-width="16" filter="url(#glow)"></use>
+
+  <!-- sombreado interior -->
+  <use href="#heartPathWide" fill="url(#innerShade)" opacity="0.4"></use>
+
+  <!-- brillo superior -->
+  <path d="M160,200 C240,110 350,120 400,180 C450,120 560,110 640,200 C520,130 460,130 400,180 C340,130 280,130 160,200 Z" fill="url(#shine)" opacity="0.7"></path>
+
+  <!-- borde fino -->
+  <use href="#heartPathWide" fill="none" stroke="#2a0525" stroke-width="4" opacity="0.9"></use>
+
+  <title>Corazón rosa estilo emoji</title>
+  <desc>Versión más ancha y redondeada de un corazón rosa con degradado brillante, estilo emoji.</desc>
+</svg>
