@@ -44,21 +44,21 @@
     "dato_curioso": "Está inspirada en la postura de yoga Padmasana.",
     "imagen": "assets/img/nivel1/1-3.jpeg"
   },
-  "1-4": {
-    "nombre": "Amazonas Suave",
-    "descripcion": "Una persona se sienta mientras la otra se acomoda encima suavemente, guiando el ritmo y los movimientos con calma.",
-    "ventajas": [
-      "La pareja receptora puede relajarse.",
-      "Permite explorar el control y el ritmo.",
-      "Da un toque juguetón al intercambio."
-    ],
-    "desventajas": [
-      "La persona arriba puede cansarse.",
-      "Requiere equilibrio para mayor comodidad."
-    ],
-    "dato_curioso": "Su nombre proviene de la imagen de guerreras montadas a caballo.",
-    "imagen": "assets/img/nivel1/1-4.png"
-  },
+"1-4": {
+  "nombre": "La oficina",
+  "descripcion": "La mujer se sienta sobre las piernas, inclinada hacia adelante, mientras el hombre recostado con las piernas estiradas la sujeta.",
+  "ventajas": [
+    "Conexión y dominio del hombre.",
+    "Permite explorar el control y el ritmo.",
+    "Da un toque juguetón y de contacto."
+  ],
+  "desventajas": [
+    "La persona de arriba puede cansarse.",
+    "Las piernas estiradas pueden generar incomodidad o fatiga."
+  ],
+  "dato_curioso": "Su nombre proviene de la posición que recuerda a alguien trabajando en una oficina.",
+  "imagen": "assets/img/nivel1/1-4.jpeg"
+},
   "1-5": {
     "nombre": "De lado frente a frente",
     "descripcion": "Ambos se acuestan de lado mirándose, abrazados. Es una posición simple pero muy íntima, perfecta para risas y besos.",
@@ -207,7 +207,7 @@
       "Requiere buena comunicación para mantener el ritmo."
     ],
     "dato_curioso": "Una de las más populares por su equilibrio entre comodidad y dinamismo.",
-    "imagen": "assets/img/nivel3/3-2.png"
+    "imagen": "assets/img/nivel3/3-2.jpeg"
   },
   "3-3": {
     "nombre": "El Lazo",
@@ -254,21 +254,21 @@
     "dato_curioso": "Se le conoce como ‘el giro del deseo’ en antiguas descripciones orientales.",
     "imagen": "assets/img/nivel3/3-5.png"
   },
-  "3-6": {
-    "nombre": "El Abrazo Infinito",
-    "descripcion": "Ambos entrelazan brazos y piernas en un abrazo continuo, moviéndose lentamente como si el tiempo se detuviera.",
-    "ventajas": [
-      "Conexión profunda y romántica.",
-      "Ideal para cerrar una sesión de juego o caricias.",
-      "Refuerza la intimidad."
-    ],
-    "desventajas": [
-      "Difícil de mantener por largo tiempo.",
-      "Puede limitar el movimiento."
-    ],
-    "dato_curioso": "Inspirada en los entrelazados de esculturas antiguas de amor eterno.",
-    "imagen": "assets/img/nivel3/3-6.png"
-  },
+"3-6": {
+  "nombre": "No te vayas",
+  "descripcion": "Mientras están en la cama, el hombre abraza por detrás a la mujer mientras ella inclina su cuerpo para permitir la conexión.",
+  "ventajas": [
+    "Brinda control al hombre.",
+    "Ideal para parejas a las que les gusta el dominio.",
+    "Refuerza la conexión y la cercanía."
+  ],
+  "desventajas": [
+    "La mujer tiene poco control.",
+    "Puede limitar el movimiento."
+  ],
+  "dato_curioso": "Inspirada en los entrelazados de esculturas antiguas que representan el amor eterno.",
+  "imagen": "assets/img/nivel3/3-6.jpg"
+},
   "4-1": {
     "nombre": "El Balancín",
     "descripcion": "Una persona se recuesta mientras la otra balancea suavemente su cuerpo sobre ella. Movimiento rítmico y elegante.",
@@ -297,7 +297,7 @@
       "Puede cansar si se mantiene mucho tiempo."
     ],
     "dato_curioso": "El nombre 'Caballo Alado' evoca el movimiento libre y elegante de un vuelo, inspirado en la fuerza y la gracia.",
-    "imagen": "assets/img/nivel4/4-3.png"
+    "imagen": "assets/img/nivel4/4-2.png"
   },
 "4-3": {
   "nombre": "El Puente del Deseo",
@@ -327,7 +327,7 @@
       "Requiere sincronía para el equilibrio."
     ],
     "dato_curioso": "El Trono aparece en pinturas renacentistas como símbolo de intimidad elegante.",
-    "imagen": "assets/img/nivel4/4-4.png"
+    "imagen": "assets/img/nivel4/4-4.jpeg"
   },
   "4-5": {
     "nombre": "La Media Luna",
@@ -357,7 +357,7 @@
       "Difícil mantener equilibrio sin apoyo."
     ],
     "dato_curioso": "El Encuentro representa el deseo espontáneo, sin reglas, solo conexión.",
-    "imagen": "assets/img/nivel4/4-6.jpeg"
+    "imagen": "assets/img/nivel4/4-6.png"
   },
   "5-1": {
     "nombre": "El Elevador",
@@ -521,7 +521,7 @@
     "Requiere un poco de flexibilidad."
   ],
   "dato_curioso": "El nombre proviene de la sensación de verse reflejados en el otro, una metáfora del equilibrio entre deseo y ternura.",
-  "imagen": "assets/img/nivel6/6-5.png"
+  "imagen": "assets/img/nivel6/6-5.jpg"
 },
 "6-6": {
   "nombre": "Vela",
