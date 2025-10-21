@@ -29,10 +29,11 @@
     "TRUTH_OR_DARE_PENALTY": "Verdad/Reto o Prenda...",
     "TRUTH_OR_DARE_SIMPLE": "Verdad/Reto simple",
     "DICE_ORAL": "Dados Kamasutra solo oral",
-    "SPIN_BEER": "Spin Beer...",
+    "SPIN_BEER": "Tragos rapidos",
     "COUPLES_CHALLENGE": "Desafío de Parejas",
     "KISS_ROULETTE": "Ruleta de Besos",
-    "HIGHER_LOWER_SHOT": "Tragos y cartas"
+    "HIGHER_LOWER_SHOT": "Tragos y cartas",
+    "ROULETTE_HOT_PARTY": "Ruleta de fiesta"
   },
   "TRUTH_OR_DARE": {
     "TITLE": "🎯 Verdad o Reto",
@@ -345,6 +346,33 @@
       "DRINK_B_SIMPLE": "Jugador 2 bebe"
     }
   },
+   "ROULETTE_HOT_PARTY": {
+  "TITLE": "Ruleta Picante 🎯",
+  "DESCRIPTION": "Gira la ruleta y descubre quién toma, quién se quita una prenda o quién enfrenta una verdad atrevida. ¡La fiesta comienza!",
+  "CUSTOMIZE": "Personaliza tu ruleta:",
+  "BUTTONS": {
+    "SPIN": "Girar",
+    "RESET": "Reiniciar",
+    "START": "Comenzar",
+    "RETRY": "Volver a girar"
+  },
+  "OPTIONS": {
+    "CLOTH": "Prenda",
+    "SHOT": "Shot",
+    "SKIP": "Pasa Turno",
+    "TRUTH": "Verdad",
+    "ALL_DRINK": "Todos Toman",
+    "ALL_CLOTH": "Todos Pierden Prenda"
+  },
+  "RESULTS": {
+    "CLOTH": "Quítate una prenda 😏",
+    "SHOT": "Toma un shot 🔥",
+    "SKIP": "Salvaste... ¡Pasa el turno! 😉",
+    "TRUTH": "Elige una pregunta atrevida del grupo 💋",
+    "ALL_DRINK": "¡Todos toman! 🍻",
+    "ALL_CLOTH": "¡Todos pierden una prenda! 😈"
+  }
+},
   "BUTTONS": {
     "BACK": "⬅ Volver al inicio"
   }

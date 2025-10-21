@@ -29,10 +29,11 @@
         "TRUTH_OR_DARE_PENALTY": "Truth/Dare or Forfeit...",
         "TRUTH_OR_DARE_SIMPLE": "Simple Truth/Dare",
         "DICE_ORAL": "Kamasutra Dice (Oral only)",
-        "SPIN_BEER": "Spin Beer...",
+        "SPIN_BEER": "Spin shot",
         "COUPLES_CHALLENGE": "Couples Challenge",
         "KISS_ROULETTE": "Kiss Roulette",
-        "HIGHER_LOWER_SHOT": "Drinks and cards "
+        "HIGHER_LOWER_SHOT": "Drinks and cards ",
+        "ROULETTE_HOT_PARTY": "Hot Party Roulette"
     },
     "TRUTH_OR_DARE": {
         "TITLE": "🎯 Truth or Dare",
@@ -345,6 +346,33 @@
       "DRINK_B_SIMPLE": "Player 2 drinks"
     }
   },
+  "ROULETTE_HOT_PARTY": {
+  "TITLE": "Hot Party Roulette 🎯",
+  "DESCRIPTION": "Spin the wheel and see who drinks, who loses a piece of clothing, or who faces a daring truth. Let the party begin!",
+  "CUSTOMIZE": "Customize your roulette:",
+  "BUTTONS": {
+    "SPIN": "Spin",
+    "RESET": "Reset",
+    "START": "Start",
+    "RETRY": "Spin Again"
+  },
+  "OPTIONS": {
+    "CLOTH": "Cloth",
+    "SHOT": "Shot",
+    "SKIP": "Skip Turn",
+    "TRUTH": "Truth",
+    "ALL_DRINK": "Everyone Drinks",
+    "ALL_CLOTH": "Everyone Loses Cloth"
+  },
+  "RESULTS": {
+    "CLOTH": "Remove one piece of clothing 😏",
+    "SHOT": "Take a shot 🔥",
+    "SKIP": "You’re safe... pass the turn! 😉",
+    "TRUTH": "Pick a daring question from the group 💋",
+    "ALL_DRINK": "Everyone drinks! 🍻",
+    "ALL_CLOTH": "Everyone loses one item! 😈"
+  }
+},
     "BUTTONS": {
         "BACK": "⬅ Back to Home"
     }
