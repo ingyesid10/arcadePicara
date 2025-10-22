@@ -237,7 +237,7 @@
       "Requires rhythm and patience."
     ],
     "fun_fact": "Called so because it resembles a slow walk shared between caresses and smiles.",
-    "image": "assets/img/nivel3/3-4.png"
+    "image": "assets/img/nivel3/3-4.jpeg"
   },
   "3-5": {
     "name": "The Twist",
@@ -342,7 +342,7 @@
       "Requires coordination in rhythm."
     ],
     "fun_fact": "Its shape recalls ancient symbols of union in balance.",
-    "image": "assets/img/nivel4/4-5.png"
+    "image": "assets/img/nivel4/4-5.jpeg"
   },
   "4-6": {
     "name": "The Encounter",
@@ -357,8 +357,9 @@
       "Difficult to maintain balance without support."
     ],
     "fun_fact": "The Encounter represents spontaneous desire, without rules, only connection.",
-    "image": "assets/img/nivel4/4-6.png"
-  }, "5-1": {
+    "image": "assets/img/nivel4/4-6.jpeg"
+  }, 
+  "5-1": {
     "name": "The Elevator",
     "description": "One partner partially lifts the other, combining strength and balance in a passionate, energetic pose.",
     "advantages": [
@@ -371,7 +372,7 @@
       "Not suitable for long sessions."
     ],
     "fun_fact": "The Elevator symbolizes total trust between two bodies.",
-    "image": "assets/img/nivel5/5-1.png"
+    "image": "assets/img/nivel5/5-1.jpeg"
   },
   "5-2": {
     "name": "The Standing Tilt",
@@ -418,36 +419,35 @@
     "fun_fact": "The Open Wing has appeared in art as a metaphor for surrender and emotional openness.",
     "image": "assets/img/nivel5/5-4.png"
   },
-  "5-5": {
-    "name": "The Butterfly",
-    "description": "A light and intimate pose. One partner reclines while the other leans gently forward, creating a shared sensation of flight and playful closeness.",
+   "5-1": {
+    "name": "The Inverted Elevator",
+    "description": "One person holds the other partially on their back, combining strength and balance. Active and passionate",
     "advantages": [
-      "Encourages trust and relaxation.",
-      "Ideal for affectionate and tender moments.",
-      "Allows charming eye contact."
+      "Perfect for those seeking adrenaline and complicity.",
+      "Encourages exploration of control and power.",
+      "Ideal for couples with good coordination."
     ],
     "disadvantages": [
-      "May require a bit of balance.",
-      "Best performed on a comfortable surface."
+      "Requires strength and some practice.",
+      "Not suitable for long sessions."
     ],
-    "fun_fact": "Named after the soft flutter of a butterfly — a symbol of transformation and lightness.",
-    "image": "assets/img/nivel5/5-5.png"
+    "fun_fact": "The Elevator symbolizes total trust between two bodies.",
+    "image": "assets/img/nivel5/5-5.jpeg"
   },
-  "5-6": {
-    "name": "Spiderman",
-    "description": "In this position, the woman lies on her back at the edge of the bed while the man stands or kneels beside her, creating an intense and connected experience.",
-    "advantages": [
-      "Fosters trust and closeness.",
-      "Ideal for moments of exploration.",
-      "Allows deep eye contact."
-    ],
-    "disadvantages": [
-      "May cause strain if not well supported.",
-      "Best done on a comfortable, secure surface."
-    ],
-    "fun_fact": "Inspired by the upside-down kiss of the iconic superhero — a mix of playfulness and intensity.",
-    "image": "assets/img/nivel5/5-6.png"
-  },
+"5-6": {
+  "name": "Advanced Missionary",
+  "description": "A variation of the traditional missionary position, performed at the edge of the bed. The woman lies at the edge while the man, standing or kneeling on the floor, supports her firmly.",
+  "advantages": [
+    "Helps break the routine.",
+    "Provides intense breast stimulation.",
+    "Enhances visual connection between partners."
+  ],
+  "disadvantages": [
+    "May be uncomfortable or tiring for the man."
+  ],
+  "fun_fact": "The name evokes the gentle flutter of a butterfly’s wings — a symbol of transformation and lightness.",
+  "image": "assets/img/nivel5/5-6.png"
+},
    "6-1": {
     "name": "Indian Handstand",
     "description": "The woman supports herself with her arms extended while the man, standing, holds her by the waist.",
@@ -505,7 +505,7 @@
       "Requires focus to keep synchronization natural."
     ],
     "fun_fact": "Named for the sensation of seeing yourself reflected in your partner — a metaphor for the balance between desire and tenderness.",
-    "image": "assets/img/nivel6/6-4.png"
+    "image": "assets/img/nivel6/6-4.jpeg"
   },
   "6-5": {
     "name": "The Deep",

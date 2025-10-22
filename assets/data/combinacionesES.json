@@ -237,7 +237,7 @@
       "Requiere ritmo y paciencia."
     ],
     "dato_curioso": "Llamada así porque parece un paseo lento entre caricias y sonrisas.",
-    "imagen": "assets/img/nivel3/3-4.png"
+    "imagen": "assets/img/nivel3/3-4.jpeg"
   },
   "3-5": {
     "nombre": "El Giro",
@@ -342,7 +342,7 @@
       "Requiere coordinación en el ritmo."
     ],
     "dato_curioso": "Su forma recuerda los antiguos símbolos de unión en equilibrio.",
-    "imagen": "assets/img/nivel4/4-5.png"
+    "imagen": "assets/img/nivel4/4-5.jpeg"
   },
   "4-6": {
     "nombre": "El Encuentro",
@@ -357,7 +357,7 @@
       "Difícil mantener equilibrio sin apoyo."
     ],
     "dato_curioso": "El Encuentro representa el deseo espontáneo, sin reglas, solo conexión.",
-    "imagen": "assets/img/nivel4/4-6.png"
+    "imagen": "assets/img/nivel4/4-6.jpeg"
   },
   "5-1": {
     "nombre": "El Elevador",
@@ -372,7 +372,7 @@
       "No apta para sesiones largas."
     ],
     "dato_curioso": "El Elevador simboliza la confianza total entre ambos cuerpos.",
-    "imagen": "assets/img/nivel5/5-1.png"
+    "imagen": "assets/img/nivel5/5-1.jpeg"
   },
 "5-2": {
   "nombre": "La Inclinación de Pie",
@@ -420,33 +420,32 @@
     "imagen": "assets/img/nivel5/5-4.png"
   },
   "5-5": {
-  "nombre": "La Mariposa",
-  "descripcion": "Una postura que evoca ligereza y conexión. Uno de los dos se recuesta mientras el otro se inclina suavemente, creando una sensación de vuelo compartido y cercanía juguetona.",
-  "ventajas": [
-    "Fomenta la confianza y la relajación.",
-    "Ideal para momentos de cariño y ternura.",
-    "Permite una conexión visual encantadora."
-  ],
-  "desventajas": [
-    "Puede requerir algo de equilibrio.",
-    "Mejor sobre una superficie cómoda."
-  ],
-  "dato_curioso": "El nombre proviene del aleteo sutil de una mariposa, símbolo de transformación y ligereza.",
-  "imagen": "assets/img/nivel5/5-5.png"
-},  
+    "nombre": "El Elevador invertido",
+    "descripcion": "Una persona sostiene a la otra parcialmente de espaldas, combinando fuerza y balance. Activa y apasionada.",
+    "ventajas": [
+      "Perfecta para quienes buscan adrenalina y complicidad.",
+      "Permite explorar el control y la fuerza.",
+      "Ideal para parejas con buena coordinación."
+    ],
+    "desventajas": [
+      "Requiere fuerza y práctica.",
+      "No apta para sesiones largas."
+    ],
+    "dato_curioso": "El Elevador simboliza la confianza total entre ambos cuerpos.",
+    "imagen": "assets/img/nivel5/5-5.jpeg"
+  },
 "5-6": {
-  "nombre": "Spiderman",
-  "descripcion": "Una postura en la cual la mujer acostada boca arriba sobre el borde de la cama y el hombre parado o rodillas junto a ella",
+  "nombre": "Misionero Avanzado",
+  "descripcion": "Una variación del misionero tradicional, realizada al borde de la cama. La mujer se coloca al límite del colchón mientras el hombre, desde el suelo, la sostiene con firmeza.",
   "ventajas": [
-    "Fomenta la confianza",
-    "Ideal para momentos donde se quiere explorar",
-    "Permite una conexión visual"
+    "Ayuda a romper la rutina.",
+    "Brinda una estimulación intensa de los senos.",
+    "Permite una conexión visual profunda."
   ],
   "desventajas": [
-    "Puede generar ahogo",
-    "Mejor sobre una superficie cómoda."
+    "Puede resultar incómodo o cansado para el hombre."
   ],
-  "dato_curioso": "El nombre proviene del aleteo sutil de una mariposa, símbolo de transformación y ligereza.",
+  "dato_curioso": "El nombre evoca el aleteo sutil de una mariposa, símbolo de transformación y ligereza.",
   "imagen": "assets/img/nivel5/5-6.png"
 },
   "6-1": {
@@ -506,7 +505,7 @@
     "Requiere concentración para conservar la sincronía sin perder naturalidad."
   ],
   "dato_curioso": "El nombre proviene de la sensación de verse reflejados en el otro, una metáfora del equilibrio entre deseo y ternura.",
-  "imagen": "assets/img/nivel6/6-4.png"
+  "imagen": "assets/img/nivel6/6-4.jpeg"
 },
 "6-5": {
   "nombre": "La profunda",
