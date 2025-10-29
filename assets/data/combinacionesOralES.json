@@ -57,6 +57,21 @@
     "dato_curioso": "Está inspirada en la postura de yoga Padmasana.",
     "imagen": "assets/img/nivel1/oral/1-4.jpg"
   },
+    "1-5": {
+    "nombre": "El Susurro de Medianoche",
+    "descripcion": "Una conexión intensa y cercana donde cada suspiro se vuelve un secreto compartido. Ideal para quienes disfrutan la complicidad y el juego sutil del deseo.",
+    "ventajas": [
+      "Profunda sensación de intimidad.",
+      "Permite explorar el ritmo y la respiración compartida.",
+      "Perfecta para momentos lentos y apasionados."
+    ],
+    "desventajas": [
+      "Requiere confianza y buena comunicación.",
+      "Puede ser demasiado intensa para principiantes."
+    ],
+    "dato_curioso": "Dicen que los susurros en esta posición son imposibles de olvidar.",
+    "imagen": "assets/img/nivel1/oral/1-5.jpg"
+  },
   "2-1": {
     "nombre": "Encuentro Sutil",
     "descripcion": "Una postura donde la complicidad y el contacto visual son los protagonistas. Ideal para quienes disfrutan del ritmo pausado y las caricias prolongadas.",
@@ -112,6 +127,21 @@
     ],
     "dato_curioso": "Se dice que esta postura nació del deseo de encontrar un ritmo común que solo ambos puedan entender.",
     "imagen": "assets/img/nivel2/oral/2-4.jpg"
+  },
+    "2-5": {
+    "nombre": "El Juego del Deseo",
+    "descripcion": "Un encuentro donde la curiosidad manda. Quien toma la iniciativa guía el ritmo con picardía, explorando el placer con un toque juguetón y atrevido.",
+    "ventajas": [
+      "Despierta la complicidad entre ambos.",
+      "Combina control y entrega de forma equilibrada.",
+      "Añade un aire de travesura y sorpresa."
+    ],
+    "desventajas": [
+      "Puede requerir algo de equilibrio y coordinación.",
+      "No apta para los muy tímidos."
+    ],
+    "dato_curioso": "Inspirada en los juegos secretos de las películas clásicas en blanco y negro.",
+    "imagen": "assets/img/nivel2/oral/2-5.jpg"
   },
   "3-1": {
     "nombre": "Susurros al Amanecer",
@@ -169,6 +199,21 @@
     "dato_curioso": "Su inspiración proviene de los cómics vintage de romance y aventura.",
     "imagen": "assets/img/nivel3/oral/3-4.jpg"
   },
+    "3-5": {
+    "nombre": "El Secreto del Ático",
+    "descripcion": "Entre libros y suspiros, esta posición evoca historias de amor clandestino. Quien se inclina demuestra entrega y deseo en su forma más elegante.",
+    "ventajas": [
+      "Romántica y cinematográfica.",
+      "Invita a la calma y al contacto visual.",
+      "Ideal para momentos íntimos y lentos."
+    ],
+    "desventajas": [
+      "Puede necesitar algo de espacio y privacidad.",
+      "No recomendada para encuentros improvisados."
+    ],
+    "dato_curioso": "Dicen que las historias más apasionadas siempre comienzan en un ático polvoriento.",
+    "imagen": "assets/img/nivel3/oral/3-5.jpg"
+  },
   "4-1": {
     "nombre": "Confesión entre Risas",
     "descripcion": "Una escena ligera y juguetona, donde el cariño se mezcla con la picardía. Ambos descubren que la intimidad también puede tener sabor a risa y sorpresa.",
@@ -224,5 +269,94 @@
     ],
     "dato_curioso": "Inspirada en la idea de que una mirada sincera puede desarmar cualquier defensa.",
     "imagen": "assets/img/nivel4/oral/4-4.jpg"
-  }
+  },
+    "4-5": {
+    "nombre": "La Devoción Nocturna",
+    "descripcion": "Una escena bañada por la luz cálida del dormitorio donde la pasión y la entrega se entrelazan en un gesto de deseo mutuo y complicidad silenciosa.",
+    "ventajas": [
+      "Evoca intimidad y confianza profunda.",
+      "Ideal para encuentros lentos y sensuales.",
+      "Resalta la conexión emocional y la entrega."
+    ],
+    "desventajas": [
+      "Requiere concentración y comunicación.",
+      "No apta para quienes prefieren la espontaneidad total."
+    ],
+    "dato_curioso": "El ambiente tenue y la iluminación suave potencian la conexión emocional y el misterio.",
+    "imagen": "assets/img/nivel4/oral/4-5.jpg"
+  },
+    "5-1": {
+    "nombre": "El Eco del Placer",
+    "descripcion": "Una escena bañada por una luz dorada donde el deseo y la ternura se entrelazan con elegancia. La atmósfera cálida y los gestos suaves convierten el momento en una danza de complicidad y entrega.",
+    "ventajas": [
+      "Destaca la conexión emocional y el ritmo compartido.",
+      "Ideal para un ambiente íntimo y relajado.",
+      "Transmite pasión con elegancia y sutileza."
+    ],
+    "desventajas": [
+      "Requiere paciencia y equilibrio.",
+      "No apta para los que buscan inmediatez."
+    ],
+    "dato_curioso": "El vino derramado simboliza el exceso de emoción, un detalle clásico del arte romántico.",
+    "imagen": "assets/img/nivel5/oral/5-1.jpg"
+  },
+    "5-2": {
+    "nombre": "La Reverencia del Deseo",
+    "descripcion": "Un instante detenido en el tiempo donde la entrega y la confianza se funden en un gesto de pasión silenciosa. La atmósfera, cálida y envolvente, convierte la habitación en un refugio de deseo compartido.",
+    "ventajas": [
+      "Transmite elegancia y complicidad.",
+      "Ideal para momentos de calma y conexión profunda.",
+      "Destaca la armonía entre entrega y admiración."
+    ],
+    "desventajas": [
+      "Requiere coordinación y delicadeza.",
+      "No recomendada para encuentros apresurados."
+    ],
+    "dato_curioso": "La iluminación tenue y un toque de vino pueden convertir esta escena en una experiencia cinematográfica inolvidable.",
+    "imagen": "assets/img/nivel5/oral/5-2.jpg"
+  },
+   "5-3": {
+    "nombre": "Susurros de Medianoche",
+    "descripcion": "Entre luces cálidas y miradas encendidas, la escena captura un instante de pura conexión y deseo contenido. Cada detalle —la luz del vino, las sombras suaves— envuelve el ambiente en una atmósfera de pasión elegante.",
+    "ventajas": [
+      "Ideal para momentos de intimidad profunda.",
+      "Transmite una energía romántica y apasionada.",
+      "El entorno cálido favorece la complicidad."
+    ],
+    "desventajas": [
+      "Requiere calma y entrega mutua.",
+      "No adecuada para encuentros apresurados."
+    ],
+    "dato_curioso": "El ambiente recuerda al arte clásico del siglo XX, donde la luz y la postura eran símbolos del deseo refinado.",
+    "imagen": "assets/img/nivel5/oral/5-3.jpg"
+  },
+  "5-4": {
+    "nombre": "Tentación Retro",
+    "descripcion": "Inspirada en las ilustraciones vintage, esta escena combina elegancia y picardía con un toque juguetón. El ambiente dorado y el contraste de luces evocan una historia de deseo discreto pero vibrante.",
+    "ventajas": [
+      "Estilo artístico que mezcla sensualidad y humor.",
+      "Ideal para un ambiente relajado y coqueto.",
+      "Despierta la curiosidad y la conexión visual."
+    ],
+    "desventajas": [
+      "Puede requerir confianza para mantener la naturalidad.",
+      "El entorno debe ser cómodo y cuidado."
+    ],
+    "dato_curioso": "El estilo recuerda a los cómics eróticos de los años 50, donde la insinuación era más poderosa que la exposición.",
+    "imagen": "assets/img/nivel5/oral/5-4.jpeg"
+  },
+  "5-5": {
+  "nombre": "Cita con el Placer",
+  "descripcion": "Ella se recuesta sobre las sábanas azules mientras él la adora con devoción y entrega. La escena respira confianza, deseo y una conexión que trasciende las palabras.",
+  "ventajas": [
+    "Crea una atmósfera de entrega total.",
+    "Fomenta la comunicación no verbal.",
+    "Ideal para una noche lenta y apasionada."
+  ],
+  "desventajas": [
+    "Requiere sincronía y delicadeza para mantener la comodidad."
+  ],
+  "dato_curioso": "El azul de las sábanas simboliza serenidad y profundidad emocional, un color perfecto para el deseo tranquilo.",
+  "imagen": "assets/img/nivel5/oral/5-5.jpg"
+}
 }
