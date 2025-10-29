@@ -4,7 +4,7 @@
     "DESCRIPTION": "Descubre minijuegos para adultos, retos atrevidos y juegos de pareja o fiesta. Ríe, juega y enciende la noche con Reto Hot 🔥."
   },
   "HOME": {
-   "TITLE": "🔥 Reto Hot: juegos picantes, sexo oral y retos para parejas 🔥",
+    "TITLE": "🔥 Reto Hot: juegos picantes y retos para parejas 🔥",
     "TITLE_TEXT": "Bienvenido, elige una categoría:",
     "COUPLE_MODE": "Modo Pareja",
     "PARTY_MODE": "Modo Fiesta",
@@ -19,6 +19,20 @@
       "🔥 ¡Cada día más diversión, más locura y más pasión!"
     ]
   },
+"NEWS": {
+  "TITLE": "💋 Aquí encontrarás todas las novedades para divertirte aún más 💋",
+  "TITLE_TEXT": "🔥 ¡Novedades para que la diversión nunca se enfríe! 🔥\n\n✨ Actualizaciones recientes:\n• Nuevas posiciones e imágenes para el *Kamasutra Oral* 😏\n• La *Ruleta de Besos* ahora tiene un modo extremo 💋\n• Nuevos juegos en desarrollo para el *Kamasutra clásico* y el *oral* 🎲\n• ¡Más retos, sorpresas y contenido para subir la temperatura! 🔥\n\nSíguenos en Instagram para no perderte nada 💞\nLo sabemos... la página apenas empieza, ¡pero no se detiene! 🚀\nY sí, pronto llegará nuestra app para que disfrutes donde quieras. 😘",
+  "RANDOM_MESSAGES": [
+    "🔥 ¡Esto se pone cada vez más divertido!",
+    "💞 Nuevos juegos y desafíos vienen en camino.",
+    "😏 ¡Prepárate para más locura y placer!",
+    "💋 La diversión no se detiene… y tú tampoco deberías.",
+    "🎲 ¡Más posiciones, más risas, más pasión!",
+    "😉 Cada día algo nuevo para tentar tu curiosidad.",
+    "🚀 ¡Lo mejor aún está por venir!",
+    "💫 ¡Esto apenas empieza, y ya está ardiendo!"
+  ]
+},
   "CATEGORIES": {
     "COUPLE": "Pareja",
     "PARTY": "Modo Fiesta"
@@ -35,6 +49,33 @@
     "HIGHER_LOWER_SHOT": "Tragos y cartas",
     "ROULETTE_HOT_PARTY": "Ruleta de fiesta"
   },
+  "EXTREME_MODE": "Modo Extremo",
+  "ACTION": "Acción",
+  "ACTION_LABEL": "¿Qué hacer?",
+  "WHERE_KISS_EXTREME_WAIT": "¿Dónde (acción)?",
+  "WHO_KISS_EXTREME_WAIT": "¿A quién (acción)?",
+  "START_KISS_EXTREME_WAIT": "Iniciar acción",
+  "ACTIONS": {
+    "besar": "besar",
+    "morder": "morder",
+    "acariciar": "acariciar",
+    "lamer": "lamer",
+    "masajear": "masajear",
+    "oler": "oler",
+    "rozar": "rozar",
+    "soplar": "soplar",
+    "susurrar en": "susurrar en",
+    "introducir suavemente en": "introducir suavemente en"
+  },
+  "RANDOM_MESSAGES": [
+    "💋 ¡Veamos a quién le toca besar esta vez!",
+    "🔥 ¿Listos para otro beso atrevido?",
+    "😏 Las cosas se están poniendo interesantes...",
+    "💞 ¡Hay química en el aire!",
+    "😘 ¿Quién será el afortunado esta vez?",
+    "🎲 ¡La ruleta decide tu destino!",
+    "💫 Acérquense... esto se pondrá caliente 😈"
+  ],
   "TRUTH_OR_DARE": {
     "TITLE": "🎯 Verdad o Reto",
     "DESCRIPTION": "Gira la ruleta y deja que el destino juegue contigo... 😜",
@@ -172,6 +213,10 @@
       "STEP5_TITLE": "Siguiente Turno",
       "STEP5_DESC": "Continúa con el siguiente jugador y repite la diversión",
       "TIPS_TITLE": "Consejos Importantes",
+      "STEP6_TITLE": "Incluir partes íntimas",
+      "STEP6_DESC": "Las partes íntimas se incluyen en los resultados.",
+      "STEP7_TITLE": "Modo extremo",
+      "STEP7_DESC": "Acciones como lamer, morder, chupar se incluyen en los resultados",
       "TIP1": "Todos los participantes deben estar de acuerdo con las reglas",
       "TIP2": "Puedes omitir partes íntimas si prefieres un juego más suave",
       "TIP3": "El respeto y consentimiento son fundamentales",
@@ -241,7 +286,7 @@
       "INTIMATE_PART": "PARTE ÍNTIMA"
     }
   },
-    "HIGHER_LOWER_SHOT": {
+  "HIGHER_LOWER_SHOT": {
     "INSTRUCTIONS": {
       "SHOW": "Instrucciones",
       "TITLE": "Mayor o Menor Shot",
@@ -346,33 +391,33 @@
       "DRINK_B_SIMPLE": "Jugador 2 bebe"
     }
   },
-   "ROULETTE_HOT_PARTY": {
-  "TITLE": "Ruleta Picante 🎯",
-  "DESCRIPTION": "Gira la ruleta y descubre quién toma, quién se quita una prenda o quién enfrenta una verdad atrevida. ¡La fiesta comienza!",
-  "CUSTOMIZE": "Personaliza tu ruleta:",
-  "BUTTONS": {
-    "SPIN": "Girar",
-    "RESET": "Reiniciar",
-    "START": "Comenzar",
-    "RETRY": "Volver a girar"
+  "ROULETTE_HOT_PARTY": {
+    "TITLE": "Ruleta Picante 🎯",
+    "DESCRIPTION": "Gira la ruleta y descubre quién toma, quién se quita una prenda o quién enfrenta una verdad atrevida. ¡La fiesta comienza!",
+    "CUSTOMIZE": "Personaliza tu ruleta:",
+    "BUTTONS": {
+      "SPIN": "Girar",
+      "RESET": "Reiniciar",
+      "START": "Comenzar",
+      "RETRY": "Volver a girar"
+    },
+    "OPTIONS": {
+      "CLOTH": "Prenda",
+      "SHOT": "Shot",
+      "SKIP": "Pasa Turno",
+      "TRUTH": "Verdad",
+      "ALL_DRINK": "Todos Toman",
+      "ALL_CLOTH": "Todos Pierden Prenda"
+    },
+    "RESULTS": {
+      "CLOTH": "Quítate una prenda 😏",
+      "SHOT": "Toma un shot 🔥",
+      "SKIP": "Salvaste... ¡Pasa el turno! 😉",
+      "TRUTH": "Elige una pregunta atrevida del grupo 💋",
+      "ALL_DRINK": "¡Todos toman! 🍻",
+      "ALL_CLOTH": "¡Todos pierden una prenda! 😈"
+    }
   },
-  "OPTIONS": {
-    "CLOTH": "Prenda",
-    "SHOT": "Shot",
-    "SKIP": "Pasa Turno",
-    "TRUTH": "Verdad",
-    "ALL_DRINK": "Todos Toman",
-    "ALL_CLOTH": "Todos Pierden Prenda"
-  },
-  "RESULTS": {
-    "CLOTH": "Quítate una prenda 😏",
-    "SHOT": "Toma un shot 🔥",
-    "SKIP": "Salvaste... ¡Pasa el turno! 😉",
-    "TRUTH": "Elige una pregunta atrevida del grupo 💋",
-    "ALL_DRINK": "¡Todos toman! 🍻",
-    "ALL_CLOTH": "¡Todos pierden una prenda! 😈"
-  }
-},
   "BUTTONS": {
     "BACK": "⬅ Volver al inicio"
   }
