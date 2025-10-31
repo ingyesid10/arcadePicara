@@ -19,20 +19,29 @@
             "🔥 More fun, more madness, more passion every day!"
         ]
     },
-    "NEWS": {
-  "TITLE": "💋 Here you'll find all the updates to make things even hotter 💋",
-"TITLE_TEXT": "🔥 Updates to keep the fun sizzling! 🔥\n\n✨ What’s new:\n• New positions and visuals for the *Oral Kamasutra* 😏\n• The *Kiss Roulette* now includes an extreme mode 💋\n• Fresh games in development for both *Classic* and *Oral Kamasutra* 🎲\n• Even more challenges, surprises, and spicy content coming soon! 🔥\n\nFollow us on Instagram to stay tuned 💞\nWe know… the page is just getting started, but it’s not slowing down! 🚀\nAnd yes — the app is coming soon so you can play anywhere. 😘",
+"NEWS": {
+  "TITLE": "🔥 News and Updates 🔥",
+  "UPDATES": [
+    {
+      "date": "October 2025",
+      "text": "💋 Added the *Extreme Mode* in *Kiss Roulette* and new visuals for the *Oral Kamasutra* 😏"
+    },
+    {
+      "date": "September 2025",
+      "text": "🎲 New challenges and mini-games for *Couple Mode* and *Party Mode* 🔥"
+    },
+    {
+      "date": "August 2025",
+      "text": "🚀 Official launch of *Hot Arcade Games* 💞"
+    }
+  ],
   "RANDOM_MESSAGES": [
-    "🔥 Things just keep getting hotter!",
-    "💞 New games and spicy updates are on the way!",
-    "😏 Get ready for more fun, laughter, and passion!",
-    "💋 The fun never stops… and neither should you.",
-    "🎲 More positions, more laughs, more heat!",
-    "😉 Every day brings something new to tease your curiosity.",
-    "🚀 The best is yet to come!",
-    "💫 Just getting started… and already on fire!"
+    "🔥 Things are getting even hotter...",
+    "💞 New games and content every week!",
+    "🚀 We’re just getting started… and it’s already on fire!"
   ]
-},
+}
+,
     "CATEGORIES": {
         "COUPLE": "Couple",
         "PARTY": "Party Mode"

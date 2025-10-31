@@ -20,17 +20,25 @@
     ]
   },
 "NEWS": {
-  "TITLE": "💋 Aquí encontrarás todas las novedades para divertirte aún más 💋",
-  "TITLE_TEXT": "🔥 ¡Novedades para que la diversión nunca se enfríe! 🔥\n\n✨ Actualizaciones recientes:\n• Nuevas posiciones e imágenes para el *Kamasutra Oral* 😏\n• La *Ruleta de Besos* ahora tiene un modo extremo 💋\n• Nuevos juegos en desarrollo para el *Kamasutra clásico* y el *oral* 🎲\n• ¡Más retos, sorpresas y contenido para subir la temperatura! 🔥\n\nSíguenos en Instagram para no perderte nada 💞\nLo sabemos... la página apenas empieza, ¡pero no se detiene! 🚀\nY sí, pronto llegará nuestra app para que disfrutes donde quieras. 😘",
+  "TITLE": "🔥 Novedades y actualizaciones 🔥",
+  "UPDATES": [
+    {
+      "date": "Octubre 2025",
+      "text": "💋 Se agregó el modo extremo en *Ruleta de Besos* y nuevas imágenes para el *Kamasutra Oral* 😏"
+    },
+    {
+      "date": "Septiembre 2025",
+      "text": "🎲 Nuevos retos y minijuegos para el *Modo Pareja* y el *Modo Fiesta* 🔥"
+    },
+    {
+      "date": "Agosto 2025",
+      "text": "🚀 Lanzamiento oficial de *Hot Arcade Games* 💞"
+    }
+  ],
   "RANDOM_MESSAGES": [
-    "🔥 ¡Esto se pone cada vez más divertido!",
-    "💞 Nuevos juegos y desafíos vienen en camino.",
-    "😏 ¡Prepárate para más locura y placer!",
-    "💋 La diversión no se detiene… y tú tampoco deberías.",
-    "🎲 ¡Más posiciones, más risas, más pasión!",
-    "😉 Cada día algo nuevo para tentar tu curiosidad.",
-    "🚀 ¡Lo mejor aún está por venir!",
-    "💫 ¡Esto apenas empieza, y ya está ardiendo!"
+    "🔥 Las cosas se ponen más calientes...",
+    "💞 Nuevos juegos y contenido cada semana!",
+    "🚀 Apenas comenzamos... y ya está al rojo vivo!"
   ]
 },
   "CATEGORIES": {
