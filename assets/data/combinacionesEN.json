@@ -90,20 +90,35 @@
     "image": "assets/img/nivel1/1-6.png"
   },
   "1-7": {
-    "nombre": "Crimson Whispers",
-    "descripcion": "In a softly lit room, two souls meet in a moment of deep connection. She, dressed in a blue that highlights her elegance, lets herself be carried away by the magic of the moment as the air fills with subtle desire and complicity. Every detail—the crimson tapestry, the golden glow of the vase, the warmth of the atmosphere—turns the scene into a dance between art, passion, and mystery.",
-    "ventajas": [
+    "name": "Crimson Whispers",
+    "description": "In a softly lit room, two souls meet in a moment of deep connection. She, dressed in a blue that highlights her elegance, lets herself be carried away by the magic of the moment as the air fills with subtle desire and complicity. Every detail—the crimson tapestry, the golden glow of the vase, the warmth of the atmosphere—turns the scene into a dance between art, passion, and mystery.",
+    "advantages": [
       "Conveys a deep emotional connection.",
       "Evokes an artistic and suggestive atmosphere.",
       "Perfect for those who enjoy subtlety and complicity."
     ],
-    "desventajas": [
+    "disadvantages": [
       "May require emotional harmony to maintain balance.",
       "Its intensity might overwhelm those who are more reserved."
     ],
-    "dato_curioso": "The title ‘Crimson Whispers’ symbolizes the union of passion and serenity, a balance between art and restrained desire.",
-    "imagen": "assets/img/nivel1/1-7.jpeg"
+    "fun_fact": "The title ‘Crimson Whispers’ symbolizes the union of passion and serenity, a balance between art and restrained desire.",
+    "image": "assets/img/nivel1/1-7.jpeg"
   },
+  "1-8": {
+  "name": "Souls Aflame",
+  "description": "Bathed in golden tones and gentle shadows, two bodies reach for each other as if time itself had paused. The closeness of their gaze reveals a silent surrender — a wordless dialogue where passion and tenderness intertwine. The light caresses their outlines, turning the moment into a living painting of restrained desire and palpable love.",
+  "advantages": [
+    "Evokes emotional intensity and intimate beauty.",
+    "Its composition conveys a balance between strength and gentleness.",
+    "Perfect for those who value genuine connection and shared vulnerability."
+  ],
+  "disadvantages": [
+    "Might feel too passionate for those who prefer total subtlety.",
+    "Requires sensitivity to grasp its depth without misinterpretation."
+  ],
+  "fun_fact": "‘Souls Aflame’ represents the instant when desire becomes art, and art becomes a reflection of the truest union between two souls.",
+  "image": "assets/img/nivel1/1-8.jpeg"
+},
   "2-1": {
     "name": "The Scissors",
     "description": "Both lie on their sides, intertwining their legs, forming a figure similar to scissors. Close and rhythmic.",
@@ -132,7 +147,7 @@
       "Can be intense if maintained for too long."
     ],
     "fun_fact": "The Bridge combines sensuality with exercise, a mix that can spark laughter and sparks.",
-    "image": "assets/img/nivel2/2-2.png"
+    "image": "assets/img/nivel2/2-2.jpeg"
   },
   "2-3": {
     "name": "The Cowgirl",
@@ -195,20 +210,35 @@
     "image": "assets/img/nivel2/2-6.png"
   },
   "2-7": {
-    "nombre": "Midnight Echoes",
-    "descripcion": "In the dim light of an old library, two souls seek each other through whispers and glances that speak louder than words. The golden glow of a lamp brushes against the red velvet of the armchair, where passion and tenderness intertwine in silence. Every gesture tells a story, every breath a promise, as the world seems to pause in that moment of connection and restrained desire.",
-    "ventajas": [
+    "name": "Midnight Echoes",
+    "description": "In the dim light of an old library, two souls seek each other through whispers and glances that speak louder than words. The golden glow of a lamp brushes against the red velvet of the armchair, where passion and tenderness intertwine in silence. Every gesture tells a story, every breath a promise, as the world seems to pause in that moment of connection and restrained desire.",
+    "advantages": [
       "Evokes a sense of deep intimacy and complicity.",
       "Creates an elegant and passionate atmosphere.",
       "Perfect for those who appreciate intense moments wrapped in art and mystery."
     ],
-    "desventajas": [
+    "disadvantages": [
       "May require strong emotional connection to maintain balance.",
       "Its intensity may not suit those who prefer calm and control."
     ],
-    "dato_curioso": "The title ‘Midnight Echoes’ symbolizes the union between the silence of the surroundings and the strength of emotions that resonate deep within.",
-    "imagen": "assets/img/nivel2/2-7.jpeg"
+    "fun_fact": "The title ‘Midnight Echoes’ symbolizes the union between the silence of the surroundings and the strength of emotions that resonate deep within.",
+    "image": "assets/img/nivel2/2-7.jpeg"
   },
+  "2-8": {
+  "name": "Between Shadows and Whispers",
+  "description": "In a softly lit room, two souls meet in the kind of silence only hearts that beat in unison can understand. The warm glow of a lamp paints their skin with reflections of restrained longing and deep tenderness. There is no rush—only the honest surrender to a moment that seems to pause time, where every breath is a promise and every glance, a safe haven.",
+  "advantages": [
+    "Evokes an atmosphere of intimacy and emotional depth.",
+    "Conveys warmth, closeness, and mutual trust.",
+    "Perfect for portraying the bond between passion and tenderness."
+  ],
+  "disadvantages": [
+    "Its emotional intensity might be overwhelming for some viewers.",
+    "Requires strong harmony to preserve its visual balance."
+  ],
+  "fun_fact": "The title ‘Between Shadows and Whispers’ alludes to the magic that happens when silence becomes language and light reveals more than it hides.",
+  "image": "assets/img/nivel2/2-8.jpeg"
+},
   "3-1": {
     "name": "The Dolphin",
     "description": "One person supports themselves on their forearms while the other accompanies from behind, moving with a smooth, fluid rhythm like the sea.",
@@ -300,20 +330,35 @@
     "image": "assets/img/nivel3/3-6.jpg"
   },
   "3-7": {
-    "nombre": "Inverted Soul",
-    "descripcion": "Amid curtains of velvet and wine tones, the scene is suspended in a moment of balance and surrender. She, draped in burgundy that highlights her mystery, allows herself to be carried by trust and the artistry of the moment. The soft light outlines every curve and breath, as the air fills with restrained passion and quiet elegance. Everything revolves around a single truth: when two souls reflect each other, time stands still.",
-    "ventajas": [
+    "name": "Inverted Soul",
+    "description": "Amid curtains of velvet and wine tones, the scene is suspended in a moment of balance and surrender. She, draped in burgundy that highlights her mystery, allows herself to be carried by trust and the artistry of the moment. The soft light outlines every curve and breath, as the air fills with restrained passion and quiet elegance. Everything revolves around a single truth: when two souls reflect each other, time stands still.",
+    "advantages": [
       "Depicts a connection built on mutual trust and surrender.",
       "Creates a visually intense and artistic atmosphere.",
       "Perfect for those who appreciate balance, beauty, and emotion."
     ],
-    "desventajas": [
+    "disadvantages": [
       "May require great synchronization and confidence between both.",
       "Its dramatic tone may overwhelm more serene spirits."
     ],
-    "dato_curioso": "The title ‘Inverted Soul’ symbolizes the moment when body and heart shift perspective to meet from another angle of love.",
-    "imagen": "assets/img/nivel3/3-7.jpeg"
+    "fun_fact": "The title ‘Inverted Soul’ symbolizes the moment when body and heart shift perspective to meet from another angle of love.",
+    "image": "assets/img/nivel3/3-7.jpeg"
   },
+  "3-8": {
+  "name": "Echoes of Fire",
+  "description": "In the dim light of a quiet room, two souls meet in a moment of pure surrender. Their eyes lock, and time seems to stand still as the air fills with a vibrant, magnetic energy. Passion isn’t shouted—it’s breathed; and within every movement lies a promise, a spark that lights the night with its own language of tenderness and desire.",
+  "advantages": [
+    "Conveys a deep and passionate connection.",
+    "Evokes the power of emotional encounter.",
+    "Perfect for those who seek intensity and mutual surrender."
+  ],
+  "disadvantages": [
+    "Its intensity can be overwhelming for some.",
+    "Requires balance between emotion and serenity."
+  ],
+  "fun_fact": "‘Echoes of Fire’ symbolizes the union between vulnerability and inner strength—a flame that burns from within without consuming.",
+  "image": "assets/img/nivel3/3-8.jpg"
+},
   "4-1": {
     "name": "The Seesaw",
     "description": "One person reclines while the other gently rocks their body on top. A rhythmic and elegant movement.",
@@ -419,6 +464,21 @@
     "fun_fact": "‘Echoes of Silence’ symbolizes the moment when connection transcends language, turning into a dialogue of souls — invisible yet eternal.",
     "image": "assets/img/nivel4/4-7.jpeg"
   },
+  "4-8": {
+  "name": "Rhythm of Trust",
+  "description": "In a space where the sky seems to touch the skin, two souls move in harmony to the rhythm of trust and serene passion. Each gesture becomes a language beyond words—a dance of strength and tenderness. She surrenders not to another, but to the moment itself; he holds not a body, but a shared story pulsing through every breath.",
+  "advantages": [
+    "Expresses a connection built on mutual trust and surrender.",
+    "Symbolizes balance between power and sensitivity.",
+    "Perfect for those who cherish emotional depth within passion."
+  ],
+  "disadvantages": [
+    "May be hard to sustain emotional balance without communication.",
+    "Its intensity might require emotional maturity to maintain harmony."
+  ],
+  "fun_fact": "The blue background symbolizes calm and trust, reminding us that even in intensity, balance is born from respect and devotion.",
+  "image": "assets/img/nivel4/4-8.jpeg"
+},
   "5-1": {
     "name": "The Elevator",
     "description": "One partner partially lifts the other, combining strength and balance in a passionate, energetic pose.",
@@ -447,7 +507,7 @@
       "Not recommended for long periods if there’s a significant height difference."
     ],
     "fun_fact": "This position appears in Western versions of the Kama Sutra and symbolizes spontaneous passion. Very popular in modern illustrations.",
-    "image": "assets/img/nivel5/5-2.png"
+    "image": "assets/img/nivel5/5-2.jpg"
   },
   "5-3": {
     "name": "The Tiger",
@@ -523,6 +583,21 @@
     "fun_fact": "‘Shadows in Dialogue’ symbolizes the meeting of opposing forces — stillness and motion, reason and impulse, light and shade.",
     "image": "assets/img/nivel5/5-7.jpeg"
   },
+  "5-8": {
+  "name": "Velvet Shadows",
+  "description": "Bathed in a soft blue light, two souls merge in a moment that blurs the line between strength and tenderness. She, poised yet vulnerable, surrenders to the rhythm of trust and connection, while he supports her with both care and intensity. The scene glows with passion, balance, and a timeless elegance that feels both intimate and powerful.",
+  "advantages": [
+    "Captures a perfect harmony between dominance and affection.",
+    "Expresses trust and mutual connection with visual grace.",
+    "Ideal for those who appreciate intensity wrapped in tenderness."
+  ],
+  "disadvantages": [
+    "Its emotional charge may feel overwhelming for some.",
+    "Requires deep connection to maintain authenticity."
+  ],
+  "fun_fact": "The title 'Velvet Shadows' reflects the contrast between softness and depth, where every movement tells a story of passion balanced by restraint.",
+  "image": "assets/img/nivel5/5-8.jpg"
+},
   "6-1": {
     "name": "Indian Handstand",
     "description": "The woman supports herself with her arms extended while the man, standing, holds her by the waist.",
@@ -627,6 +702,21 @@
     "fun_fact": "‘Crimson Light’ represents the instant when emotion becomes pure energy, uniting passion and serenity in a single gaze.",
     "image": "assets/img/nivel6/6-7.jpg"
   },
+  "6-8": {
+  "name": "Light and Shadow",
+  "description": "In a room bathed in warm tones, two souls intertwine in a moment suspended between strength and tenderness. Their connection becomes a silent dialogue of trust and surrender, a choreography where passion transforms into art and the body becomes the language of the soul.",
+  "advantages": [
+    "Evokes the union between energy and sensitivity.",
+    "Conveys a sense of trust and mutual balance.",
+    "Highlights the beauty of the shared moment and its emotional symbolism."
+  ],
+  "disadvantages": [
+    "Its intensity may require a deep connection to be truly understood.",
+    "Not everyone will perceive its message beyond the visual surface."
+  ],
+  "fun_fact": "‘Light and Shadow’ symbolizes the eternal contrast between reason and desire, where both meet to create harmony within chaos.",
+  "image": "assets/img/nivel6/6-8.jpg"
+},
   "7-1": {
     "name": "Inner Flame",
     "description": "Beneath a gentle light that brushes against the skin of time, a presence rises between shadow and glow. There are no words—only the pulse of life beating with quiet strength, reminding us that every gesture can be both fire and peace. The moment becomes a breath held still, a metaphor for the longing to exist with intensity. Between the dim and the radiant, the inner flame illuminates what cannot be seen: the soul that dares to feel.",
@@ -731,5 +821,139 @@
     ],
     "fun_fact": "The title ‘Gravity of Souls’ reflects the invisible pull that draws two beings toward an unspoken understanding.",
     "image": "assets/img/nivel7/7-7.jpg"
-  }
+  },
+  "7-8": {
+  "name": "Balance of Passions",
+  "description": "In the dim light of a blue room, two souls challenge each other in a dance of trust and surrender. He holds the moment with calm strength, while she lets herself be guided by the intensity of their connection. The silence between them fills with an unspoken energy, a choreography where desire transforms into art and balance.",
+  "advantages": [
+    "Expresses a deep bond built on mutual trust.",
+    "Conveys strength, beauty, and harmony in motion.",
+    "Perfect for those who seek balance between intensity and tenderness."
+  ],
+  "disadvantages": [
+    "May require a high level of emotional and physical synchronicity.",
+    "Its intensity can overwhelm without genuine connection."
+  ],
+  "fun_fact": "The title ‘Balance of Passions’ symbolizes the duality between surrender and control, where body and soul meet in perfect harmony.",
+  "image": "assets/img/nivel7/7-8.jpg"
+},
+"8-1": {
+  "name": "Soul Encounter",
+  "description": "In the serenity of an intimate dawn, two souls seek each other between calm and restrained passion. Their eyes meet in a silent dialogue that speaks of trust and surrender. The soft bluish light surrounding them creates an atmosphere of tenderness and mystery, where time seems to pause to witness their profound connection.",
+  "advantages": [
+    "Evokes the union between love and vulnerability.",
+    "Conveys a sense of emotional and physical harmony.",
+    "Perfect to represent the complicity between two beings who understand each other beyond words."
+  ],
+  "disadvantages": [
+    "Requires sensitivity to grasp its symbolic depth.",
+    "Its meaning may vary depending on the viewer’s emotional perception."
+  ],
+  "fun_fact": "‘Soul Encounter’ symbolizes the fusion of trust and desire in its purest form, where connection transcends all physical boundaries.",
+  "image": "assets/img/nivel8/8-1.jpg"
+},
+"8-2": {
+  "name": "Eternal Pulse",
+  "description": "Between light and shadow, two souls converge in an instant of deep connection. Their movements are synchronized like a heartbeat that speaks without words — a rhythm of trust, intensity, and surrender. The warm tones and subtle glows envelop the scene in a timeless atmosphere of emotion and unity.",
+  "advantages": [
+    "Captures the essence of passion transformed into art and emotion.",
+    "Transmits a balance between strength and tenderness.",
+    "Ideal to represent intimacy seen as mutual respect and connection."
+  ],
+  "disadvantages": [
+    "Its intensity may be interpreted differently depending on the viewer’s sensitivity.",
+    "Requires an emotional reading to appreciate its symbolic meaning."
+  ],
+  "fun_fact": "‘Eternal Pulse’ symbolizes the rhythm that unites two beings beyond the physical — a silent dance between emotion, energy, and trust.",
+  "image": "assets/img/nivel8/8-2.jpg"
+},
+"8-3": {
+  "name": "Harmonic Embrace",
+  "description": "In the stillness of a timeless moment, two figures intertwine in a dance of trust and surrender. Their gestures speak of balance and tenderness, while the purity of the white background accentuates the sincerity of their connection. The vintage tones evoke nostalgia, blending strength and vulnerability in perfect harmony.",
+  "advantages": [
+    "Highlights the harmony between emotion and presence.",
+    "Conveys a sense of unity and mutual understanding.",
+    "Its minimalist composition enhances the depth of the scene."
+  ],
+  "disadvantages": [
+    "Its subtle symbolism may be overlooked without contemplation.",
+    "The simplicity of the setting may limit broader interpretations."
+  ],
+  "fun_fact": "‘Harmonic Embrace’ captures the essence of human connection through minimalist expression, where every gesture becomes a silent dialogue of trust and balance.",
+  "image": "assets/img/nivel8/8-3.jpg"
+},
+"8-4": {
+  "name": "Intimate Balance",
+  "description": "In this vividly retro-style illustration, two figures intertwine in a composition symbolizing trust, connection, and harmony between opposing energies. The warm lighting and soft tones evoke calmness amid intensity, revealing a delicate balance between strength and tenderness.",
+  "advantages": [
+    "Its vintage aesthetic highlights the elegance of human emotions.",
+    "Expresses the union between balance and contained passion.",
+    "Perfect to depict the visual synchronicity between movement and stillness."
+  ],
+  "disadvantages": [
+    "Its interpretation may vary depending on the viewer’s sensitivity.",
+    "Requires attention to detail to grasp its full symbolic depth."
+  ],
+  "fun_fact": "‘Intimate Balance’ represents the pursuit of harmony between emotional and physical realms, celebrating mutual trust through its composition.",
+  "image": "assets/img/nivel8/8-4.jpg"
+},
+"8-5": {
+  "name": "Silent Connection",
+  "description": "Bathed in soft light and warm tones, two figures find themselves in a moment of balance and mutual surrender. The composition reflects the harmony between strength and tenderness, where every gesture seems to carry a shared story beyond words.",
+  "advantages": [
+    "Evokes emotional intimacy and serene aesthetics.",
+    "Highlights human connection in its most contemplative form.",
+    "The lighting and contrast add depth and visual warmth."
+  ],
+  "disadvantages": [
+    "Its symbolism can be interpreted in many ways depending on the viewer.",
+    "The emotional subtlety might be overlooked by those seeking a more direct meaning."
+  ],
+  "fun_fact": "‘Silent Connection’ explores how non-verbal communication can express bonds deeper than language itself.",
+  "image": "assets/img/nivel8/8-5.jpg"
+},
+"8-6": {
+  "name": "Light of Trust",
+  "description": "In an intimate atmosphere illuminated by a soft, warm light, two souls meet in a moment of deep and quiet connection. Their eyes mirror the serenity of finding refuge in one another, as the world around them fades, leaving only shared presence and calm.",
+  "advantages": [
+    "Conveys calm, trust, and mutual surrender.",
+    "The interplay of light and shadow enhances the emotion of the scene.",
+    "Ideal to represent spiritual and emotional unity between two beings."
+  ],
+  "disadvantages": [
+    "Its symbolism can be understood in multiple ways depending on perspective.",
+    "The subtle composition requires thoughtful observation to grasp its emotional depth."
+  ],
+  "fun_fact": "‘Light of Trust’ symbolizes intimacy as a space of both vulnerability and strength, where connection transcends what is seen.",
+  "image": "assets/img/nivel8/8-6.jpg"
+},"8-7": {
+  "name": "Intimate Balance",
+  "description": "A visual metaphor for the search between strength and tenderness. The composition highlights mutual trust and a silent bond, capturing the precise moment when vulnerability becomes beauty and connection transcends movement.",
+  "advantages": [
+    "Evokes profound emotions linked to surrender and mutual respect.",
+    "Conveys harmony between physical energy and spiritual calm.",
+    "Perfect to symbolize unity through balance and emotional presence."
+  ],
+  "disadvantages": [
+    "Its meaning may shift depending on the viewer’s sensitivity.",
+    "The emotional symbolism might fade without deeper interpretation."
+  ],
+  "fun_fact": "‘Intimate Balance’ portrays how two beings can transform tension into connection, finding grace in moments of shared support.",
+  "image": "assets/img/nivel8/8-7.jpg"
+},
+"8-8": {
+  "name": "Shadows of Instinct",
+  "description": "In a stark setting illuminated by a single light, the duality between control and surrender unfolds. The tension of the moment symbolizes the inner struggle between the urge to dominate impulses and the need to release them. The scene, charged with drama, captures the power of primal instincts confronting the structures of duty and reason.",
+  "advantages": [
+    "Explores the relationship between strength and human vulnerability.",
+    "Conveys a cinematic sense of contrast and tension.",
+    "Encourages reflection on the limits of control and inner freedom."
+  ],
+  "disadvantages": [
+    "Its visual intensity may lead to varied interpretations.",
+    "Requires sensitivity to perceive its symbolic and emotional undertones."
+  ],
+  "fun_fact": "‘Shadows of Instinct’ draws inspiration from the mid-20th century pulp art style, where human emotions were portrayed through extreme contrasts of light and darkness.",
+  "image": "assets/img/nivel8/8-8.jpg"
+}
 }

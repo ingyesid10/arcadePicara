@@ -104,6 +104,21 @@
     "dato_curioso": "El título ‘Susurros Carmesí’ simboliza la unión entre la pasión y la calma, un equilibrio entre el arte y el deseo contenido.",
     "imagen": "assets/img/nivel1/1-7.jpeg"
   },
+  "1-8": {
+  "nombre": "Almas en Llama",
+  "descripcion": "Entre tonos dorados y sombras suaves, dos cuerpos se buscan como si el tiempo se hubiera detenido. La cercanía de sus miradas revela una entrega silenciosa, un diálogo sin palabras donde la pasión y la ternura se entrelazan. La luz acaricia sus siluetas, transformando el instante en una pintura viva de deseo contenido y amor palpable.",
+  "ventajas": [
+    "Evoca intensidad emocional y belleza íntima.",
+    "Su composición transmite equilibrio entre fuerza y suavidad.",
+    "Ideal para quienes aprecian la conexión genuina y la vulnerabilidad compartida."
+  ],
+  "desventajas": [
+    "Puede resultar demasiado apasionada para quienes prefieren sutileza total.",
+    "Requiere sensibilidad para captar su profundidad sin malinterpretarla."
+  ],
+  "dato_curioso": "‘Almas en Llama’ representa el momento en que el deseo se convierte en arte, y el arte en un reflejo de la unión más sincera entre dos seres.",
+  "imagen": "assets/img/nivel1/1-8.jpeg"
+},
   "2-1": {
     "nombre": "La Tijera",
     "descripcion": "Ambos se acuestan de lado entrelazando las piernas, formando una figura similar a una tijera. Cercana y rítmica.",
@@ -132,7 +147,7 @@
       "Puede ser intensa si se mantiene mucho tiempo."
     ],
     "dato_curioso": "El Puente combina sensualidad con ejercicio, una mezcla que puede despertar carcajadas y chispas.",
-    "imagen": "assets/img/nivel2/2-2.png"
+    "imagen": "assets/img/nivel2/2-2.jpeg"
   },
   "2-3": {
     "nombre": "La Amazona",
@@ -209,6 +224,21 @@
     "dato_curioso": "El título ‘Ecos de Medianoche’ simboliza la unión entre el silencio del entorno y la fuerza de las emociones que resuenan en lo más profundo.",
     "imagen": "assets/img/nivel2/2-7.jpeg"
   },
+  "2-8": {
+  "nombre": "Entre Sombras y Suspiros",
+  "descripcion": "En una habitación tenue, dos almas se encuentran en el silencio que solo entienden los corazones que laten al mismo ritmo. La luz de una lámpara cálida baña la escena, dibujando en su piel reflejos de deseo contenido y ternura profunda. No hay prisa, solo la entrega sincera de un instante que parece detener el tiempo, donde cada respiración es una promesa y cada mirada, un refugio.",
+  "ventajas": [
+    "Evoca una atmósfera íntima y emocionalmente profunda.",
+    "Transmite calidez, cercanía y confianza mutua.",
+    "Ideal para representar la conexión entre pasión y ternura."
+  ],
+  "desventajas": [
+    "Su intensidad emocional puede resultar abrumadora para algunos.",
+    "Requiere una gran compenetración para mantener la armonía visual."
+  ],
+  "dato_curioso": "El título ‘Entre Sombras y Suspiros’ alude a la magia que ocurre cuando el silencio se convierte en lenguaje y la luz revela más de lo que oculta.",
+  "imagen": "assets/img/nivel2/2-8.jpeg"
+},
   "3-1": {
     "nombre": "El Delfín",
     "descripcion": "Una persona se apoya sobre los antebrazos mientras la otra acompaña desde atrás, moviéndose con ritmo suave y fluido como el mar.",
@@ -314,6 +344,21 @@
     "dato_curioso": "El título ‘Alma Invertida’ representa el momento en que el cuerpo y el corazón cambian de perspectiva para encontrarse desde otro ángulo del amor.",
     "imagen": "assets/img/nivel3/3-7.jpeg"
   },
+  "3-8": {
+  "nombre": "Ecos de Fuego",
+  "descripcion": "En la penumbra de una habitación silenciosa, dos almas se enfrentan en un instante de pura entrega. Sus miradas se cruzan, y el tiempo parece detenerse mientras el aire se llena de una energía vibrante, casi magnética. La pasión no se grita, se respira; y en cada gesto hay una promesa, una chispa que enciende la noche con su propio lenguaje de deseo y ternura.",
+  "ventajas": [
+    "Expresa una conexión apasionada y profunda.",
+    "Evoca el poder del encuentro emocional.",
+    "Ideal para quienes buscan intensidad y entrega mutua."
+  ],
+  "desventajas": [
+    "Su intensidad puede ser abrumadora para algunos.",
+    "Requiere equilibrio entre emoción y serenidad."
+  ],
+  "dato_curioso": "‘Ecos de Fuego’ simboliza la unión entre la vulnerabilidad y la fuerza interior, un fuego que ilumina desde dentro sin consumir.",
+  "imagen": "assets/img/nivel3/3-8.jpg"
+},
   "4-1": {
     "nombre": "El Balancín",
     "descripcion": "Una persona se recuesta mientras la otra balancea suavemente su cuerpo sobre ella. Movimiento rítmico y elegante.",
@@ -419,6 +464,21 @@
     "dato_curioso": "‘Ecos del Silencio’ representa el momento en que la conexión trasciende el lenguaje y se convierte en un diálogo de almas, invisible pero eterno.",
     "imagen": "assets/img/nivel4/4-7.jpeg"
   },
+  "4-8": {
+  "nombre": "Ritmo de Confianza",
+  "descripcion": "En un espacio donde el cielo parece tocar la piel, dos almas se entregan al compás de la confianza y la pasión serena. Cada movimiento es un lenguaje sin palabras, una danza que combina fuerza y ternura. Ella se rinde no al otro, sino al instante; él sostiene no un cuerpo, sino una historia compartida que late en cada respiración.",
+  "ventajas": [
+    "Expresa una conexión basada en la confianza y la entrega mutua.",
+    "Simboliza equilibrio entre energía y sensibilidad.",
+    "Ideal para quienes valoran la profundidad emocional dentro de la pasión."
+  ],
+  "desventajas": [
+    "Puede ser difícil mantener la sincronía emocional si no hay comunicación.",
+    "Su intensidad puede requerir madurez afectiva para sostener la armonía."
+  ],
+  "dato_curioso": "El color azul del fondo evoca serenidad y confianza, recordando que incluso en los momentos más intensos, el equilibrio nace del respeto y la entrega.",
+  "imagen": "assets/img/nivel4/4-8.jpeg"
+},
   "5-1": {
     "nombre": "El Elevador",
     "descripcion": "Una persona sostiene a la otra parcialmente, combinando fuerza y balance. Activa y apasionada.",
@@ -447,7 +507,7 @@
       "No es recomendable para periodos prolongados si hay diferencia de altura significativa."
     ],
     "dato_curioso": "Esta postura aparece en versiones occidentales del Kamasutra y es símbolo de pasión espontánea. Muy popular en ilustraciones modernas.",
-    "imagen": "assets/img/nivel5/5-2.png"
+    "imagen": "assets/img/nivel5/5-2.jpg"
   },
   "5-3": {
     "nombre": "El Tigre",
@@ -523,6 +583,21 @@
     "dato_curioso": "‘Sombras que Dialogan’ alude a la unión de fuerzas contrarias: la quietud y el movimiento, la razón y el impulso, la luz y la sombra.",
     "imagen": "assets/img/nivel5/5-7.jpeg"
   },
+  "5-8": {
+  "nombre": "Sombras de Terciopelo",
+  "descripcion": "Bañados por una suave luz azul, dos almas se funden en un momento que borra la línea entre la fuerza y la ternura. Ella, serena y vulnerable a la vez, se entrega al ritmo de la confianza y la conexión, mientras él la sostiene con cuidado e intensidad. La escena irradia pasión, equilibrio y una elegancia atemporal que se siente íntima y poderosa.",
+  "ventajas": [
+    "Captura una perfecta armonía entre dominancia y afecto.",
+    "Expresa confianza y conexión mutua con gracia visual.",
+    "Ideal para quienes disfrutan la intensidad envuelta en ternura."
+  ],
+  "desventajas": [
+    "Su carga emocional puede resultar abrumadora para algunos.",
+    "Requiere una conexión profunda para mantener la autenticidad."
+  ],
+  "dato_curioso": "El título 'Sombras de Terciopelo' refleja el contraste entre suavidad y profundidad, donde cada movimiento cuenta una historia de pasión equilibrada por la contención.",
+  "imagen": "assets/img/nivel5/5-8.jpg"
+},
   "6-1": {
     "nombre": "Pino Indio",
     "descripcion": "La mujer apoyadada con sun brazos estirados, el hombre de pie sujeta la cintura",
@@ -627,6 +702,21 @@
     "dato_curioso": "‘Luz en Rojo’ simboliza el punto donde la emoción se convierte en energía pura, uniendo pasión y calma en una sola mirada.",
     "imagen": "assets/img/nivel6/6-7.jpg"
   },
+  "6-8": {
+  "nombre": "Luz y Sombra",
+  "descripcion": "En una habitación teñida por tonos cálidos, dos almas se entrelazan en un instante suspendido entre la fuerza y la ternura. La conexión entre ellos es un diálogo silencioso de confianza y entrega, una coreografía donde la pasión se convierte en arte y el cuerpo en lenguaje del alma.",
+  "ventajas": [
+    "Evoca la unión entre energía y sensibilidad.",
+    "Transmite una sensación de confianza y equilibrio mutuo.",
+    "Destaca la belleza del momento compartido y su simbolismo emocional."
+  ],
+  "desventajas": [
+    "Su intensidad puede requerir una conexión profunda para ser comprendida.",
+    "No todos percibirán su mensaje más allá de la superficie visual."
+  ],
+  "dato_curioso": "‘Luz y Sombra’ representa el contraste eterno entre la razón y el deseo, donde ambos se encuentran para crear armonía en medio del caos.",
+  "imagen": "assets/img/nivel6/6-8.jpg"
+},
   "7-1": {
     "nombre": "Llama Interior",
     "descripcion": "Bajo una luz suave que apenas roza la piel del tiempo, una presencia se alza entre la sombra y el resplandor. No hay palabras, solo el pulso de la vida latiendo con fuerza, recordando que cada gesto puede ser fuego o calma. La escena es un suspiro contenido, una metáfora del deseo de existir con intensidad. Entre lo tenue y lo ardiente, la llama interior ilumina lo invisible: el alma que se atreve a sentir.",
@@ -731,5 +821,140 @@
     ],
     "dato_curioso": "El título ‘Gravedad de las Almas’ refleja la atracción invisible que une a dos seres en una comprensión silenciosa.",
     "imagen": "assets/img/nivel7/7-7.jpg"
-  }
+  },
+  "7-8": {
+  "nombre": "Equilibrio de Pasiones",
+  "descripcion": "En la penumbra de una habitación azul, dos almas se desafían en una danza de confianza y entrega. Él sostiene el momento con fuerza serena, mientras ella se deja guiar por la intensidad de la conexión. El silencio entre ambos se llena de una energía que habla sin palabras, una coreografía donde el deseo se transforma en arte y equilibrio.",
+  "ventajas": [
+    "Expresa una profunda unión basada en la confianza mutua.",
+    "Transmite fuerza, belleza y armonía en movimiento.",
+    "Ideal para quienes buscan equilibrio entre intensidad y ternura."
+  ],
+  "desventajas": [
+    "Puede requerir una sincronía emocional y física elevada.",
+    "Su intensidad puede desbordar si no hay conexión genuina."
+  ],
+  "dato_curioso": "El título ‘Equilibrio de Pasiones’ simboliza la dualidad entre la entrega y el control, donde el cuerpo y el alma se encuentran en perfecta sintonía.",
+  "imagen": "assets/img/nivel7/7-8.jpg"
+},
+"8-1": {
+  "nombre": "Encuentro de Almas",
+  "descripcion": "En la serenidad de un amanecer íntimo, dos almas se buscan entre la calma y la pasión contenida. Sus miradas se entrelazan en un diálogo silencioso que habla de confianza y entrega. La luz azulada que los envuelve crea un ambiente de ternura y misterio, donde el tiempo parece detenerse para contemplar su conexión profunda.",
+  "ventajas": [
+    "Evoca la unión entre el amor y la vulnerabilidad.",
+    "Transmite una sensación de equilibrio emocional y físico.",
+    "Ideal para representar la complicidad entre dos seres que se comprenden más allá de las palabras."
+  ],
+  "desventajas": [
+    "Requiere sensibilidad para captar su profundidad simbólica.",
+    "Puede interpretarse de manera distinta según la percepción emocional del observador."
+  ],
+  "dato_curioso": "‘Encuentro de Almas’ simboliza la fusión de la confianza y el deseo en su forma más pura, donde la conexión supera cualquier frontera física.",
+  "imagen": "assets/img/nivel8/8-1.jpg"
+},
+"8-2": {
+  "nombre": "Pulso Eterno",
+  "descripcion": "Entre luces y sombras, dos almas convergen en un instante de profunda conexión. Sus movimientos se sincronizan como un latido que habla sin palabras — un ritmo de confianza, intensidad y entrega. Los tonos cálidos y los brillos sutiles envuelven la escena en una atmósfera atemporal de emoción y unión.",
+  "ventajas": [
+    "Captura la esencia de la pasión transformada en arte y emoción.",
+    "Transmite un equilibrio entre fuerza y ternura.",
+    "Ideal para representar la intimidad como respeto y conexión mutua."
+  ],
+  "desventajas": [
+    "Su intensidad puede interpretarse de manera distinta según la sensibilidad del espectador.",
+    "Requiere una lectura emocional para apreciar su significado simbólico."
+  ],
+  "dato_curioso": "‘Pulso Eterno’ simboliza el ritmo que une a dos seres más allá de lo físico — una danza silenciosa entre emoción, energía y confianza.",
+  "imagen": "assets/img/nivel8/8-2.jpg"
+},
+"8-3": {
+  "nombre": "Abrazo Armónico",
+  "descripcion": "En la quietud de un instante eterno, dos figuras se entrelazan en una danza de confianza y entrega. Sus gestos hablan de equilibrio y ternura, mientras la pureza del fondo blanco resalta la sinceridad de su conexión. Los tonos vintage evocan la nostalgia, fusionando fuerza y vulnerabilidad en perfecta armonía.",
+  "ventajas": [
+    "Resalta la armonía entre la emoción y la presencia.",
+    "Transmite una sensación de unidad y comprensión mutua.",
+    "Su composición minimalista realza la profundidad de la escena."
+  ],
+  "desventajas": [
+    "Su simbolismo sutil puede pasar desapercibido sin contemplación.",
+    "La simplicidad del entorno puede limitar interpretaciones más amplias."
+  ],
+  "dato_curioso": "‘Abrazo Armónico’ captura la esencia de la conexión humana a través de la expresión minimalista, donde cada gesto se convierte en un diálogo silencioso de confianza y equilibrio.",
+  "imagen": "assets/img/nivel8/8-3.jpg"
+},
+"8-4": {
+  "nombre": "Equilibrio Íntimo",
+  "descripcion": "En esta escena ilustrada con un estilo retro vibrante, dos figuras se entrelazan en una composición que simboliza la confianza, la conexión y la armonía entre energías opuestas. La iluminación cálida y los tonos suaves evocan la sensación de calma en medio de la intensidad, mostrando un equilibrio entre fuerza y ternura.",
+  "ventajas": [
+    "Su estética vintage resalta la elegancia de las emociones humanas.",
+    "Expresa la unión entre equilibrio y pasión contenida.",
+    "Perfecta para representar la sincronía visual entre movimiento y calma."
+  ],
+  "desventajas": [
+    "Puede interpretarse de formas diversas según la sensibilidad del espectador.",
+    "Requiere atención al detalle para captar su simbolismo completo."
+  ],
+  "dato_curioso": "‘Equilibrio Íntimo’ representa la búsqueda de armonía en el encuentro entre lo emocional y lo físico, a través de una composición que celebra la confianza mutua.",
+  "imagen": "assets/img/nivel8/8-4.jpg"
+},
+"8-5": {
+  "nombre": "Conexión Silenciosa",
+  "descripcion": "En una escena bañada por luces suaves y tonos cálidos, dos figuras se encuentran en un momento de equilibrio y entrega mutua. La composición refleja la armonía entre la fuerza y la ternura, donde cada gesto parece contener una historia compartida más allá de las palabras.",
+  "ventajas": [
+    "Evoca intimidad emocional y serenidad estética.",
+    "Resalta la conexión humana en su forma más contemplativa.",
+    "La iluminación y el contraste aportan profundidad y calidez visual."
+  ],
+  "desventajas": [
+    "Su simbolismo puede ser interpretado de formas distintas según el espectador.",
+    "La sutileza emocional podría pasar desapercibida para quienes busquen una lectura directa."
+  ],
+  "dato_curioso": "‘Conexión Silenciosa’ explora la idea de cómo la comunicación no verbal puede expresar vínculos más profundos que el lenguaje mismo.",
+  "imagen": "assets/img/nivel8/8-5.jpg"
+},
+"8-6": {
+  "nombre": "Luz de Confianza",
+  "descripcion": "En una atmósfera íntima iluminada por una cálida luz que desciende suavemente sobre ellos, dos almas se encuentran en una conexión profunda y serena. Sus miradas reflejan la calma de quien ha encontrado refugio en el otro, mientras el entorno se desvanece para dejar espacio solo a la presencia compartida.",
+  "ventajas": [
+    "Transmite calma, confianza y entrega mutua.",
+    "El contraste de luces y sombras acentúa la emoción del instante.",
+    "Ideal para representar la unión espiritual y emocional entre dos seres."
+  ],
+  "desventajas": [
+    "Su simbolismo puede ser interpretado de diferentes maneras según el contexto.",
+    "La sutileza de su composición requiere una observación detenida para apreciar su profundidad."
+  ],
+  "dato_curioso": "‘Luz de Confianza’ simboliza la intimidad como un espacio de vulnerabilidad y fortaleza, donde la conexión trasciende lo visible.",
+  "imagen": "assets/img/nivel8/8-6.jpg"
+},
+"8-7": {
+  "nombre": "Equilibrio Íntimo",
+  "descripcion": "Una escena que refleja la búsqueda del equilibrio entre fuerza y delicadeza. La composición resalta la confianza mutua y la conexión silenciosa entre dos almas que se sostienen, como si el tiempo se detuviera en un instante de vulnerabilidad compartida.",
+  "ventajas": [
+    "Evoca emociones profundas relacionadas con la entrega y el respeto.",
+    "Transmite la armonía entre la energía y la serenidad.",
+    "Ideal para representar la unión entre el cuerpo y la intención espiritual."
+  ],
+  "desventajas": [
+    "Puede ser interpretada de forma distinta según la sensibilidad del espectador.",
+    "Su simbolismo puede perderse si se observa sin contexto emocional."
+  ],
+  "dato_curioso": "‘Equilibrio Íntimo’ simboliza cómo dos seres pueden encontrar belleza en el desafío de sostenerse mutuamente, transformando la tensión en conexión.",
+  "imagen": "assets/img/nivel8/8-7.jpg"
+},
+"8-8": {
+  "nombre": "Sombras del Instinto",
+  "descripcion": "En un entorno austero iluminado por una sola luz, se manifiesta la dualidad entre control y entrega. La tensión del momento representa la lucha interna entre el deseo de dominar los impulsos y la necesidad de liberarlos. La escena, cargada de dramatismo, refleja el poder de los instintos primarios frente a las estructuras del deber y la razón.",
+  "ventajas": [
+    "Explora la relación entre fuerza y vulnerabilidad humana.",
+    "Evoca una sensación cinematográfica de contraste y tensión.",
+    "Invita a reflexionar sobre los límites del control y la libertad interior."
+  ],
+  "desventajas": [
+    "Su intensidad visual puede interpretarse de múltiples formas.",
+    "Requiere sensibilidad para captar su trasfondo simbólico y emocional."
+  ],
+  "dato_curioso": "‘Sombras del Instinto’ está inspirada en el estilo pulp de mediados del siglo XX, donde las emociones humanas se representaban a través de contrastes extremos entre luz y oscuridad.",
+  "imagen": "assets/img/nivel8/8-8.jpg"
+}
 }
