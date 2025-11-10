@@ -12,7 +12,7 @@
       "Does not allow for much variety in angles."
     ],
     "fun_fact": "It is one of the oldest and most universal positions.",
-    "image": "assets/img/nivel1/1-1.jpeg"
+    "image": "assets/img/nivel1/1-1.webp"
   },
   "1-2": {
     "name": "Spooning",
@@ -27,7 +27,7 @@
       "The rhythm can be limited."
     ],
     "fun_fact": "In many cultures, it is associated with tenderness and rest.",
-    "image": "assets/img/nivel1/1-2.jpeg"
+    "image": "assets/img/nivel1/1-2.webp"
   },
   "1-3": {
     "name": "Lotus",
@@ -42,7 +42,7 @@
       "Requires a bit of flexibility."
     ],
     "fun_fact": "It is inspired by the Padmasana yoga pose.",
-    "image": "assets/img/nivel1/1-3.jpeg"
+    "image": "assets/img/nivel1/1-3.webp"
   },
   "1-4": {
     "name": "The Office",
@@ -57,7 +57,7 @@
       "Extended legs can cause discomfort or fatigue."
     ],
     "fun_fact": "Its name comes from the position’s resemblance to someone working at an office desk.",
-    "image": "assets/img/nivel1/1-4.jpeg"
+    "image": "assets/img/nivel1/1-4.webp"
   },
   "1-5": {
     "name": "Side-by-Side Facing",
@@ -72,7 +72,7 @@
       "Not always stable if there is a lot of movement."
     ],
     "fun_fact": "It is a natural evolution of spooning, but more playful.",
-    "image": "assets/img/nivel1/1-5.jpeg"
+    "image": "assets/img/nivel1/1-5.webp"
   },
   "1-6": {
     "name": "Sitting Facing",
@@ -87,7 +87,7 @@
       "Requires a bit of balance."
     ],
     "fun_fact": "It is associated with intimacy in Eastern cultures.",
-    "image": "assets/img/nivel1/1-6.png"
+    "image": "assets/img/nivel1/1-6.webp"
   },
   "1-7": {
     "name": "Crimson Whispers",
@@ -102,7 +102,7 @@
       "Its intensity might overwhelm those who are more reserved."
     ],
     "fun_fact": "The title ‘Crimson Whispers’ symbolizes the union of passion and serenity, a balance between art and restrained desire.",
-    "image": "assets/img/nivel1/1-7.jpeg"
+    "image": "assets/img/nivel1/1-7.webp"
   },
   "1-8": {
   "name": "Souls Aflame",
@@ -117,7 +117,7 @@
     "Requires sensitivity to grasp its depth without misinterpretation."
   ],
   "fun_fact": "‘Souls Aflame’ represents the instant when desire becomes art, and art becomes a reflection of the truest union between two souls.",
-  "image": "assets/img/nivel1/1-8.jpeg"
+  "image": "assets/img/nivel1/1-8.webp"
 },
   "2-1": {
     "name": "The Scissors",
@@ -132,7 +132,7 @@
       "Less comfortable if there is no synchrony."
     ],
     "fun_fact": "The Scissors position is a symbol of trust and complicity, perfect for those who understand each other with a glance!",
-    "image": "assets/img/nivel2/2-1.png"
+    "image": "assets/img/nivel2/2-1.webp"
   },
   "2-2": {
     "name": "The Bridge",
@@ -147,7 +147,7 @@
       "Can be intense if maintained for too long."
     ],
     "fun_fact": "The Bridge combines sensuality with exercise, a mix that can spark laughter and sparks.",
-    "image": "assets/img/nivel2/2-2.jpeg"
+    "image": "assets/img/nivel2/2-2.webp"
   },
   "2-3": {
     "name": "The Cowgirl",
@@ -162,7 +162,7 @@
       "Can be tiring if prolonged."
     ],
     "fun_fact": "The Cowgirl symbolizes the balance between freedom and connection, perfect for exploring with confidence.",
-    "image": "assets/img/nivel2/2-3.png"
+    "image": "assets/img/nivel2/2-3.webp"
   },
   "2-4": {
     "name": "The Arch",
@@ -177,7 +177,7 @@
       "Can be uncomfortable on hard surfaces."
     ],
     "fun_fact": "The Arch is one of the most depicted postures in classic illustrations of Eastern love.",
-    "image": "assets/img/nivel2/2-4.png"
+    "image": "assets/img/nivel2/2-4.webp"
   },
   "2-5": {
     "name": "The Windmill",
@@ -192,7 +192,7 @@
       "Not suitable for small spaces."
     ],
     "fun_fact": "The Windmill is a symbol of constant movement, where rhythm becomes pure fun.",
-    "image": "assets/img/nivel2/2-5.png"
+    "image": "assets/img/nivel2/2-5.webp"
   },
   "2-6": {
     "name": "The Swing",
@@ -207,7 +207,7 @@
       "Not recommended for beginners."
     ],
     "fun_fact": "The Swing represents the freedom of desire in motion: it's all about balance!",
-    "image": "assets/img/nivel2/2-6.png"
+    "image": "assets/img/nivel2/2-6.webp"
   },
   "2-7": {
     "name": "Midnight Echoes",
@@ -222,7 +222,7 @@
       "Its intensity may not suit those who prefer calm and control."
     ],
     "fun_fact": "The title ‘Midnight Echoes’ symbolizes the union between the silence of the surroundings and the strength of emotions that resonate deep within.",
-    "image": "assets/img/nivel2/2-7.jpeg"
+    "image": "assets/img/nivel2/2-7.webp"
   },
   "2-8": {
   "name": "Between Shadows and Whispers",
@@ -237,7 +237,7 @@
     "Requires strong harmony to preserve its visual balance."
   ],
   "fun_fact": "The title ‘Between Shadows and Whispers’ alludes to the magic that happens when silence becomes language and light reveals more than it hides.",
-  "image": "assets/img/nivel2/2-8.jpeg"
+  "image": "assets/img/nivel2/2-8.webp"
 },
   "3-1": {
     "name": "The Dolphin",
@@ -252,7 +252,7 @@
       "Not comfortable for long periods."
     ],
     "fun_fact": "The name comes from the body's rocking, reminiscent of a dolphin's movement in water.",
-    "image": "assets/img/nivel3/3-1.jpg"
+    "image": "assets/img/nivel3/3-1.webp"
   },
   "3-2": {
     "name": "Doggy Style",
@@ -267,7 +267,7 @@
       "Requires good communication to maintain rhythm."
     ],
     "fun_fact": "One of the most popular due to its balance between comfort and dynamism.",
-    "image": "assets/img/nivel3/3-2.jpeg"
+    "image": "assets/img/nivel3/3-2.webp"
   },
   "3-3": {
     "name": "The Knot",
@@ -282,7 +282,7 @@
       "Can tire the lumbar region."
     ],
     "fun_fact": "The Knot is a symbol of emotional connection and shared play.",
-    "image": "assets/img/nivel3/3-3.png"
+    "image": "assets/img/nivel3/3-3.webp"
   },
   "3-4": {
     "name": "The Stroll",
@@ -297,7 +297,7 @@
       "Requires rhythm and patience."
     ],
     "fun_fact": "Called so because it resembles a slow walk shared between caresses and smiles.",
-    "image": "assets/img/nivel3/3-4.jpeg"
+    "image": "assets/img/nivel3/3-4.webp"
   },
   "3-5": {
     "name": "The Twist",
@@ -312,7 +312,7 @@
       "Not recommended on soft surfaces."
     ],
     "fun_fact": "Known as 'the twist of desire' in ancient Eastern descriptions.",
-    "image": "assets/img/nivel3/3-5.png"
+    "image": "assets/img/nivel3/3-5.webp"
   },
   "3-6": {
     "name": "Don’t Leave",
@@ -327,7 +327,7 @@
       "May restrict movement."
     ],
     "fun_fact": "Inspired by the intertwined figures of ancient sculptures symbolizing eternal love.",
-    "image": "assets/img/nivel3/3-6.jpg"
+    "image": "assets/img/nivel3/3-6.webp"
   },
   "3-7": {
     "name": "Inverted Soul",
@@ -342,7 +342,7 @@
       "Its dramatic tone may overwhelm more serene spirits."
     ],
     "fun_fact": "The title ‘Inverted Soul’ symbolizes the moment when body and heart shift perspective to meet from another angle of love.",
-    "image": "assets/img/nivel3/3-7.jpeg"
+    "image": "assets/img/nivel3/3-7.webp"
   },
   "3-8": {
   "name": "Echoes of Fire",
@@ -357,7 +357,7 @@
     "Requires balance between emotion and serenity."
   ],
   "fun_fact": "‘Echoes of Fire’ symbolizes the union between vulnerability and inner strength—a flame that burns from within without consuming.",
-  "image": "assets/img/nivel3/3-8.jpg"
+  "image": "assets/img/nivel3/3-8.webp"
 },
   "4-1": {
     "name": "The Seesaw",
@@ -372,7 +372,7 @@
       "Can tire the core muscles."
     ],
     "fun_fact": "Its name comes from the constant back-and-forth, like a seesaw of emotions.",
-    "image": "assets/img/nivel4/4-1.png"
+    "image": "assets/img/nivel4/4-1.webp"
   },
   "4-2": {
     "name": "The Winged Horse",
@@ -387,7 +387,7 @@
       "Can be tiring if maintained for too long."
     ],
     "fun_fact": "The name 'Winged Horse' evokes the free and elegant movement of flight, inspired by strength and grace.",
-    "image": "assets/img/nivel4/4-2.png"
+    "image": "assets/img/nivel4/4-2.webp"
   },
   "4-3": {
     "name": "The Bridge of Desire",
@@ -402,7 +402,7 @@
       "Can be uncomfortable if maintained for too long without support."
     ],
     "fun_fact": "In modern Kamasutra texts, this posture represents the balance between physical energy and emotional connection, like a bridge between both bodies.",
-    "image": "assets/img/nivel4/4-3.png"
+    "image": "assets/img/nivel4/4-3.webp"
   },
   "4-4": {
     "name": "The Throne",
@@ -417,7 +417,7 @@
       "Requires synchrony for balance."
     ],
     "fun_fact": "The Throne appears in Renaissance paintings as a symbol of elegant intimacy.",
-    "image": "assets/img/nivel4/4-4.jpeg"
+    "image": "assets/img/nivel4/4-4.webp"
   },
   "4-5": {
     "name": "The Crescent Moon",
@@ -432,7 +432,7 @@
       "Requires coordination in rhythm."
     ],
     "fun_fact": "Its shape recalls ancient symbols of union in balance.",
-    "image": "assets/img/nivel4/4-5.jpeg"
+    "image": "assets/img/nivel4/4-5.webp"
   },
   "4-6": {
     "name": "The Encounter",
@@ -447,7 +447,7 @@
       "Difficult to maintain balance without support."
     ],
     "fun_fact": "The Encounter represents spontaneous desire, without rules, only connection.",
-    "image": "assets/img/nivel4/4-6.jpeg"
+    "image": "assets/img/nivel4/4-6.webp"
   },
   "4-7": {
     "name": "Echoes of Silence",
@@ -462,7 +462,7 @@
       "Requires sensitivity to grasp its hidden symbolism."
     ],
     "fun_fact": "‘Echoes of Silence’ symbolizes the moment when connection transcends language, turning into a dialogue of souls — invisible yet eternal.",
-    "image": "assets/img/nivel4/4-7.jpeg"
+    "image": "assets/img/nivel4/4-7.webp"
   },
   "4-8": {
   "name": "Rhythm of Trust",
@@ -477,7 +477,7 @@
     "Its intensity might require emotional maturity to maintain harmony."
   ],
   "fun_fact": "The blue background symbolizes calm and trust, reminding us that even in intensity, balance is born from respect and devotion.",
-  "image": "assets/img/nivel4/4-8.jpeg"
+  "image": "assets/img/nivel4/4-8.webp"
 },
   "5-1": {
     "name": "The Elevator",
@@ -492,7 +492,7 @@
       "Not suitable for long sessions."
     ],
     "fun_fact": "The Elevator symbolizes total trust between two bodies.",
-    "image": "assets/img/nivel5/5-1.jpeg"
+    "image": "assets/img/nivel5/5-1.webp"
   },
   "5-2": {
     "name": "The Standing Tilt",
@@ -507,7 +507,7 @@
       "Not recommended for long periods if there’s a significant height difference."
     ],
     "fun_fact": "This position appears in Western versions of the Kama Sutra and symbolizes spontaneous passion. Very popular in modern illustrations.",
-    "image": "assets/img/nivel5/5-2.jpg"
+    "image": "assets/img/nivel5/5-2.webp"
   },
   "5-3": {
     "name": "The Tiger",
@@ -522,7 +522,7 @@
       "Not ideal for beginners."
     ],
     "fun_fact": "Inspired by the tiger’s agility and strength — a symbol of desire and respect.",
-    "image": "assets/img/nivel5/5-3.jpeg"
+    "image": "assets/img/nivel5/5-3.webp"
   },
   "5-4": {
     "name": "The Open Wing",
@@ -537,7 +537,7 @@
       "Requires mutual trust."
     ],
     "fun_fact": "The Open Wing has appeared in art as a metaphor for surrender and emotional openness.",
-    "image": "assets/img/nivel5/5-4.png"
+    "image": "assets/img/nivel5/5-4.webp"
   },
   "5-5": {
     "name": "The Inverted Elevator",
@@ -552,7 +552,7 @@
       "Not suitable for long sessions."
     ],
     "fun_fact": "The Elevator symbolizes total trust between two bodies.",
-    "image": "assets/img/nivel5/5-5.jpeg"
+    "image": "assets/img/nivel5/5-5.webp"
   },
   "5-6": {
     "name": "Advanced Missionary",
@@ -566,7 +566,7 @@
       "May be uncomfortable or tiring for the man."
     ],
     "fun_fact": "The name evokes the gentle flutter of a butterfly’s wings — a symbol of transformation and lightness.",
-    "image": "assets/img/nivel5/5-6.jpg"
+    "image": "assets/img/nivel5/5-6.webp"
   },
   "5-7": {
     "name": "Shadows in Dialogue",
@@ -581,7 +581,7 @@
       "Requires a poetic sensibility to fully appreciate its essence."
     ],
     "fun_fact": "‘Shadows in Dialogue’ symbolizes the meeting of opposing forces — stillness and motion, reason and impulse, light and shade.",
-    "image": "assets/img/nivel5/5-7.jpeg"
+    "image": "assets/img/nivel5/5-7.webp"
   },
   "5-8": {
   "name": "Velvet Shadows",
@@ -596,7 +596,7 @@
     "Requires deep connection to maintain authenticity."
   ],
   "fun_fact": "The title 'Velvet Shadows' reflects the contrast between softness and depth, where every movement tells a story of passion balanced by restraint.",
-  "image": "assets/img/nivel5/5-8.jpg"
+  "image": "assets/img/nivel5/5-8.webp"
 },
   "6-1": {
     "name": "Indian Handstand",
@@ -611,7 +611,7 @@
       "Not suitable for beginners."
     ],
     "fun_fact": "The Comet symbolizes the energy that rises and connects at a single point.",
-    "image": "assets/img/nivel6/6-1.png"
+    "image": "assets/img/nivel6/6-1.webp"
   },
   "6-2": {
     "name": "Reclined Rear",
@@ -625,7 +625,7 @@
       "May become overstimulating if prolonged."
     ],
     "fun_fact": "The Dragon represents the fusion of energy and passion with perfect balance.",
-    "image": "assets/img/nivel6/6-2.jpeg"
+    "image": "assets/img/nivel6/6-2.webp"
   },
   "6-3": {
     "name": "The Triangle",
@@ -640,7 +640,7 @@
       "Not ideal for long sessions if relaxation is desired."
     ],
     "fun_fact": "The triangle symbolizes unity, energy, and balance between desire, trust, and play.",
-    "image": "assets/img/nivel6/6-3.png"
+    "image": "assets/img/nivel6/6-3.webp"
   },
   "6-4": {
     "name": "The Mirror",
@@ -655,7 +655,7 @@
       "Requires focus to keep synchronization natural."
     ],
     "fun_fact": "Named for the sensation of seeing yourself reflected in your partner — a metaphor for the balance between desire and tenderness.",
-    "image": "assets/img/nivel6/6-4.jpeg"
+    "image": "assets/img/nivel6/6-4.webp"
   },
   "6-5": {
     "name": "The Deep",
@@ -670,7 +670,7 @@
       "Requires some flexibility."
     ],
     "fun_fact": "A classic of intimacy — the deeper the connection, the stronger the desire.",
-    "image": "assets/img/nivel6/6-5.jpg"
+    "image": "assets/img/nivel6/6-5.webp"
   },
   "6-6": {
     "name": "The Candle",
@@ -685,7 +685,7 @@
       "Demands flexibility and control."
     ],
     "fun_fact": "Named after its upright form, representing stability, energy, and shared intensity.",
-    "image": "assets/img/nivel6/6-6.png"
+    "image": "assets/img/nivel6/6-6.webp"
   },
   "6-7": {
     "name": "Crimson Light",
@@ -700,7 +700,7 @@
       "Best appreciated by those open to feeling rather than reasoning."
     ],
     "fun_fact": "‘Crimson Light’ represents the instant when emotion becomes pure energy, uniting passion and serenity in a single gaze.",
-    "image": "assets/img/nivel6/6-7.jpg"
+    "image": "assets/img/nivel6/6-7.webp"
   },
   "6-8": {
   "name": "Light and Shadow",
@@ -715,7 +715,7 @@
     "Not everyone will perceive its message beyond the visual surface."
   ],
   "fun_fact": "‘Light and Shadow’ symbolizes the eternal contrast between reason and desire, where both meet to create harmony within chaos.",
-  "image": "assets/img/nivel6/6-8.jpg"
+  "image": "assets/img/nivel6/6-8.webp"
 },
   "7-1": {
     "name": "Inner Flame",
@@ -730,7 +730,7 @@
       "Invites introspection to fully grasp its meaning."
     ],
     "fun_fact": "‘Inner Flame’ represents the quiet spark within every being—the energy that drives us to create, to feel, and to transform.",
-    "image": "assets/img/nivel7/7-1.jpg"
+    "image": "assets/img/nivel7/7-1.webp"
   },
   "7-2": {
     "name": "The Strength of Silence",
@@ -745,7 +745,7 @@
       "Requires attention to detail and sensitivity to preserve visual harmony."
     ],
     "fun_fact": "‘The Strength of Silence’ symbolizes the instant when passion transforms into art and the body becomes a language only the soul can understand.",
-    "image": "assets/img/nivel7/7-2.jpg"
+    "image": "assets/img/nivel7/7-2.webp"
   },
   "7-3": {
     "name": "Embrace of Light",
@@ -760,7 +760,7 @@
       "The symbolism might escape those who seek literal meaning."
     ],
     "fun_fact": "The title 'Embrace of Light' represents the moment when emotional warmth becomes visible, illuminating the outlines of the soul.",
-    "image": "assets/img/nivel7/7-3.jpeg"
+    "image": "assets/img/nivel7/7-3.webp"
   },
   "7-4": {
     "name": "Silent Fusion",
@@ -775,7 +775,7 @@
       "Requires a sensitive eye to grasp its full meaning."
     ],
     "fun_fact": "The title ‘Silent Fusion’ symbolizes the moment when two beings move in the same rhythm, where energy and calm merge into one essence.",
-    "image": "assets/img/nivel7/7-4.jpg"
+    "image": "assets/img/nivel7/7-4.webp"
   },
   "7-5": {
     "name": "Echoes of Fire",
@@ -790,7 +790,7 @@
       "Requires sensitivity to perceive its underlying message."
     ],
     "fun_fact": "The title ‘Echoes of Fire’ represents the moment when shared energy leaves an invisible, eternal vibration between two souls.",
-    "image": "assets/img/nivel7/7-5.jpg"
+    "image": "assets/img/nivel7/7-5.webp"
   },
   "7-6": {
     "name": "Silence of Skin",
@@ -805,7 +805,7 @@
       "Requires emotional sensitivity to grasp its nuance fully."
     ],
     "fun_fact": "The title ‘Silence of Skin’ symbolizes the sacred pause between two heartbeats — where connection becomes eternal.",
-    "image": "assets/img/nivel7/7-6.jpg"
+    "image": "assets/img/nivel7/7-6.webp"
   },
   "7-7": {
     "name": "Gravity of Souls",
@@ -820,7 +820,7 @@
       "The minimal setting may limit contextual depth."
     ],
     "fun_fact": "The title ‘Gravity of Souls’ reflects the invisible pull that draws two beings toward an unspoken understanding.",
-    "image": "assets/img/nivel7/7-7.jpg"
+    "image": "assets/img/nivel7/7-7.webp"
   },
   "7-8": {
   "name": "Balance of Passions",
@@ -835,7 +835,7 @@
     "Its intensity can overwhelm without genuine connection."
   ],
   "fun_fact": "The title ‘Balance of Passions’ symbolizes the duality between surrender and control, where body and soul meet in perfect harmony.",
-  "image": "assets/img/nivel7/7-8.jpg"
+  "image": "assets/img/nivel7/7-8.webp"
 },
 "8-1": {
   "name": "Soul Encounter",
@@ -850,7 +850,7 @@
     "Its meaning may vary depending on the viewer’s emotional perception."
   ],
   "fun_fact": "‘Soul Encounter’ symbolizes the fusion of trust and desire in its purest form, where connection transcends all physical boundaries.",
-  "image": "assets/img/nivel8/8-1.jpg"
+  "image": "assets/img/nivel8/8-1.webp"
 },
 "8-2": {
   "name": "Eternal Pulse",
@@ -865,7 +865,7 @@
     "Requires an emotional reading to appreciate its symbolic meaning."
   ],
   "fun_fact": "‘Eternal Pulse’ symbolizes the rhythm that unites two beings beyond the physical — a silent dance between emotion, energy, and trust.",
-  "image": "assets/img/nivel8/8-2.jpg"
+  "image": "assets/img/nivel8/8-2.webp"
 },
 "8-3": {
   "name": "Harmonic Embrace",
@@ -880,7 +880,7 @@
     "The simplicity of the setting may limit broader interpretations."
   ],
   "fun_fact": "‘Harmonic Embrace’ captures the essence of human connection through minimalist expression, where every gesture becomes a silent dialogue of trust and balance.",
-  "image": "assets/img/nivel8/8-3.jpg"
+  "image": "assets/img/nivel8/8-3.webp"
 },
 "8-4": {
   "name": "Intimate Balance",
@@ -895,7 +895,7 @@
     "Requires attention to detail to grasp its full symbolic depth."
   ],
   "fun_fact": "‘Intimate Balance’ represents the pursuit of harmony between emotional and physical realms, celebrating mutual trust through its composition.",
-  "image": "assets/img/nivel8/8-4.jpg"
+  "image": "assets/img/nivel8/8-4.webp"
 },
 "8-5": {
   "name": "Silent Connection",
@@ -910,7 +910,7 @@
     "The emotional subtlety might be overlooked by those seeking a more direct meaning."
   ],
   "fun_fact": "‘Silent Connection’ explores how non-verbal communication can express bonds deeper than language itself.",
-  "image": "assets/img/nivel8/8-5.jpg"
+  "image": "assets/img/nivel8/8-5.webp"
 },
 "8-6": {
   "name": "Light of Trust",
@@ -925,7 +925,7 @@
     "The subtle composition requires thoughtful observation to grasp its emotional depth."
   ],
   "fun_fact": "‘Light of Trust’ symbolizes intimacy as a space of both vulnerability and strength, where connection transcends what is seen.",
-  "image": "assets/img/nivel8/8-6.jpg"
+  "image": "assets/img/nivel8/8-6.webp"
 },"8-7": {
   "name": "Intimate Balance",
   "description": "A visual metaphor for the search between strength and tenderness. The composition highlights mutual trust and a silent bond, capturing the precise moment when vulnerability becomes beauty and connection transcends movement.",
@@ -939,7 +939,7 @@
     "The emotional symbolism might fade without deeper interpretation."
   ],
   "fun_fact": "‘Intimate Balance’ portrays how two beings can transform tension into connection, finding grace in moments of shared support.",
-  "image": "assets/img/nivel8/8-7.jpg"
+  "image": "assets/img/nivel8/8-7.webp"
 },
 "8-8": {
   "name": "Shadows of Instinct",
@@ -954,6 +954,6 @@
     "Requires sensitivity to perceive its symbolic and emotional undertones."
   ],
   "fun_fact": "‘Shadows of Instinct’ draws inspiration from the mid-20th century pulp art style, where human emotions were portrayed through extreme contrasts of light and darkness.",
-  "image": "assets/img/nivel8/8-8.jpg"
+  "image": "assets/img/nivel8/8-8.webp"
 }
 }
