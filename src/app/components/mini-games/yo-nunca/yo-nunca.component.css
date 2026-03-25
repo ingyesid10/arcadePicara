@@ -1,0 +1,336 @@
+.yn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  min-height: 100%;
+  background: transparent;
+  color: #fff;
+}
+
+/* ── SETUP ── */
+.yn-setup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+  max-width: 480px;
+}
+
+.yn-title {
+  text-align: center;
+}
+.yn-icon-big {
+  font-size: 3rem;
+  display: block;
+}
+.yn-title h2 {
+  margin: 8px 0 4px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.yn-subtitle {
+  color: #a8d8f0;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Instructions */
+.yn-how-wrapper {
+  width: 100%;
+}
+.yn-how-btn {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #fff;
+  border-radius: 30px;
+  padding: 8px 22px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  width: 100%;
+  transition: background 0.2s;
+}
+.yn-how-btn:hover {
+  background: rgba(255,255,255,0.15);
+}
+.yn-instructions {
+  background: rgba(0,0,0,0.35);
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin-top: 8px;
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+.yn-instructions ol {
+  padding-left: 18px;
+  margin: 0;
+}
+.yn-instructions li {
+  margin-bottom: 4px;
+}
+
+/* Level filter */
+.yn-filter-group {
+  width: 100%;
+}
+.yn-filter-label {
+  font-size: 0.9rem;
+  color: #ccc;
+  text-align: center;
+  margin: 0 0 8px;
+}
+.yn-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+.yn-chip {
+  background: rgba(255,255,255,0.06);
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding: 7px 18px;
+  font-size: 0.88rem;
+  cursor: pointer;
+  color: #ccc;
+  transition: all 0.2s;
+}
+.yn-chip.travieso {
+  border-color: #4fc3f7;
+}
+.yn-chip.travieso.active {
+  background: #4fc3f7;
+  color: #000;
+  font-weight: 700;
+}
+.yn-chip.hot {
+  border-color: #ff6b35;
+}
+.yn-chip.hot.active {
+  background: #ff6b35;
+  color: #fff;
+  font-weight: 700;
+}
+.yn-chip.extremo {
+  border-color: #d62246;
+}
+.yn-chip.extremo.active {
+  background: #d62246;
+  color: #fff;
+  font-weight: 700;
+}
+
+.yn-count {
+  font-size: 0.85rem;
+  color: #aaa;
+  margin: 0;
+}
+
+.btn-yn-start {
+  background: linear-gradient(135deg, #4fc3f7, #d62246);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 48px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 20px #d6224650;
+  transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
+  width: 100%;
+  max-width: 320px;
+}
+.btn-yn-start:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 28px #d6224670;
+}
+.btn-yn-start:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* ── PLAYING ── */
+.yn-playing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.yn-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 280px;
+}
+.yn-prog {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+.yn-drinks-badge {
+  background: rgba(214,34,70,0.25);
+  border: 1.5px solid #d62246;
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #ff7fa3;
+}
+
+/* Card flip */
+.yn-card-area {
+  width: 280px;
+  height: 360px;
+  perspective: 900px;
+}
+.yn-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.55s cubic-bezier(0.4,0,0.2,1);
+  cursor: pointer;
+}
+.yn-card.flipped {
+  transform: rotateY(180deg);
+  cursor: default;
+}
+.yn-card-front,
+.yn-card-back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+/* Front */
+.yn-card-front {
+  background: linear-gradient(145deg, #0d2846, #1a0e35);
+  border: 2px solid #4fc3f760;
+  box-shadow: 0 8px 32px #0006;
+}
+.yn-front-icon {
+  font-size: 4rem;
+}
+.yn-front-tap {
+  font-size: 0.9rem;
+  color: #a8d8f0;
+  opacity: 0.8;
+}
+
+/* Back */
+.yn-card-back {
+  background: linear-gradient(145deg, #1a1a2e, #0f0f1e);
+  border: 2px solid rgba(255,255,255,0.08);
+  transform: rotateY(180deg);
+  text-align: center;
+  gap: 12px;
+}
+.yn-level-badge {
+  border-radius: 20px;
+  padding: 5px 16px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+.yn-card-text {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #f0f0f0;
+  max-height: 90px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+.yn-drink-row {
+  display: flex;
+  justify-content: center;
+}
+.yn-drink-pill {
+  background: rgba(214,34,70,0.3);
+  border: 1px solid #d62246;
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #ff7fa3;
+}
+.btn-yn-drink {
+  background: rgba(214,34,70,0.2);
+  border: 1.5px solid #d62246;
+  color: #ff7fa3;
+  border-radius: 22px;
+  padding: 8px 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn-yn-drink:hover {
+  background: rgba(214,34,70,0.4);
+}
+
+/* Actions */
+.yn-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 280px;
+}
+.btn-yn-next {
+  background: linear-gradient(135deg, #4fc3f7, #d62246);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  border-radius: 28px;
+  padding: 13px 0;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
+  box-shadow: 0 4px 16px #d6224650;
+}
+.btn-yn-next:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+.btn-yn-next:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.btn-yn-back {
+  background: rgba(255,255,255,0.08);
+  color: #ccc;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 28px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.15s;
+}
+.btn-yn-back:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+/* Scrollbar */
+.yn-card-text::-webkit-scrollbar {
+  width: 4px;
+}
+.yn-card-text::-webkit-scrollbar-track {
+  background: transparent;
+}
+.yn-card-text::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.3);
+  border-radius: 4px;
+}

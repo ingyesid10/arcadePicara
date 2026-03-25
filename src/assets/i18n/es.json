@@ -23,6 +23,14 @@
   "TITLE": "🔥 Novedades y actualizaciones 🔥",
   "UPDATES": [
     {
+      "date": "Abril 2026",
+      "text": "🍺 Nuevo juego *Yo Nunca* — 34 confesiones para adultos con contador de tragos en 3 niveles de intensidad (Travieso, Hot, Extremo) 😈"
+    },
+    {
+      "date": "Abril 2026",
+      "text": "👑 Nuevo juego *Ruleta del Rey* — King's Cup digital con 13 reglas picantes para la fiesta más atrevida 🔥"
+    },
+    {
       "date": "Marzo 2026",
       "text": "🔥 Nuevo juego *Confiesa Todo* — confesiones sexuales, posiciones, lugares y partes del cuerpo con 40 preguntas atrevidas en 3 niveles. 💦"
     },
@@ -79,7 +87,9 @@
     "FANTASY_CARDS": "Cartas de Fantasías 🎭",
     "WOULD_YOU_RATHER": "¿Qué Prefieres? 🆚",
     "HOT_CONFESSIONS": "Confesiones Calientes 🏆",
-    "CONFIESA_TODO": "Confiesa Todo 🔥"
+    "CONFIESA_TODO": "Confiesa Todo 🔥",
+    "KINGS_CUP": "Ruleta del Rey 👑",
+    "YO_NUNCA": "Yo Nunca 🍺"
   },
   "EXTREME_MODE": "Modo Extremo",
   "ACTION": "Acción",
@@ -520,5 +530,40 @@
     "HOW_3": "Toca la carta y el jugador activo responde con total honestidad.",
     "HOW_4": "Confesión: di si lo has hecho. Posición/Lugar/Partes: cuanta más información mejor.",
     "HOW_5": "Quien se niegue a confesar, el grupo decide la penitencia (bebida, prenda, etc.)."
+  },
+  "KINGS_CUP": {
+    "TITLE": "Ruleta del Rey",
+    "SUBTITLE": "King's Cup / Ring of Fire — 13 reglas picantes para la fiesta 👑",
+    "HOW_TO_PLAY": "¿Cómo se juega?",
+    "HOW_1": "Colocad vasos alrededor de la copa del rey en el centro de la mesa.",
+    "HOW_2": "Por turnos, cada jugador toca la pantalla para robar una carta.",
+    "HOW_3": "Cada carta tiene una regla diferente — ¡léela y cúmplela!",
+    "HOW_4": "Los 3 primeros Reyes vierten bebida en la copa central; el 4.º debe bebérsela entera.",
+    "HOW_5": "\"Para el diablo\" (6): el jugador activo inventa una regla hot que dura todo el juego.",
+    "START": "¡Empezar la fiesta! 👑",
+    "TAP": "Toca para revelar la regla",
+    "NEXT": "Siguiente carta ➡️",
+    "BACK": "Volver al inicio",
+    "PROGRESS": "Cartas jugadas",
+    "REMAINING": "Quedan"
+  },
+  "YO_NUNCA": {
+    "TITLE": "Yo Nunca",
+    "SUBTITLE": "Never Have I Ever con contador de tragos — 34 confesiones para adultos 🍺",
+    "CHOOSE_LEVEL": "Elige la intensidad:",
+    "TRAVIESO": "Travieso",
+    "HOT": "Hot",
+    "EXTREMO": "Extremo",
+    "CARDS_AVAILABLE": "cartas disponibles",
+    "START": "¡Que empiecen las confesiones! 🍺",
+    "TAP": "Toca para revelar",
+    "NEXT": "Siguiente ➡️",
+    "BACK": "Cambiar niveles",
+    "ADD_DRINKS": "Ya bebí 🍺",
+    "HOW_TO_PLAY": "¿Cómo se juega?",
+    "HOW_1": "Elige la intensidad: Travieso para comenzar, Extremo para los más atrevidos.",
+    "HOW_2": "Por turnos, cada jugador toca la pantalla para revelar una carta.",
+    "HOW_3": "Se lee la afirmación \"Yo nunca...\". Quienes SÍ lo hayan hecho, beben.",
+    "HOW_4": "El número de sorbos indicado en la carta es la cantidad sugerida a beber.",
+    "HOW_5": "Pulsa \"Ya bebí 🍺\" para que el contador de tragos de la sesión se actualice."
   }
-}

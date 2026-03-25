@@ -1,0 +1,86 @@
+<div class="kc-wrapper">
+
+  <!-- SETUP -->
+  <div *ngIf="currentPhase === 'setup'" class="kc-setup">
+
+    <div class="kc-title">
+      <span class="kc-icon-big">👑</span>
+      <h2>{{ 'KINGS_CUP.TITLE' | translate }}</h2>
+      <p class="kc-subtitle">{{ 'KINGS_CUP.SUBTITLE' | translate }}</p>
+    </div>
+
+    <!-- Cómo se juega -->
+    <div class="kc-how-wrapper">
+      <button class="kc-how-btn" (click)="showInstructions = !showInstructions">
+        {{ showInstructions ? '▲' : '▼' }} {{ 'KINGS_CUP.HOW_TO_PLAY' | translate }}
+      </button>
+      <div class="kc-instructions" *ngIf="showInstructions">
+        <ol>
+          <li>{{ 'KINGS_CUP.HOW_1' | translate }}</li>
+          <li>{{ 'KINGS_CUP.HOW_2' | translate }}</li>
+          <li>{{ 'KINGS_CUP.HOW_3' | translate }}</li>
+          <li>{{ 'KINGS_CUP.HOW_4' | translate }}</li>
+          <li>{{ 'KINGS_CUP.HOW_5' | translate }}</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Referencia de reglas rápida -->
+    <div class="kc-rules-preview">
+      <div class="kc-rule-chip" *ngFor="let r of rules" [style.border-color]="r.color" [title]="r.rule[lang]">
+        <span class="kc-chip-card" [style.color]="r.color">{{ r.card }}</span>
+        <span class="kc-chip-emoji">{{ r.emoji }}</span>
+      </div>
+    </div>
+
+    <button class="btn-kc-start" (click)="startGame()">
+      {{ 'KINGS_CUP.START' | translate }}
+    </button>
+
+  </div>
+
+  <!-- PLAYING -->
+  <div *ngIf="currentPhase === 'playing'" class="kc-playing">
+
+    <div class="kc-progress">
+      {{ 'KINGS_CUP.PROGRESS' | translate }}: {{ usedCards.length }} / {{ TOTAL_CARDS }}
+      &nbsp;·&nbsp; {{ 'KINGS_CUP.REMAINING' | translate }}: {{ remainingCards }}
+    </div>
+
+    <div class="kc-card-area">
+      <div class="kc-card" [class.flipped]="flipped" (click)="!flipped && drawCard()">
+
+        <!-- FRONT -->
+        <div class="kc-card-front">
+          <span class="kc-front-crown">👑</span>
+          <span class="kc-front-tap">{{ 'KINGS_CUP.TAP' | translate }}</span>
+        </div>
+
+        <!-- BACK -->
+        <div class="kc-card-back"
+          *ngIf="currentRule"
+          [style.border-top]="'5px solid ' + currentRule.color"
+          [style.box-shadow]="'0 0 32px ' + currentRule.color + '55'">
+
+          <div class="kc-card-value" [style.color]="currentRule.color">
+            {{ currentRule.card }}
+          </div>
+          <div class="kc-card-emoji">{{ currentRule.emoji }}</div>
+          <div class="kc-card-name" [style.color]="currentRule.color">{{ currentRule.name[lang] }}</div>
+          <div class="kc-card-rule">{{ currentRule.rule[lang] }}</div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="kc-actions">
+      <button class="btn-kc-next" [disabled]="animating || !flipped" (click)="drawCard()">
+        {{ 'KINGS_CUP.NEXT' | translate }}
+      </button>
+      <button class="btn-kc-back" (click)="backToSetup()">
+        {{ 'KINGS_CUP.BACK' | translate }}
+      </button>
+    </div>
+
+  </div>
+</div>

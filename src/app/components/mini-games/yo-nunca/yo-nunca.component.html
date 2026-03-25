@@ -1,0 +1,113 @@
+<div class="yn-wrapper">
+
+  <!-- SETUP -->
+  <div *ngIf="currentPhase === 'setup'" class="yn-setup">
+
+    <div class="yn-title">
+      <span class="yn-icon-big">🍺</span>
+      <h2>{{ 'YO_NUNCA.TITLE' | translate }}</h2>
+      <p class="yn-subtitle">{{ 'YO_NUNCA.SUBTITLE' | translate }}</p>
+    </div>
+
+    <!-- Cómo se juega -->
+    <div class="yn-how-wrapper">
+      <button class="yn-how-btn" (click)="showInstructions = !showInstructions">
+        {{ showInstructions ? '▲' : '▼' }} {{ 'YO_NUNCA.HOW_TO_PLAY' | translate }}
+      </button>
+      <div class="yn-instructions" *ngIf="showInstructions">
+        <ol>
+          <li>{{ 'YO_NUNCA.HOW_1' | translate }}</li>
+          <li>{{ 'YO_NUNCA.HOW_2' | translate }}</li>
+          <li>{{ 'YO_NUNCA.HOW_3' | translate }}</li>
+          <li>{{ 'YO_NUNCA.HOW_4' | translate }}</li>
+          <li>{{ 'YO_NUNCA.HOW_5' | translate }}</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Nivel filter -->
+    <div class="yn-filter-group">
+      <p class="yn-filter-label">{{ 'YO_NUNCA.CHOOSE_LEVEL' | translate }}</p>
+      <div class="yn-chips">
+        <button class="yn-chip travieso"
+          [class.active]="selectedLevels.includes('travieso')"
+          (click)="toggleLevel('travieso')">
+          😏 {{ 'YO_NUNCA.TRAVIESO' | translate }}
+        </button>
+        <button class="yn-chip hot"
+          [class.active]="selectedLevels.includes('hot')"
+          (click)="toggleLevel('hot')">
+          🔥 {{ 'YO_NUNCA.HOT' | translate }}
+        </button>
+        <button class="yn-chip extremo"
+          [class.active]="selectedLevels.includes('extremo')"
+          (click)="toggleLevel('extremo')">
+          💀 {{ 'YO_NUNCA.EXTREMO' | translate }}
+        </button>
+      </div>
+    </div>
+
+    <p class="yn-count">{{ filteredCards.length }} {{ 'YO_NUNCA.CARDS_AVAILABLE' | translate }}</p>
+
+    <button class="btn-yn-start" (click)="startGame()"
+      [disabled]="selectedLevels.length === 0 || filteredCards.length === 0">
+      {{ 'YO_NUNCA.START' | translate }}
+    </button>
+
+  </div>
+
+  <!-- PLAYING -->
+  <div *ngIf="currentPhase === 'playing'" class="yn-playing">
+
+    <!-- Header: progress + drink counter -->
+    <div class="yn-header-row">
+      <span class="yn-prog">{{ cardsFlipped }} / {{ filteredCards.length }}</span>
+      <span class="yn-drinks-badge">🍺 {{ totalDrinks }}</span>
+    </div>
+
+    <div class="yn-card-area">
+      <div class="yn-card" [class.flipped]="flipped" (click)="!flipped && flipCard()">
+
+        <!-- FRONT -->
+        <div class="yn-card-front">
+          <span class="yn-front-icon">🍺</span>
+          <span class="yn-front-tap">{{ 'YO_NUNCA.TAP' | translate }}</span>
+        </div>
+
+        <!-- BACK -->
+        <div class="yn-card-back"
+          *ngIf="currentCard"
+          [style.border-top]="'5px solid ' + getLevelColor(currentCard.level)"
+          [style.box-shadow]="'0 0 32px ' + getLevelColor(currentCard.level) + '55'">
+
+          <div class="yn-level-badge" [style.background]="getLevelColor(currentCard.level)">
+            {{ currentCard.emoji }} {{ 'YO_NUNCA.' + currentCard.level.toUpperCase() | translate }}
+          </div>
+
+          <div class="yn-card-text">{{ currentCard.text[lang] }}</div>
+
+          <div class="yn-drink-row">
+            <span class="yn-drink-pill">
+              🍺 × {{ currentCard.drinkCount }}
+            </span>
+          </div>
+
+          <button class="btn-yn-drink" (click)="addDrinks(currentCard.drinkCount)">
+            🍺 {{ 'YO_NUNCA.ADD_DRINKS' | translate }}
+          </button>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="yn-actions">
+      <button class="btn-yn-next" [disabled]="animating || !flipped" (click)="nextCard()">
+        {{ 'YO_NUNCA.NEXT' | translate }}
+      </button>
+      <button class="btn-yn-back" (click)="backToSetup()">
+        {{ 'YO_NUNCA.BACK' | translate }}
+      </button>
+    </div>
+
+  </div>
+</div>

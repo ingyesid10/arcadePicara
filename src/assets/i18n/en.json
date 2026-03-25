@@ -23,6 +23,14 @@
   "TITLE": "🔥 News and Updates 🔥",
   "UPDATES": [
     {
+      "date": "April 2026",
+      "text": "🍺 New game *Never Have I Ever* — 34 adult confessions with a drink counter across 3 intensity levels (Naughty, Hot, Extreme) 😈"
+    },
+    {
+      "date": "April 2026",
+      "text": "👑 New game *King's Cup* — Digital Ring of Fire with 13 spicy rules for the boldest party 🔥"
+    },
+    {
       "date": "March 2026",
       "text": "🔥 New game *Confess It All* — sexual confessions, positions, places and body parts across 40 daring questions in 3 levels. 💦"
     },
@@ -80,7 +88,9 @@
         "FANTASY_CARDS": "Fantasy Cards 🎭",
         "WOULD_YOU_RATHER": "Would You Rather? 🆚",
         "HOT_CONFESSIONS": "Hot Confessions 🏆",
-        "CONFIESA_TODO": "Confess It All 🔥"
+        "CONFIESA_TODO": "Confess It All 🔥",
+        "KINGS_CUP": "King's Cup 👑",
+        "YO_NUNCA": "Never Have I Ever 🍺"
     },
     "EXTREME_MODE": "Extreme Mode",
     "ACTION": "Action",
@@ -521,5 +531,41 @@
         "HOW_3": "Tap the card and the active player answers with total honesty.",
         "HOW_4": "Confession: say if you've done it. Position/Place/Parts: the more detail the better.",
         "HOW_5": "Whoever refuses to confess, the group decides the penalty (drink, dare, etc.)."
+    },
+    "KINGS_CUP": {
+        "TITLE": "King's Cup",
+        "SUBTITLE": "Ring of Fire — 13 hot rules for your party 👑",
+        "HOW_TO_PLAY": "How to play?",
+        "HOW_1": "Place cups around the King's Cup in the center of the table.",
+        "HOW_2": "Each player takes turns tapping the screen to draw a card.",
+        "HOW_3": "Every card has a different rule — read it and follow it!",
+        "HOW_4": "The first 3 Kings pour drink into the center cup; the 4th must drink it all.",
+        "HOW_5": "\"Devil\" (6): the active player makes up a hot house rule that lasts the whole game.",
+        "START": "Let the party begin! 👑",
+        "TAP": "Tap to reveal the rule",
+        "NEXT": "Next card ➡️",
+        "BACK": "Back to setup",
+        "PROGRESS": "Cards played",
+        "REMAINING": "Remaining"
+    },
+    "YO_NUNCA": {
+        "TITLE": "Never Have I Ever",
+        "SUBTITLE": "With drink counter — 34 adult confessions in 3 levels 🍺",
+        "CHOOSE_LEVEL": "Choose intensity:",
+        "TRAVIESO": "Naughty",
+        "HOT": "Hot",
+        "EXTREMO": "Extreme",
+        "CARDS_AVAILABLE": "cards available",
+        "START": "Let the confessions begin! 🍺",
+        "TAP": "Tap to reveal",
+        "NEXT": "Next ➡️",
+        "BACK": "Change levels",
+        "ADD_DRINKS": "I drank 🍺",
+        "HOW_TO_PLAY": "How to play?",
+        "HOW_1": "Choose intensity: Naughty to ease in, Extreme for the most daring.",
+        "HOW_2": "Each player takes turns tapping the screen to reveal a card.",
+        "HOW_3": "Read the \"Never Have I Ever...\" statement. Everyone who HAS done it drinks.",
+        "HOW_4": "The number of sips on the card is the suggested amount to drink.",
+        "HOW_5": "Tap \"I drank 🍺\" to update the session drink counter."
     }
 }

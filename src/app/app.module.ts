@@ -24,6 +24,8 @@ import { FantasyCardsComponent } from './components/mini-games/fantasy-cards/fan
 import { WouldYouRatherComponent } from './components/mini-games/would-you-rather/would-you-rather.component';
 import { HotConfessionsComponent } from './components/mini-games/hot-confessions/hot-confessions.component';
 import { ConfiesaTodoComponent } from './components/mini-games/confiesa-todo/confiesa-todo.component';
+import { KingsCupComponent } from './components/mini-games/kings-cup/kings-cup.component';
+import { YoNuncaComponent } from './components/mini-games/yo-nunca/yo-nunca.component';
 
 //cookie
 import { CookieConsentComponent } from './components/cookie-consent/cookie-consent.component';
@@ -53,7 +55,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     FantasyCardsComponent,
     WouldYouRatherComponent,
     HotConfessionsComponent,
-    ConfiesaTodoComponent
+    ConfiesaTodoComponent,
+    KingsCupComponent,
+    YoNuncaComponent
   ],
   imports: [
     BrowserModule,
