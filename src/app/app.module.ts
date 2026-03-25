@@ -22,6 +22,7 @@ import { HigherLowerShotComponent } from './components/mini-games/higher-lower-s
 import { RouletteHotPartyComponent } from './components/mini-games/roulette-party/roulette-hot-party.component';
 import { FantasyCardsComponent } from './components/mini-games/fantasy-cards/fantasy-cards.component';
 import { WouldYouRatherComponent } from './components/mini-games/would-you-rather/would-you-rather.component';
+import { HotConfessionsComponent } from './components/mini-games/hot-confessions/hot-confessions.component';
 
 //cookie
 import { CookieConsentComponent } from './components/cookie-consent/cookie-consent.component';
@@ -49,7 +50,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     RouletteHotPartyComponent,
     DiceOralComponent,
     FantasyCardsComponent,
-    WouldYouRatherComponent
+    WouldYouRatherComponent,
+    HotConfessionsComponent
   ],
   imports: [
     BrowserModule,

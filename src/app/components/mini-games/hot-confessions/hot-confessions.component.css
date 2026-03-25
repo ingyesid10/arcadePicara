@@ -1,0 +1,165 @@
+:host { display: block; width: 100%; }
+
+.hc-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  min-height: 400px;
+  color: #fff;
+  font-family: inherit;
+}
+
+/* ── SETUP ─────────────────────────────── */
+.hc-setup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.hc-title { text-align: center; }
+.hc-icon-big { font-size: 3rem; }
+.hc-title h2 { font-size: 1.55rem; font-weight: 700; margin: 6px 0 4px; }
+.hc-subtitle  { font-size: 0.88rem; color: #ccc; margin: 0; }
+
+.hc-section-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #aaa;
+  align-self: flex-start;
+}
+
+.hc-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.hc-chip {
+  padding: 7px 16px;
+  border-radius: 40px;
+  border: 2px solid var(--chip-color, #fff);
+  background: transparent;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+  font-family: inherit;
+}
+.hc-chip.active {
+  background: var(--chip-color, #fff);
+  color: #111;
+}
+
+.hc-count { font-size: 0.82rem; color: #888; }
+
+.btn-hc-start {
+  width: 100%;
+  padding: 13px 0;
+  border-radius: 40px;
+  border: none;
+  background: linear-gradient(135deg, #ff6b35, #d62246);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  box-shadow: 0 4px 18px #d6224655;
+  transition: transform 0.15s, opacity 0.15s;
+}
+.btn-hc-start:hover { transform: scale(1.03); opacity: 0.9; }
+
+/* ── PLAYING ────────────────────────────── */
+.hc-playing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  width: 100%;
+}
+
+.hc-progress { font-size: 0.82rem; color: #aaa; letter-spacing: 1px; }
+
+/* CARD FLIP */
+.hc-card-area { perspective: 900px; width: 300px; height: 380px; }
+
+.hc-card {
+  width: 100%; height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s cubic-bezier(.4,2,.6,1);
+  cursor: pointer;
+}
+.hc-card.flipped { transform: rotateY(180deg); cursor: default; }
+
+.hc-card-front, .hc-card-back {
+  position: absolute; inset: 0;
+  border-radius: 18px;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+
+.hc-card-front {
+  background: linear-gradient(145deg, #2a2a3a, #1a1a2e);
+  border: 2px solid #444;
+  gap: 14px;
+}
+
+.hc-front-icon { font-size: 3.2rem; }
+.hc-front-tap  { font-size: 0.82rem; color: #777; text-transform: uppercase; letter-spacing: 1px; }
+
+.hc-card-back {
+  background: linear-gradient(145deg, #1e1e2e, #12121e);
+  border: 2px solid #333;
+  border-radius: 18px;
+  transform: rotateY(180deg);
+  gap: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hc-back-header { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+
+.hc-type-badge, .hc-level-badge {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 20px;
+  font-size: 0.73rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.hc-card-emoji { font-size: 2.4rem; line-height: 1; }
+.hc-card-text  { font-size: 1rem; line-height: 1.45; color: #f0f0f0; font-weight: 500; }
+
+/* ── ACTIONS ────────────────────────────── */
+.hc-actions {
+  display: flex; flex-direction: column;
+  gap: 10px; align-items: center;
+  width: 100%; max-width: 300px;
+}
+
+.btn-hc-next {
+  width: 100%; padding: 12px 0;
+  border-radius: 40px; border: none;
+  background: linear-gradient(135deg, #ff6b35, #d62246);
+  color: #fff; font-size: 1rem; font-weight: 700;
+  cursor: pointer; font-family: inherit;
+  box-shadow: 0 4px 16px #d6224640;
+  transition: transform 0.15s, opacity 0.2s;
+}
+.btn-hc-next:hover:not(:disabled) { transform: scale(1.03); }
+.btn-hc-next:disabled { opacity: 0.38; cursor: not-allowed; }
+
+.btn-hc-back {
+  background: transparent; border: 1px solid #555; color: #aaa;
+  padding: 8px 26px; border-radius: 30px; font-size: 0.88rem;
+  cursor: pointer; font-family: inherit;
+  transition: border-color 0.18s, color 0.18s;
+}
+.btn-hc-back:hover { border-color: #fff; color: #fff; }

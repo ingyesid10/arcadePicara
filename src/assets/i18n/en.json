@@ -70,7 +70,8 @@
         "HIGHER_LOWER_SHOT": "Drinks and cards ",
         "ROULETTE_HOT_PARTY": "Hot Party Roulette",
         "FANTASY_CARDS": "Fantasy Cards 🎭",
-        "WOULD_YOU_RATHER": "Would You Rather? 🆚"
+        "WOULD_YOU_RATHER": "Would You Rather? 🆚",
+        "HOT_CONFESSIONS": "Hot Confessions 🏆"
     },
     "EXTREME_MODE": "Extreme Mode",
     "ACTION": "Action",
@@ -465,5 +466,16 @@
         "WOULD_LABEL": "Would you rather...",
         "NEXT": "Next ➡️",
         "BACK": "Change levels"
+    },
+    "HOT_CONFESSIONS": {
+        "TITLE": "Hot Confessions",
+        "SUBTITLE": "Never Have I Ever, dares and truths for your hot party 🏆",
+        "CHOOSE_TYPE": "Choose card types:",
+        "CHOOSE_LEVEL": "Choose intensity:",
+        "CARDS_AVAILABLE": "cards available",
+        "START": "Start the party 🔥",
+        "TAP": "Tap to reveal",
+        "NEXT": "Next card ➡️",
+        "BACK": "Change filters"
     }
 }

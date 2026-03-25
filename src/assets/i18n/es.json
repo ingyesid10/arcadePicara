@@ -69,7 +69,8 @@
     "HIGHER_LOWER_SHOT": "Tragos y cartas",
     "ROULETTE_HOT_PARTY": "Ruleta de fiesta",
     "FANTASY_CARDS": "Cartas de Fantasías 🎭",
-    "WOULD_YOU_RATHER": "¿Qué Prefieres? 🆚"
+    "WOULD_YOU_RATHER": "¿Qué Prefieres? 🆚",
+    "HOT_CONFESSIONS": "Confesiones Calientes 🏆"
   },
   "EXTREME_MODE": "Modo Extremo",
   "ACTION": "Acción",
@@ -464,5 +465,16 @@
     "WOULD_LABEL": "¿Qué prefieres?",
     "NEXT": "Siguiente ➡️",
     "BACK": "Cambiar niveles"
+  },
+  "HOT_CONFESSIONS": {
+    "TITLE": "Confesiones Calientes",
+    "SUBTITLE": "Nunca Nunca, retos y verdades para fiesta hot 🏆",
+    "CHOOSE_TYPE": "Elige los tipos de carta:",
+    "CHOOSE_LEVEL": "Elige la intensidad:",
+    "CARDS_AVAILABLE": "cartas disponibles",
+    "START": "Empezar la fiesta 🔥",
+    "TAP": "Toca para revelar",
+    "NEXT": "Siguiente carta ➡️",
+    "BACK": "Cambiar filtros"
   }
 }

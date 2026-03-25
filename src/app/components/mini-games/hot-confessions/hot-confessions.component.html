@@ -1,0 +1,95 @@
+<div class="hc-wrapper">
+
+  <!-- SETUP -->
+  <div *ngIf="currentPhase === 'setup'" class="hc-setup">
+
+    <div class="hc-title">
+      <span class="hc-icon-big">🏆</span>
+      <h2>{{ 'HOT_CONFESSIONS.TITLE' | translate }}</h2>
+      <p class="hc-subtitle">{{ 'HOT_CONFESSIONS.SUBTITLE' | translate }}</p>
+    </div>
+
+    <!-- Tipos -->
+    <div class="hc-section-label">{{ 'HOT_CONFESSIONS.CHOOSE_TYPE' | translate }}</div>
+    <div class="hc-chips">
+      <button
+        *ngFor="let t of typeList"
+        class="hc-chip"
+        [class.active]="selectedTypes.has(t)"
+        [style.--chip-color]="typeColor(t)"
+        (click)="toggleType(t)">
+        {{ typeLabel(t) }}
+      </button>
+    </div>
+
+    <!-- Intensidad -->
+    <div class="hc-section-label">{{ 'HOT_CONFESSIONS.CHOOSE_LEVEL' | translate }}</div>
+    <div class="hc-chips">
+      <button
+        *ngFor="let l of levelList"
+        class="hc-chip"
+        [class.active]="selectedLevels.has(l)"
+        [style.--chip-color]="levelColor(l)"
+        (click)="toggleLevel(l)">
+        {{ levelLabel(l) }}
+      </button>
+    </div>
+
+    <div class="hc-count">
+      {{ filteredCards.length }} {{ 'HOT_CONFESSIONS.CARDS_AVAILABLE' | translate }}
+    </div>
+
+    <button class="btn-hc-start" (click)="startGame()">
+      {{ 'HOT_CONFESSIONS.START' | translate }}
+    </button>
+  </div>
+
+  <!-- PLAYING -->
+  <div *ngIf="currentPhase === 'playing'" class="hc-playing">
+
+    <div class="hc-progress">
+      {{ cardsFlipped }} / {{ filteredCards.length }}
+    </div>
+
+    <div class="hc-card-area">
+      <div class="hc-card" [class.flipped]="flipped" (click)="!flipped && drawCard()">
+
+        <!-- FRONT -->
+        <div class="hc-card-front">
+          <span class="hc-front-icon">🏆</span>
+          <span class="hc-front-tap">{{ 'HOT_CONFESSIONS.TAP' | translate }}</span>
+        </div>
+
+        <!-- BACK -->
+        <div class="hc-card-back"
+          *ngIf="currentCard"
+          [style.border-top]="'4px solid ' + typeColor(currentCard.type)"
+          [style.box-shadow]="'0 0 28px ' + typeColor(currentCard.type) + '44'">
+
+          <div class="hc-back-header">
+            <span class="hc-type-badge" [style.background]="typeColor(currentCard.type)">
+              {{ typeLabel(currentCard.type) }}
+            </span>
+            <span class="hc-level-badge" [style.background]="levelColor(currentCard.level)">
+              {{ levelLabel(currentCard.level) }}
+            </span>
+          </div>
+
+          <div class="hc-card-emoji">{{ currentCard.emoji }}</div>
+          <div class="hc-card-text">{{ currentCard.text[lang] }}</div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="hc-actions">
+      <button class="btn-hc-next" [disabled]="animating || !flipped" (click)="drawCard()">
+        {{ 'HOT_CONFESSIONS.NEXT' | translate }}
+      </button>
+      <button class="btn-hc-back" (click)="backToSetup()">
+        {{ 'HOT_CONFESSIONS.BACK' | translate }}
+      </button>
+    </div>
+
+  </div>
+</div>
