@@ -74,13 +74,13 @@ export class AppComponent implements OnInit, OnDestroy {
   openGame(gameId: string) {
     this.selectedGame = gameId;
     this.modalOpen = true;
-    history.pushState({}, '', '/' + gameId);
+    history.pushState({}, '', '#' + gameId);
   }
 
   closeModal() {
     this.modalOpen = false;
     this.selectedGame = null;
-    history.pushState({}, '', '/');
+    history.pushState({}, '', '#/');
     this.resetTitle();
   }
 

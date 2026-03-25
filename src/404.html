@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Reto Hot 🔥</title>
+  <!-- 🔄 GITHUB PAGES SPA REDIRECT -->
+  <script>
+    (function() {
+      var l = window.location;
+      var pathParts = l.pathname.split('/');
+      // Primer segmento del path es el nombre del repo, ej: /arcadePicara/
+      var repoBase = '/' + pathParts[1] + '/';
+      var remainingPath = pathParts.slice(2).join('/');
+      var redirectUrl = l.protocol + '//' + l.hostname +
+        (l.port ? ':' + l.port : '') +
+        repoBase +
+        (remainingPath ? '#/' + remainingPath : '') +
+        (l.search || '') +
+        (l.hash && l.hash !== '#' ? l.hash : '');
+      l.replace(redirectUrl);
+    })();
+  </script>
+</head>
+<body></body>
+</html>

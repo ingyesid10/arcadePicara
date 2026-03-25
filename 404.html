@@ -38,18 +38,26 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 
-  <!-- 📊 GOOGLE ANALYTICS -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G6V735RGM2"></script>
+  <!-- � GITHUB PAGES SPA REDIRECT -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-G6V735RGM2');
+    (function() {
+      var l = window.location;
+      var pathParts = l.pathname.split('/');
+      // repoBase = '/arcadePicara/' (primer segmento del path)
+      var repoBase = '/' + pathParts[1] + '/';
+      var remainingPath = pathParts.slice(2).join('/');
+      var redirectUrl = l.protocol + '//' + l.hostname +
+        (l.port ? ':' + l.port : '') +
+        repoBase +
+        (remainingPath ? '#/' + remainingPath : '') +
+        (l.search || '') +
+        (l.hash && l.hash !== '#' ? l.hash : '');
+      l.replace(redirectUrl);
+    })();
   </script>
 </head>
 
 <body>
-  <app-root></app-root>
 </body>
 
 </html>
