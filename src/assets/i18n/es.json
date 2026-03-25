@@ -1,0 +1,437 @@
+{
+  "META": {
+    "TITLE": "Reto Hot 🔥 | Juegos atrevidos y divertidos para adultos",
+    "DESCRIPTION": "Descubre minijuegos para adultos, retos atrevidos y juegos de pareja o fiesta. Ríe, juega y enciende la noche con Reto Hot 🔥."
+  },
+  "HOME": {
+    "TITLE": "🔥 Reto Hot: juegos picantes y retos para parejas 🔥",
+    "TITLE_TEXT": "Bienvenido, elige una categoría:",
+    "COUPLE_MODE": "Modo Pareja",
+    "PARTY_MODE": "Modo Fiesta",
+    "INTRO": "🔥 <strong>¡Bienvenidos a Hot Arcade Games!</strong> El portal de <em>minijuegos para adultos</em> donde la diversión y el deseo se mezclan al estilo retro arcade.<br><br><strong>💞 Modo Pareja:</strong> Diseñado para <em>juegos para parejas</em> que buscan salir de la rutina. Con <em>retos sensuales, juegos calientes y dinámicas románticas</em>, cada partida despierta la pasión y la conexión.<br><br><strong>🎉 Modo Fiesta:</strong> Perfecto para <em>grupos de amigos</em> con ganas de reír y atreverse. Descubre <em>juegos de beber, retos atrevidos</em> y desafíos que suben la temperatura.<br><br>💫 ¡Juega, ríe y deja que la noche comience con Hot Arcade Games!",
+    "RANDOM_MESSAGES": [
+      "🎮 ¡Esto apenas comienza! Nuevos juegos y retos llegan cada día.",
+      "🔥 ¡La diversión no se detiene! Nuevos juegos y experiencias están por llegar.",
+      "💫 ¡Cada día hay algo nuevo! Más juegos, más retos y experiencias más picantes.",
+      "😏 ¿Te divertiste? Esto solo fue el comienzo.",
+      "🎲 ¡Nuevas aventuras cada día! Mantente atento y no dejes pasar la próxima ronda.",
+      "💥 ¡No te vayas muy lejos! Estamos preparando más juegos y experiencias irresistibles.",
+      "🔥 ¡Cada día más diversión, más locura y más pasión!"
+    ]
+  },
+"NEWS": {
+  "TITLE": "🔥 Novedades y actualizaciones 🔥",
+  "UPDATES": [
+    {
+      "date": "Noviembre 2025",
+      "text": "🎲 Nuevas poses para dados kamsutra 😏"
+    },
+    {
+      "date": "Octubre 2025",
+      "text": "💋 Se agregó el modo extremo en *Ruleta de Besos* y nuevas imágenes para el *Kamasutra Oral* 😏"
+    },
+    {
+      "date": "Septiembre 2025",
+      "text": "🎲 Nuevos retos y minijuegos para el *Modo Pareja* y el *Modo Fiesta* 🔥"
+    },
+    {
+      "date": "Agosto 2025",
+      "text": "🚀 Lanzamiento oficial de *Hot Arcade Games* 💞"
+    }
+  ],
+  "RANDOM_MESSAGES": [
+    "🔥 Las cosas se ponen más calientes...",
+    "💞 Nuevos juegos y contenido cada semana!",
+    "🚀 Apenas comenzamos... y ya está al rojo vivo!"
+  ]
+},
+  "CATEGORIES": {
+    "COUPLE": "Pareja",
+    "PARTY": "Modo Fiesta"
+  },
+  "GAMES": {
+    "DICE_KAMASUTRA": "Dados Kamasutra",
+    "CHALLENGE_ROULETTE": "Retos, baile, preguntas...",
+    "TRUTH_OR_DARE_PENALTY": "Verdad/Reto o Prenda...",
+    "TRUTH_OR_DARE_SIMPLE": "Verdad/Reto simple",
+    "DICE_ORAL": "Dados Kamasutra solo oral",
+    "SPIN_BEER": "Tragos rapidos",
+    "COUPLES_CHALLENGE": "Desafío de Parejas",
+    "KISS_ROULETTE": "Ruleta de Besos",
+    "HIGHER_LOWER_SHOT": "Tragos y cartas",
+    "ROULETTE_HOT_PARTY": "Ruleta de fiesta"
+  },
+  "EXTREME_MODE": "Modo Extremo",
+  "ACTION": "Acción",
+  "ACTION_LABEL": "¿Qué hacer?",
+  "WHERE_KISS_EXTREME_WAIT": "¿Dónde (acción)?",
+  "WHO_KISS_EXTREME_WAIT": "¿A quién (acción)?",
+  "START_KISS_EXTREME_WAIT": "Iniciar acción",
+  "ACTIONS": {
+    "besar": "besar",
+    "morder": "morder",
+    "acariciar": "acariciar",
+    "lamer": "lamer",
+    "chupar": "chupar",
+    "masajear": "masajear",
+    "oler": "oler",
+    "rozar": "rozar",
+    "soplar": "soplar",
+    "susurrar en": "susurrar en",
+    "introducir suavemente en": "introducir suavemente en"
+  },
+  "RANDOM_MESSAGES": [
+    "💋 ¡Veamos a quién le toca besar esta vez!",
+    "🔥 ¿Listos para otro beso atrevido?",
+    "😏 Las cosas se están poniendo interesantes...",
+    "💞 ¡Hay química en el aire!",
+    "😘 ¿Quién será el afortunado esta vez?",
+    "🎲 ¡La ruleta decide tu destino!",
+    "💫 Acérquense... esto se pondrá caliente 😈"
+  ],
+  "TRUTH_OR_DARE": {
+    "TITLE": "🎯 Verdad o Reto",
+    "DESCRIPTION": "Gira la ruleta y deja que el destino juegue contigo... 😜",
+    "SPIN": "Girar",
+    "RETRY": "Volver a girar",
+    "RESET": "Reiniciar",
+    "TRUTH_LABEL_SHORT": "VERDAD",
+    "DARE_LABEL_SHORT": "RETO",
+    "TRUTH_LABEL": "💫 ¡VERDAD! 💫",
+    "DARE_LABEL": "💫 ¡RETO! 💫",
+    "TRUTH_DESCRIPTION": "😏 Te tocó <strong>VERDAD</strong>...<br>El grupo o tu pareja puede preguntarte <em>lo que quieran</em>.<br>Sin filtros, sin excusas... ¡responde con sinceridad o se viene un castigo! 🔥",
+    "DARE_DESCRIPTION": "🔥 Ahora el grupo o tu pareja tiene el poder...<br>Ellos decidirán tu reto, y tú tendrás que hacerlo, sin peros 😈.<br>¡Que sea algo atrevido, divertido o un poco travieso! 💋"
+  },
+  "SPIN_BEER": {
+    "VIEW_RULES": "Ver Reglas del Juego",
+    "ROLL": "Lanzar",
+    "ROLL_AGAIN": "Lanzar de nuevo",
+    "ROLLING": "Lanzando...",
+    "RULES_TITLE": "Reglas del Juego",
+    "UNDERSTOOD": "Entendido",
+    "RULES": {
+      "7": {
+        "name": "Toma izquierda",
+        "desc": "La persona a tu izquierda debe tomar"
+      },
+      "8": {
+        "name": "Toma derecha",
+        "desc": "La persona a tu derecha debe tomar"
+      },
+      "9": {
+        "name": "Toma centro",
+        "desc": "Tú y las personas a tu izquierda y derecha deben tomar"
+      },
+      "DOUBLE1": {
+        "name": "Toman todos",
+        "desc": "Todos toman y tú vuelves a lanzar"
+      },
+      "DOUBLE6": {
+        "name": "Toman todos",
+        "desc": "Todos toman y tú vuelves a lanzar"
+      },
+      "PAIR": {
+        "name": "Toma lanzador",
+        "desc": "Tú tomas y vuelves a lanzar"
+      },
+      "DEFAULT": {
+        "name": "Sin acción",
+        "desc": "Continúa el siguiente jugador"
+      }
+    },
+    "RULES_LIST": [
+      {
+        "value": "7",
+        "description": "Toma la persona de la izquierda"
+      },
+      {
+        "value": "8",
+        "description": "Toma la persona de la derecha"
+      },
+      {
+        "value": "9",
+        "description": "Toman izquierda, derecha y el que lanzó"
+      },
+      {
+        "value": "Doble 1 o Doble 6",
+        "description": "Toman todos y el que lanzó vuelve a lanzar"
+      },
+      {
+        "value": "Par (otros números)",
+        "description": "Toma el que lanzó y vuelve a lanzar"
+      }
+    ]
+  },
+  "ROULETTE": {
+    "TITLE": "🎰 Ruleta Picante",
+    "DESCRIPTION": "Gira la ruleta y espera el resultado. Luego presiona “Iniciar” para comenzar el tiempo.",
+    "TIME": "Tiempo (seg):",
+    "SPIN": "Girar",
+    "RETRY": "Volver a girar",
+    "START": "Iniciar",
+    "RESET": "Reiniciar",
+    "RESULT_LABEL": "Resultado: {{segment}}",
+    "NO_OPTIONS": "Sin opciones disponibles.",
+    "TIME_UP": "⏰ ¡Tiempo finalizado!"
+  },
+  "dice": {
+    "roll": "🎲 Lanzar",
+    "advantages": "Ventajas",
+    "disadvantages": "Desventajas",
+    "curiousFact": "Dato curioso",
+    "start": "Empezar",
+    "rollAgain": "Lanzar de nuevo",
+    "remainingTime": "Tiempo restante",
+    "timeUp": "⏰ ¡Tiempo finalizado!"
+  },
+  "desprendete": {
+    "title": "Despréndete",
+    "description": "Gira la ruleta y completa los retos o responde las verdades",
+    "viewRules": "Ver Reglas del Juego",
+    "addPlayer": "+ Agregar Jugador",
+    "time": "Tiempo (segundos)",
+    "spinAgain": "Volver a girar",
+    "spin": "Girar",
+    "start": "Iniciar",
+    "reset": "Reiniciar",
+    "answerTruth": "Conteste con la verdad",
+    "pass": "Pasar",
+    "truth": "VERDAD",
+    "challenge": "RETO",
+    "needTwoPlayers": "Necesitas al menos 2 jugadores para comenzar",
+    "noClothes": "{{name}} se ha quedado sin prendas 😅",
+    "noWinner": "No hay ganador",
+    "rules": "Reglas del Juego",
+    "rulesContent": "Cada jugador gira la ruleta. Si sale VERDAD, debe responder la pregunta; si sale RETO, debe cumplir el desafío. ¡El objetivo es divertirse y atreverse!",
+    "understood": "Entendido",
+    "smallRouletteTitle": "Mini Ruleta Final",
+    "spinning": "Girando...",
+    "spinSmall": "Girar mini ruleta",
+    "running": "En curso...",
+    "completeChallenge": "Reto completado",
+    "players": "Jugadores"
+  },
+  "KISS_ROULETTE": {
+    "INSTRUCTIONS": {
+      "SHOW": "Instrucciones",
+      "TITLE": "Cómo Jugar - Ruleta de Besos",
+      "STEP1_TITLE": "Agrega Jugadores",
+      "STEP1_DESC": "Agrega al menos 2 jugadores con sus nombres y géneros",
+      "STEP2_TITLE": "Configura el Juego",
+      "STEP2_DESC": "Selecciona la duración del beso y si quieres incluir partes íntimas",
+      "STEP3_TITLE": "Gira las Ruletas",
+      "STEP3_DESC": "Cada jugador gira para descubrir qué parte del cuerpo besar y a quién",
+      "STEP4_TITLE": "Ejecuta el Beso",
+      "STEP4_DESC": "Presiona 'Iniciar Beso' y cumple la acción durante el tiempo seleccionado",
+      "STEP5_TITLE": "Siguiente Turno",
+      "STEP5_DESC": "Continúa con el siguiente jugador y repite la diversión",
+      "TIPS_TITLE": "Consejos Importantes",
+      "STEP6_TITLE": "Incluir partes íntimas",
+      "STEP6_DESC": "Las partes íntimas se incluyen en los resultados.",
+      "STEP7_TITLE": "Modo extremo",
+      "STEP7_DESC": "Acciones como lamer, morder, chupar se incluyen en los resultados",
+      "TIP1": "Todos los participantes deben estar de acuerdo con las reglas",
+      "TIP2": "Puedes omitir partes íntimas si prefieres un juego más suave",
+      "TIP3": "El respeto y consentimiento son fundamentales",
+      "TIP4": "¡Diviértete y crea momentos memorables!",
+      "UNDERSTAND": "¡Entendido! Comenzar"
+    },
+    "SETUP": {
+      "TITLE": "Configuración del Juego de Besos",
+      "ADD_PLAYERS": "Agregar Jugadores",
+      "PLAYER_NAME": "Nombre del jugador",
+      "MALE": "Hombre",
+      "FEMALE": "Mujer",
+      "ADD": "Agregar",
+      "PLAYERS_LIST": "Jugadores",
+      "KISS_DURATION": "Duración del Beso",
+      "DURATION_SELECTED": "Duración seleccionada",
+      "INCLUDE_INTIMATE": "Incluir partes íntimas (modo atrevido)",
+      "START_GAME": "Iniciar Juego",
+      "NEED_PLAYERS": "Agrega al menos 2 jugadores"
+    },
+    "SPINNING": {
+      "YOUR_TURN": "¡Le toca girar a",
+      "BODY_PART": "Parte del Cuerpo",
+      "WHERE_KISS": "¿Dónde besar?",
+      "PLAYER": "Jugador",
+      "WHO_KISS": "¿A quién besar?",
+      "SPIN_ROULETTES": "Girar Ruletas",
+      "RESPIN": "Volver a Girar",
+      "VIEW_RESULT": "Ver Resultado",
+      "BACK_HOME": "Volver al Inicio"
+    },
+    "RESULT": {
+      "TURN_OF": "Turno de",
+      "BODY_PART": "Parte del Cuerpo",
+      "WHERE_KISS": "¿Dónde besar?",
+      "PLAYER": "Jugador",
+      "WHO_KISS": "¿A quién besar?",
+      "START_KISS": "Iniciar Beso",
+      "NEXT_TURN": "Siguiente Turno",
+      "BACK_HOME": "Volver al Inicio"
+    },
+    "COUNTDOWN": {
+      "KISS_INSTRUCTION": "debe besar a",
+      "BODY_PART_INSTRUCTION": "en",
+      "COUNTDOWN_LABEL": "¡El beso termina cuando llegue a cero!",
+      "STOP_KISS": "Terminar Beso"
+    },
+    "TIME_OPTIONS": {
+      "10_SEC": "10 seg",
+      "30_SEC": "30 seg",
+      "1_MIN": "1 min",
+      "1_5_MIN": "1.5 min",
+      "2_MIN": "2 min"
+    },
+    "BODY_PARTS": {
+      "HAND": "MANO",
+      "CHEEK": "MEJILLA",
+      "FOREHEAD": "FRENTE",
+      "SHOULDER": "HOMBRO",
+      "BACK": "ESPALDA",
+      "NECK": "CUELLO",
+      "FOOT": "PIE",
+      "NAVEL": "OMBLIGO",
+      "THIGH": "MUSLO",
+      "CHEST": "PECHO",
+      "BUTTOCKS": "GLÚTEOS",
+      "INTIMATE_PART": "PARTE ÍNTIMA"
+    }
+  },
+  "HIGHER_LOWER_SHOT": {
+    "INSTRUCTIONS": {
+      "SHOW": "Instrucciones",
+      "TITLE": "Mayor o Menor Shot",
+      "SIMPLE_MODE": "Modo Simple",
+      "ROULETTE_MODE": "Modo Ruleta",
+      "MIN_PLAYERS_SIMPLE": "Mínimo 2 jugadores",
+      "MIN_PLAYERS_ROULETTE": "Mínimo 3 jugadores",
+      "STEP1_SIMPLE": "Jugador A destapa la primera carta",
+      "STEP2_SIMPLE": "Jugador B dice 'Mayor' o 'Menor'",
+      "STEP3_SIMPLE": "Se destapa la segunda carta y se verifica",
+      "STEP1_ROULETTE": "La ruleta elige al Jugador A y Jugador B",
+      "STEP2_ROULETTE": "Jugador A destapa, Jugador B adivina",
+      "STEP3_ROULETTE": "Se revela la segunda carta",
+      "RULES_TITLE": "Reglas",
+      "RULE1": "Valor cartas: A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K",
+      "RULE2": "Si acierta: Bebe el Jugador A",
+      "RULE3": "Si falla: Bebe el Jugador B",
+      "RULE4": "Si sale misma carta: ¡Ambos beben!",
+      "UNDERSTAND": "¡Entendido! Comenzar",
+      "STEP1_TITLE": "Selecciona el Modo",
+      "STEP1_DESC": "Elige entre Modo Simple o Modo Ruleta según el número de jugadores",
+      "STEP2_TITLE": "Jugador A Destapa",
+      "STEP2_DESC": "El primer jugador destapa una carta del mazo",
+      "STEP3_TITLE": "Jugador B Adivina",
+      "STEP3_DESC": "El segundo jugador dice 'Mayor' o 'Menor' antes de destapar la siguiente carta",
+      "STEP4_TITLE": "Verifica y Bebe",
+      "STEP4_DESC": "Se compara el valor de ambas cartas y quien pierde bebe",
+      "MODE_SIMPLE": "Modo Simple",
+      "MODE_ROULETTE": "Modo Ruleta",
+      "RULE_SIMPLE": "2+ jugadores, turnos fijos",
+      "RULE_ROULETTE": "3+ jugadores, selección aleatoria",
+      "CARD_VALUES": "Valor cartas",
+      "CARD_ORDER": "A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K",
+      "WIN_CONDITION": "Si acierta",
+      "LOSE_CONDITION": "Si falla",
+      "TIE_CONDITION": "Si empata",
+      "DRINK_A": "Bebe el Jugador A",
+      "DRINK_B": "Bebe el Jugador B",
+      "DRINK_BOTH": "¡Ambos beben!"
+    },
+    "SETUP": {
+      "TITLE": "Mayor o Menor Shot",
+      "SELECT_MODE": "Selecciona el modo de juego",
+      "SIMPLE_MODE": "Modo Simple",
+      "SIMPLE_DESC": "2+ jugadores, turnos fijos",
+      "ROULETTE_MODE": "Modo Ruleta",
+      "ROULETTE_DESC": "3+ jugadores, selección aleatoria",
+      "ADD_PLAYERS": "Agregar Jugadores",
+      "PLAYER_NAME": "Nombre del jugador",
+      "MALE": "Hombre",
+      "FEMALE": "Mujer",
+      "ADD": "Agregar",
+      "PLAYERS_LIST": "Jugadores",
+      "ACE_HIGH": "As como carta alta (valor 14)",
+      "START_GAME": "Iniciar Juego",
+      "NEED_PLAYERS_SIMPLE": "Agrega al menos 2 jugadores",
+      "NEED_PLAYERS_ROULETTE": "Agrega al menos 3 jugadores",
+      "NO_PLAYERS": "No hay jugadores agregados",
+      "READY_SIMPLE": "Listo para Jugar",
+      "START_SIMPLE": "Comenzar ahora",
+      "START_ROULETTE": "Agregar jugadores",
+      "ROULETTE_SETUP": "Configuración - Modo Ruleta",
+      "BACK_TO_MODES": "Volver a Modos"
+    },
+    "SPINNING": {
+      "PLAYER_A": "Jugador A",
+      "PLAYER_B": "Jugador B",
+      "DRAWS_CARD": "Destapa carta",
+      "GUESSES": "Adivina",
+      "SPIN_ROULETTES": "Girar Ruletas",
+      "BACK_HOME": "Volver al Inicio"
+    },
+    "CARD_REVEAL": {
+      "PLAYER_A": "Jugador A",
+      "PLAYER_B": "Jugador B",
+      "DRAWS": "Destapa carta",
+      "GUESSES": "Adivina",
+      "FIRST_CARD": "Primera Carta",
+      "SECOND_CARD": "Segunda Carta",
+      "REVEAL": "Destapar",
+      "GUESS_QUESTION": "¿Mayor o Menor?",
+      "LOWER": "Menor",
+      "HIGHER": "Mayor",
+      "BACK_HOME": "Volver al Inicio",
+      "PLAYER_1": "Jugador 1",
+      "PLAYER_2": "Jugador 2"
+    },
+    "RESULT": {
+      "WIN": "¡Ganaste!",
+      "LOSE": "¡Perdiste!",
+      "TIE": "¡Empate!",
+      "DRINK_A": "{{player}} bebe",
+      "DRINK_B": "{{player}} bebe",
+      "DRINK_BOTH": "¡Ambos beben!",
+      "FIRST_CARD": "Primera Carta",
+      "SECOND_CARD": "Segunda Carta",
+      "HIGHER": "MAYOR",
+      "LOWER": "MENOR",
+      "NEXT_ROUND": "Siguiente Ronda",
+      "BACK_HOME": "Volver al Inicio",
+      "DRINK_A_SIMPLE": "Jugador 1 bebe",
+      "DRINK_B_SIMPLE": "Jugador 2 bebe"
+    }
+  },
+  "ROULETTE_HOT_PARTY": {
+    "TITLE": "Ruleta Picante 🎯",
+    "DESCRIPTION": "Gira la ruleta y descubre quién toma, quién se quita una prenda o quién enfrenta una verdad atrevida. ¡La fiesta comienza!",
+    "CUSTOMIZE": "Personaliza tu ruleta:",
+    "BUTTONS": {
+      "SPIN": "Girar",
+      "RESET": "Reiniciar",
+      "START": "Comenzar",
+      "RETRY": "Volver a girar"
+    },
+    "OPTIONS": {
+      "CLOTH": "Prenda",
+      "SHOT": "Shot",
+      "SKIP": "Pasa Turno",
+      "TRUTH": "Verdad",
+      "ALL_DRINK": "Todos Toman",
+      "ALL_CLOTH": "Todos Pierden Prenda"
+    },
+    "RESULTS": {
+      "CLOTH": "Quítate una prenda 😏",
+      "SHOT": "Toma un shot 🔥",
+      "SKIP": "Salvaste... ¡Pasa el turno! 😉",
+      "TRUTH": "Elige una pregunta atrevida del grupo 💋",
+      "ALL_DRINK": "¡Todos toman! 🍻",
+      "ALL_CLOTH": "¡Todos pierden una prenda! 😈"
+    }
+  },
+  "BUTTONS": {
+    "BACK": "⬅ Volver al inicio"
+  }
+}

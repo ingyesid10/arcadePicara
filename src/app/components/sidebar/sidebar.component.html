@@ -1,0 +1,27 @@
+<aside class="sidebar" [class.collapsed]="isCollapsed">
+  <div class="collapse-toggle" (click)="toggleCollapse()">
+    <span [class.rotated]="isCollapsed"><img src="assets/img/icon/arrow.svg" alt=""></span>
+  </div>
+
+  <div class="menu-button" (click)="goHome()">
+    <img src="assets/img/icon/home.svg" alt="Inicio" />
+    <span>Inicio</span>
+  </div>
+
+  <div class="menu-button" (click)="goNews()">
+    <img src="assets/img/icon/news.svg" alt="Explorar" />
+    <span>Noticias</span>
+  </div>
+
+  <!-- 
+
+  <div class="menu-button" (click)="nav('favoritos')">
+    <img src="assets/img/icon/favoritos.png" alt="Favoritos" />
+    <span>Favoritos</span>
+  </div>
+
+  <div class="menu-button" (click)="nav('config')">
+    <img src="assets/img/icon/home.png" alt="Configuración" />
+    <span>Config</span>
+  </div> -->
+</aside>

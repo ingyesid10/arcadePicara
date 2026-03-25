@@ -1,0 +1,32 @@
+<div id="modalBackdrop" class="modal-backdrop show" (click)="backdropClick($event)" aria-hidden="false">
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <ng-container [ngSwitch]="game">
+      <app-dice *ngSwitchCase="'juego-de-dados'"></app-dice>
+      <app-roulette *ngSwitchCase="'ruleta-de-retos'"></app-roulette>
+      <app-desprendete *ngSwitchCase="'juego-de-retos'"></app-desprendete>
+      <app-spin-beer *ngSwitchCase="'ruleta-de-tragos'"></app-spin-beer>
+      <app-truth-or-dare *ngSwitchCase="'juego-de-verdad'"></app-truth-or-dare>
+      <app-kiss-roulette *ngSwitchCase="'juego-de-besos'"></app-kiss-roulette>
+      <app-higher-lower-shot *ngSwitchCase="'juego-de-tragos'"></app-higher-lower-shot>
+      <app-roulette-hot-party *ngSwitchCase="'ruleta-hot-party'"></app-roulette-hot-party>
+      <app-dice-oral *ngSwitchCase="'juego-dados-placer-oral'"></app-dice-oral>
+      <div *ngSwitchDefault style="padding:20px;color:#fff">Juego: {{game}}</div>
+    </ng-container>
+
+    <div class="modal-footer">
+      <div class="left" style="color:#cfcfcf;font-size:13px">Arcade Pícara</div>
+      <div class="start-fixed">
+        <button class="btn secondary" (click)="close.emit()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="modal-backdrop">
+  <div class="modal-content">
+    <h2>Juego: {{ game }}</h2>
+    <p>Aquí va el contenido del juego seleccionado.</p>
+    <button (click)="closeModal()">Cerrar</button>
+  </div>
+</div> -->

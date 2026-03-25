@@ -1,0 +1,135 @@
+.sidebar {
+  width: 150px;
+  background: #c81f2b;
+  border-right: 4px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 10px;
+  transition: width 0.3s ease;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 5;
+  border-radius: 20px;
+  min-height: -webkit-fill-available;
+}
+
+.sidebar.collapsed {
+  width: 80px;
+}
+
+/* 🔹 Botón para colapsar */
+.collapse-toggle {
+  position: absolute;
+  top: 10px;
+  right: -14px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #ffd046;
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 208, 70, 0.5);
+  transition: transform 0.3s ease;
+
+  img{
+        width: 42px;
+    padding: 6px 1px 2px 2px;
+  }
+}
+
+.collapse-toggle span.rotated {
+  transform: rotate(180deg);
+}
+
+/* 🔹 Botones del menú */
+.menu-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* background: rgba(255, 255, 255, 0.05); */
+  /* border: 2px solid #222; */
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  color: #ffd046;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  flex-direction: column;
+}
+
+.menu-button:hover {
+  /* background: rgba(255, 208, 70, 0.15); */
+  transform: scale(1.05);
+}
+
+.menu-button img {
+  /* width: 55px; */
+  height: 88px;
+  border-radius: 10px;
+  background: #000;
+  border: 2px solid #111;
+}
+
+.menu-button span {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+}
+
+/* 🔹 Sidebar colapsado */
+.sidebar.collapsed .menu-button {
+  justify-content: center;
+}
+
+.sidebar.collapsed .menu-button span {
+  opacity: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+/* 🔹 En móviles: mantener diseño completo, debajo del banner */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    min-height: -webkit-fill-available;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-right: none;
+    border-top: 0px solid #000;
+    padding: 10px 0;
+    border-radius: 10px;
+  }
+
+  .sidebar.collapsed {
+  width: 60px;
+}
+
+  .menu-button {
+    flex-direction: column;
+    gap: 4px;
+    width: auto;
+    padding: 6px;
+  }
+
+  .menu-button img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .menu-button span {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .collapse-toggle {
+    display: none;
+  }
+}

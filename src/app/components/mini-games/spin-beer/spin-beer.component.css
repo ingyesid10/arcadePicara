@@ -1,0 +1,269 @@
+/* dice.component.css */
+.dice-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  padding: 1.5rem;
+  position: relative;
+  font-size: 12px;
+}
+
+.rules-link {
+  margin-bottom: 1.5rem;
+}
+
+.rules-btn {
+  color: #ffd600;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border: 1px solid #ffd600;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.rules-btn:hover {
+  background: #ffd600;
+  color: #111;
+}
+
+.dice-stage {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 4px;
+  min-height: 140px;
+}
+
+.die {
+  width: 130px;
+  height: 130px;
+  border-radius: 12px;
+  background: #0b0b10;
+  border: 6px solid #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  color: #fff;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.03),
+    inset 0 0 20px rgba(0, 0, 0, 0.6);
+  position: relative;
+  overflow: hidden;
+}
+
+.die-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.die.spin {
+  animation: spinFake 0.08s linear infinite;
+}
+
+@keyframes spinFake {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+.actions-center {
+  margin: 1.5rem 0;
+}
+
+.btn-yellow {
+  background: #ffd600;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #111;
+  transition: 0.2s;
+  font-size: 1rem;
+}
+
+.btn-yellow:hover:not(:disabled) {
+  background: #ffea00;
+}
+
+.btn-yellow:disabled {
+  background: #666;
+  cursor: not-allowed;
+}
+
+.combination-card {
+  display: flex;
+  gap: 2rem;
+  background: #0c0c0c;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 900px;
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.2);
+  margin-top: 1.5rem;
+}
+
+.info-section {
+  flex: 1;
+  text-align: left;
+}
+
+.info-section h2 {
+  color: #ffd600;
+  margin-bottom: 1rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Modal de Reglas */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-card {
+  background: #1a1a1a;
+  color: #fff;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 500px;
+  padding: 1.5rem;
+  box-shadow: 0 0 20px #ffd60040;
+  text-align: center;
+  position: relative;
+}
+
+.animate-modal {
+  animation: showUp 0.5s ease forwards;
+}
+
+@keyframes showUp {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 1rem;
+}
+
+.modal-header h2 {
+  color: #ffd600;
+  margin: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-btn:hover {
+  color: #ffd600;
+}
+
+.rules-list {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.rule-item {
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  background: #111;
+  border-radius: 8px;
+  border-left: 4px solid #ffd600;
+}
+
+.rule-value {
+  font-weight: bold;
+  color: #ffd600;
+  min-width: 120px;
+  margin-right: 1rem;
+}
+
+.rule-description {
+  flex: 1;
+  color: #ddd;
+}
+
+.modal-footer {
+  margin-top: 1.5rem;
+}
+
+/* 📱 Ajustes para pantallas móviles */
+@media (max-width: 768px) {
+  .dice-container {
+    padding: 0;
+  }
+
+  .dice-stage {
+    gap: 12px;
+  }
+
+  .die {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+  }
+
+  .combination-card {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .modal-card {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .rule-item {
+    flex-direction: column;
+  }
+
+  .rule-value {
+    min-width: auto;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}

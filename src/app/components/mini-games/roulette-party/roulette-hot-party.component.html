@@ -1,0 +1,33 @@
+<div class="roulette-container">
+  <h2 class="roulette-title">{{ 'ROULETTE_HOT_PARTY.TITLE' | translate }}</h2>
+  <p class="roulette-description">{{ 'ROULETTE_HOT_PARTY.DESCRIPTION' | translate }}</p>
+
+  <div class="roulette-panel">
+    <h3 class="customize-title">{{ 'ROULETTE_HOT_PARTY.CUSTOMIZE' | translate }}</h3>
+    <div class="options">
+      <label *ngFor="let option of allOptions">
+        <input type="checkbox" [(ngModel)]="option.enabled" (change)="updateActiveSegments()" />
+        {{ option.label }}
+      </label>
+    </div>
+  </div>
+
+  <div class="roulette-display">
+    <div class="roulette-circle">{{ currentSegmentDisplay }}</div>
+    <div class="pointer"></div>
+  </div>
+
+  <div class="roulette-actions">
+    <button class="btn" (click)="startSpin()">
+      {{ hasSpun ? ('ROULETTE_HOT_PARTY.BUTTONS.RETRY' | translate) : ('ROULETTE_HOT_PARTY.BUTTONS.SPIN' | translate) }}
+    </button>
+    <button class="btn secondary" (click)="reset()">
+      {{ 'ROULETTE_HOT_PARTY.BUTTONS.RESET' | translate }}
+    </button>
+  </div>
+
+  <div *ngIf="showResult" class="roulette-result">
+    <div class="result-title">{{ resultName }}</div>
+    <div class="result-desc">{{ resultDesc }}</div>
+  </div>
+</div>

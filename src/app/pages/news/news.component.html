@@ -1,0 +1,12 @@
+<div class="news-container">
+    <h2 class="intro-text">{{ title }}</h2>
+    <div class="news-list">
+        <div *ngFor="let item of updates" class="news-item">
+            <div class="news-date">{{ item.date }}</div>
+            <div class="news-content">
+                <p class="news-text" [innerHTML]="item.text"></p>
+            </div>
+        </div>
+    </div>
+</div>
+<p id="welcomeText" class="intro-text" [innerHTML]="messageNext"></p>

@@ -1,0 +1,624 @@
+.dice-stage {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 4px;
+    min-height: 140px
+}
+
+.die {
+    width: 130px;
+    height: 130px;
+    border-radius: 12px;
+    background: #0b0b10;
+    border: 6px solid #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: #fff;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.03), inset 0 0 20px rgba(0, 0, 0, 0.6);
+    position: relative
+}
+
+.result-area {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px 6px
+}
+
+.img-wrap {
+    width: 320px;
+    height: 240px;
+    background: #0a0a0a;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid rgba(255, 255, 255, 0.02)
+}
+
+.timer-display {
+    font-weight: 800;
+    color: #00ffcc;
+    font-size: 16px
+}
+
+.btn {
+    background: #ffd046;
+    color: #111;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    font-weight: 800
+}
+
+.dice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.dice {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.die {
+    width: 100px;
+    height: 100px;
+    background: #111;
+    border: 2px solid #ffcc00;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    transition: transform 0.3s ease;
+}
+
+.die.rolling {
+    transform: rotate(360deg);
+}
+
+.combination-card {
+    display: flex;
+    gap: 2rem;
+    background: #0c0c0c;
+    border-radius: 12px;
+    padding: 1.5rem;
+    max-width: 900px;
+    box-shadow: 0 0 20px rgba(255, 204, 0, 0.2);
+}
+
+.image-section img {
+    width: 300px;
+    border-radius: 8px;
+    border: 2px solid #ffcc00;
+}
+
+.info-section {
+    flex: 1;
+    text-align: left;
+}
+
+.cards-row {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.info-box {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #111;
+}
+
+.info-box.ventajas {
+    border-left: 4px solid #ffcc00;
+}
+
+.info-box.desventajas {
+    border-left: 4px solid #ff3366;
+}
+
+.info-box h3 {
+    margin-top: 0;
+    color: #ffcc00;
+}
+
+.dato-curioso {
+    font-style: italic;
+    margin: 1rem 0;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-yellow {
+    background: #ffcc00;
+    color: #000;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-dark {
+    background: #222;
+    color: #ffcc00;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #ffcc00;
+    cursor: pointer;
+}
+
+.dice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    padding: 1rem;
+}
+
+.dice {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.die {
+    background: #111;
+    border: 2px solid #ffd600;
+    border-radius: 16px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    box-shadow: 0 0 15px #ffd600;
+    transition: transform 0.2s ease;
+}
+
+.rolling .die {
+    animation: spinDice 0.3s infinite linear;
+}
+
+@keyframes spinDice {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg) scale(1.1);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.combination-card {
+    background: #000000a0;
+    border-radius: 20px;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 810px;
+    box-shadow: 0 0 20px #ffd60040;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #ffd60060;
+}
+
+.info-section {
+    text-align: left;
+}
+
+.cards-row {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.info-box {
+    flex: 1;
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 0.8rem;
+    box-shadow: inset 0 0 8px #ffd60040;
+}
+
+.info-box h3 {
+    color: #ffd600;
+    margin-bottom: 0.5rem;
+}
+
+.btn-yellow {
+    background: #ffd600;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    color: #111;
+    transition: 0.2s;
+}
+
+.btn-yellow:hover {
+    background: #ffea00;
+}
+
+.btn-dark {
+    background: #222;
+    border: 1px solid #555;
+    color: #fff;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+.dato-curioso {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #ccc;
+}
+
+/* 🎲 Contenedor principal */
+.dice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    padding: 1.5rem;
+    position: relative;
+    font-size: 12px;
+}
+
+/* Dados */
+.dice {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.die {
+    background: radial-gradient(circle, #222 40%, #000);
+    border: 2px solid #ffd600;
+    border-radius: 16px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.8rem;
+    box-shadow: 0 0 25px #ffd60080;
+    transition: transform 0.2s ease;
+}
+
+.rolling .die {
+    animation: spinDice 0.3s infinite linear;
+}
+
+@keyframes spinDice {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg) scale(1.1);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal-card {
+    background: #1a1a1a;
+    color: #fff;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 700px;
+    padding: 1.5rem;
+    box-shadow: 0 0 20px #ffd60040;
+    text-align: center;
+    position: relative;
+}
+
+.animate-modal {
+    animation: showUp 0.5s ease forwards;
+}
+
+@keyframes showUp {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timer {
+    background: #ffd600;
+    color: #111;
+    padding: 0.3rem 0.8rem;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.result-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    margin: 1rem 0;
+    box-shadow: 0 0 15px #ffd60080;
+}
+
+.descripcion {
+    font-size: 1rem;
+    color: #ddd;
+    margin-bottom: 1rem;
+}
+
+.cards-row {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.info-box {
+    flex: 1;
+    background: #111;
+    border-radius: 12px;
+    padding: 0.8rem;
+    box-shadow: inset 0 0 8px #ffd60040;
+    text-align: left;
+}
+
+.info-box h3 {
+    color: #ffd600;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.dato-curioso {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #ccc;
+}
+
+.modal-footer {
+    margin-top: 1.5rem;
+}
+
+.btn-yellow {
+    background: #ffd600;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #111;
+    transition: 0.2s;
+}
+
+.btn-yellow:hover {
+    background: #ffeb3b;
+}
+
+.btn-dark {
+    background: #222;
+    border: 1px solid #555;
+    color: #fff;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+.btn-dark:hover {
+    background: #333;
+}
+
+.dice-stage {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 4px;
+    min-height: 140px;
+}
+
+.die {
+    width: 130px;
+    height: 130px;
+    border-radius: 12px;
+    background: #0b0b10;
+    border: 6px solid #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: #fff;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.03),
+        inset 0 0 20px rgba(0, 0, 0, 0.6);
+    position: relative;
+}
+
+.die.spin {
+    animation: spinFake 0.08s linear infinite;
+}
+
+.config-time {
+    margin: 20px;
+}
+
+@keyframes spinFake {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(360deg);
+    }
+}
+
+
+/* 📱 Ajustes para pantallas móviles */
+@media (max-width: 768px) {
+
+    .image-section.active {
+        position: relative;
+        z-index: 2;
+    }
+
+    .image-section.active::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.6);
+        /* oscurece el fondo */
+        backdrop-filter: blur(4px);
+        border-radius: 12px;
+        z-index: 1;
+        transition: background 0.5s ease;
+    }
+
+    /* 💥 Imagen protagonista con animación de pulse */
+    .image-section.active img {
+        position: relative;
+        z-index: 2;
+        transform: scale(1.15);
+        box-shadow: 0 0 35px #ffd600b0;
+        animation: pulseEffect 1.5s infinite ease-in-out;
+        transition: transform 0.6s ease, box-shadow 0.5s ease;
+    }
+
+    /* 🧘‍♂️ Transición suave al volver al estado normal */
+    .image-section img {
+        transition: transform 0.6s ease, box-shadow 0.6s ease;
+    }
+
+    .dice-container {
+        padding: 0;
+    }
+
+    .dice-stage {
+        display: flex;
+        /* flex-direction: column; 🔥 Aquí el cambio */
+        gap: 12px;
+    }
+
+    .die {
+        width: 100px;
+        height: 100px;
+        font-size: 36px;
+    }
+
+    .combination-card {
+        padding: 1rem;
+        flex-direction: column;
+    }
+}
+
+/* 🌑 Fondo oscuro y efecto protagonista */
+.image-section.active {
+    position: relative;
+    z-index: 2;
+}
+
+.image-section.active::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    /* oscurece el fondo */
+    backdrop-filter: blur(4px);
+    border-radius: 12px;
+    z-index: 1;
+    transition: background 0.5s ease;
+}
+
+/* 💥 Imagen protagonista con animación de pulse */
+.image-section.active img {
+    position: relative;
+    z-index: 2;
+    transform: scale(1.15);
+    box-shadow: 0 0 35px #ffd600b0;
+    animation: pulseEffect 1.5s infinite ease-in-out;
+    transition: transform 0.6s ease, box-shadow 0.5s ease;
+}
+
+/* 💫 Animación de pulso */
+@keyframes pulseEffect {
+    0% {
+        transform: scale(1.15);
+        box-shadow: 0 0 35px #ffd600b0;
+    }
+
+    50% {
+        transform: scale(1.2);
+        box-shadow: 0 0 55px #ffe066e0;
+    }
+
+    100% {
+        transform: scale(1.15);
+        box-shadow: 0 0 35px #ffd600b0;
+    }
+}
+
+/* 🧘‍♂️ Transición suave al volver al estado normal */
+.image-section img {
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+}

@@ -1,0 +1,30 @@
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #1e1e1e;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.cookie-banner p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+.cookie-banner .buttons button {
+  margin: 0 5px;
+  background: #0078d4;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cookie-banner .buttons button:last-child {
+  background: #555;
+}

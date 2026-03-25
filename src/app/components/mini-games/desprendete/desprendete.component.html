@@ -1,0 +1,95 @@
+<div class="container">
+  <div class="main-content">
+    <div class="header">
+      <h1>{{ 'desprendete.title' | translate }}</h1>
+      <p>{{ 'desprendete.description' | translate }}</p>
+      <a class="rules-link" (click)="showRules = true">{{ 'desprendete.viewRules' | translate }}</a>
+    </div>
+
+    <!-- Ruleta -->
+    <div class="roulette-container">
+      <div class="roulette-wheel" [class.spinning]="isSpinning">
+        <div class="roulette-inner">
+          <div class="result-display" [class.show]="showResult">{{ currentSegmentDisplay }}</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resultado -->
+    <div *ngIf="showResult" class="result-section">
+      <div class="result-title">{{ resultName }}</div>
+      <div class="result-type">{{ finalResultType }}</div>
+      <div class="result-description">{{ resultDesc }}</div>
+
+      <div *ngIf="!showSmallRoulette" class="result-actions">
+        <button class="btn btn-success" (click)="completeChallenge()">
+          ✅ {{ finalResultType === (segments[1]) ? ('desprendete.completeChallenge' | translate) : ('desprendete.answerTruth' | translate) }}
+        </button>
+
+        <button class="btn btn-danger" (click)="passChallenge()">
+          🚫 {{ 'desprendete.pass' | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Jugadores -->
+  <div class="players-section">
+    <h3>{{ 'desprendete.players' | translate }} ({{ gameState.players.length }}/8)</h3>
+
+    <div *ngFor="let player of gameState.players; let i = index" class="player-item"
+         [class.current]="gameState.currentPlayer === i">
+      <input type="text" [(ngModel)]="player.name" [disabled]="gameState.gameStarted"
+             placeholder="{{ 'desprendete.playerName' | translate }}" />
+      <span class="player-clothes">👕 {{ player.clothes }}</span>
+      <span class="player-challenges">🏆 {{ player.completedChallenges }}/2</span>
+      <button *ngIf="!gameState.gameStarted && gameState.players.length > 2"
+              class="btn-remove" (click)="removePlayer(i)">×</button>
+    </div>
+
+    <button *ngIf="gameState.players.length < 8" class="btn-add-player" (click)="addPlayer()">
+      + {{ 'desprendete.addPlayer' | translate }}
+    </button>
+
+    <!-- Controles -->
+    <div class="controls-section">
+      <label>{{ 'desprendete.time' | translate }}:</label>
+      <input type="number" [(ngModel)]="modalSeconds" min="5" />
+
+      <div class="timer-display">{{ formatTimer(countdownRemaining) }}</div>
+
+      <button class="btn btn-spin" (click)="startSpin()" [disabled]="!canSpin()">
+        {{ hasSpun ? ('desprendete.spinAgain' | translate) : ('desprendete.spin' | translate) }}
+      </button>
+
+      <button class="btn btn-start" (click)="startCountdown()" [disabled]="!canStartTimer()">
+        {{ getStartButtonText() | translate }}
+      </button>
+
+      <button class="btn btn-reset" (click)="resetGame()">{{ 'desprendete.reset' | translate }}</button>
+    </div>
+  </div>
+
+  <!-- Modal Reglas -->
+  <div *ngIf="showRules" class="modal-overlay" (click)="showRules = false">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <h2>{{ 'desprendete.rules' | translate }}</h2>
+      <button class="modal-close" (click)="showRules = false">×</button>
+      <div class="rules-body">{{ 'desprendete.rulesContent' | translate }}</div>
+      <button class="btn btn-primary" (click)="showRules = false">{{ 'desprendete.understood' | translate }}</button>
+    </div>
+  </div>
+
+  <!-- Ruleta pequeña -->
+  <div *ngIf="showSmallRoulette" class="modal-overlay">
+    <div class="modal-content small-roulette-modal" (click)="$event.stopPropagation()">
+      <h3>{{ 'desprendete.smallRouletteTitle' | translate }}</h3>
+      <div class="small-roulette" [class.spinning]="smallRouletteSpinning">
+        <div class="small-result">{{ smallRouletteResult || '?' }}</div>
+      </div>
+      <button class="btn btn-spin-small" (click)="spinSmallRoulette()" [disabled]="smallRouletteSpinning">
+        {{ smallRouletteSpinning ? ('desprendete.spinning' | translate) : ('desprendete.spinSmall' | translate) }}
+      </button>
+    </div>
+  </div>
+</div>

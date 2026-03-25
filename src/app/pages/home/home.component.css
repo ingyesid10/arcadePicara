@@ -1,0 +1,248 @@
+.selector-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    /* gap: 26px; */
+    margin-top: 18px;
+    justify-content: center;
+    /* gap: 10px; */
+    background: rgba(10, 10, 20, 0.6);
+    padding: 12px;
+    border-radius: 20px;
+    gap: 15px;
+}
+
+.select-card {
+    width: 150px;
+    height: 150px;
+    border-radius: 18px;
+    /* background: rgba(10, 10, 20, 0.6); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform .22s, box-shadow .22s;
+    position: relative
+}
+
+.select-card .inner {
+    width: 150px;
+    height: 150px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 700;
+    
+    .pareja {
+            width: 158px;
+            margin-top: -52px;
+        }
+
+        .fiesta{
+            width: 162px;
+    margin-top: -39px;
+        }
+}
+
+.select-card .inner:hover {
+    background: rgba(255, 208, 70, 0.15);
+    transform: scale(1.05);
+}
+
+.select-card i {
+    font-size: 40px;
+    margin-bottom: 8px
+}
+
+.c-hetero {
+    .inner {
+        border: 3px solid;
+        box-shadow: 0 0 30px #ff5f9e;
+        border-color: #ff5f9e;
+        color: #ff5f9e;
+    }
+}
+
+.c-gay {
+    .inner {
+        border: 3px solid;
+        box-shadow: 0 0 30px #00baff;
+        border-color: #00eaff;
+        color: #bff6ff;
+    }
+}
+
+.c-lesb {
+    .inner {
+        border: 3px solid;
+        box-shadow: 0 0 30px #ff6e5c;
+        border-color: #ff6e5c;
+        color: #ff6e5c;
+    }
+}
+
+.c-otro {
+    .inner {
+        border: 3px solid;
+        box-shadow: 0 0 30px #ffe066;
+        border-color: #ffe066;
+        color: #ffe066;
+    }
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 18px;
+    width: 100%;
+    max-width: 672px;
+    margin-top: 18px
+}
+
+.game-card {
+    height: 120px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #0a0512, #12101c);
+    border: 3px solid rgba(255, 255, 255, 0.02);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+    padding: 12px;
+    cursor: pointer;
+    color: #fff;
+    transition: transform .22s;
+    font-size: 14px;
+
+    h3 {
+        text-align: center;
+    }
+
+    .kamasutra {
+        margin-top: -48px;
+    }
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.title-panel {
+    width: 100%;
+    max-width: 700px;
+    padding: 12px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #351c4a, #1a0a2a);
+    border: 4px solid #0f0a18;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.neon-text {
+    font-family: "Macondo Swash Caps", cursive;
+    font-size: 27px;
+    color: #4f290c;
+    text-shadow: 0 0 5px #ff8c32, 0 0 10px #ff8c32, 0 0 20px #ff5e00, 0 0 40px #ff5e00, 0 0 60px #ff2d00, 0 0 80px #ff2d00;
+    /* animation: flicker 2.5s infinite alternate; */
+}
+
+.g-icon {
+
+    /* font-size: 36px; */
+    img {
+        /* width: 85px; */
+    }
+}
+
+
+
+
+.intro-text {
+    font-size: 15px;
+    color: #ffffff;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+    background: #060404b5;
+    padding: 18px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+
+
+@media (max-width: 768px) {
+    .game-card {
+        padding: 5px;
+
+        h3 {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+
+    .intro-text {
+        font-size: 12px;
+        text-align: center;
+
+    }
+
+    .selector-grid {
+        grid-template-columns: repeat(2, 110px);
+    }
+
+    .select-card {
+        width: 110px;
+        height: 110px;
+    }
+
+    .select-card .inner {
+        width: 110px;
+        height: 110px;
+        text-align: center;
+
+        .pareja {
+            width: 138px;
+            margin-top: -52px;
+        }
+
+        .fiesta {
+           width: 116px;
+    margin-top: -39px;
+        }
+    }
+
+    .games-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+.intro-text {
+    font-size: 15px;
+    color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+    background: #060404b5;
+    padding: 18px;
+    border-radius: 10px;
+    text-align: center;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

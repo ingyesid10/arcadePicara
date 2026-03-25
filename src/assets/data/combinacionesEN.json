@@ -1,0 +1,959 @@
+{
+  "1-1": {
+    "name": "Missionary",
+    "description": "Both partners face each other, enjoying visual contact and closeness. It is a classic, romantic, and tender position.",
+    "advantages": [
+      "It is easy and comfortable for both.",
+      "Allows for close eye contact.",
+      "Ideal for beginners."
+    ],
+    "disadvantages": [
+      "Can become monotonous if repeated too often.",
+      "Does not allow for much variety in angles."
+    ],
+    "fun_fact": "It is one of the oldest and most universal positions.",
+    "image": "assets/img/nivel1/1-1.webp"
+  },
+  "1-2": {
+    "name": "Spooning",
+    "description": "Both lie on their sides, one behind the other, creating a constant sensation of embrace. Comfortable and very affectionate.",
+    "advantages": [
+      "Very intimate and tender.",
+      "Relaxed and comfortable, ideal for caressing.",
+      "Perfect for slow, sensual play."
+    ],
+    "disadvantages": [
+      "Does not allow for much eye contact.",
+      "The rhythm can be limited."
+    ],
+    "fun_fact": "In many cultures, it is associated with tenderness and rest.",
+    "image": "assets/img/nivel1/1-2.webp"
+  },
+  "1-3": {
+    "name": "Lotus",
+    "description": "Sitting facing each other, legs and arms intertwined, breathing together. It is a position of total connection and calm.",
+    "advantages": [
+      "Intense eye and emotional contact.",
+      "A feeling of union and closeness.",
+      "Ideal for slow and sensual rhythms."
+    ],
+    "disadvantages": [
+      "Can tire legs and back over time.",
+      "Requires a bit of flexibility."
+    ],
+    "fun_fact": "It is inspired by the Padmasana yoga pose.",
+    "image": "assets/img/nivel1/1-3.webp"
+  },
+  "1-4": {
+    "name": "The Office",
+    "description": "The woman sits on the man’s legs, leaning forward, while the man lies back with his legs stretched out, holding her gently.",
+    "advantages": [
+      "Creates connection and allows male control.",
+      "Encourages exploration of pace and rhythm.",
+      "Adds a playful and intimate touch."
+    ],
+    "disadvantages": [
+      "The person on top may get tired.",
+      "Extended legs can cause discomfort or fatigue."
+    ],
+    "fun_fact": "Its name comes from the position’s resemblance to someone working at an office desk.",
+    "image": "assets/img/nivel1/1-4.webp"
+  },
+  "1-5": {
+    "name": "Side-by-Side Facing",
+    "description": "Both lie on their sides facing each other, embraced. It is a simple but very intimate position, perfect for laughter and kisses.",
+    "advantages": [
+      "Comfortable and relaxed.",
+      "Allows for easy hugging and kissing.",
+      "Both partners have control over the rhythm."
+    ],
+    "disadvantages": [
+      "Can be limited in movement.",
+      "Not always stable if there is a lot of movement."
+    ],
+    "fun_fact": "It is a natural evolution of spooning, but more playful.",
+    "image": "assets/img/nivel1/1-5.webp"
+  },
+  "1-6": {
+    "name": "Sitting Facing",
+    "description": "Both seated, facing each other, sharing glances, caresses, and laughter. Warm and very romantic.",
+    "advantages": [
+      "Intense visual connection.",
+      "Allows for free talking, kissing, and caressing.",
+      "Ideal for calm, playful sessions."
+    ],
+    "disadvantages": [
+      "Can tire the back.",
+      "Requires a bit of balance."
+    ],
+    "fun_fact": "It is associated with intimacy in Eastern cultures.",
+    "image": "assets/img/nivel1/1-6.webp"
+  },
+  "1-7": {
+    "name": "Crimson Whispers",
+    "description": "In a softly lit room, two souls meet in a moment of deep connection. She, dressed in a blue that highlights her elegance, lets herself be carried away by the magic of the moment as the air fills with subtle desire and complicity. Every detail—the crimson tapestry, the golden glow of the vase, the warmth of the atmosphere—turns the scene into a dance between art, passion, and mystery.",
+    "advantages": [
+      "Conveys a deep emotional connection.",
+      "Evokes an artistic and suggestive atmosphere.",
+      "Perfect for those who enjoy subtlety and complicity."
+    ],
+    "disadvantages": [
+      "May require emotional harmony to maintain balance.",
+      "Its intensity might overwhelm those who are more reserved."
+    ],
+    "fun_fact": "The title ‘Crimson Whispers’ symbolizes the union of passion and serenity, a balance between art and restrained desire.",
+    "image": "assets/img/nivel1/1-7.webp"
+  },
+  "1-8": {
+  "name": "Souls Aflame",
+  "description": "Bathed in golden tones and gentle shadows, two bodies reach for each other as if time itself had paused. The closeness of their gaze reveals a silent surrender — a wordless dialogue where passion and tenderness intertwine. The light caresses their outlines, turning the moment into a living painting of restrained desire and palpable love.",
+  "advantages": [
+    "Evokes emotional intensity and intimate beauty.",
+    "Its composition conveys a balance between strength and gentleness.",
+    "Perfect for those who value genuine connection and shared vulnerability."
+  ],
+  "disadvantages": [
+    "Might feel too passionate for those who prefer total subtlety.",
+    "Requires sensitivity to grasp its depth without misinterpretation."
+  ],
+  "fun_fact": "‘Souls Aflame’ represents the instant when desire becomes art, and art becomes a reflection of the truest union between two souls.",
+  "image": "assets/img/nivel1/1-8.webp"
+},
+  "2-1": {
+    "name": "The Scissors",
+    "description": "Both lie on their sides, intertwining their legs, forming a figure similar to scissors. Close and rhythmic.",
+    "advantages": [
+      "More variety in angles and sensations.",
+      "Allows for very romantic rhythmic play.",
+      "Encourages closeness and spontaneous laughter."
+    ],
+    "disadvantages": [
+      "May require balance and coordination.",
+      "Less comfortable if there is no synchrony."
+    ],
+    "fun_fact": "The Scissors position is a symbol of trust and complicity, perfect for those who understand each other with a glance!",
+    "image": "assets/img/nivel2/2-1.webp"
+  },
+  "2-2": {
+    "name": "The Bridge",
+    "description": "One person arches their body upwards while the other accompanies the movement. Visually elegant and energetic.",
+    "advantages": [
+      "Promotes eye contact and teamwork.",
+      "Ideal for an energetic and romantic connection.",
+      "Helps strengthen the abdomen and back."
+    ],
+    "disadvantages": [
+      "Requires some strength and balance.",
+      "Can be intense if maintained for too long."
+    ],
+    "fun_fact": "The Bridge combines sensuality with exercise, a mix that can spark laughter and sparks.",
+    "image": "assets/img/nivel2/2-2.webp"
+  },
+  "2-3": {
+    "name": "The Cowgirl",
+    "description": "One person sits while the other positions themselves on top, guiding the movement with confidence and playfulness.",
+    "advantages": [
+      "Offers control and prominence to the person on top.",
+      "Allows for constant visual communication.",
+      "Excellent for exploring different rhythms and styles."
+    ],
+    "disadvantages": [
+      "Requires some leg strength.",
+      "Can be tiring if prolonged."
+    ],
+    "fun_fact": "The Cowgirl symbolizes the balance between freedom and connection, perfect for exploring with confidence.",
+    "image": "assets/img/nivel2/2-3.webp"
+  },
+  "2-4": {
+    "name": "The Arch",
+    "description": "One person reclines, gently arching their back, while the other accompanies them. Elegant and full of energy.",
+    "advantages": [
+      "Visually elegant and romantic posture.",
+      "Encourages stretching and flexibility.",
+      "Perfect for those who enjoy slow, flirtatious play."
+    ],
+    "disadvantages": [
+      "Requires elasticity and confidence.",
+      "Can be uncomfortable on hard surfaces."
+    ],
+    "fun_fact": "The Arch is one of the most depicted postures in classic illustrations of Eastern love.",
+    "image": "assets/img/nivel2/2-4.webp"
+  },
+  "2-5": {
+    "name": "The Windmill",
+    "description": "A dynamic posture that invites turning and changing angles, like a windmill in motion, full of energy and laughter.",
+    "advantages": [
+      "Allows experimentation from different angles.",
+      "Very fun and spontaneous for creative couples.",
+      "Ideal for breaking the routine and laughing together."
+    ],
+    "disadvantages": [
+      "May require coordination and good communication.",
+      "Not suitable for small spaces."
+    ],
+    "fun_fact": "The Windmill is a symbol of constant movement, where rhythm becomes pure fun.",
+    "image": "assets/img/nivel2/2-5.webp"
+  },
+  "2-6": {
+    "name": "The Swing",
+    "description": "Inspired by swinging, one person holds on while the other accompanies the rhythm. Joyful, rhythmic, and fun.",
+    "advantages": [
+      "Combines balance with play and laughter.",
+      "Allows for balanced and sensual movements.",
+      "Excellent for adventurous couples."
+    ],
+    "disadvantages": [
+      "Difficult without good support or core strength.",
+      "Not recommended for beginners."
+    ],
+    "fun_fact": "The Swing represents the freedom of desire in motion: it's all about balance!",
+    "image": "assets/img/nivel2/2-6.webp"
+  },
+  "2-7": {
+    "name": "Midnight Echoes",
+    "description": "In the dim light of an old library, two souls seek each other through whispers and glances that speak louder than words. The golden glow of a lamp brushes against the red velvet of the armchair, where passion and tenderness intertwine in silence. Every gesture tells a story, every breath a promise, as the world seems to pause in that moment of connection and restrained desire.",
+    "advantages": [
+      "Evokes a sense of deep intimacy and complicity.",
+      "Creates an elegant and passionate atmosphere.",
+      "Perfect for those who appreciate intense moments wrapped in art and mystery."
+    ],
+    "disadvantages": [
+      "May require strong emotional connection to maintain balance.",
+      "Its intensity may not suit those who prefer calm and control."
+    ],
+    "fun_fact": "The title ‘Midnight Echoes’ symbolizes the union between the silence of the surroundings and the strength of emotions that resonate deep within.",
+    "image": "assets/img/nivel2/2-7.webp"
+  },
+  "2-8": {
+  "name": "Between Shadows and Whispers",
+  "description": "In a softly lit room, two souls meet in the kind of silence only hearts that beat in unison can understand. The warm glow of a lamp paints their skin with reflections of restrained longing and deep tenderness. There is no rush—only the honest surrender to a moment that seems to pause time, where every breath is a promise and every glance, a safe haven.",
+  "advantages": [
+    "Evokes an atmosphere of intimacy and emotional depth.",
+    "Conveys warmth, closeness, and mutual trust.",
+    "Perfect for portraying the bond between passion and tenderness."
+  ],
+  "disadvantages": [
+    "Its emotional intensity might be overwhelming for some viewers.",
+    "Requires strong harmony to preserve its visual balance."
+  ],
+  "fun_fact": "The title ‘Between Shadows and Whispers’ alludes to the magic that happens when silence becomes language and light reveals more than it hides.",
+  "image": "assets/img/nivel2/2-8.webp"
+},
+  "3-1": {
+    "name": "The Dolphin",
+    "description": "One person supports themselves on their forearms while the other accompanies from behind, moving with a smooth, fluid rhythm like the sea.",
+    "advantages": [
+      "Allows for controlled and constant movement.",
+      "Stimulates bodily and rhythmic connection.",
+      "Ideal for those seeking something more dynamic."
+    ],
+    "disadvantages": [
+      "May require strength in arms and abdomen.",
+      "Not comfortable for long periods."
+    ],
+    "fun_fact": "The name comes from the body's rocking, reminiscent of a dolphin's movement in water.",
+    "image": "assets/img/nivel3/3-1.webp"
+  },
+  "3-2": {
+    "name": "Doggy Style",
+    "description": "One person positions themselves on hands and knees, while the other accompanies the rhythm from behind, like a coordinated and flirtatious game.",
+    "advantages": [
+      "Facilitates broad and controlled movements.",
+      "Allows exploration of synchrony as a couple.",
+      "Gives a sensation of energy and vitality."
+    ],
+    "disadvantages": [
+      "Can tire wrists or knees.",
+      "Requires good communication to maintain rhythm."
+    ],
+    "fun_fact": "One of the most popular due to its balance between comfort and dynamism.",
+    "image": "assets/img/nivel3/3-2.webp"
+  },
+  "3-3": {
+    "name": "The Knot",
+    "description": "One person sits while the other leans back, creating a knot with their bodies that symbolizes union and complicity.",
+    "advantages": [
+      "Enveloping and aesthetic posture.",
+      "Allows for constant eye contact.",
+      "Excellent for slow, coordinated games."
+    ],
+    "disadvantages": [
+      "Requires balance and some flexibility.",
+      "Can tire the lumbar region."
+    ],
+    "fun_fact": "The Knot is a symbol of emotional connection and shared play.",
+    "image": "assets/img/nivel3/3-3.webp"
+  },
+  "3-4": {
+    "name": "The Stroll",
+    "description": "Both on their knees, facing each other, they move slowly, coordinating breaths and laughter. Natural and romantic.",
+    "advantages": [
+      "Balances closeness and movement.",
+      "Ideal for those who enjoy eye contact.",
+      "Allows control over intensity."
+    ],
+    "disadvantages": [
+      "Can tire the knees.",
+      "Requires rhythm and patience."
+    ],
+    "fun_fact": "Called so because it resembles a slow walk shared between caresses and smiles.",
+    "image": "assets/img/nivel3/3-4.webp"
+  },
+  "3-5": {
+    "name": "The Twist",
+    "description": "A posture where one lies down and the other positions themselves on their side, gently turning to change the angle. Fluid and fun.",
+    "advantages": [
+      "Allows variation without losing contact.",
+      "Ideal for curious couples.",
+      "Encourages improvisation."
+    ],
+    "disadvantages": [
+      "Can be unstable if there is too much movement.",
+      "Not recommended on soft surfaces."
+    ],
+    "fun_fact": "Known as 'the twist of desire' in ancient Eastern descriptions.",
+    "image": "assets/img/nivel3/3-5.webp"
+  },
+  "3-6": {
+    "name": "Don’t Leave",
+    "description": "While lying in bed, the man embraces the woman from behind as she leans her body forward to allow the connection.",
+    "advantages": [
+      "Gives the man greater control.",
+      "Ideal for couples who enjoy a sense of dominance.",
+      "Enhances intimacy and closeness."
+    ],
+    "disadvantages": [
+      "The woman has limited control.",
+      "May restrict movement."
+    ],
+    "fun_fact": "Inspired by the intertwined figures of ancient sculptures symbolizing eternal love.",
+    "image": "assets/img/nivel3/3-6.webp"
+  },
+  "3-7": {
+    "name": "Inverted Soul",
+    "description": "Amid curtains of velvet and wine tones, the scene is suspended in a moment of balance and surrender. She, draped in burgundy that highlights her mystery, allows herself to be carried by trust and the artistry of the moment. The soft light outlines every curve and breath, as the air fills with restrained passion and quiet elegance. Everything revolves around a single truth: when two souls reflect each other, time stands still.",
+    "advantages": [
+      "Depicts a connection built on mutual trust and surrender.",
+      "Creates a visually intense and artistic atmosphere.",
+      "Perfect for those who appreciate balance, beauty, and emotion."
+    ],
+    "disadvantages": [
+      "May require great synchronization and confidence between both.",
+      "Its dramatic tone may overwhelm more serene spirits."
+    ],
+    "fun_fact": "The title ‘Inverted Soul’ symbolizes the moment when body and heart shift perspective to meet from another angle of love.",
+    "image": "assets/img/nivel3/3-7.webp"
+  },
+  "3-8": {
+  "name": "Echoes of Fire",
+  "description": "In the dim light of a quiet room, two souls meet in a moment of pure surrender. Their eyes lock, and time seems to stand still as the air fills with a vibrant, magnetic energy. Passion isn’t shouted—it’s breathed; and within every movement lies a promise, a spark that lights the night with its own language of tenderness and desire.",
+  "advantages": [
+    "Conveys a deep and passionate connection.",
+    "Evokes the power of emotional encounter.",
+    "Perfect for those who seek intensity and mutual surrender."
+  ],
+  "disadvantages": [
+    "Its intensity can be overwhelming for some.",
+    "Requires balance between emotion and serenity."
+  ],
+  "fun_fact": "‘Echoes of Fire’ symbolizes the union between vulnerability and inner strength—a flame that burns from within without consuming.",
+  "image": "assets/img/nivel3/3-8.webp"
+},
+  "4-1": {
+    "name": "The Seesaw",
+    "description": "One person reclines while the other gently rocks their body on top. A rhythmic and elegant movement.",
+    "advantages": [
+      "Perfect for exploring rhythm and coordination.",
+      "Combines energy and tenderness.",
+      "Ideal for those who enjoy rocking."
+    ],
+    "disadvantages": [
+      "Requires some balance.",
+      "Can tire the core muscles."
+    ],
+    "fun_fact": "Its name comes from the constant back-and-forth, like a seesaw of emotions.",
+    "image": "assets/img/nivel4/4-1.webp"
+  },
+  "4-2": {
+    "name": "The Winged Horse",
+    "description": "A dynamic variation of 'The Rider' where the person on top leans forward, creating a sensation of fluidity and energy. Ideal for those seeking rhythm and movement with elegance.",
+    "advantages": [
+      "Allows control of rhythm and depth.",
+      "Creates an elegant and powerful visual sensation.",
+      "Combines strength and fluidity in the same movement."
+    ],
+    "disadvantages": [
+      "Requires some balance and endurance.",
+      "Can be tiring if maintained for too long."
+    ],
+    "fun_fact": "The name 'Winged Horse' evokes the free and elegant movement of flight, inspired by strength and grace.",
+    "image": "assets/img/nivel4/4-2.webp"
+  },
+  "4-3": {
+    "name": "The Bridge of Desire",
+    "description": "One person lies on their back with knees bent and pelvis slightly elevated, while the other leans forward, placing their hands near their shoulders. The movement is fluid, combining strength and tenderness.",
+    "advantages": [
+      "Stimulates intense visual and bodily contact.",
+      "Allows adjusting the rhythm with delicacy or energy.",
+      "Strengthens legs, abdomen, and back in a fun way."
+    ],
+    "disadvantages": [
+      "Requires balance and core strength.",
+      "Can be uncomfortable if maintained for too long without support."
+    ],
+    "fun_fact": "In modern Kamasutra texts, this posture represents the balance between physical energy and emotional connection, like a bridge between both bodies.",
+    "image": "assets/img/nivel4/4-3.webp"
+  },
+  "4-4": {
+    "name": "The Throne",
+    "description": "One person sits while the other settles with their back to them, leaning back gently. Warm and enveloping.",
+    "advantages": [
+      "Allows for hugging and caressing at the same time.",
+      "Ideal for those who enjoy physical closeness.",
+      "Perfect for flirtatious conversations."
+    ],
+    "disadvantages": [
+      "Can tire the back.",
+      "Requires synchrony for balance."
+    ],
+    "fun_fact": "The Throne appears in Renaissance paintings as a symbol of elegant intimacy.",
+    "image": "assets/img/nivel4/4-4.webp"
+  },
+  "4-5": {
+    "name": "The Crescent Moon",
+    "description": "Both recline on their side, forming a curve with their bodies, like a moon embracing the night.",
+    "advantages": [
+      "Comfortable and relaxed.",
+      "Perfect for soft and sensual play.",
+      "Allows for lateral eye contact."
+    ],
+    "disadvantages": [
+      "Limited in movement.",
+      "Requires coordination in rhythm."
+    ],
+    "fun_fact": "Its shape recalls ancient symbols of union in balance.",
+    "image": "assets/img/nivel4/4-5.webp"
+  },
+  "4-6": {
+    "name": "The Encounter",
+    "description": "Both standing, facing each other, with one partner wrapping a leg around the other's waist, holding onto the waist or shoulders. Intense, fun, and full of energy.",
+    "advantages": [
+      "Ideal for improvising.",
+      "Romantic and passionate.",
+      "Allows for complete body and eye connection."
+    ],
+    "disadvantages": [
+      "Can tire the legs.",
+      "Difficult to maintain balance without support."
+    ],
+    "fun_fact": "The Encounter represents spontaneous desire, without rules, only connection.",
+    "image": "assets/img/nivel4/4-6.webp"
+  },
+  "4-7": {
+    "name": "Echoes of Silence",
+    "description": "In a corner where twilight caresses the soul, two presences intertwine without words. The golden light drifts across the folds of time, revealing a moment suspended between calm and vertigo. There is no sound, only the whisper of shared breath and the echo of what remains unspoken. It is a portrait of the meeting between strength and tenderness, where silence tells the story.",
+    "advantages": [
+      "Evokes harmony between energy and serenity.",
+      "Creates an introspective and elegant atmosphere.",
+      "Perfect for those who value subtle emotion over speech."
+    ],
+    "disadvantages": [
+      "Its depth may feel overwhelming for those seeking simplicity.",
+      "Requires sensitivity to grasp its hidden symbolism."
+    ],
+    "fun_fact": "‘Echoes of Silence’ symbolizes the moment when connection transcends language, turning into a dialogue of souls — invisible yet eternal.",
+    "image": "assets/img/nivel4/4-7.webp"
+  },
+  "4-8": {
+  "name": "Rhythm of Trust",
+  "description": "In a space where the sky seems to touch the skin, two souls move in harmony to the rhythm of trust and serene passion. Each gesture becomes a language beyond words—a dance of strength and tenderness. She surrenders not to another, but to the moment itself; he holds not a body, but a shared story pulsing through every breath.",
+  "advantages": [
+    "Expresses a connection built on mutual trust and surrender.",
+    "Symbolizes balance between power and sensitivity.",
+    "Perfect for those who cherish emotional depth within passion."
+  ],
+  "disadvantages": [
+    "May be hard to sustain emotional balance without communication.",
+    "Its intensity might require emotional maturity to maintain harmony."
+  ],
+  "fun_fact": "The blue background symbolizes calm and trust, reminding us that even in intensity, balance is born from respect and devotion.",
+  "image": "assets/img/nivel4/4-8.webp"
+},
+  "5-1": {
+    "name": "The Elevator",
+    "description": "One partner partially lifts the other, combining strength and balance in a passionate, energetic pose.",
+    "advantages": [
+      "Perfect for those seeking adrenaline and complicity.",
+      "Encourages exploration of control and power.",
+      "Ideal for couples with good coordination."
+    ],
+    "disadvantages": [
+      "Requires strength and some practice.",
+      "Not suitable for long sessions."
+    ],
+    "fun_fact": "The Elevator symbolizes total trust between two bodies.",
+    "image": "assets/img/nivel5/5-1.webp"
+  },
+  "5-2": {
+    "name": "The Standing Tilt",
+    "description": "Both partners stand; one leans slightly forward while the other holds them from behind. It requires coordination and balance but is highly stimulating.",
+    "advantages": [
+      "Allows great physical and visual closeness, especially with a mirror or wall.",
+      "Ideal for those who enjoy intensity with minimal effort.",
+      "Can be performed in small or improvised spaces."
+    ],
+    "disadvantages": [
+      "May require solid balance or support on a firm surface.",
+      "Not recommended for long periods if there’s a significant height difference."
+    ],
+    "fun_fact": "This position appears in Western versions of the Kama Sutra and symbolizes spontaneous passion. Very popular in modern illustrations.",
+    "image": "assets/img/nivel5/5-2.webp"
+  },
+  "5-3": {
+    "name": "The Tiger",
+    "description": "One partner braces firmly while the other arches toward them, creating a figure of strength and desire.",
+    "advantages": [
+      "Energetic and challenging.",
+      "Encourages a playful rhythm and power exchange.",
+      "Fosters trust and excitement."
+    ],
+    "disadvantages": [
+      "Can be physically demanding.",
+      "Not ideal for beginners."
+    ],
+    "fun_fact": "Inspired by the tiger’s agility and strength — a symbol of desire and respect.",
+    "image": "assets/img/nivel5/5-3.webp"
+  },
+  "5-4": {
+    "name": "The Open Wing",
+    "description": "One partner leans back while the other supports them. Elegant, theatrical, and visually captivating.",
+    "advantages": [
+      "Aesthetically beautiful position.",
+      "Promotes teamwork and balance.",
+      "Perfect for intense and playful moments."
+    ],
+    "disadvantages": [
+      "Can tire the arms and legs.",
+      "Requires mutual trust."
+    ],
+    "fun_fact": "The Open Wing has appeared in art as a metaphor for surrender and emotional openness.",
+    "image": "assets/img/nivel5/5-4.webp"
+  },
+  "5-5": {
+    "name": "The Inverted Elevator",
+    "description": "One person holds the other partially on their back, combining strength and balance. Active and passionate",
+    "advantages": [
+      "Perfect for those seeking adrenaline and complicity.",
+      "Encourages exploration of control and power.",
+      "Ideal for couples with good coordination."
+    ],
+    "disadvantages": [
+      "Requires strength and some practice.",
+      "Not suitable for long sessions."
+    ],
+    "fun_fact": "The Elevator symbolizes total trust between two bodies.",
+    "image": "assets/img/nivel5/5-5.webp"
+  },
+  "5-6": {
+    "name": "Advanced Missionary",
+    "description": "A variation of the traditional missionary position, performed at the edge of the bed. The woman lies at the edge while the man, standing or kneeling on the floor, supports her firmly.",
+    "advantages": [
+      "Helps break the routine.",
+      "Provides intense breast stimulation.",
+      "Enhances visual connection between partners."
+    ],
+    "disadvantages": [
+      "May be uncomfortable or tiring for the man."
+    ],
+    "fun_fact": "The name evokes the gentle flutter of a butterfly’s wings — a symbol of transformation and lightness.",
+    "image": "assets/img/nivel5/5-6.webp"
+  },
+  "5-7": {
+    "name": "Shadows in Dialogue",
+    "description": "In the dim glow of an old room, the shadows seem to speak. Two souls, opposite yet entwined, meet in a gesture beyond words. The soft light traces the contours of strength and vulnerability, balancing stillness and surrender. It is a quiet conversation between silence and breath, where time itself seems to pause and listen.",
+    "advantages": [
+      "Encourages reflection on the harmony between opposites.",
+      "Captures the subtle balance of emotion and presence.",
+      "Perfect for illustrating the depth of human connection."
+    ],
+    "disadvantages": [
+      "Its symbolism may be too abstract for those seeking direct meaning.",
+      "Requires a poetic sensibility to fully appreciate its essence."
+    ],
+    "fun_fact": "‘Shadows in Dialogue’ symbolizes the meeting of opposing forces — stillness and motion, reason and impulse, light and shade.",
+    "image": "assets/img/nivel5/5-7.webp"
+  },
+  "5-8": {
+  "name": "Velvet Shadows",
+  "description": "Bathed in a soft blue light, two souls merge in a moment that blurs the line between strength and tenderness. She, poised yet vulnerable, surrenders to the rhythm of trust and connection, while he supports her with both care and intensity. The scene glows with passion, balance, and a timeless elegance that feels both intimate and powerful.",
+  "advantages": [
+    "Captures a perfect harmony between dominance and affection.",
+    "Expresses trust and mutual connection with visual grace.",
+    "Ideal for those who appreciate intensity wrapped in tenderness."
+  ],
+  "disadvantages": [
+    "Its emotional charge may feel overwhelming for some.",
+    "Requires deep connection to maintain authenticity."
+  ],
+  "fun_fact": "The title 'Velvet Shadows' reflects the contrast between softness and depth, where every movement tells a story of passion balanced by restraint.",
+  "image": "assets/img/nivel5/5-8.webp"
+},
+  "6-1": {
+    "name": "Indian Handstand",
+    "description": "The woman supports herself with her arms extended while the man, standing, holds her by the waist.",
+    "advantages": [
+      "A great physical and balance challenge.",
+      "Encourages exploration and control.",
+      "Ideal for experienced couples."
+    ],
+    "disadvantages": [
+      "Requires significant strength and coordination.",
+      "Not suitable for beginners."
+    ],
+    "fun_fact": "The Comet symbolizes the energy that rises and connects at a single point.",
+    "image": "assets/img/nivel6/6-1.webp"
+  },
+  "6-2": {
+    "name": "Reclined Rear",
+    "description": "A posture that enhances sensation and connection between partners.",
+    "advantages": [
+      "Allows deeper penetration.",
+      "Provides rhythm control.",
+      "Perfect for finishing moments with intensity."
+    ],
+    "disadvantages": [
+      "May become overstimulating if prolonged."
+    ],
+    "fun_fact": "The Dragon represents the fusion of energy and passion with perfect balance.",
+    "image": "assets/img/nivel6/6-2.webp"
+  },
+  "6-3": {
+    "name": "The Triangle",
+    "description": "Both partners position themselves forming a triangular figure — one leaning forward while the other provides support. A posture that combines harmony, strength, and complicity.",
+    "advantages": [
+      "Encourages closeness and synchronization.",
+      "Maintains constant visual and physical connection.",
+      "Balances emotional and physical intimacy beautifully."
+    ],
+    "disadvantages": [
+      "Requires some strength and flexibility.",
+      "Not ideal for long sessions if relaxation is desired."
+    ],
+    "fun_fact": "The triangle symbolizes unity, energy, and balance between desire, trust, and play.",
+    "image": "assets/img/nivel6/6-3.webp"
+  },
+  "6-4": {
+    "name": "The Mirror",
+    "description": "Both partners face each other, mirroring movements and gestures as if reflecting one another. Everything revolves around synchronization and complicity.",
+    "advantages": [
+      "Promotes intense emotional and visual connection.",
+      "Perfect for couples who enjoy harmony and mutual observation.",
+      "Allows elegant rhythm and energy play."
+    ],
+    "disadvantages": [
+      "Can be difficult to maintain without proper balance.",
+      "Requires focus to keep synchronization natural."
+    ],
+    "fun_fact": "Named for the sensation of seeing yourself reflected in your partner — a metaphor for the balance between desire and tenderness.",
+    "image": "assets/img/nivel6/6-4.webp"
+  },
+  "6-5": {
+    "name": "The Deep",
+    "description": "A variation of the missionary position, but with the legs resting on the man’s shoulders for enhanced depth and connection.",
+    "advantages": [
+      "Creates a powerful visual and emotional bond.",
+      "Ideal for couples who enjoy harmony and intimacy.",
+      "Allows deeper penetration and greater stimulation."
+    ],
+    "disadvantages": [
+      "Can be uncomfortable if not used to it.",
+      "Requires some flexibility."
+    ],
+    "fun_fact": "A classic of intimacy — the deeper the connection, the stronger the desire.",
+    "image": "assets/img/nivel6/6-5.webp"
+  },
+  "6-6": {
+    "name": "The Candle",
+    "description": "The woman is lifted facing her partner and supported by his arms while keeping her legs open in balance.",
+    "advantages": [
+      "Exotic and ideal for those who love to experiment.",
+      "Perfect for couples in good physical condition.",
+      "Can be performed in front of a mirror for added excitement."
+    ],
+    "disadvantages": [
+      "Requires arm strength and coordination.",
+      "Demands flexibility and control."
+    ],
+    "fun_fact": "Named after its upright form, representing stability, energy, and shared intensity.",
+    "image": "assets/img/nivel6/6-6.webp"
+  },
+  "6-7": {
+    "name": "Crimson Light",
+    "description": "In a corner where the night guards its secrets, two souls meet between passion and stillness. The warm glow ignites the air, as if inner fire had taken form, wrapping the moment in quiet intensity. There is no rush—only the rhythm of hearts meeting in strength and surrender. It is the invisible dance between desire and peace, a whisper of connection that transcends words.",
+    "advantages": [
+      "Conveys vibrant emotional energy.",
+      "Symbolizes the union of strength and tenderness.",
+      "Perfect for evoking a sense of deep and genuine connection."
+    ],
+    "disadvantages": [
+      "Its symbolic intensity may feel overwhelming.",
+      "Best appreciated by those open to feeling rather than reasoning."
+    ],
+    "fun_fact": "‘Crimson Light’ represents the instant when emotion becomes pure energy, uniting passion and serenity in a single gaze.",
+    "image": "assets/img/nivel6/6-7.webp"
+  },
+  "6-8": {
+  "name": "Light and Shadow",
+  "description": "In a room bathed in warm tones, two souls intertwine in a moment suspended between strength and tenderness. Their connection becomes a silent dialogue of trust and surrender, a choreography where passion transforms into art and the body becomes the language of the soul.",
+  "advantages": [
+    "Evokes the union between energy and sensitivity.",
+    "Conveys a sense of trust and mutual balance.",
+    "Highlights the beauty of the shared moment and its emotional symbolism."
+  ],
+  "disadvantages": [
+    "Its intensity may require a deep connection to be truly understood.",
+    "Not everyone will perceive its message beyond the visual surface."
+  ],
+  "fun_fact": "‘Light and Shadow’ symbolizes the eternal contrast between reason and desire, where both meet to create harmony within chaos.",
+  "image": "assets/img/nivel6/6-8.webp"
+},
+  "7-1": {
+    "name": "Inner Flame",
+    "description": "Beneath a gentle light that brushes against the skin of time, a presence rises between shadow and glow. There are no words—only the pulse of life beating with quiet strength, reminding us that every gesture can be both fire and peace. The moment becomes a breath held still, a metaphor for the longing to exist with intensity. Between the dim and the radiant, the inner flame illuminates what cannot be seen: the soul that dares to feel.",
+    "advantages": [
+      "Conveys energy, passion, and emotional depth.",
+      "Captures the harmony between strength and vulnerability.",
+      "Perfect for expressing creative drive and human connection."
+    ],
+    "disadvantages": [
+      "Its symbolism may feel abstract to literal-minded viewers.",
+      "Invites introspection to fully grasp its meaning."
+    ],
+    "fun_fact": "‘Inner Flame’ represents the quiet spark within every being—the energy that drives us to create, to feel, and to transform.",
+    "image": "assets/img/nivel7/7-1.webp"
+  },
+  "7-2": {
+    "name": "The Strength of Silence",
+    "description": "In the golden dimness of a quiet room, two souls meet at the edge of desire and determination. No words are spoken—only the ancient language of breath and touch. He holds the world within his hands; she, the light that dissolves it. Between amber shadows and trembling whispers, the moment becomes eternal, a secret shared by the universe itself.",
+    "advantages": [
+      "Evokes an intense and authentic connection between two presences.",
+      "Explores the balance between strength and tenderness.",
+      "Conveys an intimate, cinematic atmosphere without resorting to explicitness."
+    ],
+    "disadvantages": [
+      "Its emotional intensity may feel overwhelming for those seeking subtlety.",
+      "Requires attention to detail and sensitivity to preserve visual harmony."
+    ],
+    "fun_fact": "‘The Strength of Silence’ symbolizes the instant when passion transforms into art and the body becomes a language only the soul can understand.",
+    "image": "assets/img/nivel7/7-2.webp"
+  },
+  "7-3": {
+    "name": "Embrace of Light",
+    "description": "In the golden corner of the room, where the shadows caress softly and silence bears witness, two souls meet in a suspended instant. There is no haste—only the rhythm of shared breath and the certainty of a feeling that burns without words. The lamp glows gently, guarding the secret of that fleeting eternity where closeness becomes an unspoken language.",
+    "advantages": [
+      "Conveys an atmosphere of deep and sincere connection.",
+      "Balances desire and tenderness through subtle imagery.",
+      "Perfect to represent the harmony between body and emotion."
+    ],
+    "disadvantages": [
+      "Its depth may be lost without an intimate context.",
+      "The symbolism might escape those who seek literal meaning."
+    ],
+    "fun_fact": "The title 'Embrace of Light' represents the moment when emotional warmth becomes visible, illuminating the outlines of the soul.",
+    "image": "assets/img/nivel7/7-3.webp"
+  },
+  "7-4": {
+    "name": "Silent Fusion",
+    "description": "In the quietest corner of the night, two souls dissolve into an embrace that transcends words. The lamp, a discreet witness, spills its warm light over an instant that feels eternal. There is no distance, no boundary—only the shared pulse of those who recognize each other beyond body and time. The air trembles with the tenderness of a sigh holding everything language cannot express.",
+    "advantages": [
+      "Captures the intensity of a profound emotional connection.",
+      "Merges intimacy and serenity into a balanced atmosphere.",
+      "Ideal to symbolize the union of strength and tenderness."
+    ],
+    "disadvantages": [
+      "Its subtlety may fade if taken too literally.",
+      "Requires a sensitive eye to grasp its full meaning."
+    ],
+    "fun_fact": "The title ‘Silent Fusion’ symbolizes the moment when two beings move in the same rhythm, where energy and calm merge into one essence.",
+    "image": "assets/img/nivel7/7-4.webp"
+  },
+  "7-5": {
+    "name": "Echoes of Fire",
+    "description": "In the dim glow of a single lamp, two presences merge in a rhythm of breath and energy. The air hums like an ancient melody, where passion and surrender turn into a dance. There are no boundaries—only the certainty of a union that ignites serenity. In that suspended instant, time dissolves, leaving only the shimmer of skin and the quiet harmony of desire wrapped in tenderness.",
+    "advantages": [
+      "Conveys vitality and an authentic emotional connection.",
+      "Blends emotional intensity with aesthetic elegance.",
+      "Evokes the transformative power of human connection."
+    ],
+    "disadvantages": [
+      "Its symbolism may invite varied interpretations.",
+      "Requires sensitivity to perceive its underlying message."
+    ],
+    "fun_fact": "The title ‘Echoes of Fire’ represents the moment when shared energy leaves an invisible, eternal vibration between two souls.",
+    "image": "assets/img/nivel7/7-5.webp"
+  },
+  "7-6": {
+    "name": "Silence of Skin",
+    "description": "In the amber hush of a quiet room, two souls meet where words no longer reach. The air trembles with a soft, timeless rhythm — a heartbeat shared between shadows and light. There is no beginning or end, only the warmth of recognition and the stillness of being seen. Every breath becomes a promise, every silence a flame that speaks of devotion beyond desire.",
+    "advantages": [
+      "Expresses profound intimacy through subtle, poetic imagery.",
+      "Balances sensuality with serenity and emotional depth.",
+      "Captures the timeless essence of human connection."
+    ],
+    "disadvantages": [
+      "Its abstract tone may obscure the literal meaning.",
+      "Requires emotional sensitivity to grasp its nuance fully."
+    ],
+    "fun_fact": "The title ‘Silence of Skin’ symbolizes the sacred pause between two heartbeats — where connection becomes eternal.",
+    "image": "assets/img/nivel7/7-6.webp"
+  },
+  "7-7": {
+    "name": "Gravity of Souls",
+    "description": "Two beings find themselves suspended in a moment of pure connection — a balance between strength and tenderness. Eyes meet, and the world fades into a single pulse of trust and discovery. Their energy flows like a silent current, where vulnerability becomes beauty and every breath writes the language of unity.",
+    "advantages": [
+      "Evokes intimacy through emotional tension and mutual trust.",
+      "Balances strength with vulnerability in a refined composition.",
+      "Symbolizes the harmony that emerges from emotional alignment."
+    ],
+    "disadvantages": [
+      "Its meaning depends heavily on personal interpretation.",
+      "The minimal setting may limit contextual depth."
+    ],
+    "fun_fact": "The title ‘Gravity of Souls’ reflects the invisible pull that draws two beings toward an unspoken understanding.",
+    "image": "assets/img/nivel7/7-7.webp"
+  },
+  "7-8": {
+  "name": "Balance of Passions",
+  "description": "In the dim light of a blue room, two souls challenge each other in a dance of trust and surrender. He holds the moment with calm strength, while she lets herself be guided by the intensity of their connection. The silence between them fills with an unspoken energy, a choreography where desire transforms into art and balance.",
+  "advantages": [
+    "Expresses a deep bond built on mutual trust.",
+    "Conveys strength, beauty, and harmony in motion.",
+    "Perfect for those who seek balance between intensity and tenderness."
+  ],
+  "disadvantages": [
+    "May require a high level of emotional and physical synchronicity.",
+    "Its intensity can overwhelm without genuine connection."
+  ],
+  "fun_fact": "The title ‘Balance of Passions’ symbolizes the duality between surrender and control, where body and soul meet in perfect harmony.",
+  "image": "assets/img/nivel7/7-8.webp"
+},
+"8-1": {
+  "name": "Soul Encounter",
+  "description": "In the serenity of an intimate dawn, two souls seek each other between calm and restrained passion. Their eyes meet in a silent dialogue that speaks of trust and surrender. The soft bluish light surrounding them creates an atmosphere of tenderness and mystery, where time seems to pause to witness their profound connection.",
+  "advantages": [
+    "Evokes the union between love and vulnerability.",
+    "Conveys a sense of emotional and physical harmony.",
+    "Perfect to represent the complicity between two beings who understand each other beyond words."
+  ],
+  "disadvantages": [
+    "Requires sensitivity to grasp its symbolic depth.",
+    "Its meaning may vary depending on the viewer’s emotional perception."
+  ],
+  "fun_fact": "‘Soul Encounter’ symbolizes the fusion of trust and desire in its purest form, where connection transcends all physical boundaries.",
+  "image": "assets/img/nivel8/8-1.webp"
+},
+"8-2": {
+  "name": "Eternal Pulse",
+  "description": "Between light and shadow, two souls converge in an instant of deep connection. Their movements are synchronized like a heartbeat that speaks without words — a rhythm of trust, intensity, and surrender. The warm tones and subtle glows envelop the scene in a timeless atmosphere of emotion and unity.",
+  "advantages": [
+    "Captures the essence of passion transformed into art and emotion.",
+    "Transmits a balance between strength and tenderness.",
+    "Ideal to represent intimacy seen as mutual respect and connection."
+  ],
+  "disadvantages": [
+    "Its intensity may be interpreted differently depending on the viewer’s sensitivity.",
+    "Requires an emotional reading to appreciate its symbolic meaning."
+  ],
+  "fun_fact": "‘Eternal Pulse’ symbolizes the rhythm that unites two beings beyond the physical — a silent dance between emotion, energy, and trust.",
+  "image": "assets/img/nivel8/8-2.webp"
+},
+"8-3": {
+  "name": "Harmonic Embrace",
+  "description": "In the stillness of a timeless moment, two figures intertwine in a dance of trust and surrender. Their gestures speak of balance and tenderness, while the purity of the white background accentuates the sincerity of their connection. The vintage tones evoke nostalgia, blending strength and vulnerability in perfect harmony.",
+  "advantages": [
+    "Highlights the harmony between emotion and presence.",
+    "Conveys a sense of unity and mutual understanding.",
+    "Its minimalist composition enhances the depth of the scene."
+  ],
+  "disadvantages": [
+    "Its subtle symbolism may be overlooked without contemplation.",
+    "The simplicity of the setting may limit broader interpretations."
+  ],
+  "fun_fact": "‘Harmonic Embrace’ captures the essence of human connection through minimalist expression, where every gesture becomes a silent dialogue of trust and balance.",
+  "image": "assets/img/nivel8/8-3.webp"
+},
+"8-4": {
+  "name": "Intimate Balance",
+  "description": "In this vividly retro-style illustration, two figures intertwine in a composition symbolizing trust, connection, and harmony between opposing energies. The warm lighting and soft tones evoke calmness amid intensity, revealing a delicate balance between strength and tenderness.",
+  "advantages": [
+    "Its vintage aesthetic highlights the elegance of human emotions.",
+    "Expresses the union between balance and contained passion.",
+    "Perfect to depict the visual synchronicity between movement and stillness."
+  ],
+  "disadvantages": [
+    "Its interpretation may vary depending on the viewer’s sensitivity.",
+    "Requires attention to detail to grasp its full symbolic depth."
+  ],
+  "fun_fact": "‘Intimate Balance’ represents the pursuit of harmony between emotional and physical realms, celebrating mutual trust through its composition.",
+  "image": "assets/img/nivel8/8-4.webp"
+},
+"8-5": {
+  "name": "Silent Connection",
+  "description": "Bathed in soft light and warm tones, two figures find themselves in a moment of balance and mutual surrender. The composition reflects the harmony between strength and tenderness, where every gesture seems to carry a shared story beyond words.",
+  "advantages": [
+    "Evokes emotional intimacy and serene aesthetics.",
+    "Highlights human connection in its most contemplative form.",
+    "The lighting and contrast add depth and visual warmth."
+  ],
+  "disadvantages": [
+    "Its symbolism can be interpreted in many ways depending on the viewer.",
+    "The emotional subtlety might be overlooked by those seeking a more direct meaning."
+  ],
+  "fun_fact": "‘Silent Connection’ explores how non-verbal communication can express bonds deeper than language itself.",
+  "image": "assets/img/nivel8/8-5.webp"
+},
+"8-6": {
+  "name": "Light of Trust",
+  "description": "In an intimate atmosphere illuminated by a soft, warm light, two souls meet in a moment of deep and quiet connection. Their eyes mirror the serenity of finding refuge in one another, as the world around them fades, leaving only shared presence and calm.",
+  "advantages": [
+    "Conveys calm, trust, and mutual surrender.",
+    "The interplay of light and shadow enhances the emotion of the scene.",
+    "Ideal to represent spiritual and emotional unity between two beings."
+  ],
+  "disadvantages": [
+    "Its symbolism can be understood in multiple ways depending on perspective.",
+    "The subtle composition requires thoughtful observation to grasp its emotional depth."
+  ],
+  "fun_fact": "‘Light of Trust’ symbolizes intimacy as a space of both vulnerability and strength, where connection transcends what is seen.",
+  "image": "assets/img/nivel8/8-6.webp"
+},"8-7": {
+  "name": "Intimate Balance",
+  "description": "A visual metaphor for the search between strength and tenderness. The composition highlights mutual trust and a silent bond, capturing the precise moment when vulnerability becomes beauty and connection transcends movement.",
+  "advantages": [
+    "Evokes profound emotions linked to surrender and mutual respect.",
+    "Conveys harmony between physical energy and spiritual calm.",
+    "Perfect to symbolize unity through balance and emotional presence."
+  ],
+  "disadvantages": [
+    "Its meaning may shift depending on the viewer’s sensitivity.",
+    "The emotional symbolism might fade without deeper interpretation."
+  ],
+  "fun_fact": "‘Intimate Balance’ portrays how two beings can transform tension into connection, finding grace in moments of shared support.",
+  "image": "assets/img/nivel8/8-7.webp"
+},
+"8-8": {
+  "name": "Shadows of Instinct",
+  "description": "In a stark setting illuminated by a single light, the duality between control and surrender unfolds. The tension of the moment symbolizes the inner struggle between the urge to dominate impulses and the need to release them. The scene, charged with drama, captures the power of primal instincts confronting the structures of duty and reason.",
+  "advantages": [
+    "Explores the relationship between strength and human vulnerability.",
+    "Conveys a cinematic sense of contrast and tension.",
+    "Encourages reflection on the limits of control and inner freedom."
+  ],
+  "disadvantages": [
+    "Its visual intensity may lead to varied interpretations.",
+    "Requires sensitivity to perceive its symbolic and emotional undertones."
+  ],
+  "fun_fact": "‘Shadows of Instinct’ draws inspiration from the mid-20th century pulp art style, where human emotions were portrayed through extreme contrasts of light and darkness.",
+  "image": "assets/img/nivel8/8-8.webp"
+}
+}

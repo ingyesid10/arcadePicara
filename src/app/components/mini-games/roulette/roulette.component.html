@@ -1,0 +1,36 @@
+<div class="roulette-container">
+  <div class="roulette-wrapper">
+    <div class="roulette-circle">{{ currentSegmentDisplay }}</div>
+
+    <div class="roulette-panel">
+      <h3 class="roulette-title">{{ 'ROULETTE.TITLE' | translate }}</h3>
+      <p class="roulette-description">{{ 'ROULETTE.DESCRIPTION' | translate }}</p>
+
+      <div class="roulette-input">
+        <label>{{ 'ROULETTE.TIME' | translate }}</label>
+        <input type="number" [(ngModel)]="modalSeconds" min="5" />
+      </div>
+
+      <div class="roulette-actions">
+        <div class="timer">{{ formatTimer(countdownRemaining) }}</div>
+
+        <button class="btn" (click)="startSpin()">
+          {{ hasSpun ? ('ROULETTE.RETRY' | translate) : ('ROULETTE.SPIN' | translate) }}
+        </button>
+
+        <button class="btn secondary" (click)="startCountdown(modalSeconds)" [disabled]="!showResult">
+          {{ 'ROULETTE.START' | translate }}
+        </button>
+
+        <button class="btn secondary" (click)="reset()">
+          {{ 'ROULETTE.RESET' | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="showResult" class="roulette-result">
+    <div class="result-title">{{ resultName }}</div>
+    <div class="result-desc">{{ resultDesc }}</div>
+  </div>
+</div>

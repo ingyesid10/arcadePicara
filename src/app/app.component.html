@@ -1,0 +1,44 @@
+<div class="arcade-container" role="application" aria-label="Reto Hot Arcade">
+
+
+  <!-- 🔥 Banner principal -->
+  <div class="banner">
+    <div class="logo-box">
+      <img src="assets/img/icon/logoPP.png" alt="logo" onerror="this.style.display='none'">
+    </div>
+
+    <div class="banner-header">
+      <h1>{{ title }}</h1>
+
+      <!-- 🌐 Selector de idioma con banderas -->
+    </div>
+  </div>
+
+  <div class="main-row">
+    <app-sidebar></app-sidebar>
+
+    <main class="content-area">
+      <div class="lang-switch">
+        <img src="assets/img/icon/es.svg" alt="Español" title="Español" class="flag"
+          [class.active]="currentLang === 'es'" (click)="changeLang('es')" />
+
+        <img src="assets/img/icon/en.svg" alt="English" title="English" class="flag"
+          [class.active]="currentLang === 'en'" (click)="changeLang('en')" />
+        <div class="flags-len">
+
+        </div>
+
+      </div>
+      <div class="title-panel">
+        <h2 id="titleText">{{ titleText }}</h2>
+      </div>
+
+      <router-outlet>
+      </router-outlet>
+              <app-footer></app-footer>
+    </main>
+  </div>
+</div>
+
+<app-modal *ngIf="modalOpen" [game]="selectedGame" (close)="closeModal()"></app-modal>
+<app-cookie-consent></app-cookie-consent>

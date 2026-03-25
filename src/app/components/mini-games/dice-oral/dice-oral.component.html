@@ -1,0 +1,55 @@
+<div class="dice-container">
+  <div class="dice-stage">
+    <div class="die" [ngClass]="{'spin': spinning}">{{ leftDisplay }}</div>
+    <div class="die" [ngClass]="{'spin': spinning}">{{ rightDisplay }}</div>
+  </div>
+
+  <div class="actions-center">
+    <button class="btn-yellow" (click)="startSpin()">{{ 'dice.roll' | translate }}</button>
+  </div>
+
+  <div *ngIf="showResult" class="combination-card">
+    <div class="image-section" [ngClass]="{'active': timerActive}">
+      <img [src]="resultImageSrc" [alt]="resultName" class="result-img" onerror="this.src='/assets/img/default.jpg'" />
+    </div>
+
+    <div class="info-section">
+      <h2>{{ resultName }}</h2>
+      <p>{{ resultDesc }}</p>
+
+      <div class="cards-row" *ngIf="resultAdvantages.length || resultDisadvantages.length">
+        <div class="info-box ventajas" *ngIf="resultAdvantages.length">
+          <h3>{{ 'dice.advantages' | translate }}</h3>
+          <ul>
+            <li *ngFor="let v of resultAdvantages">{{ v }}</li>
+          </ul>
+        </div>
+
+        <div class="info-box desventajas" *ngIf="resultDisadvantages.length">
+          <h3>{{ 'dice.disadvantages' | translate }}</h3>
+          <ul>
+            <li *ngFor="let d of resultDisadvantages">{{ d }}</li>
+          </ul>
+        </div>
+      </div>
+
+      <p *ngIf="resultFunFact" class="dato-curioso">
+        <strong>{{ 'dice.curiousFact' | translate }}:</strong> {{ resultFunFact }}
+      </p>
+
+      <div class="config-time">
+        <label for="timer">⏱ Tiempo (segundos):</label>
+        <input id="timer" type="number" [(ngModel)]="modalSeconds" min="10" max="600" step="10" />
+      </div>
+
+      <div class="actions">
+        <button class="btn-yellow" (click)="startCountdown()">{{ 'dice.start' | translate }}</button>
+        <button class="btn-dark" (click)="startSpin()">{{ 'dice.rollAgain' | translate }}</button>
+      </div>
+
+      <div *ngIf="countdownInterval" class="timer">
+        <h3>{{ 'dice.remainingTime' | translate }}: {{ formatTimer(countdownRemaining) }}</h3>
+      </div>
+    </div>
+  </div>
+</div>

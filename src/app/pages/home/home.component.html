@@ -1,0 +1,40 @@
+<div id="homeView" style="display:flex;flex-direction:column;align-items:center;width:100%">
+
+  <!-- 🔹 Selector de categorías -->
+  <div class="selector-grid" *ngIf="showSelector">
+    <div class="select-card c-hetero" (click)="selectCategory('pareja')">
+      <div class="inner">
+        <img class="pareja" src="assets/img/icon/pareja.svg" width="90px">
+        <span>{{ 'CATEGORIES.COUPLE' | translate }}</span>
+      </div>
+    </div>
+
+    <div class="select-card c-gay" (click)="selectCategory('fiesta')">
+      <div class="inner">
+        <img class="fiesta" src="assets/img/icon/fiesta.svg" width="76">
+        <span>{{ 'CATEGORIES.PARTY' | translate }}</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 🔹 Texto de bienvenida -->
+  <p id="welcomeText" class="intro-text" [innerHTML]="introText" *ngIf="showSelector"></p>
+
+  <!-- 🔹 Grid de minijuegos filtrados -->
+  <div id="homeGames" class="games-grid" style="margin-top:20px;" *ngIf="showGames">
+    <div class="game-card" *ngFor="let game of filteredGames" (click)="open(game.id)">
+      <div class="g-icon"><img src="assets/img/icon/{{ game.icon }}" width="{{game.width}}" class="{{game.class}}" alt=""> </div>
+    <h3>{{ game.translatedName }}</h3>
+    </div>
+  </div>
+
+  <!-- 🔹 Mensaje final aleatorio -->
+  <p id="welcomeText" class="intro-text" [innerHTML]="messageNext" *ngIf="!showSelector"></p>
+
+  <!-- 🔹 Botón volver -->
+  <!-- <button *ngIf="showGames" class="btn-back" (click)="goBack()">
+    {{ 'BUTTONS.BACK' | translate }}
+  </button> -->
+</div>
+
+

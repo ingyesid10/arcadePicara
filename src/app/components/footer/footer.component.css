@@ -1,0 +1,43 @@
+/* redes */
+.footer-social {
+  margin-top: 40px;
+  padding: 20px 10px;
+  text-align: center;
+  background: rgba(10, 10, 20, 0.7);
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px 12px 0 0;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.social-link {
+  color: #fff;
+  font-size: 28px;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  transform: scale(1.25);
+  text-shadow: 0 0 10px #ff8c32, 0 0 20px #ff5e00, 0 0 40px #ff2d00;
+}
+
+.footer-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 600px) {
+  .social-link {
+    font-size: 24px;
+  }
+}

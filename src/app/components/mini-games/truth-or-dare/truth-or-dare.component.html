@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="roulette-container">
+    <div class="roulette-display">
+      {{ currentSegmentDisplay }}
+    </div>
+
+    <div class="controls">
+      <h3>{{ labels.TITLE }}</h3>
+      <p>{{ labels.DESCRIPTION }}</p>
+
+      <div class="buttons">
+        <button class="btn" (click)="startSpin()">
+          {{ hasSpun ? labels.RETRY : labels.SPIN }}
+        </button>
+        <button class="btn secondary" (click)="reset()">
+          {{ labels.RESET }}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="showResult" class="result">
+    <div class="result-text" [innerHTML]="resultName"></div>
+    <p class="result-sub" [innerHTML]="resultSub"></p>
+  </div>
+</div>

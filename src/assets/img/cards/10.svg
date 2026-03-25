@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="560" viewBox="0 0 400 560">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#25001c"/>
+      <stop offset="100%" stop-color="#140011"/>
+    </radialGradient>
+    <filter id="neon-glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="8" y="8" width="384" height="544" rx="28" ry="28"
+        fill="url(#bg)" stroke="#ff00cc" stroke-width="6" filter="url(#neon-glow)"/>
+
+  <g transform="translate(35,40) scale(1.1)" stroke="#ff4d00" stroke-width="3" fill="none" filter="url(#neon-glow)">
+    <rect x="0" y="0" width="50" height="50" rx="8" ry="8"/>
+    <circle cx="15" cy="15" r="4" fill="#ff4d00"/>
+    <circle cx="35" cy="35" r="4" fill="#ff4d00"/>
+  </g>
+
+  <text x="50%" y="56%" text-anchor="middle"
+        fill="none" stroke="#00bfff" stroke-width="7"
+        font-size="320" font-family="Orbitron, sans-serif"
+        filter="url(#neon-glow)" dominant-baseline="middle">10</text>
+  <text x="50%" y="56%" text-anchor="middle"
+        fill="#00bfff" font-size="320"
+        font-family="Orbitron, sans-serif" opacity="0.9"
+        dominant-baseline="middle">10</text>
+</svg>

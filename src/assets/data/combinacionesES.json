@@ -1,0 +1,960 @@
+{
+  "1-1": {
+    "nombre": "Misionero",
+    "descripcion": "Ambos frente a frente, disfrutando del contacto visual y la cercanía. Es una postura clásica, romántica y llena de ternura.",
+    "ventajas": [
+      "Es fácil y cómoda para ambos.",
+      "Permite contacto visual cercano.",
+      "Ideal para principiantes."
+    ],
+    "desventajas": [
+      "Puede resultar monótona si se repite demasiado.",
+      "No permite demasiada variedad en los ángulos."
+    ],
+    "dato_curioso": "Es una de las posiciones más antiguas y universales.",
+    "imagen": "assets/img/nivel1/1-1.webp"
+  },
+  "1-2": {
+    "nombre": "Cucharita",
+    "descripcion": "Ambos se acuestan de lado, uno detrás del otro, creando una sensación de abrazo constante. Cómoda y muy cariñosa.",
+    "ventajas": [
+      "Muy íntima y tierna.",
+      "Relajada y cómoda, ideal para caricias.",
+      "Perfecta para juegos lentos."
+    ],
+    "desventajas": [
+      "No permite demasiado contacto visual.",
+      "El ritmo puede ser limitado."
+    ],
+    "dato_curioso": "En muchas culturas se asocia con la ternura y el descanso.",
+    "imagen": "assets/img/nivel1/1-2.webp"
+  },
+  "1-3": {
+    "nombre": "Loto",
+    "descripcion": "Sentados frente a frente, se entrelazan las piernas y los brazos, respirando juntos. Es una postura de conexión total y calma.",
+    "ventajas": [
+      "Contacto visual y emocional intenso.",
+      "Sensación de unión y cercanía.",
+      "Ideal para ritmos lentos y sensuales."
+    ],
+    "desventajas": [
+      "Puede cansar piernas y espalda con el tiempo.",
+      "Requiere un poco de flexibilidad."
+    ],
+    "dato_curioso": "Está inspirada en la postura de yoga Padmasana.",
+    "imagen": "assets/img/nivel1/1-3.webp"
+  },
+  "1-4": {
+    "nombre": "La oficina",
+    "descripcion": "La mujer se sienta sobre las piernas, inclinada hacia adelante, mientras el hombre recostado con las piernas estiradas la sujeta.",
+    "ventajas": [
+      "Conexión y dominio del hombre.",
+      "Permite explorar el control y el ritmo.",
+      "Da un toque juguetón y de contacto."
+    ],
+    "desventajas": [
+      "La persona de arriba puede cansarse.",
+      "Las piernas estiradas pueden generar incomodidad o fatiga."
+    ],
+    "dato_curioso": "Su nombre proviene de la posición que recuerda a alguien trabajando en una oficina.",
+    "imagen": "assets/img/nivel1/1-4.webp"
+  },
+  "1-5": {
+    "nombre": "De lado frente a frente",
+    "descripcion": "Ambos se acuestan de lado mirándose, abrazados. Es una posición simple pero muy íntima, perfecta para risas y besos.",
+    "ventajas": [
+      "Cómoda y relajada.",
+      "Permite abrazos y besos con facilidad.",
+      "Ambos tienen control del ritmo."
+    ],
+    "desventajas": [
+      "Puede ser limitada en movimientos.",
+      "No siempre es estable si se mueven mucho."
+    ],
+    "dato_curioso": "Es una evolución natural de la cucharita, pero más juguetona.",
+    "imagen": "assets/img/nivel1/1-5.webp"
+  },
+  "1-6": {
+    "nombre": "Sentados frente a frente",
+    "descripcion": "Ambos sentados, uno frente al otro, compartiendo miradas, caricias y risas. Cálida y muy romántica.",
+    "ventajas": [
+      "Conexión visual intensa.",
+      "Permite hablar, besar y acariciar libremente.",
+      "Ideal para juegos tranquilos."
+    ],
+    "desventajas": [
+      "Puede cansar la espalda.",
+      "Requiere un poco de equilibrio."
+    ],
+    "dato_curioso": "Se asocia con la intimidad en culturas orientales.",
+    "imagen": "assets/img/nivel1/1-6.webp"
+  },
+  "1-7": {
+    "nombre": "Susurros Carmesí",
+    "descripcion": "En una habitación iluminada por una luz cálida, dos almas se encuentran en un instante de conexión intensa. Ella, vestida con un azul que resalta su elegancia, se deja llevar por la magia del momento mientras el ambiente se llena de complicidad y deseo sutil. Cada detalle —el tapiz rojizo, el brillo dorado del jarrón, la suavidad del aire— convierte la escena en una danza entre el arte, la pasión y el misterio.",
+    "ventajas": [
+      "Transmite una profunda conexión emocional.",
+      "Evoca un ambiente artístico y sugerente.",
+      "Ideal para quienes disfrutan la sutileza y la complicidad."
+    ],
+    "desventajas": [
+      "Puede requerir sincronía emocional para mantener la armonía.",
+      "Su intensidad puede abrumar a los más reservados."
+    ],
+    "dato_curioso": "El título ‘Susurros Carmesí’ simboliza la unión entre la pasión y la calma, un equilibrio entre el arte y el deseo contenido.",
+    "imagen": "assets/img/nivel1/1-7.webp"
+  },
+  "1-8": {
+  "nombre": "Almas en Llama",
+  "descripcion": "Entre tonos dorados y sombras suaves, dos cuerpos se buscan como si el tiempo se hubiera detenido. La cercanía de sus miradas revela una entrega silenciosa, un diálogo sin palabras donde la pasión y la ternura se entrelazan. La luz acaricia sus siluetas, transformando el instante en una pintura viva de deseo contenido y amor palpable.",
+  "ventajas": [
+    "Evoca intensidad emocional y belleza íntima.",
+    "Su composición transmite equilibrio entre fuerza y suavidad.",
+    "Ideal para quienes aprecian la conexión genuina y la vulnerabilidad compartida."
+  ],
+  "desventajas": [
+    "Puede resultar demasiado apasionada para quienes prefieren sutileza total.",
+    "Requiere sensibilidad para captar su profundidad sin malinterpretarla."
+  ],
+  "dato_curioso": "‘Almas en Llama’ representa el momento en que el deseo se convierte en arte, y el arte en un reflejo de la unión más sincera entre dos seres.",
+  "imagen": "assets/img/nivel1/1-8.webp"
+},
+  "2-1": {
+    "nombre": "La Tijera",
+    "descripcion": "Ambos se acuestan de lado entrelazando las piernas, formando una figura similar a una tijera. Cercana y rítmica.",
+    "ventajas": [
+      "Más variedad en ángulos y sensaciones.",
+      "Permite un juego rítmico muy romántico.",
+      "Fomenta la cercanía y las risas espontáneas."
+    ],
+    "desventajas": [
+      "Puede requerir equilibrio y coordinación.",
+      "Menos cómoda si no hay sincronía."
+    ],
+    "dato_curioso": "La postura de la Tijera es símbolo de confianza y complicidad, ¡perfecta para quienes se entienden con una mirada!",
+    "imagen": "assets/img/nivel2/2-1.webp"
+  },
+  "2-2": {
+    "nombre": "El Puente",
+    "descripcion": "Una persona arquea el cuerpo hacia arriba mientras la otra acompaña el movimiento. Visualmente elegante y enérgica.",
+    "ventajas": [
+      "Favorece el contacto visual y el trabajo en equipo.",
+      "Ideal para una conexión energética y romántica.",
+      "Ayuda a fortalecer el abdomen y la espalda."
+    ],
+    "desventajas": [
+      "Requiere algo de fuerza y equilibrio.",
+      "Puede ser intensa si se mantiene mucho tiempo."
+    ],
+    "dato_curioso": "El Puente combina sensualidad con ejercicio, una mezcla que puede despertar carcajadas y chispas.",
+    "imagen": "assets/img/nivel2/2-2.webp"
+  },
+  "2-3": {
+    "nombre": "La Amazona",
+    "descripcion": "Una persona se sienta mientras la otra se coloca sobre ella, guiando el movimiento con confianza y coquetería.",
+    "ventajas": [
+      "Ofrece control y protagonismo a quien se sienta arriba.",
+      "Permite una comunicación visual constante.",
+      "Excelente para explorar ritmos y estilos distintos."
+    ],
+    "desventajas": [
+      "Requiere algo de fuerza en las piernas.",
+      "Puede cansar si se prolonga demasiado."
+    ],
+    "dato_curioso": "La Amazona simboliza el equilibrio entre libertad y conexión, perfecta para explorar con confianza.",
+    "imagen": "assets/img/nivel2/2-3.webp"
+  },
+  "2-4": {
+    "nombre": "El Arco",
+    "descripcion": "Una de las personas se recuesta arqueando la espalda suavemente, mientras la otra la acompaña. Elegante y llena de energía.",
+    "ventajas": [
+      "Postura visualmente elegante y romántica.",
+      "Fomenta el estiramiento y la flexibilidad.",
+      "Perfecta para quienes disfrutan del juego lento y coqueto."
+    ],
+    "desventajas": [
+      "Requiere elasticidad y confianza.",
+      "Puede ser incómoda en superficies duras."
+    ],
+    "dato_curioso": "El Arco es una de las posturas más retratadas en ilustraciones clásicas del amor oriental.",
+    "imagen": "assets/img/nivel2/2-4.webp"
+  },
+  "2-5": {
+    "nombre": "El Molino",
+    "descripcion": "Una postura dinámica que invita a girar y cambiar de ángulo, como un molino en movimiento lleno de energía y risas.",
+    "ventajas": [
+      "Permite experimentar desde distintos ángulos.",
+      "Muy divertida y espontánea para parejas creativas.",
+      "Ideal para romper la rutina y reír juntos."
+    ],
+    "desventajas": [
+      "Puede requerir coordinación y buena comunicación.",
+      "No apta para espacios reducidos."
+    ],
+    "dato_curioso": "El Molino es símbolo del movimiento constante, donde el ritmo se convierte en diversión pura.",
+    "imagen": "assets/img/nivel2/2-5.webp"
+  },
+  "2-6": {
+    "nombre": "El Columpio",
+    "descripcion": "Inspirada en el balanceo, una persona se sostiene mientras la otra acompaña el ritmo. Alegre, rítmica y divertida.",
+    "ventajas": [
+      "Combina equilibrio con juego y risas.",
+      "Permite movimientos balanceados y sensuales.",
+      "Excelente para parejas aventureras."
+    ],
+    "desventajas": [
+      "Difícil sin un buen soporte o fuerza en el tronco.",
+      "No recomendada para principiantes."
+    ],
+    "dato_curioso": "El Columpio representa la libertad del deseo en movimiento: ¡todo es cuestión de balance!",
+    "imagen": "assets/img/nivel2/2-6.webp"
+  },
+  "2-7": {
+    "nombre": "Ecos de Medianoche",
+    "descripcion": "En la penumbra de una biblioteca antigua, dos almas se buscan entre susurros y miradas que dicen más que las palabras. La luz de una lámpara dorada acaricia el terciopelo rojo del sillón, donde la pasión y la ternura se entrelazan en silencio. Cada gesto es una historia, cada respiración una promesa, mientras el mundo parece detenerse en ese instante de conexión y deseo contenido.",
+    "ventajas": [
+      "Despierta una sensación de intimidad y complicidad profunda.",
+      "Evoca una atmósfera elegante y apasionada.",
+      "Ideal para quienes valoran los momentos intensos con un toque de arte y misterio."
+    ],
+    "desventajas": [
+      "Puede requerir una conexión emocional intensa para mantener el equilibrio.",
+      "Su intensidad puede no ser adecuada para quienes prefieren la calma y el control."
+    ],
+    "dato_curioso": "El título ‘Ecos de Medianoche’ simboliza la unión entre el silencio del entorno y la fuerza de las emociones que resuenan en lo más profundo.",
+    "imagen": "assets/img/nivel2/2-7.webp"
+  },
+  "2-8": {
+  "nombre": "Entre Sombras y Suspiros",
+  "descripcion": "En una habitación tenue, dos almas se encuentran en el silencio que solo entienden los corazones que laten al mismo ritmo. La luz de una lámpara cálida baña la escena, dibujando en su piel reflejos de deseo contenido y ternura profunda. No hay prisa, solo la entrega sincera de un instante que parece detener el tiempo, donde cada respiración es una promesa y cada mirada, un refugio.",
+  "ventajas": [
+    "Evoca una atmósfera íntima y emocionalmente profunda.",
+    "Transmite calidez, cercanía y confianza mutua.",
+    "Ideal para representar la conexión entre pasión y ternura."
+  ],
+  "desventajas": [
+    "Su intensidad emocional puede resultar abrumadora para algunos.",
+    "Requiere una gran compenetración para mantener la armonía visual."
+  ],
+  "dato_curioso": "El título ‘Entre Sombras y Suspiros’ alude a la magia que ocurre cuando el silencio se convierte en lenguaje y la luz revela más de lo que oculta.",
+  "imagen": "assets/img/nivel2/2-8.webp"
+},
+  "3-1": {
+    "nombre": "El Delfín",
+    "descripcion": "Una persona se apoya sobre los antebrazos mientras la otra acompaña desde atrás, moviéndose con ritmo suave y fluido como el mar.",
+    "ventajas": [
+      "Permite un movimiento controlado y constante.",
+      "Estimula la conexión corporal y rítmica.",
+      "Ideal para quienes buscan algo más dinámico."
+    ],
+    "desventajas": [
+      "Puede requerir fuerza en brazos y abdomen.",
+      "No es cómoda por mucho tiempo."
+    ],
+    "dato_curioso": "El nombre viene por el balanceo del cuerpo que recuerda al movimiento de un delfín en el agua.",
+    "imagen": "assets/img/nivel3/3-1.webp"
+  },
+  "3-2": {
+    "nombre": "El Cuatro",
+    "descripcion": "Una persona se coloca apoyando manos y rodillas, mientras la otra acompaña el ritmo desde atrás, como un juego coordinado y coqueto.",
+    "ventajas": [
+      "Facilita los movimientos amplios y controlados.",
+      "Permite explorar la sincronía en pareja.",
+      "Da una sensación de energía y vitalidad."
+    ],
+    "desventajas": [
+      "Puede cansar las muñecas o rodillas.",
+      "Requiere buena comunicación para mantener el ritmo."
+    ],
+    "dato_curioso": "Una de las más populares por su equilibrio entre comodidad y dinamismo.",
+    "imagen": "assets/img/nivel3/3-2.webp"
+  },
+  "3-3": {
+    "nombre": "El Lazo",
+    "descripcion": "Una persona se sienta mientras la otra se inclina hacia atrás, creando un lazo con sus cuerpos que simboliza unión y complicidad.",
+    "ventajas": [
+      "Postura envolvente y estética.",
+      "Permite contacto visual constante.",
+      "Excelente para juegos lentos y coordinados."
+    ],
+    "desventajas": [
+      "Requiere equilibrio y algo de flexibilidad.",
+      "Puede cansar la zona lumbar."
+    ],
+    "dato_curioso": "El Lazo es símbolo de conexión emocional y juego compartido.",
+    "imagen": "assets/img/nivel3/3-3.webp"
+  },
+  "3-4": {
+    "nombre": "El Paseo",
+    "descripcion": "Ambos de rodillas, uno frente al otro, se mueven lentamente coordinando respiraciones y risas. Natural y romántica.",
+    "ventajas": [
+      "Equilibra cercanía y movimiento.",
+      "Ideal para quienes disfrutan el contacto visual.",
+      "Permite mantener control sobre la intensidad."
+    ],
+    "desventajas": [
+      "Puede cansar las rodillas.",
+      "Requiere ritmo y paciencia."
+    ],
+    "dato_curioso": "Llamada así porque parece un paseo lento entre caricias y sonrisas.",
+    "imagen": "assets/img/nivel3/3-4.webp"
+  },
+  "3-5": {
+    "nombre": "El Giro",
+    "descripcion": "Una postura donde uno se acuesta y el otro se coloca de lado, girando suavemente para cambiar de ángulo. Fluida y divertida.",
+    "ventajas": [
+      "Permite variar sin perder el contacto.",
+      "Ideal para parejas curiosas.",
+      "Fomenta la improvisación."
+    ],
+    "desventajas": [
+      "Puede ser inestable si hay demasiado movimiento.",
+      "No recomendable en superficies blandas."
+    ],
+    "dato_curioso": "Se le conoce como ‘el giro del deseo’ en antiguas descripciones orientales.",
+    "imagen": "assets/img/nivel3/3-5.webp"
+  },
+  "3-6": {
+    "nombre": "No te vayas",
+    "descripcion": "Mientras están en la cama, el hombre abraza por detrás a la mujer mientras ella inclina su cuerpo para permitir la conexión.",
+    "ventajas": [
+      "Brinda control al hombre.",
+      "Ideal para parejas a las que les gusta el dominio.",
+      "Refuerza la conexión y la cercanía."
+    ],
+    "desventajas": [
+      "La mujer tiene poco control.",
+      "Puede limitar el movimiento."
+    ],
+    "dato_curioso": "Inspirada en los entrelazados de esculturas antiguas que representan el amor eterno.",
+    "imagen": "assets/img/nivel3/3-6.webp"
+  },
+  "3-7": {
+    "nombre": "Alma Invertida",
+    "descripcion": "Entre cortinas de vino y terciopelo, la escena se suspende en un instante de equilibrio y entrega. Ella, envuelta en un tono borgoña que acentúa su misterio, se deja llevar por la confianza y el arte del momento. La luz tenue resalta los contornos y los suspiros del ambiente, mientras el aire se impregna de pasión contenida y elegancia silenciosa. Todo parece girar alrededor de una única verdad: cuando dos almas se reflejan, el tiempo se detiene.",
+    "ventajas": [
+      "Refleja una conexión basada en la confianza y la entrega mutua.",
+      "Crea una atmósfera visualmente intensa y estética.",
+      "Ideal para quienes disfrutan la belleza del equilibrio y la emoción."
+    ],
+    "desventajas": [
+      "Puede requerir gran sincronía y confianza entre ambos.",
+      "Su dramatismo puede resultar abrumador para espíritus más tranquilos."
+    ],
+    "dato_curioso": "El título ‘Alma Invertida’ representa el momento en que el cuerpo y el corazón cambian de perspectiva para encontrarse desde otro ángulo del amor.",
+    "imagen": "assets/img/nivel3/3-7.webp"
+  },
+  "3-8": {
+  "nombre": "Ecos de Fuego",
+  "descripcion": "En la penumbra de una habitación silenciosa, dos almas se enfrentan en un instante de pura entrega. Sus miradas se cruzan, y el tiempo parece detenerse mientras el aire se llena de una energía vibrante, casi magnética. La pasión no se grita, se respira; y en cada gesto hay una promesa, una chispa que enciende la noche con su propio lenguaje de deseo y ternura.",
+  "ventajas": [
+    "Expresa una conexión apasionada y profunda.",
+    "Evoca el poder del encuentro emocional.",
+    "Ideal para quienes buscan intensidad y entrega mutua."
+  ],
+  "desventajas": [
+    "Su intensidad puede ser abrumadora para algunos.",
+    "Requiere equilibrio entre emoción y serenidad."
+  ],
+  "dato_curioso": "‘Ecos de Fuego’ simboliza la unión entre la vulnerabilidad y la fuerza interior, un fuego que ilumina desde dentro sin consumir.",
+  "imagen": "assets/img/nivel3/3-8.webp"
+},
+  "4-1": {
+    "nombre": "El Balancín",
+    "descripcion": "Una persona se recuesta mientras la otra balancea suavemente su cuerpo sobre ella. Movimiento rítmico y elegante.",
+    "ventajas": [
+      "Perfecta para explorar ritmo y coordinación.",
+      "Combina energía y ternura.",
+      "Ideal para quienes disfrutan del balanceo."
+    ],
+    "desventajas": [
+      "Requiere algo de equilibrio.",
+      "Puede cansar los músculos del core."
+    ],
+    "dato_curioso": "Su nombre viene del vaivén constante, como el de un columpio de emociones.",
+    "imagen": "assets/img/nivel4/4-1.webp"
+  },
+  "4-2": {
+    "nombre": "El Caballo Alado",
+    "descripcion": "Una variación dinámica de 'El Jinete' donde quien está arriba se inclina hacia adelante, generando una sensación de fluidez y energía. Ideal para quienes buscan ritmo y movimiento con elegancia.",
+    "ventajas": [
+      "Permite control del ritmo y profundidad.",
+      "Crea una sensación visual elegante y poderosa.",
+      "Combina fuerza y fluidez en un mismo movimiento."
+    ],
+    "desventajas": [
+      "Requiere algo de equilibrio y resistencia.",
+      "Puede cansar si se mantiene mucho tiempo."
+    ],
+    "dato_curioso": "El nombre 'Caballo Alado' evoca el movimiento libre y elegante de un vuelo, inspirado en la fuerza y la gracia.",
+    "imagen": "assets/img/nivel4/4-2.webp"
+  },
+  "4-3": {
+    "nombre": "El Puente del Deseo",
+    "descripcion": "Una persona se recuesta boca arriba con las rodillas flexionadas y la pelvis ligeramente elevada, mientras la otra se inclina hacia adelante apoyando las manos junto a sus hombros. El movimiento es fluido, combinando fuerza y ternura.",
+    "ventajas": [
+      "Estimula el contacto visual y corporal de forma intensa.",
+      "Permite ajustar el ritmo con delicadeza o energía.",
+      "Fortalece piernas, abdomen y espalda de forma divertida."
+    ],
+    "desventajas": [
+      "Requiere equilibrio y fuerza en el core.",
+      "Puede ser incómoda si se mantiene por mucho tiempo sin apoyo."
+    ],
+    "dato_curioso": "En textos modernos del Kamasutra, esta postura representa el equilibrio entre energía física y conexión emocional, como un puente entre ambos cuerpos.",
+    "imagen": "assets/img/nivel4/4-3.webp"
+  },
+  "4-4": {
+    "nombre": "El Trono",
+    "descripcion": "Una persona sentada mientras la otra se acomoda de espaldas, reclinándose suavemente. Cálida y envolvente.",
+    "ventajas": [
+      "Permite abrazos y caricias al mismo tiempo.",
+      "Ideal para quienes disfrutan de la cercanía física.",
+      "Perfecta para conversaciones coquetas."
+    ],
+    "desventajas": [
+      "Puede cansar la espalda.",
+      "Requiere sincronía para el equilibrio."
+    ],
+    "dato_curioso": "El Trono aparece en pinturas renacentistas como símbolo de intimidad elegante.",
+    "imagen": "assets/img/nivel4/4-4.webp"
+  },
+  "4-5": {
+    "nombre": "La Media Luna",
+    "descripcion": "Ambos se recuestan de lado formando una curva con sus cuerpos, como una luna abrazando la noche.",
+    "ventajas": [
+      "Cómoda y relajada.",
+      "Perfecta para juegos suaves y sensuales.",
+      "Permite contacto visual lateral."
+    ],
+    "desventajas": [
+      "Limitada en movimiento.",
+      "Requiere coordinación en el ritmo."
+    ],
+    "dato_curioso": "Su forma recuerda los antiguos símbolos de unión en equilibrio.",
+    "imagen": "assets/img/nivel4/4-5.webp"
+  },
+  "4-6": {
+    "nombre": "El Encuentro",
+    "descripcion": "Ambos de pie, frente a frente, ella con una pierna alrededor de su cintura, sosteniéndose por la cintura o los hombros. Intensa, divertida y llena de energía.",
+    "ventajas": [
+      "Ideal para improvisar.",
+      "Romántica y apasionada.",
+      "Permite conexión completa de cuerpo y mirada."
+    ],
+    "desventajas": [
+      "Puede cansar las piernas.",
+      "Difícil mantener equilibrio sin apoyo."
+    ],
+    "dato_curioso": "El Encuentro representa el deseo espontáneo, sin reglas, solo conexión.",
+    "imagen": "assets/img/nivel4/4-6.webp"
+  },
+  "4-7": {
+    "nombre": "Ecos del Silencio",
+    "descripcion": "En un rincón donde la penumbra acaricia el alma, dos presencias se entrelazan sin palabras. La luz dorada danza sobre los pliegues del tiempo, revelando un instante suspendido entre la calma y el vértigo. No hay ruido, solo el murmullo de la respiración compartida y el eco de lo que no se dice. Es un retrato del encuentro entre fuerza y ternura, donde el silencio lo cuenta todo.",
+    "ventajas": [
+      "Evoca la armonía entre energía y serenidad.",
+      "Despierta una atmósfera introspectiva y elegante.",
+      "Ideal para quienes valoran la sutileza del sentimiento sobre la palabra."
+    ],
+    "desventajas": [
+      "Su profundidad puede resultar abrumadora para quienes buscan ligereza.",
+      "Requiere sensibilidad para captar su simbolismo oculto."
+    ],
+    "dato_curioso": "‘Ecos del Silencio’ representa el momento en que la conexión trasciende el lenguaje y se convierte en un diálogo de almas, invisible pero eterno.",
+    "imagen": "assets/img/nivel4/4-7.webp"
+  },
+  "4-8": {
+  "nombre": "Ritmo de Confianza",
+  "descripcion": "En un espacio donde el cielo parece tocar la piel, dos almas se entregan al compás de la confianza y la pasión serena. Cada movimiento es un lenguaje sin palabras, una danza que combina fuerza y ternura. Ella se rinde no al otro, sino al instante; él sostiene no un cuerpo, sino una historia compartida que late en cada respiración.",
+  "ventajas": [
+    "Expresa una conexión basada en la confianza y la entrega mutua.",
+    "Simboliza equilibrio entre energía y sensibilidad.",
+    "Ideal para quienes valoran la profundidad emocional dentro de la pasión."
+  ],
+  "desventajas": [
+    "Puede ser difícil mantener la sincronía emocional si no hay comunicación.",
+    "Su intensidad puede requerir madurez afectiva para sostener la armonía."
+  ],
+  "dato_curioso": "El color azul del fondo evoca serenidad y confianza, recordando que incluso en los momentos más intensos, el equilibrio nace del respeto y la entrega.",
+  "imagen": "assets/img/nivel4/4-8.webp"
+},
+  "5-1": {
+    "nombre": "El Elevador",
+    "descripcion": "Una persona sostiene a la otra parcialmente, combinando fuerza y balance. Activa y apasionada.",
+    "ventajas": [
+      "Perfecta para quienes buscan adrenalina y complicidad.",
+      "Permite explorar el control y la fuerza.",
+      "Ideal para parejas con buena coordinación."
+    ],
+    "desventajas": [
+      "Requiere fuerza y práctica.",
+      "No apta para sesiones largas."
+    ],
+    "dato_curioso": "El Elevador simboliza la confianza total entre ambos cuerpos.",
+    "imagen": "assets/img/nivel5/5-1.webp"
+  },
+  "5-2": {
+    "nombre": "La Inclinación de Pie",
+    "descripcion": "Ambos de pie, una persona se inclina ligeramente hacia adelante mientras la otra la sostiene desde atrás. Requiere coordinación y equilibrio, pero es muy estimulante.",
+    "ventajas": [
+      "Permite gran cercanía física y visual si hay un espejo o pared.",
+      "Ideal para quienes buscan intensidad con poco esfuerzo.",
+      "Se puede realizar en espacios pequeños o improvisados."
+    ],
+    "desventajas": [
+      "Puede requerir buena estabilidad o apoyo en superficies firmes.",
+      "No es recomendable para periodos prolongados si hay diferencia de altura significativa."
+    ],
+    "dato_curioso": "Esta postura aparece en versiones occidentales del Kamasutra y es símbolo de pasión espontánea. Muy popular en ilustraciones modernas.",
+    "imagen": "assets/img/nivel5/5-2.webp"
+  },
+  "5-3": {
+    "nombre": "El Tigre",
+    "descripcion": "Una persona se apoya firmemente mientras la otra se arquea hacia ella, formando una figura de fuerza y deseo.",
+    "ventajas": [
+      "Enérgica y desafiante.",
+      "Permite juego de fuerza y ritmo.",
+      "Fomenta la confianza y la emoción."
+    ],
+    "desventajas": [
+      "Puede ser exigente físicamente.",
+      "No apta para principiantes."
+    ],
+    "dato_curioso": "Inspirada en la agilidad y fuerza del tigre, símbolo de deseo y respeto.",
+    "imagen": "assets/img/nivel5/5-3.webp"
+  },
+  "5-4": {
+    "nombre": "El Ala Abierta",
+    "descripcion": "Una persona se inclina hacia atrás mientras la otra la sostiene. Es elegante, teatral y visualmente encantadora.",
+    "ventajas": [
+      "Postura muy estética.",
+      "Fomenta el trabajo en equipo.",
+      "Ideal para momentos intensos y coquetos."
+    ],
+    "desventajas": [
+      "Puede cansar los brazos y piernas.",
+      "Requiere confianza mutua."
+    ],
+    "dato_curioso": "El Ala Abierta aparece en obras artísticas como metáfora de la entrega.",
+    "imagen": "assets/img/nivel5/5-4.webp"
+  },
+  "5-5": {
+    "nombre": "El Elevador invertido",
+    "descripcion": "Una persona sostiene a la otra parcialmente de espaldas, combinando fuerza y balance. Activa y apasionada.",
+    "ventajas": [
+      "Perfecta para quienes buscan adrenalina y complicidad.",
+      "Permite explorar el control y la fuerza.",
+      "Ideal para parejas con buena coordinación."
+    ],
+    "desventajas": [
+      "Requiere fuerza y práctica.",
+      "No apta para sesiones largas."
+    ],
+    "dato_curioso": "El Elevador simboliza la confianza total entre ambos cuerpos.",
+    "imagen": "assets/img/nivel5/5-5.webp"
+  },
+  "5-6": {
+    "nombre": "Misionero Avanzado",
+    "descripcion": "Una variación del misionero tradicional, realizada al borde de la cama. La mujer se coloca al límite del colchón mientras el hombre, desde el suelo, la sostiene con firmeza.",
+    "ventajas": [
+      "Ayuda a romper la rutina.",
+      "Brinda una estimulación intensa de los senos.",
+      "Permite una conexión visual profunda."
+    ],
+    "desventajas": [
+      "Puede resultar incómodo o cansado para el hombre."
+    ],
+    "dato_curioso": "El nombre evoca el aleteo sutil de una mariposa, símbolo de transformación y ligereza.",
+    "imagen": "assets/img/nivel5/5-6.webp"
+  },
+  "5-7": {
+    "nombre": "Sombras que Dialogan",
+    "descripcion": "En la penumbra de una habitación antigua, las sombras parecen conversar entre sí. Dos almas, opuestas y complementarias, se encuentran en un gesto que no necesita palabras. La luz tenue juega con los contornos, revelando tanto la fuerza como la vulnerabilidad del instante. Es un equilibrio delicado entre el control y la entrega, entre el silencio y el suspiro que no se oye. Todo parece detenerse, como si el tiempo mismo contuviera la respiración.",
+    "ventajas": [
+      "Invita a reflexionar sobre la conexión entre opuestos.",
+      "Explora la belleza del equilibrio emocional y visual.",
+      "Ideal para representar la profundidad de los vínculos humanos."
+    ],
+    "desventajas": [
+      "Su simbolismo puede resultar enigmático para quienes buscan claridad inmediata.",
+      "Requiere sensibilidad para apreciar su trasfondo emocional."
+    ],
+    "dato_curioso": "‘Sombras que Dialogan’ alude a la unión de fuerzas contrarias: la quietud y el movimiento, la razón y el impulso, la luz y la sombra.",
+    "imagen": "assets/img/nivel5/5-7.webp"
+  },
+  "5-8": {
+  "nombre": "Sombras de Terciopelo",
+  "descripcion": "Bañados por una suave luz azul, dos almas se funden en un momento que borra la línea entre la fuerza y la ternura. Ella, serena y vulnerable a la vez, se entrega al ritmo de la confianza y la conexión, mientras él la sostiene con cuidado e intensidad. La escena irradia pasión, equilibrio y una elegancia atemporal que se siente íntima y poderosa.",
+  "ventajas": [
+    "Captura una perfecta armonía entre dominancia y afecto.",
+    "Expresa confianza y conexión mutua con gracia visual.",
+    "Ideal para quienes disfrutan la intensidad envuelta en ternura."
+  ],
+  "desventajas": [
+    "Su carga emocional puede resultar abrumadora para algunos.",
+    "Requiere una conexión profunda para mantener la autenticidad."
+  ],
+  "dato_curioso": "El título 'Sombras de Terciopelo' refleja el contraste entre suavidad y profundidad, donde cada movimiento cuenta una historia de pasión equilibrada por la contención.",
+  "imagen": "assets/img/nivel5/5-8.webp"
+},
+  "6-1": {
+    "nombre": "Pino Indio",
+    "descripcion": "La mujer apoyadada con sun brazos estirados, el hombre de pie sujeta la cintura",
+    "ventajas": [
+      "Gran desafío físico y de equilibrio.",
+      "Permite explorar",
+      "Ideal para parejas con experiencia."
+    ],
+    "desventajas": [
+      "Requiere mucha fuerza y coordinación.",
+      "No apta para principiantes."
+    ],
+    "dato_curioso": "El Cometa simboliza la energía que se eleva y se conecta en un solo punto.",
+    "imagen": "assets/img/nivel6/6-1.webp"
+  },
+  "6-2": {
+    "nombre": "La trasera tumbada",
+    "descripcion": "Una postura para una mejor sensacion y conexion.",
+    "ventajas": [
+      "Mejor penetracion.",
+      "Control del ritmo.",
+      "Ideal para finalizar."
+    ],
+    "desventajas": [
+      "Puede resultar sobre-estimulante"
+    ],
+    "dato_curioso": "El Dragón representa la fusión de la energía y la pasión con equilibrio absoluto.",
+    "imagen": "assets/img/nivel6/6-2.webp"
+  },
+  "6-3": {
+    "nombre": "El Triángulo",
+    "descripcion": "Ambos se colocan formando una figura triangular, uno inclinado hacia adelante y el otro sosteniendo el equilibrio. Es una postura que combina armonía, fuerza y complicidad.",
+    "ventajas": [
+      "Favorece la cercanía y la sincronía entre ambos.",
+      "Permite mantener contacto visual y gestual constante.",
+      "Estimula la conexión física y emocional con equilibrio."
+    ],
+    "desventajas": [
+      "Puede requerir algo de fuerza o elasticidad.",
+      "No recomendable mantenerla demasiado tiempo si se busca relajación."
+    ],
+    "dato_curioso": "El nombre hace alusión al triángulo como símbolo de unión, energía y balance entre deseo, confianza y juego.",
+    "imagen": "assets/img/nivel6/6-3.webp"
+  },
+  "6-4": {
+    "nombre": "El Espejo",
+    "descripcion": "Ambos se colocan frente a frente, reflejando los movimientos y gestos del otro como si fueran su propio reflejo. Todo gira en torno a la sincronía y la complicidad.",
+    "ventajas": [
+      "Fomenta la conexión visual y emocional intensa.",
+      "Ideal para parejas que disfrutan de la armonía y la observación mutua.",
+      "Permite jugar con el ritmo y la energía de manera elegante."
+    ],
+    "desventajas": [
+      "Puede ser difícil mantener la postura si no hay equilibrio.",
+      "Requiere concentración para conservar la sincronía sin perder naturalidad."
+    ],
+    "dato_curioso": "El nombre proviene de la sensación de verse reflejados en el otro, una metáfora del equilibrio entre deseo y ternura.",
+    "imagen": "assets/img/nivel6/6-4.webp"
+  },
+  "6-5": {
+    "nombre": "La profunda",
+    "descripcion": "Una variacion del Misionero, pero con las piernas en los hombros del hombre",
+    "ventajas": [
+      "Fomenta la conexión visual y emocional intensa.",
+      "Ideal para parejas que disfrutan de la armonía y la observación mutua.",
+      "Mayor penetracion"
+    ],
+    "desventajas": [
+      "Puede ser doloroso si no existe la costumbre.",
+      "Requiere un poco de flexibilidad."
+    ],
+    "dato_curioso": "El nombre proviene de la sensación de verse reflejados en el otro, una metáfora del equilibrio entre deseo y ternura.",
+    "imagen": "assets/img/nivel6/6-5.webp"
+  },
+  "6-6": {
+    "nombre": "Vela",
+    "descripcion": "La mujer siendo elevada de frente y sostenida por los braxos del hombre mientras mantiene las piernas abiertas.",
+    "ventajas": [
+      "Exotica para los que les gusta experimentar.",
+      "Ideal para parejas con buen estado fisico.",
+      "Se puede practicar frente a un espejo"
+    ],
+    "desventajas": [
+      "Se necesita fuerza en los brazos.",
+      "Requiere un poco de flexibilidad."
+    ],
+    "dato_curioso": "El nombre proviene de la sensación de verse reflejados en el otro, una metáfora del equilibrio entre deseo y ternura.",
+    "imagen": "assets/img/nivel6/6-6.webp"
+  },
+  "6-7": {
+    "nombre": "Luz en Rojo",
+    "descripcion": "En un rincón donde la noche parece guardar secretos, dos almas se encuentran entre la pasión y la calma. El resplandor cálido ilumina la escena como si el fuego interior tomara forma, envolviendo el aire con un pulso de vida. No hay prisa, solo la intensidad de un instante que vibra entre deseo y ternura, fuerza y rendición. Es la danza invisible entre el impulso del corazón y el sosiego del alma.",
+    "ventajas": [
+      "Transmite una energía vibrante y emocional.",
+      "Representa la unión entre fuerza y sensibilidad.",
+      "Ideal para evocar momentos de conexión profunda y auténtica."
+    ],
+    "desventajas": [
+      "Su intensidad simbólica puede resultar abrumadora.",
+      "Requiere un espectador dispuesto a sentir más que analizar."
+    ],
+    "dato_curioso": "‘Luz en Rojo’ simboliza el punto donde la emoción se convierte en energía pura, uniendo pasión y calma en una sola mirada.",
+    "imagen": "assets/img/nivel6/6-7.webp"
+  },
+  "6-8": {
+  "nombre": "Luz y Sombra",
+  "descripcion": "En una habitación teñida por tonos cálidos, dos almas se entrelazan en un instante suspendido entre la fuerza y la ternura. La conexión entre ellos es un diálogo silencioso de confianza y entrega, una coreografía donde la pasión se convierte en arte y el cuerpo en lenguaje del alma.",
+  "ventajas": [
+    "Evoca la unión entre energía y sensibilidad.",
+    "Transmite una sensación de confianza y equilibrio mutuo.",
+    "Destaca la belleza del momento compartido y su simbolismo emocional."
+  ],
+  "desventajas": [
+    "Su intensidad puede requerir una conexión profunda para ser comprendida.",
+    "No todos percibirán su mensaje más allá de la superficie visual."
+  ],
+  "dato_curioso": "‘Luz y Sombra’ representa el contraste eterno entre la razón y el deseo, donde ambos se encuentran para crear armonía en medio del caos.",
+  "imagen": "assets/img/nivel6/6-8.webp"
+},
+  "7-1": {
+    "nombre": "Llama Interior",
+    "descripcion": "Bajo una luz suave que apenas roza la piel del tiempo, una presencia se alza entre la sombra y el resplandor. No hay palabras, solo el pulso de la vida latiendo con fuerza, recordando que cada gesto puede ser fuego o calma. La escena es un suspiro contenido, una metáfora del deseo de existir con intensidad. Entre lo tenue y lo ardiente, la llama interior ilumina lo invisible: el alma que se atreve a sentir.",
+    "ventajas": [
+      "Transmite energía, pasión y profundidad emocional.",
+      "Evoca el equilibrio entre la fuerza y la vulnerabilidad.",
+      "Ideal para representar el impulso creativo y la conexión humana."
+    ],
+    "desventajas": [
+      "Su simbolismo puede parecer abstracto para quienes buscan literalidad.",
+      "Requiere una mirada introspectiva para captar su esencia."
+    ],
+    "dato_curioso": "‘Llama Interior’ simboliza la chispa que habita en cada ser: la energía silenciosa que impulsa a crear, sentir y transformarse.",
+    "imagen": "assets/img/nivel7/7-1.webp"
+  },
+  "7-2": {
+    "nombre": "La Fuerza del Silencio",
+    "descripcion": "En la penumbra dorada de una habitación en calma, dos almas se encuentran en el filo del deseo y la determinación. No hay palabras, solo el lenguaje antiguo de la piel y la respiración. Él sostiene el mundo con sus manos; ella, la luz que lo disuelve. Entre sombras de ámbar y susurros que tiemblan, el instante se vuelve eterno, como un secreto compartido por el universo.",
+    "ventajas": [
+      "Evoca una conexión intensa y auténtica entre dos presencias.",
+      "Explora el equilibrio entre la fuerza y la ternura.",
+      "Transmite una atmósfera íntima y cinematográfica sin recurrir a la obviedad."
+    ],
+    "desventajas": [
+      "Su intensidad emocional puede resultar abrumadora para quienes buscan sutileza.",
+      "Requiere atención al detalle y sensibilidad para no perder la armonía visual."
+    ],
+    "dato_curioso": "‘La Fuerza del Silencio’ alude a ese momento en el que la pasión se transforma en arte, y el cuerpo se vuelve un lenguaje que el alma comprende.",
+    "imagen": "assets/img/nivel7/7-2.webp"
+  },
+  "7-3": {
+    "nombre": "Abrazo de Luz",
+    "descripcion": "En el rincón dorado de la habitación, donde la penumbra acaricia los cuerpos y el silencio se convierte en testigo, dos almas se encuentran en un instante suspendido. No hay prisa, solo la cadencia de una respiración compartida y la certeza de un sentimiento que arde sin palabras. La lámpara encendida parece custodiar el secreto de ese momento, donde la cercanía se transforma en un lenguaje invisible y eterno.",
+    "ventajas": [
+      "Transmite una atmósfera de conexión profunda y sincera.",
+      "Invoca el equilibrio entre deseo y ternura.",
+      "Ideal para representar la armonía entre cuerpo y emoción."
+    ],
+    "desventajas": [
+      "Requiere un contexto íntimo para comprender su sutileza.",
+      "Su simbolismo puede pasar desapercibido a miradas superficiales."
+    ],
+    "dato_curioso": "El título 'Abrazo de Luz' simboliza el instante en que la calidez emocional se vuelve visible, iluminando los contornos del alma.",
+    "imagen": "assets/img/nivel7/7-3.webp"
+  },
+  "7-4": {
+    "nombre": "Fusión Silenciosa",
+    "descripcion": "En el rincón más callado de la noche, dos almas se disuelven en un abrazo que trasciende las palabras. La lámpara, testigo discreta, derrama su luz cálida sobre un instante que parece eterno. No hay distancia ni frontera, solo el pulso compartido de quienes se reconocen más allá del cuerpo, más allá del tiempo. El aire vibra con la delicadeza de un suspiro que encierra todo lo que el lenguaje no puede decir.",
+    "ventajas": [
+      "Evoca la intensidad de una conexión emocional profunda.",
+      "Combina intimidad y armonía en una atmósfera serena.",
+      "Ideal para representar el equilibrio entre fuerza y ternura."
+    ],
+    "desventajas": [
+      "Su sutileza puede perderse si se busca una interpretación literal.",
+      "Requiere una mirada sensible para captar su significado pleno."
+    ],
+    "dato_curioso": "El título ‘Fusión Silenciosa’ alude al momento en que dos presencias se confunden en un mismo ritmo, donde la energía y la calma se vuelven una sola esencia.",
+    "imagen": "assets/img/nivel7/7-4.webp"
+  },
+  "7-5": {
+    "nombre": "Ecos del Fuego",
+    "descripcion": "En la penumbra iluminada por una sola lámpara, dos presencias se funden en un vaivén de energía y suspiro. El aire vibra como una melodía antigua, donde la entrega y la pasión se vuelven danza. No hay límites, solo la certeza de un encuentro que incendia la calma. En ese instante suspendido, el tiempo deja de contar y todo se resume en el brillo de la piel, en la armonía del deseo y la ternura que lo envuelve.",
+    "ventajas": [
+      "Transmite una sensación de vitalidad y conexión auténtica.",
+      "Combina intensidad emocional con elegancia visual.",
+      "Evoca el poder transformador del encuentro humano."
+    ],
+    "desventajas": [
+      "Su simbolismo puede ser interpretado de manera ambigua.",
+      "Requiere sensibilidad para apreciar su mensaje implícito."
+    ],
+    "dato_curioso": "El título ‘Ecos del Fuego’ alude al instante en que la energía compartida entre dos almas deja una huella invisible, vibrante y eterna.",
+    "imagen": "assets/img/nivel7/7-5.webp"
+  },
+  "7-6": {
+    "nombre": "Silencio de la Piel",
+    "descripcion": "En el ámbar silencioso de una habitación tranquila, dos almas se encuentran donde las palabras ya no alcanzan. El aire tiembla con un ritmo suave y eterno, un latido compartido entre las sombras y la luz. No hay principio ni fin, solo el calor del reconocimiento y la quietud de sentirse visto. Cada respiración se vuelve una promesa, cada silencio una llama que habla de una devoción más allá del deseo.",
+    "ventajas": [
+      "Expresa una intimidad profunda a través de una imaginería poética y sutil.",
+      "Equilibra la sensualidad con la serenidad y la profundidad emocional.",
+      "Captura la esencia atemporal de la conexión humana."
+    ],
+    "desventajas": [
+      "Su tono abstracto puede dificultar la interpretación literal.",
+      "Requiere sensibilidad emocional para percibir todos sus matices."
+    ],
+    "dato_curioso": "El título ‘Silencio de la Piel’ simboliza la pausa sagrada entre dos latidos, donde la conexión se vuelve eterna.",
+    "imagen": "assets/img/nivel7/7-6.webp"
+  },
+  "7-7": {
+    "nombre": "Gravedad de las Almas",
+    "descripcion": "Dos seres se encuentran suspendidos en un instante de pura conexión, un equilibrio entre la fuerza y la ternura. Las miradas se cruzan y el mundo se disuelve en un solo pulso de confianza y descubrimiento. Su energía fluye como una corriente silenciosa, donde la vulnerabilidad se convierte en belleza y cada respiración escribe el lenguaje de la unidad.",
+    "ventajas": [
+      "Evoca intimidad a través de la tensión emocional y la confianza mutua.",
+      "Equilibra la fuerza con la vulnerabilidad en una composición refinada.",
+      "Simboliza la armonía que surge de la alineación emocional."
+    ],
+    "desventajas": [
+      "Su significado depende en gran medida de la interpretación personal.",
+      "El entorno minimalista puede limitar la profundidad contextual."
+    ],
+    "dato_curioso": "El título ‘Gravedad de las Almas’ refleja la atracción invisible que une a dos seres en una comprensión silenciosa.",
+    "imagen": "assets/img/nivel7/7-7.webp"
+  },
+  "7-8": {
+  "nombre": "Equilibrio de Pasiones",
+  "descripcion": "En la penumbra de una habitación azul, dos almas se desafían en una danza de confianza y entrega. Él sostiene el momento con fuerza serena, mientras ella se deja guiar por la intensidad de la conexión. El silencio entre ambos se llena de una energía que habla sin palabras, una coreografía donde el deseo se transforma en arte y equilibrio.",
+  "ventajas": [
+    "Expresa una profunda unión basada en la confianza mutua.",
+    "Transmite fuerza, belleza y armonía en movimiento.",
+    "Ideal para quienes buscan equilibrio entre intensidad y ternura."
+  ],
+  "desventajas": [
+    "Puede requerir una sincronía emocional y física elevada.",
+    "Su intensidad puede desbordar si no hay conexión genuina."
+  ],
+  "dato_curioso": "El título ‘Equilibrio de Pasiones’ simboliza la dualidad entre la entrega y el control, donde el cuerpo y el alma se encuentran en perfecta sintonía.",
+  "imagen": "assets/img/nivel7/7-8.webp"
+},
+"8-1": {
+  "nombre": "Encuentro de Almas",
+  "descripcion": "En la serenidad de un amanecer íntimo, dos almas se buscan entre la calma y la pasión contenida. Sus miradas se entrelazan en un diálogo silencioso que habla de confianza y entrega. La luz azulada que los envuelve crea un ambiente de ternura y misterio, donde el tiempo parece detenerse para contemplar su conexión profunda.",
+  "ventajas": [
+    "Evoca la unión entre el amor y la vulnerabilidad.",
+    "Transmite una sensación de equilibrio emocional y físico.",
+    "Ideal para representar la complicidad entre dos seres que se comprenden más allá de las palabras."
+  ],
+  "desventajas": [
+    "Requiere sensibilidad para captar su profundidad simbólica.",
+    "Puede interpretarse de manera distinta según la percepción emocional del observador."
+  ],
+  "dato_curioso": "‘Encuentro de Almas’ simboliza la fusión de la confianza y el deseo en su forma más pura, donde la conexión supera cualquier frontera física.",
+  "imagen": "assets/img/nivel8/8-1.webp"
+},
+"8-2": {
+  "nombre": "Pulso Eterno",
+  "descripcion": "Entre luces y sombras, dos almas convergen en un instante de profunda conexión. Sus movimientos se sincronizan como un latido que habla sin palabras — un ritmo de confianza, intensidad y entrega. Los tonos cálidos y los brillos sutiles envuelven la escena en una atmósfera atemporal de emoción y unión.",
+  "ventajas": [
+    "Captura la esencia de la pasión transformada en arte y emoción.",
+    "Transmite un equilibrio entre fuerza y ternura.",
+    "Ideal para representar la intimidad como respeto y conexión mutua."
+  ],
+  "desventajas": [
+    "Su intensidad puede interpretarse de manera distinta según la sensibilidad del espectador.",
+    "Requiere una lectura emocional para apreciar su significado simbólico."
+  ],
+  "dato_curioso": "‘Pulso Eterno’ simboliza el ritmo que une a dos seres más allá de lo físico — una danza silenciosa entre emoción, energía y confianza.",
+  "imagen": "assets/img/nivel8/8-2.webp"
+},
+"8-3": {
+  "nombre": "Abrazo Armónico",
+  "descripcion": "En la quietud de un instante eterno, dos figuras se entrelazan en una danza de confianza y entrega. Sus gestos hablan de equilibrio y ternura, mientras la pureza del fondo blanco resalta la sinceridad de su conexión. Los tonos vintage evocan la nostalgia, fusionando fuerza y vulnerabilidad en perfecta armonía.",
+  "ventajas": [
+    "Resalta la armonía entre la emoción y la presencia.",
+    "Transmite una sensación de unidad y comprensión mutua.",
+    "Su composición minimalista realza la profundidad de la escena."
+  ],
+  "desventajas": [
+    "Su simbolismo sutil puede pasar desapercibido sin contemplación.",
+    "La simplicidad del entorno puede limitar interpretaciones más amplias."
+  ],
+  "dato_curioso": "‘Abrazo Armónico’ captura la esencia de la conexión humana a través de la expresión minimalista, donde cada gesto se convierte en un diálogo silencioso de confianza y equilibrio.",
+  "imagen": "assets/img/nivel8/8-3.webp"
+},
+"8-4": {
+  "nombre": "Equilibrio Íntimo",
+  "descripcion": "En esta escena ilustrada con un estilo retro vibrante, dos figuras se entrelazan en una composición que simboliza la confianza, la conexión y la armonía entre energías opuestas. La iluminación cálida y los tonos suaves evocan la sensación de calma en medio de la intensidad, mostrando un equilibrio entre fuerza y ternura.",
+  "ventajas": [
+    "Su estética vintage resalta la elegancia de las emociones humanas.",
+    "Expresa la unión entre equilibrio y pasión contenida.",
+    "Perfecta para representar la sincronía visual entre movimiento y calma."
+  ],
+  "desventajas": [
+    "Puede interpretarse de formas diversas según la sensibilidad del espectador.",
+    "Requiere atención al detalle para captar su simbolismo completo."
+  ],
+  "dato_curioso": "‘Equilibrio Íntimo’ representa la búsqueda de armonía en el encuentro entre lo emocional y lo físico, a través de una composición que celebra la confianza mutua.",
+  "imagen": "assets/img/nivel8/8-4.webp"
+},
+"8-5": {
+  "nombre": "Conexión Silenciosa",
+  "descripcion": "En una escena bañada por luces suaves y tonos cálidos, dos figuras se encuentran en un momento de equilibrio y entrega mutua. La composición refleja la armonía entre la fuerza y la ternura, donde cada gesto parece contener una historia compartida más allá de las palabras.",
+  "ventajas": [
+    "Evoca intimidad emocional y serenidad estética.",
+    "Resalta la conexión humana en su forma más contemplativa.",
+    "La iluminación y el contraste aportan profundidad y calidez visual."
+  ],
+  "desventajas": [
+    "Su simbolismo puede ser interpretado de formas distintas según el espectador.",
+    "La sutileza emocional podría pasar desapercibida para quienes busquen una lectura directa."
+  ],
+  "dato_curioso": "‘Conexión Silenciosa’ explora la idea de cómo la comunicación no verbal puede expresar vínculos más profundos que el lenguaje mismo.",
+  "imagen": "assets/img/nivel8/8-5.webp"
+},
+"8-6": {
+  "nombre": "Luz de Confianza",
+  "descripcion": "En una atmósfera íntima iluminada por una cálida luz que desciende suavemente sobre ellos, dos almas se encuentran en una conexión profunda y serena. Sus miradas reflejan la calma de quien ha encontrado refugio en el otro, mientras el entorno se desvanece para dejar espacio solo a la presencia compartida.",
+  "ventajas": [
+    "Transmite calma, confianza y entrega mutua.",
+    "El contraste de luces y sombras acentúa la emoción del instante.",
+    "Ideal para representar la unión espiritual y emocional entre dos seres."
+  ],
+  "desventajas": [
+    "Su simbolismo puede ser interpretado de diferentes maneras según el contexto.",
+    "La sutileza de su composición requiere una observación detenida para apreciar su profundidad."
+  ],
+  "dato_curioso": "‘Luz de Confianza’ simboliza la intimidad como un espacio de vulnerabilidad y fortaleza, donde la conexión trasciende lo visible.",
+  "imagen": "assets/img/nivel8/8-6.webp"
+},
+"8-7": {
+  "nombre": "Equilibrio Íntimo",
+  "descripcion": "Una escena que refleja la búsqueda del equilibrio entre fuerza y delicadeza. La composición resalta la confianza mutua y la conexión silenciosa entre dos almas que se sostienen, como si el tiempo se detuviera en un instante de vulnerabilidad compartida.",
+  "ventajas": [
+    "Evoca emociones profundas relacionadas con la entrega y el respeto.",
+    "Transmite la armonía entre la energía y la serenidad.",
+    "Ideal para representar la unión entre el cuerpo y la intención espiritual."
+  ],
+  "desventajas": [
+    "Puede ser interpretada de forma distinta según la sensibilidad del espectador.",
+    "Su simbolismo puede perderse si se observa sin contexto emocional."
+  ],
+  "dato_curioso": "‘Equilibrio Íntimo’ simboliza cómo dos seres pueden encontrar belleza en el desafío de sostenerse mutuamente, transformando la tensión en conexión.",
+  "imagen": "assets/img/nivel8/8-7.webp"
+},
+"8-8": {
+  "nombre": "Sombras del Instinto",
+  "descripcion": "En un entorno austero iluminado por una sola luz, se manifiesta la dualidad entre control y entrega. La tensión del momento representa la lucha interna entre el deseo de dominar los impulsos y la necesidad de liberarlos. La escena, cargada de dramatismo, refleja el poder de los instintos primarios frente a las estructuras del deber y la razón.",
+  "ventajas": [
+    "Explora la relación entre fuerza y vulnerabilidad humana.",
+    "Evoca una sensación cinematográfica de contraste y tensión.",
+    "Invita a reflexionar sobre los límites del control y la libertad interior."
+  ],
+  "desventajas": [
+    "Su intensidad visual puede interpretarse de múltiples formas.",
+    "Requiere sensibilidad para captar su trasfondo simbólico y emocional."
+  ],
+  "dato_curioso": "‘Sombras del Instinto’ está inspirada en el estilo pulp de mediados del siglo XX, donde las emociones humanas se representaban a través de contrastes extremos entre luz y oscuridad.",
+  "imagen": "assets/img/nivel8/8-8.webp"
+}
+}

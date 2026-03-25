@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{}
+body{
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at 30% 10%, #24103a 0%, #0b0410 50%, #000 100%);
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:18px;
+  margin: 10px;
+}
+
+/* container */
+.arcade-container{
+  width:100%;
+max-width: 876px;
+    min-width: 876px;
+  border-radius:12px;
+  overflow:hidden;
+  background: linear-gradient(180deg,#0f0b20 0%, #0a0410 100%);
+  border:6px solid #2b0a1b;
+  box-shadow:0 0 45px rgba(255,80,120,0.06), inset 0 0 30px rgba(0,0,0,0.6);
+}
+
+@media (max-width: 768px) {
+
+  body{
+    padding: 0;
+  }
+
+.arcade-container {width: 100%;
+min-width: 100%}
+}
+
+@media (max-width: 875px) {
+.arcade-container {width: 100%;
+min-width: 100%}
+}

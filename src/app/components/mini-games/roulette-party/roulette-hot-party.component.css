@@ -1,0 +1,123 @@
+.roulette-container {
+  padding: 20px;
+  text-align: center;
+  color: #ffd6e8;
+  max-width: 876px;
+}
+
+.roulette-title {
+  color: #ff9edf;
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.roulette-description {
+  color: #e6d7a0;
+  margin-bottom: 16px;
+}
+
+.customize-title {
+  color: #ffd046;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.options label {
+  background: #0a0010;
+  border: 2px solid #ff00b7;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.options label:hover {
+  background: #ff00b733;
+}
+
+.roulette-display {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.roulette-circle {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #400030, #100010);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.6), 0 0 20px #ff007f;
+  font-size: 38px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.pointer {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 14px solid #ff007f;
+}
+
+.roulette-actions {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn {
+  background: #ffd046;
+  color: #111;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 800;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn.secondary {
+  background: #222;
+  color: #ffd046;
+  border: 2px solid rgba(255, 208, 70, 0.1);
+}
+
+.roulette-result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.result-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #ffde9f;
+}
+
+.result-desc {
+  font-size: 18px;
+  color: #ffd6e8;
+}

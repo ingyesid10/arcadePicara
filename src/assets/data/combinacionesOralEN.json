@@ -1,0 +1,362 @@
+{
+  "1-1": {
+    "name": "Standing Man",
+    "description": "The man stands while the woman kneels, creating a classic and confident pose of connection and desire.",
+    "advantages": [
+      "Simple and classic.",
+      "Emphasizes masculine confidence and control.",
+      "Ideal for beginners."
+    ],
+    "disadvantages": [
+      "Can become monotonous if repeated too often."
+    ],
+    "fun_fact": "It’s one of the oldest and most universal expressions of intimacy.",
+    "image": "assets/img/nivel1/oral/1-1.webp"
+  },
+  "1-2": {
+    "name": "Standing Woman",
+    "description": "The woman stands while the man kneels, showcasing elegance, control, and mutual trust.",
+    "advantages": [
+      "Simple and classic.",
+      "Empowers the woman with a sense of control.",
+      "Ideal for beginners."
+    ],
+    "disadvantages": [
+      "Can feel repetitive if done too frequently."
+    ],
+    "fun_fact": "It’s one of the most ancient and widely recognized poses in intimacy.",
+    "image": "assets/img/nivel1/oral/1-2.webp"
+  },
+  "1-3": {
+    "name": "Edge of Desire (Man)",
+    "description": "The man sits at the edge of the bed, feet on the floor, while his partner gently indulges him with care and closeness.",
+    "advantages": [
+      "Provides relaxation and comfort for the man.",
+      "Easy and comfortable to maintain.",
+      "Ideal for slow and sensual moments."
+    ],
+    "disadvantages": [
+      "May cause leg or back strain over time.",
+      "Requires a bit of flexibility."
+    ],
+    "fun_fact": "Inspired by relaxation techniques that promote connection and calm.",
+    "image": "assets/img/nivel1/oral/1-3.webp"
+  },
+  "1-4": {
+    "name": "Edge of Desire (Woman)",
+    "description": "The woman sits at the edge of the bed, feet on the floor, while her partner focuses on her with tenderness and devotion.",
+    "advantages": [
+      "Relaxing and soothing for the woman.",
+      "Comfortable and simple setup.",
+      "Ideal for gentle, slow-paced moments."
+    ],
+    "disadvantages": [
+      "Can lead to back or leg fatigue if prolonged.",
+      "Requires some flexibility."
+    ],
+    "fun_fact": "Inspired by the Padmasana yoga pose, symbolizing balance and serenity.",
+    "image": "assets/img/nivel1/oral/1-4.webp"
+  },
+    "1-5": {
+    "name": "Midnight Whisper",
+    "description": "An intense and close connection where every breath becomes a shared secret. Perfect for those who enjoy subtle games of passion and complicity.",
+    "advantages": [
+      "Deep sense of intimacy.",
+      "Encourages shared rhythm and breathing.",
+      "Ideal for slow, passionate moments."
+    ],
+    "disadvantages": [
+      "Requires trust and open communication.",
+      "Might be too intense for beginners."
+    ],
+    "fun_fact": "They say whispers in this position are impossible to forget.",
+    "image": "assets/img/nivel1/oral/1-5.webp"
+  },
+  "2-1": {
+    "name": "Subtle Encounter",
+    "description": "A position where eye contact and gentle rhythm take the lead. Perfect for those who enjoy slow movements and lingering caresses.",
+    "advantages": [
+      "Strengthens emotional connection.",
+      "Encourages communication and shared rhythm.",
+      "Lets you savor every movement with tenderness."
+    ],
+    "disadvantages": [
+      "Not ideal for those who prefer a faster pace."
+    ],
+    "fun_fact": "It’s said to be one of the most depicted poses in 19th-century romantic art.",
+    "image": "assets/img/nivel2/oral/2-1.webp"
+  },
+  "2-2": {
+    "name": "Whispers by the Ear",
+    "description": "A position that keeps you close and connected. Breaths intertwine, and every gesture becomes an invitation to explore new sensations.",
+    "advantages": [
+      "Enhances emotional intimacy.",
+      "Perfect for soft kisses and whispered words.",
+      "Allows smooth control of pace and rhythm."
+    ],
+    "disadvantages": [
+      "May require good coordination between partners."
+    ],
+    "fun_fact": "Its origins are linked to ancient couples’ meditation practices.",
+    "image": "assets/img/nivel2/oral/2-2.webp"
+  },
+  "2-3": {
+    "name": "Balance of Passions",
+    "description": "A posture that blends closeness and motion. Perfect for exploring new angles while keeping deep eye contact.",
+    "advantages": [
+      "Easily allows changes in pace.",
+      "Encourages playful eye contact.",
+      "Invites discovery of new sensations without losing connection."
+    ],
+    "disadvantages": [
+      "Might take some practice to maintain balance."
+    ],
+    "fun_fact": "Inspired by ancient balance dances where body harmony mirrored emotional unity.",
+    "image": "assets/img/nivel2/oral/2-3.webp"
+  },
+  "2-4": {
+    "name": "Secret Rhythm",
+    "description": "A playful and flirty position where each movement turns into a silent conversation between two bodies.",
+    "advantages": [
+      "Boosts creativity and complicity.",
+      "Perfect for those who love improvisation.",
+      "Encourages physical and emotional closeness."
+    ],
+    "disadvantages": [
+      "Might need some adjustment to reach full comfort."
+    ],
+    "fun_fact": "It’s said this pose was born from the search for a shared rhythm only two lovers can understand.",
+    "image": "assets/img/nivel2/oral/2-4.webp"
+  },
+   "2-5": {
+    "name": "The Game of Desire",
+    "description": "A playful encounter where curiosity takes the lead. The one in control sets the rhythm with mischief and confidence, exploring pleasure with daring grace.",
+    "advantages": [
+      "Ignites complicity and chemistry.",
+      "Balances control and surrender beautifully.",
+      "Adds a teasing, playful energy."
+    ],
+    "disadvantages": [
+      "Might need some balance and coordination.",
+      "Not ideal for the very shy."
+    ],
+    "fun_fact": "Inspired by the secret games of classic black-and-white films.",
+    "image": "assets/img/nivel2/oral/2-5.webp"
+  },
+  "3-1": {
+    "name": "Whispers at Dawn",
+    "description": "Both share a moment of intimacy and eye contact, blending tenderness with quiet desire.",
+    "advantages": [
+      "Encourages a deep emotional connection.",
+      "Perfect for those who enjoy closeness and calm.",
+      "Allows a slow, romantic rhythm."
+    ],
+    "disadvantages": [
+      "Requires patience and harmony between both partners."
+    ],
+    "fun_fact": "Inspired by the idea that the best moments need no words.",
+    "image": "assets/img/nivel3/oral/3-1.webp"
+  },
+  "3-2": {
+    "name": "Tempting Reverence",
+    "description": "A gesture of trust and complicity, where elegance meets desire in perfect balance.",
+    "advantages": [
+      "Enhances non-verbal communication.",
+      "Encourages eye contact and subtle gestures.",
+      "Ideal for exploring confidence and sensuality."
+    ],
+    "disadvantages": [
+      "Might feel intense if the energy is not balanced."
+    ],
+    "fun_fact": "Inspired by ancient rituals of devotion and admiration.",
+    "image": "assets/img/nivel3/oral/3-2.webp"
+  },
+  "3-3": {
+    "name": "Golden Awakening",
+    "description": "A moment to let curiosity guide movement, letting the rhythm flow naturally.",
+    "advantages": [
+      "Encourages exploration and discovery.",
+      "Strengthens mutual trust.",
+      "Perfect for those who enjoy spontaneity."
+    ],
+    "disadvantages": [
+      "Requires some coordination and open communication."
+    ],
+    "fun_fact": "Its name evokes the warmth and light of a shared sunrise.",
+    "image": "assets/img/nivel3/oral/3-3.webp"
+  },
+  "3-4": {
+    "name": "Playful Secret",
+    "description": "A fun and cheeky moment where humor and mystery blend in perfect chemistry.",
+    "advantages": [
+      "Ignites laughter and curiosity between partners.",
+      "Breaks the routine with a touch of playfulness.",
+      "Ideal to build trust and connection."
+    ],
+    "disadvantages": [
+      "Works best in a relaxed and private setting."
+    ],
+    "fun_fact": "Inspired by vintage romance and adventure comics.",
+    "image": "assets/img/nivel3/oral/3-4.webp"
+  },
+    "3-5": {
+    "name": "The Attic Secret",
+    "description": "Amid books and soft sighs, this pose evokes tales of secret love. The one leaning in shows devotion and desire in the most elegant way.",
+    "advantages": [
+      "Romantic and cinematic.",
+      "Encourages calmness and eye contact.",
+      "Perfect for slow, intimate encounters."
+    ],
+    "disadvantages": [
+      "Needs a bit of space and privacy.",
+      "Not ideal for spontaneous moments."
+    ],
+    "fun_fact": "They say the most passionate stories always begin in a dusty attic.",
+    "image": "assets/img/nivel3/oral/3-5.webp"
+  },
+  "4-1": {
+    "name": "Confession in Laughter",
+    "description": "A playful moment where affection and mischief intertwine. Both realize that intimacy can also taste like laughter and surprise.",
+    "advantages": [
+      "Strengthens emotional connection and trust.",
+      "Encourages playfulness and spontaneity.",
+      "Breaks routine with humor and desire."
+    ],
+    "disadvantages": [
+      "Can become chaotic if one partner doesn’t relax."
+    ],
+    "fun_fact": "Inspired by 1950s romance art, where desire was more suggested than shown.",
+    "image": "assets/img/nivel4/oral/4-1.webp"
+  },
+  "4-2": {
+    "name": "Wild Refuge",
+    "description": "Between shadows and silent walls, desire turns into pure instinct. Passion meets adventure, and every breath becomes a secret echo.",
+    "advantages": [
+      "Awakens adrenaline and raw desire.",
+      "Perfect for those who enjoy intensity and energy.",
+      "Reinforces trust and physical connection."
+    ],
+    "disadvantages": [
+      "Can be exhausting if rhythm isn’t balanced."
+    ],
+    "fun_fact": "The rustic setting symbolizes that desire needs no luxury—just authenticity.",
+    "image": "assets/img/nivel4/oral/4-2.webp"
+  },
+  "4-3": {
+    "name": "Crimson Devotion",
+    "description": "Surrender becomes art. Every gesture reflects admiration and restrained passion, balanced between respect and desire.",
+    "advantages": [
+      "Encourages deep trust and nonverbal communication.",
+      "Perfect for emotional and physical connection.",
+      "Enhances empathy and mutual attention."
+    ],
+    "disadvantages": [
+      "Can feel intense without a strong foundation of trust."
+    ],
+    "fun_fact": "The crimson tone represents the fusion of passion and emotional surrender.",
+    "image": "assets/img/nivel4/oral/4-3.webp"
+  },
+  "4-4": {
+    "name": "Ignited Gaze",
+    "description": "A moment frozen in time. Her eyes reveal curiosity and power, reminding that true seduction begins with a look.",
+    "advantages": [
+      "Awakens desire through subtlety and elegance.",
+      "Ideal for strengthening visual connection.",
+      "Encourages silent yet powerful communication."
+    ],
+    "disadvantages": [
+      "Can be intimidating if one can’t hold the gaze."
+    ],
+    "fun_fact": "Inspired by the belief that an honest gaze can disarm any defense.",
+    "image": "assets/img/nivel4/oral/4-4.webp"
+  },
+  "4-5": {
+    "name": "Night Devotion",
+    "description": "A scene bathed in warm bedroom light where passion and surrender merge in a moment of mutual desire and quiet complicity.",
+    "advantages": [
+      "Evokes deep intimacy and trust.",
+      "Perfect for slow, sensual encounters.",
+      "Highlights emotional connection and tenderness."
+    ],
+    "disadvantages": [
+      "Requires focus and clear communication.",
+      "Not ideal for those who prefer total spontaneity."
+    ],
+    "fun_fact": "Soft lighting and a calm atmosphere heighten emotional connection and mystery.",
+    "image": "assets/img/nivel4/oral/4-5.webp"
+  },
+    "5-1": {
+    "name": "The Echo of Pleasure",
+    "description": "A scene bathed in golden light where passion and tenderness blend gracefully. The warm glow and gentle gestures turn the moment into a dance of complicity and devotion.",
+    "advantages": [
+      "Emphasizes emotional connection and shared rhythm.",
+      "Perfect for an intimate, relaxed setting.",
+      "Conveys passion with elegance and subtlety."
+    ],
+    "disadvantages": [
+      "Requires patience and balance.",
+      "Not ideal for those seeking immediacy."
+    ],
+    "fun_fact": "The spilled wine symbolizes emotional overflow—a timeless touch in romantic art.",
+    "image": "assets/img/nivel5/oral/5-1.webp"
+  },
+    "5-2": {
+    "name": "The Bow of Desire",
+    "description": "A moment suspended in time where trust and surrender blend in a gesture of quiet passion. The warm light and intimate setting turn the room into a sanctuary of shared longing.",
+    "advantages": [
+      "Elegant and deeply connected.",
+      "Perfect for calm, intimate encounters.",
+      "Highlights harmony between admiration and surrender."
+    ],
+    "disadvantages": [
+      "Requires balance and tenderness.",
+      "Not ideal for rushed moments."
+    ],
+    "fun_fact": "Soft lighting and a hint of wine can make this scene feel straight out of a romantic film.",
+    "image": "assets/img/nivel5/oral/5-2.webp"
+  },
+   "5-3": {
+    "name": "Midnight Whispers",
+    "description": "Bathed in warm light and silent glances, this scene captures a moment of deep connection and restrained desire. Every detail —the wine’s glow, the soft shadows— sets an atmosphere of elegant passion.",
+    "advantages": [
+      "Perfect for moments of profound intimacy.",
+      "Conveys a romantic, passionate energy.",
+      "The warm lighting enhances connection."
+    ],
+    "disadvantages": [
+      "Requires patience and mutual trust.",
+      "Not ideal for rushed encounters."
+    ],
+    "fun_fact": "The atmosphere resembles mid-20th-century art, where light and posture symbolized refined desire.",
+    "image": "assets/img/nivel5/oral/5-3.webp"
+  },
+  "5-4": {
+    "name": "Retro Temptation",
+    "description": "Inspired by vintage pin-up style, this scene blends elegance and playfulness with a teasing touch. The golden tones and vivid contrast evoke a story of discreet yet vibrant desire.",
+    "advantages": [
+      "Artistic style mixing sensuality and humor.",
+      "Perfect for a relaxed, flirty setting.",
+      "Encourages curiosity and visual connection."
+    ],
+    "disadvantages": [
+      "May require confidence to feel natural.",
+      "A comfortable, cozy atmosphere is essential."
+    ],
+    "fun_fact": "The style echoes 1950s romantic comics, where suggestion spoke louder than exposure.",
+    "image": "assets/img/nivel5/oral/5-4.webp"
+  },
+  "5-5": {
+  "name": "Date with Pleasure",
+  "description": "She lies back on the blue sheets as he worships her with devotion and care. The moment radiates trust, desire, and a connection that speaks louder than words.",
+  "advantages": [
+    "Creates an atmosphere of complete surrender.",
+    "Encourages deep, non-verbal communication.",
+    "Perfect for slow, passionate evenings."
+  ],
+  "disadvantages": [
+    "Requires balance and gentleness to maintain comfort."
+  ],
+  "fun_fact": "Blue sheets symbolize serenity and emotional depth — an ideal tone for calm yet burning passion.",
+  "image": "assets/img/nivel5/oral/5-5.webp"
+}
+}
