@@ -19,9 +19,17 @@
       "🔥 ¡Cada día más diversión, más locura y más pasión!"
     ]
   },
-"NEWS": {
+  "NEWS": {
   "TITLE": "🔥 Novedades y actualizaciones 🔥",
   "UPDATES": [
+    {
+      "date": "Marzo 2026",
+      "text": "🆚 Se lanzó *¿Qué Prefieres?* — 36 preguntas picantes en 4 niveles de intensidad para parejas 🔥"
+    },
+    {
+      "date": "Marzo 2026",
+      "text": "🎭 Nuevo juego *Cartas de Fantasías* — descubrid una fantasía al azar con animación de volteo de carta 😈"
+    },
     {
       "date": "Noviembre 2025",
       "text": "🎲 Nuevas poses para dados kamsutra 😏"
