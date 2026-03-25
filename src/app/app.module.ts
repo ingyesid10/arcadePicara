@@ -23,6 +23,7 @@ import { RouletteHotPartyComponent } from './components/mini-games/roulette-part
 import { FantasyCardsComponent } from './components/mini-games/fantasy-cards/fantasy-cards.component';
 import { WouldYouRatherComponent } from './components/mini-games/would-you-rather/would-you-rather.component';
 import { HotConfessionsComponent } from './components/mini-games/hot-confessions/hot-confessions.component';
+import { ConfiesaTodoComponent } from './components/mini-games/confiesa-todo/confiesa-todo.component';
 
 //cookie
 import { CookieConsentComponent } from './components/cookie-consent/cookie-consent.component';
@@ -51,7 +52,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     DiceOralComponent,
     FantasyCardsComponent,
     WouldYouRatherComponent,
-    HotConfessionsComponent
+    HotConfessionsComponent,
+    ConfiesaTodoComponent
   ],
   imports: [
     BrowserModule,

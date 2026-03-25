@@ -70,7 +70,8 @@
     "ROULETTE_HOT_PARTY": "Ruleta de fiesta",
     "FANTASY_CARDS": "Cartas de Fantasías 🎭",
     "WOULD_YOU_RATHER": "¿Qué Prefieres? 🆚",
-    "HOT_CONFESSIONS": "Confesiones Calientes 🏆"
+    "HOT_CONFESSIONS": "Confesiones Calientes 🏆",
+    "CONFIESA_TODO": "Confiesa Todo 🔥"
   },
   "EXTREME_MODE": "Modo Extremo",
   "ACTION": "Acción",
@@ -453,7 +454,13 @@
     "START": "Comenzar 🎭",
     "TAP": "Toca para girar",
     "NEXT": "Siguiente carta ➡️",
-    "BACK": "Cambiar niveles"
+    "BACK": "Cambiar niveles",
+    "HOW_TO_PLAY": "¿Cómo se juega?",
+    "HOW_1": "Elige el nivel de intensidad: Suave para empezar, Extremo para los más atrevidos.",
+    "HOW_2": "Pulsa 'Comenzar' para entrar al juego.",
+    "HOW_3": "Toca la carta para revelar una fantasía al azar.",
+    "HOW_4": "Hablad sobre ella: ¿os gustaría cumplirla? ¿Cuándo y cómo?",
+    "HOW_5": "Nadie está obligado — si alguno prefiere pasar, simplemente toca 'Siguiente'."
   },
   "WOULD_YOU_RATHER": {
     "TITLE": "¿Qué Prefieres?",
@@ -464,7 +471,13 @@
     "TAP": "Toca para revelar",
     "WOULD_LABEL": "¿Qué prefieres?",
     "NEXT": "Siguiente ➡️",
-    "BACK": "Cambiar niveles"
+    "BACK": "Cambiar niveles",
+    "HOW_TO_PLAY": "¿Cómo se juega?",
+    "HOW_1": "Elige la intensidad: Romántico para empezar con suavidad, Extremo para los sin límites.",
+    "HOW_2": "El jugador activo toca la carta para revelar la pregunta.",
+    "HOW_3": "Cada jugador elige su opción y la comparte con el grupo.",
+    "HOW_4": "Debatid el porqué de cada elección. ¡Cuanto más detalle, más diversión!",
+    "HOW_5": "Quien se niegue a responder, bebe o recibe una prenda del grupo."
   },
   "HOT_CONFESSIONS": {
     "TITLE": "Confesiones Calientes",
@@ -475,6 +488,29 @@
     "START": "Empezar la fiesta 🔥",
     "TAP": "Toca para revelar",
     "NEXT": "Siguiente carta ➡️",
-    "BACK": "Cambiar filtros"
+    "BACK": "Cambiar filtros",
+    "HOW_TO_PLAY": "¿Cómo se juega?",
+    "HOW_1": "Elige los tipos de carta (Nunca Nunca, Reto, Verdad) y la intensidad que queréis.",
+    "HOW_2": "Los turnos pasan de jugador en jugador.",
+    "HOW_3": "Toca para revelar la carta. El jugador activo actúa según el tipo que salga.",
+    "HOW_4": "Nunca Nunca: quien sí lo haya hecho bebe. Reto: cúmplelo. Verdad: responde honestamente.",
+    "HOW_5": "Quien se niegue, el grupo decide la penitencia."
+  },
+  "CONFIESA_TODO": {
+    "TITLE": "Confiesa Todo",
+    "SUBTITLE": "Confesiones, posiciones, lugares y partes del cuerpo 🔥",
+    "CHOOSE_TYPE": "Elige las categorías:",
+    "CHOOSE_LEVEL": "Elige la intensidad:",
+    "CARDS_AVAILABLE": "preguntas disponibles",
+    "START": "Después de contar, empezar 🔥",
+    "TAP": "Toca para revelar",
+    "NEXT": "Siguiente ➡️",
+    "BACK": "Cambiar opciones",
+    "HOW_TO_PLAY": "¿Cómo se juega?",
+    "HOW_1": "Elige las categorías (Confexión, Posición, Lugar, Partes) y la intensidad.",
+    "HOW_2": "Los turnos pasan de jugador en jugador.",
+    "HOW_3": "Toca la carta y el jugador activo responde con total honestidad.",
+    "HOW_4": "Confesión: di si lo has hecho. Posición/Lugar/Partes: cuanta más información mejor.",
+    "HOW_5": "Quien se niegue a confesar, el grupo decide la penitencia (bebida, prenda, etc.)."
   }
 }

@@ -44,7 +44,8 @@ export class HomePage implements OnInit, OnDestroy {
     { name: 'GAMES.COUPLE_CHALLENGE', icon: '❤️', width: '65', id: 'desafio-de-parejas', categories: ['na'] },
     { name: 'GAMES.FANTASY_CARDS', icon: 'cartas.svg', width: '65', id: 'fantasy-cards', categories: ['pareja'] },
     { name: 'GAMES.WOULD_YOU_RATHER', icon: 'verdadReto.svg', width: '53', id: 'would-you-rather', categories: ['pareja'] },
-    { name: 'GAMES.HOT_CONFESSIONS', icon: 'retos.svg', width: '65', id: 'hot-confessions', categories: ['fiesta', 'pareja'] }
+    { name: 'GAMES.HOT_CONFESSIONS', icon: 'retos.svg', width: '65', id: 'hot-confessions', categories: ['fiesta', 'pareja'] },
+    { name: 'GAMES.CONFIESA_TODO', icon: 'verdadReto.svg', width: '65', id: 'confiesa-todo', categories: ['fiesta', 'pareja'] }
   ];
 
   constructor(

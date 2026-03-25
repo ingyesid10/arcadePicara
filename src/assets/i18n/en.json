@@ -71,7 +71,8 @@
         "ROULETTE_HOT_PARTY": "Hot Party Roulette",
         "FANTASY_CARDS": "Fantasy Cards 🎭",
         "WOULD_YOU_RATHER": "Would You Rather? 🆚",
-        "HOT_CONFESSIONS": "Hot Confessions 🏆"
+        "HOT_CONFESSIONS": "Hot Confessions 🏆",
+        "CONFIESA_TODO": "Confess It All 🔥"
     },
     "EXTREME_MODE": "Extreme Mode",
     "ACTION": "Action",
@@ -454,7 +455,13 @@
         "START": "Start 🎭",
         "TAP": "Tap to reveal",
         "NEXT": "Next card ➡️",
-        "BACK": "Change levels"
+        "BACK": "Change levels",
+        "HOW_TO_PLAY": "How to play?",
+        "HOW_1": "Choose an intensity level: Soft to ease in, Extreme for the bold.",
+        "HOW_2": "Tap 'Start' to enter the game.",
+        "HOW_3": "Tap the card to reveal a random fantasy.",
+        "HOW_4": "Talk about it: would you like to make it happen? When and how?",
+        "HOW_5": "No pressure — if someone wants to skip, just tap 'Next'."
     },
     "WOULD_YOU_RATHER": {
         "TITLE": "Would You Rather?",
@@ -465,7 +472,13 @@
         "TAP": "Tap to reveal",
         "WOULD_LABEL": "Would you rather...",
         "NEXT": "Next ➡️",
-        "BACK": "Change levels"
+        "BACK": "Change levels",
+        "HOW_TO_PLAY": "How to play?",
+        "HOW_1": "Choose intensity: Romantic to ease in, Extreme for the limitless.",
+        "HOW_2": "The active player taps the card to reveal the question.",
+        "HOW_3": "Each player picks their option and shares it with the group.",
+        "HOW_4": "Debate why you each chose what you chose — the more detail, the more fun!",
+        "HOW_5": "Whoever refuses to answer drinks or receives a dare from the group."
     },
     "HOT_CONFESSIONS": {
         "TITLE": "Hot Confessions",
@@ -476,6 +489,29 @@
         "START": "Start the party 🔥",
         "TAP": "Tap to reveal",
         "NEXT": "Next card ➡️",
-        "BACK": "Change filters"
+        "BACK": "Change filters",
+        "HOW_TO_PLAY": "How to play?",
+        "HOW_1": "Choose card types (Never Have I Ever, Dare, Truth) and the intensity you want.",
+        "HOW_2": "Turns pass from player to player.",
+        "HOW_3": "Tap to reveal the card. The active player acts based on the type drawn.",
+        "HOW_4": "Never Have I Ever: who has done it drinks. Dare: do it. Truth: answer honestly.",
+        "HOW_5": "Whoever refuses, the group decides the penalty."
+    },
+    "CONFIESA_TODO": {
+        "TITLE": "Confess It All",
+        "SUBTITLE": "Confessions, positions, places and body parts 🔥",
+        "CHOOSE_TYPE": "Choose categories:",
+        "CHOOSE_LEVEL": "Choose intensity:",
+        "CARDS_AVAILABLE": "questions available",
+        "START": "Ready to confess? Start 🔥",
+        "TAP": "Tap to reveal",
+        "NEXT": "Next ➡️",
+        "BACK": "Change options",
+        "HOW_TO_PLAY": "How to play?",
+        "HOW_1": "Choose categories (Confession, Position, Place, Body Parts) and intensity.",
+        "HOW_2": "Turns pass from player to player.",
+        "HOW_3": "Tap the card and the active player answers with total honesty.",
+        "HOW_4": "Confession: say if you've done it. Position/Place/Parts: the more detail the better.",
+        "HOW_5": "Whoever refuses to confess, the group decides the penalty (drink, dare, etc.)."
     }
 }

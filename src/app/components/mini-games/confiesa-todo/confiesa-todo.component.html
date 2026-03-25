@@ -1,0 +1,112 @@
+<div class="ct-wrapper">
+
+  <!-- SETUP -->
+  <div *ngIf="currentPhase === 'setup'" class="ct-setup">
+
+    <div class="ct-title">
+      <span class="ct-icon-big">🔥</span>
+      <h2>{{ 'CONFIESA_TODO.TITLE' | translate }}</h2>
+      <p class="ct-subtitle">{{ 'CONFIESA_TODO.SUBTITLE' | translate }}</p>
+    </div>
+
+    <!-- Cómo se juega -->
+    <div class="ct-how-wrapper">
+      <button class="ct-how-btn" (click)="showInstructions = !showInstructions">
+        {{ showInstructions ? '▲' : '▼' }} {{ 'CONFIESA_TODO.HOW_TO_PLAY' | translate }}
+      </button>
+      <div class="ct-instructions" *ngIf="showInstructions">
+        <ol>
+          <li>{{ 'CONFIESA_TODO.HOW_1' | translate }}</li>
+          <li>{{ 'CONFIESA_TODO.HOW_2' | translate }}</li>
+          <li>{{ 'CONFIESA_TODO.HOW_3' | translate }}</li>
+          <li>{{ 'CONFIESA_TODO.HOW_4' | translate }}</li>
+          <li>{{ 'CONFIESA_TODO.HOW_5' | translate }}</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Categorías -->
+    <div class="ct-section-label">{{ 'CONFIESA_TODO.CHOOSE_TYPE' | translate }}</div>
+    <div class="ct-chips">
+      <button
+        *ngFor="let t of typeList"
+        class="ct-chip"
+        [class.active]="selectedTypes.has(t)"
+        [style.--chip-color]="typeColor(t)"
+        (click)="toggleType(t)">
+        {{ typeLabel(t) }}
+      </button>
+    </div>
+
+    <!-- Intensidad -->
+    <div class="ct-section-label">{{ 'CONFIESA_TODO.CHOOSE_LEVEL' | translate }}</div>
+    <div class="ct-chips">
+      <button
+        *ngFor="let l of levelList"
+        class="ct-chip"
+        [class.active]="selectedLevels.has(l)"
+        [style.--chip-color]="levelColor(l)"
+        (click)="toggleLevel(l)">
+        {{ levelLabel(l) }}
+      </button>
+    </div>
+
+    <div class="ct-count">
+      {{ filteredCards.length }} {{ 'CONFIESA_TODO.CARDS_AVAILABLE' | translate }}
+    </div>
+
+    <button class="btn-ct-start" (click)="startGame()">
+      {{ 'CONFIESA_TODO.START' | translate }}
+    </button>
+
+  </div>
+
+  <!-- PLAYING -->
+  <div *ngIf="currentPhase === 'playing'" class="ct-playing">
+
+    <div class="ct-progress">
+      {{ cardsFlipped }} / {{ filteredCards.length }}
+    </div>
+
+    <div class="ct-card-area">
+      <div class="ct-card" [class.flipped]="flipped" (click)="!flipped && drawCard()">
+
+        <!-- FRONT -->
+        <div class="ct-card-front">
+          <span class="ct-front-icon">🔥</span>
+          <span class="ct-front-tap">{{ 'CONFIESA_TODO.TAP' | translate }}</span>
+        </div>
+
+        <!-- BACK -->
+        <div class="ct-card-back"
+          *ngIf="currentCard"
+          [style.border-top]="'4px solid ' + typeColor(currentCard.type)"
+          [style.box-shadow]="'0 0 28px ' + typeColor(currentCard.type) + '44'">
+
+          <div class="ct-back-header">
+            <span class="ct-type-badge" [style.background]="typeColor(currentCard.type)">
+              {{ typeLabel(currentCard.type) }}
+            </span>
+            <span class="ct-level-badge" [style.background]="levelColor(currentCard.level)">
+              {{ levelLabel(currentCard.level) }}
+            </span>
+          </div>
+
+          <div class="ct-card-emoji">{{ currentCard.emoji }}</div>
+          <div class="ct-card-text">{{ currentCard.text[lang] }}</div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="ct-actions">
+      <button class="btn-ct-next" [disabled]="animating || !flipped" (click)="drawCard()">
+        {{ 'CONFIESA_TODO.NEXT' | translate }}
+      </button>
+      <button class="btn-ct-back" (click)="backToSetup()">
+        {{ 'CONFIESA_TODO.BACK' | translate }}
+      </button>
+    </div>
+
+  </div>
+</div>

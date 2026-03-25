@@ -17,6 +17,7 @@ export class FantasyCardsComponent implements OnInit, OnDestroy {
 
   currentPhase: 'setup' | 'playing' = 'setup';
   selectedLevels: Set<string> = new Set(['suave', 'medio']);
+  showInstructions = false;
   flipped = false;
   animating = false;
   currentFantasy: Fantasy | null = null;

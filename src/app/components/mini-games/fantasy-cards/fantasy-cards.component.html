@@ -8,6 +8,22 @@
       <p class="fc-subtitle">{{ 'FANTASY_CARDS.SUBTITLE' | translate }}</p>
     </div>
 
+    <!-- Cómo se juega -->
+    <div class="fc-how-wrapper">
+      <button class="fc-how-btn" (click)="showInstructions = !showInstructions">
+        {{ showInstructions ? '▲' : '▼' }} {{ 'FANTASY_CARDS.HOW_TO_PLAY' | translate }}
+      </button>
+      <div class="fc-instructions" *ngIf="showInstructions">
+        <ol>
+          <li>{{ 'FANTASY_CARDS.HOW_1' | translate }}</li>
+          <li>{{ 'FANTASY_CARDS.HOW_2' | translate }}</li>
+          <li>{{ 'FANTASY_CARDS.HOW_3' | translate }}</li>
+          <li>{{ 'FANTASY_CARDS.HOW_4' | translate }}</li>
+          <li>{{ 'FANTASY_CARDS.HOW_5' | translate }}</li>
+        </ol>
+      </div>
+    </div>
+
     <div class="fc-levels-label">{{ 'FANTASY_CARDS.CHOOSE_LEVEL' | translate }}</div>
 
     <div class="fc-levels">

@@ -19,6 +19,7 @@ export class HotConfessionsComponent implements OnInit, OnDestroy {
   currentPhase: 'setup' | 'playing' = 'setup';
   selectedTypes: Set<string> = new Set(['nunca', 'reto', 'verdad']);
   selectedLevels: Set<string> = new Set(['travieso', 'hot']);
+  showInstructions = false;
   flipped = false;
   animating = false;
   currentCard: Confession | null = null;

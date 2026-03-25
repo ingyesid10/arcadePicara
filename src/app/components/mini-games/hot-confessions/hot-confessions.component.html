@@ -9,6 +9,22 @@
       <p class="hc-subtitle">{{ 'HOT_CONFESSIONS.SUBTITLE' | translate }}</p>
     </div>
 
+    <!-- Cómo se juega -->
+    <div class="hc-how-wrapper">
+      <button class="hc-how-btn" (click)="showInstructions = !showInstructions">
+        {{ showInstructions ? '▲' : '▼' }} {{ 'HOT_CONFESSIONS.HOW_TO_PLAY' | translate }}
+      </button>
+      <div class="hc-instructions" *ngIf="showInstructions">
+        <ol>
+          <li>{{ 'HOT_CONFESSIONS.HOW_1' | translate }}</li>
+          <li>{{ 'HOT_CONFESSIONS.HOW_2' | translate }}</li>
+          <li>{{ 'HOT_CONFESSIONS.HOW_3' | translate }}</li>
+          <li>{{ 'HOT_CONFESSIONS.HOW_4' | translate }}</li>
+          <li>{{ 'HOT_CONFESSIONS.HOW_5' | translate }}</li>
+        </ol>
+      </div>
+    </div>
+
     <!-- Tipos -->
     <div class="hc-section-label">{{ 'HOT_CONFESSIONS.CHOOSE_TYPE' | translate }}</div>
     <div class="hc-chips">

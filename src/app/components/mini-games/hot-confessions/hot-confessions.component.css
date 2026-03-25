@@ -54,6 +54,27 @@
 
 .hc-count { font-size: 0.82rem; color: #888; }
 
+/* Cómo se juega */
+.hc-how-wrapper { width: 100%; }
+
+.hc-how-btn {
+  background: transparent; border: 1px solid #555; color: #aaa;
+  padding: 7px 16px; border-radius: 30px; font-size: 0.82rem;
+  cursor: pointer; font-family: inherit; width: 100%; text-align: left;
+  transition: border-color 0.18s, color 0.18s;
+}
+.hc-how-btn:hover { border-color: #ff6b35; color: #ff6b35; }
+
+.hc-instructions {
+  margin-top: 10px;
+  background: rgba(255,107,53,0.08);
+  border-left: 3px solid #ff6b35;
+  border-radius: 0 10px 10px 0;
+  padding: 10px 14px;
+}
+.hc-instructions ol { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; }
+.hc-instructions li { font-size: 0.84rem; color: #ddd; line-height: 1.4; }
+
 .btn-hc-start {
   width: 100%;
   padding: 13px 0;

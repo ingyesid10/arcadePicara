@@ -81,6 +81,27 @@
   color: #aaa;
 }
 
+/* Cómo se juega */
+.fc-how-wrapper { width: 100%; }
+
+.fc-how-btn {
+  background: transparent; border: 1px solid #555; color: #aaa;
+  padding: 7px 16px; border-radius: 30px; font-size: 0.82rem;
+  cursor: pointer; font-family: inherit; width: 100%; text-align: left;
+  transition: border-color 0.18s, color 0.18s;
+}
+.fc-how-btn:hover { border-color: #ff6b35; color: #ff6b35; }
+
+.fc-instructions {
+  margin-top: 10px;
+  background: rgba(255,107,53,0.08);
+  border-left: 3px solid #ff6b35;
+  border-radius: 0 10px 10px 0;
+  padding: 10px 14px;
+}
+.fc-instructions ol { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; }
+.fc-instructions li { font-size: 0.84rem; color: #ddd; line-height: 1.4; }
+
 .btn-start {
   padding: 14px 40px;
   border-radius: 40px;

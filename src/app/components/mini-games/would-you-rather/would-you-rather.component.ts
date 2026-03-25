@@ -18,6 +18,7 @@ export class WouldYouRatherComponent implements OnInit, OnDestroy {
 
   currentPhase: 'setup' | 'playing' = 'setup';
   selectedLevels: Set<string> = new Set(['romantico', 'travieso']);
+  showInstructions = false;
   flipped = false;
   animating = false;
   currentQuestion: WYRQuestion | null = null;

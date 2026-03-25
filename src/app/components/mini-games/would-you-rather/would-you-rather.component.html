@@ -8,6 +8,22 @@
       <p class="wyr-subtitle">{{ 'WOULD_YOU_RATHER.SUBTITLE' | translate }}</p>
     </div>
 
+    <!-- Cómo se juega -->
+    <div class="wyr-how-wrapper">
+      <button class="wyr-how-btn" (click)="showInstructions = !showInstructions">
+        {{ showInstructions ? '▲' : '▼' }} {{ 'WOULD_YOU_RATHER.HOW_TO_PLAY' | translate }}
+      </button>
+      <div class="wyr-instructions" *ngIf="showInstructions">
+        <ol>
+          <li>{{ 'WOULD_YOU_RATHER.HOW_1' | translate }}</li>
+          <li>{{ 'WOULD_YOU_RATHER.HOW_2' | translate }}</li>
+          <li>{{ 'WOULD_YOU_RATHER.HOW_3' | translate }}</li>
+          <li>{{ 'WOULD_YOU_RATHER.HOW_4' | translate }}</li>
+          <li>{{ 'WOULD_YOU_RATHER.HOW_5' | translate }}</li>
+        </ol>
+      </div>
+    </div>
+
     <div class="wyr-levels-label">{{ 'WOULD_YOU_RATHER.CHOOSE_LEVEL' | translate }}</div>
 
     <div class="wyr-levels">
