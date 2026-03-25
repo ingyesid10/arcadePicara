@@ -1,303 +1,239 @@
-<div class="container">
-  <!-- Botón para mostrar instrucciones -->
-  <button *ngIf="!showInstructions && currentPhase === 'modeSelection'" class="instructions-btn" (click)="showInstructionsAgain()">
-    📖 {{ labels.INSTRUCTIONS?.SHOW || 'Instrucciones' }}
-  </button>
+<div class="hls-wrapper">
 
-  <!-- Modal de Instrucciones -->
-  <div *ngIf="showInstructions" class="instructions-modal">
-    <div class="instructions-content">
-      <div class="instructions-header">
-        <h2>{{ labels.INSTRUCTIONS?.TITLE || 'Mayor o Menor Shot' }}</h2>
-        <button class="close-btn" (click)="closeInstructions()">×</button>
+  <!-- MODE SELECTION -->
+  <div *ngIf="currentPhase === 'modeSelection'" class="hls-setup">
+    <div class="hls-title">
+      <span class="hls-icon-big">🍻</span>
+      <h2>{{ labels.SETUP?.TITLE || 'Mayor o Menor Shot' }}</h2>
+      <p class="hls-subtitle">{{ labels.SETUP?.SELECT_MODE || 'Selecciona el modo de juego' }}</p>
+    </div>
+
+    <!-- How to play (collapsible) -->
+    <div class="hls-how-wrapper">
+      <button class="hls-how-btn" (click)="showInstructions = !showInstructions">
+        {{ showInstructions ? '▲' : '▼' }} {{ labels.INSTRUCTIONS?.HOW_TO_PLAY || '¿Cómo jugar?' }}
+      </button>
+      <div class="hls-instructions" *ngIf="showInstructions">
+        <ol>
+          <li>{{ labels.INSTRUCTIONS?.STEP1_DESC || 'Selecciona modo simple o ruleta.' }}</li>
+          <li>{{ labels.INSTRUCTIONS?.STEP2_DESC || 'El primer jugador destapa una carta.' }}</li>
+          <li>{{ labels.INSTRUCTIONS?.STEP3_DESC || 'El segundo jugador dice Mayor o Menor.' }}</li>
+          <li>{{ labels.INSTRUCTIONS?.STEP4_DESC || 'Se compara y el perdedor bebe.' }}</li>
+        </ol>
       </div>
-      
-      <div class="instructions-body">
-        <div class="instruction-step">
-          <div class="step-number">1</div>
-          <div class="step-content">
-            <h3>{{ labels.INSTRUCTIONS?.STEP1_TITLE || 'Selecciona el Modo' }}</h3>
-            <p>{{ labels.INSTRUCTIONS?.STEP1_DESC || 'Elige entre Modo Simple o Modo Ruleta' }}</p>
-          </div>
-        </div>
+    </div>
 
-        <div class="instruction-step">
-          <div class="step-number">2</div>
-          <div class="step-content">
-            <h3>{{ labels.INSTRUCTIONS?.STEP2_TITLE || 'Jugador A Destapa' }}</h3>
-            <p>{{ labels.INSTRUCTIONS?.STEP2_DESC || 'El primer jugador destapa una carta del mazo' }}</p>
-          </div>
-        </div>
+    <div class="hls-modes">
+      <button class="hls-mode-btn" (click)="selectGameMode('simple')">
+        <span class="hls-mode-icon">🎮</span>
+        <span class="hls-mode-title">{{ labels.SETUP?.SIMPLE_MODE || 'Modo Simple' }}</span>
+        <span class="hls-mode-desc">{{ labels.SETUP?.SIMPLE_DESC || '2+ jugadores, turnos fijos' }}</span>
+        <span class="hls-mode-action">{{ labels.SETUP?.START_SIMPLE || 'Comenzar' }}</span>
+      </button>
+      <button class="hls-mode-btn" (click)="selectGameMode('roulette')">
+        <span class="hls-mode-icon">🎡</span>
+        <span class="hls-mode-title">{{ labels.SETUP?.ROULETTE_MODE || 'Modo Ruleta' }}</span>
+        <span class="hls-mode-desc">{{ labels.SETUP?.ROULETTE_DESC || '3+ jugadores, selección aleatoria' }}</span>
+        <span class="hls-mode-action">{{ labels.SETUP?.START_ROULETTE || 'Agregar jugadores' }}</span>
+      </button>
+    </div>
+  </div>
 
-        <div class="instruction-step">
-          <div class="step-number">3</div>
-          <div class="step-content">
-            <h3>{{ labels.INSTRUCTIONS?.STEP3_TITLE || 'Jugador B Adivina' }}</h3>
-            <p>{{ labels.INSTRUCTIONS?.STEP3_DESC || 'El segundo jugador dice "Mayor" o "Menor"' }}</p>
-          </div>
-        </div>
+  <!-- SETUP (roulette mode) -->
+  <div *ngIf="currentPhase === 'setup' && gameMode === 'roulette'" class="hls-setup">
+    <div class="hls-title">
+      <h2>{{ labels.SETUP?.TITLE || 'Mayor o Menor Shot' }}</h2>
+      <p class="hls-subtitle">{{ labels.SETUP?.ROULETTE_SETUP || 'Modo Ruleta' }}</p>
+    </div>
 
-        <div class="instruction-step">
-          <div class="step-number">4</div>
-          <div class="step-content">
-            <h3>{{ labels.INSTRUCTIONS?.STEP4_TITLE || 'Verifica y Bebe' }}</h3>
-            <p>{{ labels.INSTRUCTIONS?.STEP4_DESC || 'Se compara el valor de ambas cartas' }}</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="instructions-footer">
-        <button class="btn understand-btn" (click)="closeInstructions()">
-          {{ labels.INSTRUCTIONS?.UNDERSTAND || '¡Entendido! Comenzar' }}
+    <div class="hls-section">
+      <h3>{{ labels.SETUP?.ADD_PLAYERS || 'Agregar Jugadores' }}</h3>
+      <div class="hls-player-form">
+        <input #playerName type="text" [placeholder]="labels.SETUP?.PLAYER_NAME || 'Nombre'" class="hls-input" />
+        <select #playerGender class="hls-select">
+          <option value="male">{{ labels.SETUP?.MALE || 'Hombre' }}</option>
+          <option value="female">{{ labels.SETUP?.FEMALE || 'Mujer' }}</option>
+        </select>
+        <button class="hls-btn-add" (click)="addPlayer(playerName.value, playerGender.value); playerName.value=''">
+          {{ labels.SETUP?.ADD || 'Agregar' }}
         </button>
       </div>
     </div>
-  </div>
 
-  <!-- Fase de Selección de Modo -->
-  <div *ngIf="currentPhase === 'modeSelection' && !showInstructions" class="mode-selection-phase">
-    <div class="mode-selection-container">
-      <h2>{{ labels.SETUP?.TITLE || 'Mayor o Menor Shot' }}</h2>
-      
-      <div class="mode-selection">
-        <h3>{{ labels.SETUP?.SELECT_MODE || 'Selecciona el modo de juego' }}</h3>
-        <div class="mode-options">
-          <button class="mode-btn" (click)="selectGameMode('simple')">
-            <span class="mode-icon">🎮</span>
-            <span class="mode-title">{{ labels.SETUP?.SIMPLE_MODE || 'Modo Simple' }}</span>
-            <span class="mode-desc">{{ labels.SETUP?.SIMPLE_DESC || '2+ jugadores, turnos fijos' }}</span>
-            <span class="mode-action">{{ labels.SETUP?.START_SIMPLE || 'Comenzar ahora' }}</span>
-          </button>
-          <button class="mode-btn" (click)="selectGameMode('roulette')">
-            <span class="mode-icon">🎡</span>
-            <span class="mode-title">{{ labels.SETUP?.ROULETTE_MODE || 'Modo Ruleta' }}</span>
-            <span class="mode-desc">{{ labels.SETUP?.ROULETTE_DESC || '3+ jugadores, selección aleatoria' }}</span>
-            <span class="mode-action">{{ labels.SETUP?.START_ROULETTE || 'Agregar jugadores' }}</span>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Fase de Configuración (Solo para Modo Ruleta) -->
-  <div *ngIf="currentPhase === 'setup' && !showInstructions && gameMode === 'roulette'" class="setup-phase">
-    <h2>{{ labels.SETUP?.TITLE || 'Mayor o Menor Shot' }}</h2>
-    <p class="setup-subtitle">{{ labels.SETUP?.ROULETTE_SETUP || 'Configuración - Modo Ruleta' }}</p>
-    
-    <!-- Agregar Jugadores -->
-    <div class="add-player-section">
-      <div class="add-player">
-        <h3>{{ labels.SETUP?.ADD_PLAYERS || 'Agregar Jugadores' }}</h3>
-        <div class="player-form">
-          <input #playerName type="text" [placeholder]="labels.SETUP?.PLAYER_NAME || 'Nombre del jugador'" class="input-field">
-          <select #playerGender class="select-field">
-            <option value="male">{{ labels.SETUP?.MALE || 'Hombre' }}</option>
-            <option value="female">{{ labels.SETUP?.FEMALE || 'Mujer' }}</option>
-          </select>
-          <button class="btn" (click)="addPlayer(playerName.value, playerGender.value); playerName.value=''">
-            {{ labels.SETUP?.ADD || 'Agregar' }}
-          </button>
-        </div>
-      </div>
-
-      <!-- Lista de Jugadores -->
-      <div class="players-list">
-        <h3>{{ (labels.SETUP?.PLAYERS_LIST || 'Jugadores') }} ({{players.length}}/8)</h3>
-        <div *ngFor="let player of players; let i = index" class="player-item">
-          <span>{{player.name}} ({{player.gender === 'male' ? '♂' : '♀'}})</span>
-          <button class="btn-remove" (click)="removePlayer(i)">×</button>
-        </div>
-        <div *ngIf="players.length === 0" class="no-players">
-          {{ labels.SETUP?.NO_PLAYERS || 'No hay jugadores agregados' }}
-        </div>
+    <div class="hls-section" *ngIf="players.length > 0">
+      <h3>{{ labels.SETUP?.PLAYERS_LIST || 'Jugadores' }} ({{ players.length }}/8)</h3>
+      <div *ngFor="let player of players; let i = index" class="hls-player-item">
+        <span>{{ player.name }} ({{ player.gender === 'male' ? '♂' : '♀' }})</span>
+        <button class="hls-btn-remove" (click)="removePlayer(i)">×</button>
       </div>
     </div>
 
-    <!-- Botones de Acción -->
-    <div class="action-buttons">
-      <button class="btn start-btn" [disabled]="!canStartGame()" (click)="startGame()">
-        {{ labels.SETUP?.START_GAME || 'Iniciar Juego' }}
-      </button>
-      <button class="btn secondary" (click)="backToModeSelection()">
-        {{ labels.SETUP?.BACK_TO_MODES || 'Volver a Modos' }}
-      </button>
+    <div *ngIf="players.length === 0" class="hls-empty">
+      {{ labels.SETUP?.NO_PLAYERS || 'No hay jugadores' }}
     </div>
 
-    <!-- Mensaje de ayuda -->
-    <div *ngIf="!canStartGame()" class="help-message">
-      {{ labels.SETUP?.NEED_PLAYERS_ROULETTE || 'Agrega al menos 3 jugadores para comenzar' }}
+    <button class="hls-btn-start" [disabled]="!canStartGame()" (click)="startGame()">
+      {{ labels.SETUP?.START_GAME || 'Iniciar Juego' }}
+    </button>
+
+    <div *ngIf="!canStartGame() && players.length > 0" class="hls-help">
+      {{ labels.SETUP?.NEED_PLAYERS_ROULETTE || 'Agrega al menos 3 jugadores' }}
     </div>
+
+    <button class="hls-btn-back" (click)="backToModeSelection()">
+      {{ labels.SETUP?.BACK_TO_MODES || 'Volver' }}
+    </button>
   </div>
 
-  <!-- Fase de Ruletas (Solo Modo Ruleta) -->
-  <div *ngIf="currentPhase === 'spinning' && !showInstructions && gameMode === 'roulette'" class="spinning-phase">
-    <div class="double-roulette">
-      <div class="roulette-column">
-        <h3>{{ labels.SPINNING?.PLAYER_A || 'Jugador A' }}</h3>
-        <div class="roulette-display player-roulette" [class.spinning]="spinningPlayerA">
+  <!-- SPINNING (roulette mode) -->
+  <div *ngIf="currentPhase === 'spinning' && gameMode === 'roulette'" class="hls-playing">
+    <div class="hls-roulettes">
+      <div class="hls-roulette-col">
+        <h4>{{ labels.SPINNING?.PLAYER_A || 'Jugador A' }}</h4>
+        <div class="hls-roulette" [class.spinning]="spinningPlayerA">
           {{ spinningPlayerA ? '🎡' : (playerA?.name || '?') }}
         </div>
-        <p class="roulette-label">{{ labels.SPINNING?.DRAWS_CARD || 'Destapa carta' }}</p>
+        <span class="hls-roulette-label">{{ labels.SPINNING?.DRAWS_CARD || 'Destapa carta' }}</span>
       </div>
 
-      <div class="connector-column">
-        <div class="vs-sign">VS</div>
-      </div>
+      <span class="hls-vs">VS</span>
 
-      <div class="roulette-column">
-        <h3>{{ labels.SPINNING?.PLAYER_B || 'Jugador B' }}</h3>
-        <div class="roulette-display player-roulette" [class.spinning]="spinningPlayerB">
+      <div class="hls-roulette-col">
+        <h4>{{ labels.SPINNING?.PLAYER_B || 'Jugador B' }}</h4>
+        <div class="hls-roulette" [class.spinning]="spinningPlayerB">
           {{ spinningPlayerB ? '🎡' : (playerB?.name || '?') }}
         </div>
-        <p class="roulette-label">{{ labels.SPINNING?.GUESSES || 'Adivina' }}</p>
+        <span class="hls-roulette-label">{{ labels.SPINNING?.GUESSES || 'Adivina' }}</span>
       </div>
     </div>
 
-    <div class="action-buttons">
-      <button class="btn" [disabled]="spinningPlayerA || spinningPlayerB" (click)="spinRoulettes()">
+    <div class="hls-actions">
+      <button class="hls-btn-spin" [disabled]="spinningPlayerA || spinningPlayerB" (click)="spinRoulettes()">
         {{ labels.SPINNING?.SPIN_ROULETTES || 'Girar Ruletas' }}
       </button>
-      <button class="btn secondary" (click)="backToModeSelection()">
-        {{ labels.SPINNING?.BACK_HOME || 'Volver al Inicio' }}
+      <button class="hls-btn-back" (click)="backToModeSelection()">
+        {{ labels.SPINNING?.BACK_HOME || 'Volver' }}
       </button>
     </div>
   </div>
 
-  <!-- Fase de Revelar Cartas -->
-  <div *ngIf="currentPhase === 'cardReveal' && !showInstructions" class="card-reveal-phase">
-    <div class="players-info">
-      <div class="player-info">
-        <h3>{{ labels.CARD_REVEAL?.PLAYER_A || 'Jugador A' }}</h3>
-        <p class="player-name">{{ gameMode === 'simple' ? (labels.CARD_REVEAL?.PLAYER_1 || 'Jugador 1') : playerA?.name }}</p>
-        <p class="player-role">{{ labels.CARD_REVEAL?.DRAWS || 'Destapa carta' }}</p>
+  <!-- CARD REVEAL -->
+  <div *ngIf="currentPhase === 'cardReveal'" class="hls-playing">
+    <div class="hls-players-info">
+      <div class="hls-player-badge">
+        <span class="hls-badge-label">{{ labels.CARD_REVEAL?.PLAYER_A || 'Jugador A' }}</span>
+        <span class="hls-badge-name">{{ gameMode === 'simple' ? (labels.CARD_REVEAL?.PLAYER_1 || 'Jugador 1') : playerA?.name }}</span>
+        <span class="hls-badge-role">{{ labels.CARD_REVEAL?.DRAWS || 'Destapa' }}</span>
       </div>
-      
-      <div class="player-info">
-        <h3>{{ labels.CARD_REVEAL?.PLAYER_B || 'Jugador B' }}</h3>
-        <p class="player-name">{{ gameMode === 'simple' ? (labels.CARD_REVEAL?.PLAYER_2 || 'Jugador 2') : playerB?.name }}</p>
-        <p class="player-role">{{ labels.CARD_REVEAL?.GUESSES || 'Adivina' }}</p>
+      <div class="hls-player-badge">
+        <span class="hls-badge-label">{{ labels.CARD_REVEAL?.PLAYER_B || 'Jugador B' }}</span>
+        <span class="hls-badge-name">{{ gameMode === 'simple' ? (labels.CARD_REVEAL?.PLAYER_2 || 'Jugador 2') : playerB?.name }}</span>
+        <span class="hls-badge-role">{{ labels.CARD_REVEAL?.GUESSES || 'Adivina' }}</span>
       </div>
     </div>
 
-    <div class="cards-container">
-
-
-      <div class="cards-container-show" style="flex-direction: row;">
-
-              <!-- Primera Carta -->
-      <div class="card-slot">
-        <h4>{{ labels.CARD_REVEAL?.FIRST_CARD || 'Primera Carta' }}</h4>
-        <div class="card-wrapper" (click)="revealFirstCard()" [class.revealed]="firstCardRevealed">
-          <div class="card" [class.flipped]="firstCardRevealed">
-            <div class="card-front">
-              <div class="card-back-design">🂠</div>
-            </div>
-            <div class="card-back">
-              <img *ngIf="currentCard" [src]="currentCard.image" [alt]="currentCard.name" class="card-image">
+    <div class="hls-cards-row">
+      <!-- First card -->
+      <div class="hls-card-slot">
+        <h4>{{ labels.CARD_REVEAL?.FIRST_CARD || 'Carta 1' }}</h4>
+        <div class="hls-card-wrapper" (click)="revealFirstCard()" [class.revealed]="firstCardRevealed">
+          <div class="hls-card" [class.flipped]="firstCardRevealed">
+            <div class="hls-card-front">🂠</div>
+            <div class="hls-card-back">
+              <img *ngIf="currentCard" [src]="currentCard.image" [alt]="currentCard.name" class="hls-card-img" />
             </div>
           </div>
         </div>
-        <button *ngIf="!firstCardRevealed" class="btn reveal-btn" (click)="revealFirstCard()">
+        <button *ngIf="!firstCardRevealed" class="hls-btn-reveal" (click)="revealFirstCard()">
           {{ labels.CARD_REVEAL?.REVEAL || 'Destapar' }}
         </button>
       </div>
 
-            <!-- Segunda Carta -->
-      <div class="card-slot" *ngIf="firstCardRevealed">
-        <h4>{{ labels.CARD_REVEAL?.SECOND_CARD || 'Segunda Carta' }}</h4>
-        <div class="card-wrapper">
-          <div class="card" 
+      <!-- Second card -->
+      <div class="hls-card-slot" *ngIf="firstCardRevealed">
+        <h4>{{ labels.CARD_REVEAL?.SECOND_CARD || 'Carta 2' }}</h4>
+        <div class="hls-card-wrapper">
+          <div class="hls-card"
                [class.flipped]="secondCardRevealed"
                (transitionend)="onSecondCardFlipComplete()">
-            <div class="card-front">
-              <div class="card-back-design">🂠</div>
-            </div>
-            <div class="card-back">
-              <img *ngIf="nextCard" [src]="nextCard.image" [alt]="nextCard.name" class="card-image">
+            <div class="hls-card-front">🂠</div>
+            <div class="hls-card-back">
+              <img *ngIf="nextCard" [src]="nextCard.image" [alt]="nextCard.name" class="hls-card-img" />
             </div>
           </div>
         </div>
-    
       </div>
-          
-
-      </div>
-
-        <div class="guess-options" *ngIf="!secondCardRevealed && firstCardRevealed">
-          <h4>{{ labels.CARD_REVEAL?.GUESS_QUESTION || '¿Mayor o Menor?' }}</h4>
-          <div class="guess-buttons">
-            <button class="btn guess-btn lower" (click)="makeGuess('lower')">
-              {{ labels.CARD_REVEAL?.LOWER || 'Menor' }} 📉
-            </button>
-            <button class="btn guess-btn higher" (click)="makeGuess('higher')">
-              {{ labels.CARD_REVEAL?.HIGHER || 'Mayor' }} 📈
-            </button>
-          </div>
-        </div>
-
-        <!-- Resultado inmediato -->
-        <div *ngIf="showingResult" class="immediate-result">
-          <div class="result-message" [class.win]="gameResult === 'win'" 
-                                    [class.lose]="gameResult === 'lose'" 
-                                    [class.tie]="gameResult === 'tie'">
-            {{ getResultMessage() }}
-          </div>
-          <div class="drink-message">
-            {{ getDrinkInstruction() }}
-          </div>
-        </div>
     </div>
 
-    <div class="action-buttons">
-      <button class="btn secondary" (click)="backToModeSelection()">
-        {{ labels.CARD_REVEAL?.BACK_HOME || 'Volver al Inicio' }}
-      </button>
+    <!-- Guess buttons -->
+    <div class="hls-guess" *ngIf="!secondCardRevealed && firstCardRevealed">
+      <h4>{{ labels.CARD_REVEAL?.GUESS_QUESTION || '¿Mayor o Menor?' }}</h4>
+      <div class="hls-guess-btns">
+        <button class="hls-btn-lower" (click)="makeGuess('lower')">
+          {{ labels.CARD_REVEAL?.LOWER || 'Menor' }} 📉
+        </button>
+        <button class="hls-btn-higher" (click)="makeGuess('higher')">
+          {{ labels.CARD_REVEAL?.HIGHER || 'Mayor' }} 📈
+        </button>
+      </div>
     </div>
+
+    <!-- Immediate result -->
+    <div *ngIf="showingResult" class="hls-immediate-result"
+         [class.win]="gameResult === 'win'"
+         [class.lose]="gameResult === 'lose'"
+         [class.tie]="gameResult === 'tie'">
+      <div class="hls-result-msg">{{ getResultMessage() }}</div>
+      <div class="hls-drink-msg">{{ getDrinkInstruction() }}</div>
+    </div>
+
+    <button class="hls-btn-back" (click)="backToModeSelection()">
+      {{ labels.CARD_REVEAL?.BACK_HOME || 'Volver' }}
+    </button>
   </div>
 
-  <!-- Fase de Resultado -->
-  <div *ngIf="currentPhase === 'result' && !showInstructions" class="result-phase">
-    <div class="result-header">
-      <h2 [class.win]="gameResult === 'win'" 
-          [class.lose]="gameResult === 'lose'" 
-          [class.tie]="gameResult === 'tie'">
+  <!-- RESULT PHASE -->
+  <div *ngIf="currentPhase === 'result'" class="hls-playing">
+    <div class="hls-result-header">
+      <h2 [class.win]="gameResult === 'win'" [class.lose]="gameResult === 'lose'" [class.tie]="gameResult === 'tie'">
         {{ getResultMessage() }}
       </h2>
-      <p class="drink-instruction">{{ getDrinkInstruction() }}</p>
+      <p class="hls-drink-instruction">{{ getDrinkInstruction() }}</p>
     </div>
 
-    <div class="cards-comparison">
-      <div class="compared-card">
-        <h4>{{ labels.RESULT?.FIRST_CARD || 'Primera Carta' }}</h4>
-        <div class="card-result">
-          <img *ngIf="currentCard" [src]="currentCard.image" [alt]="currentCard.name" class="card-image">
-          <p class="card-value">{{ currentCard?.name }}</p>
+    <div class="hls-comparison">
+      <div class="hls-compared-card">
+        <h4>{{ labels.RESULT?.FIRST_CARD || 'Carta 1' }}</h4>
+        <div class="hls-card-result">
+          <img *ngIf="currentCard" [src]="currentCard.image" [alt]="currentCard.name" class="hls-card-img-sm" />
+          <p>{{ currentCard?.name }}</p>
         </div>
       </div>
 
-      <div class="comparison-operator">
-        <span class="operator">VS</span>
-        <span class="player-guess" [class.correct]="gameResult === 'win'" [class.incorrect]="gameResult === 'lose'">
+      <div class="hls-comparison-op">
+        <span class="hls-op">VS</span>
+        <span class="hls-guess-badge" [class.correct]="gameResult === 'win'" [class.incorrect]="gameResult === 'lose'">
           {{ playerGuess === 'higher' ? (labels.RESULT?.HIGHER || 'MAYOR') : (labels.RESULT?.LOWER || 'MENOR') }}
         </span>
       </div>
 
-      <div class="compared-card">
-        <h4>{{ labels.RESULT?.SECOND_CARD || 'Segunda Carta' }}</h4>
-        <div class="card-result">
-          <img *ngIf="nextCard" [src]="nextCard.image" [alt]="nextCard.name" class="card-image">
-          <p class="card-value">{{ nextCard?.name }}</p>
+      <div class="hls-compared-card">
+        <h4>{{ labels.RESULT?.SECOND_CARD || 'Carta 2' }}</h4>
+        <div class="hls-card-result">
+          <img *ngIf="nextCard" [src]="nextCard.image" [alt]="nextCard.name" class="hls-card-img-sm" />
+          <p>{{ nextCard?.name }}</p>
         </div>
       </div>
     </div>
 
-    <div class="action-buttons">
-      <button class="btn" (click)="nextRound()">
+    <div class="hls-actions">
+      <button class="hls-btn-start" (click)="nextRound()">
         {{ labels.RESULT?.NEXT_ROUND || 'Siguiente Ronda' }}
       </button>
-      <button class="btn secondary" (click)="backToModeSelection()">
-        {{ labels.RESULT?.BACK_HOME || 'Volver al Inicio' }}
+      <button class="hls-btn-back" (click)="backToModeSelection()">
+        {{ labels.RESULT?.BACK_HOME || 'Volver' }}
       </button>
     </div>
   </div>
+
 </div>

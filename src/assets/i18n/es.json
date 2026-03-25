@@ -261,6 +261,7 @@
   },
   "KISS_ROULETTE": {
     "INSTRUCTIONS": {
+      "HOW_TO_PLAY": "¿Cómo jugar?",
       "SHOW": "Instrucciones",
       "TITLE": "Cómo Jugar - Ruleta de Besos",
       "STEP1_TITLE": "Agrega Jugadores",
@@ -285,7 +286,8 @@
       "UNDERSTAND": "¡Entendido! Comenzar"
     },
     "SETUP": {
-      "TITLE": "Configuración del Juego de Besos",
+      "TITLE": "Ruleta de Besos",
+      "SUBTITLE": "Gira y besa",
       "ADD_PLAYERS": "Agregar Jugadores",
       "PLAYER_NAME": "Nombre del jugador",
       "MALE": "Hombre",
@@ -294,7 +296,8 @@
       "PLAYERS_LIST": "Jugadores",
       "KISS_DURATION": "Duración del Beso",
       "DURATION_SELECTED": "Duración seleccionada",
-      "INCLUDE_INTIMATE": "Incluir partes íntimas (modo atrevido)",
+      "INCLUDE_INTIMATE": "Incluir partes íntimas",
+      "EXTREME_MODE": "Modo extremo",
       "START_GAME": "Iniciar Juego",
       "NEED_PLAYERS": "Agrega al menos 2 jugadores"
     },
@@ -305,6 +308,9 @@
       "PLAYER": "Jugador",
       "WHO_KISS": "¿A quién besar?",
       "SPIN_ROULETTES": "Girar Ruletas",
+      "ACTION": "Acción",
+      "ACTION_LABEL": "¿Qué hacer?",
+      "NEXT_TURN": "Siguiente turno",
       "RESPIN": "Volver a Girar",
       "VIEW_RESULT": "Ver Resultado",
       "BACK_HOME": "Volver al Inicio"
@@ -349,6 +355,7 @@
   },
   "HIGHER_LOWER_SHOT": {
     "INSTRUCTIONS": {
+      "HOW_TO_PLAY": "¿Cómo jugar?",
       "SHOW": "Instrucciones",
       "TITLE": "Mayor o Menor Shot",
       "SIMPLE_MODE": "Modo Simple",

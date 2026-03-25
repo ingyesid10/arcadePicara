@@ -23,7 +23,7 @@ export class KissRouletteComponent implements OnInit, OnDestroy {
   includeIntimateParts = false;
   extremeMode = false;
   kissDuration = 30;
-  showInstructions = true;
+  showInstructions = false;
 
   currentPhase: 'setup' | 'spinning' | 'result' | 'kissCountdown' = 'setup';
 

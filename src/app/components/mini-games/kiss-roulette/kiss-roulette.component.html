@@ -1,271 +1,174 @@
-<div class="container">
-  <!-- 🔹 Botón para ver instrucciones nuevamente -->
-  <!-- <button class="instructions-btn" (click)="showInstructionsAgain()">
-    {{ labels?.INSTRUCTIONS?.SHOW || '¿Cómo jugar?' }}
-  </button> -->
+<div class="kr-wrapper">
 
-  <!-- 🔹 Modal "Cómo jugar" -->
-  <div class="instructions-modal" [class.visible]="showInstructions">
-    <div class="instructions-content">
-      <div class="instructions-header">
-        <h2>Arcade Picara</h2>
-        <button class="close-btn" (click)="closeInstructions()">×</button>
+  <!-- SETUP PHASE -->
+  <div *ngIf="currentPhase === 'setup'" class="kr-setup">
+    <div class="kr-title">
+      <span class="kr-icon-big">💋</span>
+      <h2>{{ labels?.SETUP?.TITLE || 'Ruleta de Besos' }}</h2>
+      <p class="kr-subtitle">{{ labels?.SETUP?.SUBTITLE || 'Gira y besa' }}</p>
+    </div>
+
+    <!-- How to play (collapsible) -->
+    <div class="kr-how-wrapper">
+      <button class="kr-how-btn" (click)="showInstructions = !showInstructions">
+        {{ showInstructions ? '▲' : '▼' }} {{ labels?.INSTRUCTIONS?.HOW_TO_PLAY || '¿Cómo jugar?' }}
+      </button>
+      <div class="kr-instructions" *ngIf="showInstructions">
+        <ol>
+          <li>{{ labels?.INSTRUCTIONS?.STEP1_DESC || 'Añade al menos 2 jugadores con nombre y género.' }}</li>
+          <li>{{ labels?.INSTRUCTIONS?.STEP2_DESC || 'Elige duración del beso y opciones.' }}</li>
+          <li>{{ labels?.INSTRUCTIONS?.STEP3_DESC || 'Gira las ruletas y deja que la suerte decida.' }}</li>
+          <li>{{ labels?.INSTRUCTIONS?.STEP6_DESC || 'Incluye partes íntimas para más atrevimiento.' }}</li>
+          <li>{{ labels?.INSTRUCTIONS?.STEP7_DESC || 'Modo extremo: acciones como lamer, morder, chupar.' }}</li>
+        </ol>
       </div>
+    </div>
 
-      <div class="instructions-body">
-        <!-- Paso 1 -->
-        <div class="instruction-step">
-          <div class="step-number">1</div>
-          <div class="step-content">
-            <h3>{{ labels?.INSTRUCTIONS?.STEP1_TITLE || 'Agrega jugadores' }}</h3>
-            <p [innerHTML]="labels?.INSTRUCTIONS?.STEP1_DESC || 'Añade al menos 2 jugadores con nombre y género.'"></p>
-          </div>
-        </div>
-
-        <!-- Paso 2 -->
-        <div class="instruction-step">
-          <div class="step-number">2</div>
-          <div class="step-content">
-            <h3>{{ labels?.INSTRUCTIONS?.STEP2_TITLE || 'Configura el juego' }}</h3>
-            <p [innerHTML]="labels?.INSTRUCTIONS?.STEP2_DESC || 'Elige duración, opciones y modo extremo.'"></p>
-          </div>
-        </div>
-
-        <!-- Paso 3 -->
-        <div class="instruction-step">
-          <div class="step-number">3</div>
-          <div class="step-content">
-            <h3>{{ labels?.INSTRUCTIONS?.STEP3_TITLE || 'Gira las ruletas' }}</h3>
-            <p [innerHTML]="labels?.INSTRUCTIONS?.STEP3_DESC || 'Deja que la suerte decida qué ocurre.'"></p>
-          </div>
-        </div>
-
-                <!-- Paso 4 -->
-        <div class="instruction-step">
-          <div class="step-number">4</div>
-          <div class="step-content">
-            <h3>{{ labels?.INSTRUCTIONS?.STEP6_TITLE || 'Partes íntimas' }}</h3>
-            <p [innerHTML]="labels?.INSTRUCTIONS?.STEP6_DESC || 'Las partes íntimas se incluyen en los resultados.'"></p>
-          </div>
-        </div>
-
-                        <!-- Paso 5 -->
-        <div class="instruction-step">
-          <div class="step-number">5</div>
-          <div class="step-content">
-            <h3>{{ labels?.INSTRUCTIONS?.STEP7_TITLE || 'Modo extremo' }}</h3>
-            <p [innerHTML]="labels?.INSTRUCTIONS?.STEP7_DESC || 'Acciones como lamer, morder, chupar se incluyen en los resultados'"></p>
-          </div>
-        </div>
-
-        <!-- Consejos -->
-        <div class="instructions-tips">
-          <h4>{{ labels?.INSTRUCTIONS?.TIPS_TITLE || 'Consejos' }}</h4>
-          <ul>
-            <li>{{ labels?.INSTRUCTIONS?.TIP1 || 'Acordar reglas antes de jugar.' }}</li>
-            <li>{{ labels?.INSTRUCTIONS?.TIP2 || 'Respeta los límites y el consentimiento.' }}</li>
-            <li>{{ labels?.INSTRUCTIONS?.TIP3 || 'Puedes omitir partes íntimas si prefieres.' }}</li>
-            <li>{{ labels?.INSTRUCTIONS?.TIP4 || 'Diviértanse sin presión.' }}</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="instructions-footer">
-        <button class="understand-btn" (click)="closeInstructions()">
-          Cerrar
+    <!-- Add players -->
+    <div class="kr-section">
+      <h3>{{ labels?.SETUP?.ADD_PLAYERS || 'Agregar Jugadores' }}</h3>
+      <div class="kr-player-form">
+        <input #playerName type="text" [placeholder]="labels?.SETUP?.PLAYER_NAME || 'Nombre del jugador'" class="kr-input" />
+        <select #playerGender class="kr-select">
+          <option value="male">{{ labels?.SETUP?.MALE || 'Hombre' }}</option>
+          <option value="female">{{ labels?.SETUP?.FEMALE || 'Mujer' }}</option>
+        </select>
+        <button class="kr-btn-add" (click)="addPlayer(playerName.value, playerGender.value); playerName.value=''">
+          {{ labels?.SETUP?.ADD || 'Agregar' }}
         </button>
       </div>
     </div>
+
+    <!-- Players list -->
+    <div class="kr-section" *ngIf="players.length > 0">
+      <h3>{{ labels?.SETUP?.PLAYERS_LIST || 'Jugadores' }} ({{ players.length }}/8)</h3>
+      <div *ngFor="let p of players; let i = index" class="kr-player-item">
+        <span>{{ p.name }} ({{ p.gender === 'male' ? '♂' : '♀' }})</span>
+        <button class="kr-btn-remove" (click)="removePlayer(i)">×</button>
+      </div>
+    </div>
+
+    <!-- Kiss duration -->
+    <div class="kr-section">
+      <h3>{{ labels?.SETUP?.KISS_DURATION || 'Duración del beso' }}</h3>
+      <div class="kr-time-options">
+        <button class="kr-time-btn" [class.active]="kissDuration === 10" (click)="updateKissDuration(10)">
+          {{ labels?.TIME_OPTIONS?.['10_SEC'] || '10s' }}
+        </button>
+        <button class="kr-time-btn" [class.active]="kissDuration === 30" (click)="updateKissDuration(30)">
+          {{ labels?.TIME_OPTIONS?.['30_SEC'] || '30s' }}
+        </button>
+        <button class="kr-time-btn" [class.active]="kissDuration === 60" (click)="updateKissDuration(60)">
+          {{ labels?.TIME_OPTIONS?.['1_MIN'] || '1m' }}
+        </button>
+        <button class="kr-time-btn" [class.active]="kissDuration === 90" (click)="updateKissDuration(90)">
+          {{ labels?.TIME_OPTIONS?.['1_5_MIN'] || '1.5m' }}
+        </button>
+        <button class="kr-time-btn" [class.active]="kissDuration === 120" (click)="updateKissDuration(120)">
+          {{ labels?.TIME_OPTIONS?.['2_MIN'] || '2m' }}
+        </button>
+      </div>
+      <p class="kr-time-display">{{ formatTime(kissDuration) }}</p>
+    </div>
+
+    <!-- Settings -->
+    <div class="kr-settings">
+      <label class="kr-checkbox">
+        <input type="checkbox" [(ngModel)]="includeIntimateParts" />
+        <span>🔥 {{ labels?.SETUP?.INCLUDE_INTIMATE || 'Incluir partes íntimas' }}</span>
+      </label>
+      <label class="kr-checkbox">
+        <input type="checkbox" [(ngModel)]="extremeMode" (change)="onExtremeModeChange()" />
+        <span>🔥 {{ labels?.SETUP?.EXTREME_MODE || 'Modo extremo' }}</span>
+      </label>
+    </div>
+
+    <button class="kr-btn-start" [disabled]="!canStartGame()" (click)="startGame()">
+      {{ canStartGame()
+        ? (labels?.SETUP?.START_GAME || 'Iniciar juego')
+        : (labels?.SETUP?.NEED_PLAYERS || 'Agrega al menos 2 jugadores') }}
+    </button>
   </div>
 
-  <!-- 🔹 CONTENIDO PRINCIPAL - Mostrar siempre que NO estén las instrucciones -->
-  <div *ngIf="!showInstructions">
-    
-    <!-- FASE SETUP -->
-    <div *ngIf="currentPhase === 'setup'" class="setup-phase" [class.extreme-mode]="extremeMode">
-      <h2>{{ labels?.SETUP?.TITLE || 'Configuración del Juego de Besos' }}</h2>
+  <!-- PLAYING PHASE (spinning / result / kissCountdown) -->
+  <div *ngIf="currentPhase !== 'setup'" class="kr-playing">
 
-      <div class="add-player">
-        <h3>{{ labels?.SETUP?.ADD_PLAYERS || 'Agregar Jugadores' }}</h3>
-        <div class="player-form">
-          <input
-            #playerName
-            type="text"
-            [placeholder]="labels?.SETUP?.PLAYER_NAME || 'Nombre del jugador'"
-            class="input-field"
-          />
-          <select #playerGender class="select-field">
-            <option value="male">{{ labels?.SETUP?.MALE || 'Hombre' }}</option>
-            <option value="female">{{ labels?.SETUP?.FEMALE || 'Mujer' }}</option>
-          </select>
-          <button class="btn" (click)="addPlayer(playerName.value, playerGender.value); playerName.value=''">
-            {{ labels?.SETUP?.ADD || 'Agregar' }}
-          </button>
+    <!-- Turn indicator -->
+    <div class="kr-turn">
+      {{ labels?.SPINNING?.YOUR_TURN || '¡Le toca a' }}
+      <strong>{{ currentPlayerName }}</strong>
+    </div>
+
+    <!-- Triple roulette -->
+    <div class="kr-roulettes">
+      <div class="kr-roulette-col">
+        <h4>{{ labels?.SPINNING?.BODY_PART || 'Parte del cuerpo' }}</h4>
+        <div class="kr-roulette" [class.spinning]="spinningBody">
+          {{ spinningBody ? '🎡' : (currentBodyPart || '?') }}
         </div>
+        <span class="kr-roulette-label">{{ getDynamicWhereLabel() }}</span>
       </div>
 
-      <div class="players-list" *ngIf="players && players.length >= 0">
-        <h3>{{ labels?.SETUP?.PLAYERS_LIST || 'Jugadores' }} ({{ players.length }}/8)</h3>
-        <div *ngFor="let p of players; let i = index" class="player-item">
-          <span>{{ p.name }} ({{ p.gender === 'male' ? '♂' : '♀' }})</span>
-          <button class="btn-remove" (click)="removePlayer(i)">×</button>
+      <span class="kr-connector">+</span>
+
+      <div class="kr-roulette-col">
+        <h4>{{ labels?.SPINNING?.PLAYER || 'Jugador' }}</h4>
+        <div class="kr-roulette" [class.spinning]="spinningPlayer">
+          {{ spinningPlayer ? '🎡' : (targetPlayer || '?') }}
         </div>
+        <span class="kr-roulette-label">{{ getDynamicWhoLabel() }}</span>
       </div>
 
-      <div class="time-settings">
-        <h3>{{ labels?.SETUP?.KISS_DURATION || 'Duración del beso' }}</h3>
-        <div class="time-options">
-          <button class="time-btn" [class.active]="kissDuration === 10" (click)="updateKissDuration(10)">
-            {{ labels?.TIME_OPTIONS?.['10_SEC'] || '10 seg' }}
-          </button>
-          <button class="time-btn" [class.active]="kissDuration === 30" (click)="updateKissDuration(30)">
-            {{ labels?.TIME_OPTIONS?.['30_SEC'] || '30 seg' }}
-          </button>
-          <button class="time-btn" [class.active]="kissDuration === 60" (click)="updateKissDuration(60)">
-            {{ labels?.TIME_OPTIONS?.['1_MIN'] || '1 min' }}
-          </button>
-          <button class="time-btn" [class.active]="kissDuration === 90" (click)="updateKissDuration(90)">
-            {{ labels?.TIME_OPTIONS?.['1_5_MIN'] || '1.5 min' }}
-          </button>
-          <button class="time-btn" [class.active]="kissDuration === 120" (click)="updateKissDuration(120)">
-            {{ labels?.TIME_OPTIONS?.['2_MIN'] || '2 min' }}
-          </button>
+      <ng-container *ngIf="extremeMode">
+        <span class="kr-connector">+</span>
+        <div class="kr-roulette-col kr-roulette-sm">
+          <h4>🔥 {{ labels?.SPINNING?.ACTION || 'Acción' }}</h4>
+          <div class="kr-roulette kr-small" [class.spinning]="spinningAction">
+            {{ spinningAction ? '🎡' : (currentAction || '?') }}
+          </div>
+          <span class="kr-roulette-label">{{ labels?.SPINNING?.ACTION_LABEL || '¿Qué hacer?' }}</span>
         </div>
-        <p class="time-display">{{ labels?.SETUP?.DURATION_SELECTED || 'Duración seleccionada' }}: {{ formatTime(kissDuration) }}</p>
+      </ng-container>
+    </div>
+
+    <!-- Spin button -->
+    <button
+      *ngIf="currentPhase === 'spinning' || (currentPhase === 'result' && !countdownActive)"
+      class="kr-btn-spin"
+      [disabled]="spinningBody || spinningPlayer || spinningAction"
+      (click)="spinRoulettes()">
+      {{ labels?.SPINNING?.SPIN_ROULETTES || 'Girar ruletas' }}
+    </button>
+
+    <!-- Result -->
+    <div *ngIf="resultMessage && !spinningBody && !spinningPlayer && (!extremeMode || !spinningAction)" class="kr-result">
+      <div class="kr-result-bubble">{{ resultMessage }}</div>
+
+      <div class="kr-result-actions" *ngIf="currentPhase === 'result'">
+        <button class="kr-btn-timer" (click)="startKissCountdown()">
+          {{ getStartTimerButtonLabel() }}
+        </button>
+        <button class="kr-btn-next" (click)="nextTurn()">
+          {{ labels?.RESULT?.NEXT_TURN || 'Siguiente turno' }}
+        </button>
       </div>
 
-<div class="settings">
-  <label class="checkbox-label" [class.extreme]="extremeMode">
-    <input type="checkbox" [(ngModel)]="includeIntimateParts" />
-    <span>🔥 {{ labels?.SETUP?.INCLUDE_INTIMATE || 'Incluir partes íntimas (modo atrevido)' }}</span>
-  </label>
+      <!-- Countdown -->
+      <div *ngIf="currentPhase === 'kissCountdown'" class="kr-countdown">
+        <div class="kr-countdown-time">{{ formatTime(countdownTime) }}</div>
+        <p class="kr-countdown-label">{{ labels?.COUNTDOWN?.COUNTDOWN_LABEL || '¡A besarse!' }}</p>
+        <button class="kr-btn-stop" (click)="clearCountdown(); currentPhase = 'result'">
+          {{ labels?.COUNTDOWN?.STOP_KISS || 'Detener' }}
+        </button>
+      </div>
+    </div>
 
-  <label class="checkbox-label extreme">
-    <input 
-      type="checkbox" 
-      [(ngModel)]="extremeMode" 
-      (change)="onExtremeModeChange()" 
-    />
-    <span>🔥 {{ labels?.SETUP?.EXTREME_MODE || 'Activar modo extremo' }}</span>
-  </label>
-</div>
-
-      <button class="btn start-btn" [disabled]="!canStartGame()" (click)="startGame()">
-        {{
-          canStartGame()
-            ? (labels?.SETUP?.START_GAME || 'Iniciar juego')
-            : (labels?.SETUP?.NEED_PLAYERS || 'Agrega al menos 2 jugadores')
-        }}
+    <!-- Navigation -->
+    <div class="kr-nav">
+      <button class="kr-btn-back" (click)="resetGame()">
+        {{ labels?.SPINNING?.BACK_HOME || 'Volver' }}
       </button>
     </div>
-
-    <!-- 🔹 FASE SPINNING Y RESULTADO -->
-    <div *ngIf="currentPhase === 'spinning' || currentPhase === 'result' || currentPhase === 'kissCountdown'" class="spinning-phase">
-      
-      <!-- Indicador de turno -->
-      <div class="turn-indicator">
-        <h2>
-          {{ labels?.SPINNING?.YOUR_TURN || '¡Le toca girar a' }}
-          <span class="player-name">{{ currentPlayerName }}</span>
-        </h2>
-      </div>
-
-      <!-- Ruletas -->
-      <div class="triple-roulette">
-        <!-- Parte del cuerpo -->
-        <div class="roulette-column">
-          <h3>{{ labels?.SPINNING?.BODY_PART || 'Parte del cuerpo' }}</h3>
-          <div class="roulette-display body-roulette" [class.spinning]="spinningBody">
-            {{ spinningBody ? '🎡' : (currentBodyPart || '?') }}
-          </div>
-          <p class="roulette-label">{{ getDynamicWhereLabel() }}</p>
-        </div>
-
-        <div class="connector-column"><div class="plus-sign">+</div></div>
-
-        <!-- Jugador -->
-        <div class="roulette-column">
-          <h3>{{ labels?.SPINNING?.PLAYER || 'Jugador' }}</h3>
-          <div class="roulette-display player-roulette" [class.spinning]="spinningPlayer">
-            {{ spinningPlayer ? '🎡' : (targetPlayer || '?') }}
-          </div>
-          <p class="roulette-label">{{ getDynamicWhoLabel() }}</p>
-        </div>
-
-        <!-- Acción (solo modo extremo) -->
-        <ng-container *ngIf="extremeMode">
-          <div class="connector-column"><div class="plus-sign">+</div></div>
-
-          <div class="roulette-column small">
-            <h3>🔥 {{ labels?.SPINNING?.ACTION || 'Acción' }}</h3>
-            <div class="roulette-display small" [class.spinning]="spinningAction">
-              {{ spinningAction ? '🎡' : (currentAction || '?') }}
-            </div>
-            <p class="roulette-label">{{ labels?.SPINNING?.ACTION_LABEL || '¿Qué hacer?' }}</p>
-          </div>
-        </ng-container>
-      </div>
-
-      <!-- 🔸 BOTÓN GIRAR RULETAS - SIEMPRE VISIBLE CUANDO NO ESTÁN GIRANDO -->
-      <div class="spin-button-container" *ngIf="currentPhase === 'spinning' || (currentPhase === 'result' && !countdownActive)">
-        <button
-          class="btn spin-btn"
-          [disabled]="spinningBody || spinningPlayer || spinningAction"
-          (click)="spinRoulettes()"
-        >
-          {{ labels?.SPINNING?.SPIN_ROULETTES || 'Girar ruletas' }}
-        </button>
-      </div>
-
-      <!-- 🔸 Resultado y acciones -->
-      <div
-        *ngIf="resultMessage && !spinningBody && !spinningPlayer && (!extremeMode || !spinningAction)"
-        class="dynamic-result-section"
-      >
-        <!-- Mensaje del resultado -->
-        <div class="highlighted-result" role="status" aria-live="polite">
-          {{ resultMessage }}
-        </div>
-
-        <!-- Acciones del resultado -->
-        <div class="result-actions" *ngIf="currentPhase === 'result'">
-          <!-- Botón para iniciar tiempo -->
-          <button
-            class="btn start-timer-btn"
-            (click)="startKissCountdown()"
-          >
-            {{ getStartTimerButtonLabel() }}
-          </button>
-
-          <!-- Botón siguiente turno -->
-          <button
-            class="btn secondary"
-            (click)="nextTurn()"
-          >
-            {{ labels?.RESULT?.NEXT_TURN || 'Siguiente turno' }}
-          </button>
-        </div>
-
-        <!-- Cronómetro activo -->
-        <div *ngIf="currentPhase === 'kissCountdown'" class="countdown-container">
-          <div class="countdown-timer">{{ formatTime(countdownTime) }}</div>
-          <p class="countdown-label">{{ labels?.COUNTDOWN?.COUNTDOWN_LABEL || '¡El tiempo termina cuando llegue a cero!' }}</p>
-          
-          <button class="btn secondary" (click)="clearCountdown(); currentPhase = 'result'">
-            {{ labels?.COUNTDOWN?.STOP_KISS || 'Detener' }}
-          </button>
-        </div>
-      </div>
-
-      <!-- Botones de navegación (siempre visibles) -->
-      <div class="navigation-buttons">
-        <button class="btn secondary" (click)="resetGame()">
-          {{ labels?.SPINNING?.BACK_HOME || 'Volver al inicio' }}
-        </button>
-        <button class="btn close-btn-secondary" (click)="closeGame()">
-          {{ labels?.SPINNING?.CLOSE || 'Cerrar' }}
-        </button>
-      </div>
-    </div>
   </div>
+
 </div>

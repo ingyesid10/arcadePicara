@@ -264,6 +264,7 @@
     },
     "KISS_ROULETTE": {
         "INSTRUCTIONS": {
+            "HOW_TO_PLAY": "How to play?",
             "SHOW": "Instructions",
             "TITLE": "How to Play - Kiss Roulette",
             "STEP1_TITLE": "Add Players",
@@ -288,7 +289,8 @@
             "UNDERSTAND": "Got it! Start"
         },
         "SETUP": {
-            "TITLE": "Kiss Game Setup",
+            "TITLE": "Kiss Roulette",
+            "SUBTITLE": "Spin and kiss",
             "ADD_PLAYERS": "Add Players",
             "PLAYER_NAME": "Player name",
             "MALE": "Male",
@@ -297,7 +299,8 @@
             "PLAYERS_LIST": "Players",
             "KISS_DURATION": "Kiss Duration",
             "DURATION_SELECTED": "Selected duration",
-            "INCLUDE_INTIMATE": "Include intimate parts (daring mode)",
+            "INCLUDE_INTIMATE": "Include intimate parts",
+            "EXTREME_MODE": "Extreme mode",
             "START_GAME": "Start Game",
             "NEED_PLAYERS": "Add at least 2 players"
         },
@@ -308,6 +311,9 @@
             "PLAYER": "Player",
             "WHO_KISS": "Who to kiss?",
             "SPIN_ROULETTES": "Spin Roulettes",
+            "ACTION": "Action",
+            "ACTION_LABEL": "What to do?",
+            "NEXT_TURN": "Next turn",
             "RESPIN": "Spin Again",
             "VIEW_RESULT": "View Result",
             "BACK_HOME": "Back to Home"
@@ -352,6 +358,7 @@
     },
     "HIGHER_LOWER_SHOT": {
         "INSTRUCTIONS": {
+            "HOW_TO_PLAY": "How to play?",
             "SHOW": "Instructions",
             "TITLE": "Higher or Lower Shot",
             "SIMPLE_MODE": "Simple Mode",

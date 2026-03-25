@@ -22,7 +22,7 @@ export class HigherLowerShotComponent implements OnInit, OnDestroy {
   // Configuración
   players: Player[] = [];
   gameMode: 'simple' | 'roulette' | null = null;
-  showInstructions = true;
+  showInstructions = false;
   
   // Estados del juego
   currentPhase: 'modeSelection' | 'setup' | 'spinning' | 'cardReveal' | 'result' = 'modeSelection';
