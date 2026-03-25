@@ -73,7 +73,6 @@ export class HomePage implements OnInit, OnDestroy {
           this.resetHome();
         }
       });
-            // this.exoClickService.loadPopunder();
   }
 
   ngAfterViewInit(): void {}
@@ -121,9 +120,6 @@ selectCategory(category: string): void {
   this.dataLayer.pushGameClose(); // 🕒 cierra cualquier juego previo
   this.showSelector = false;
   this.showGames = true;
-  //   setTimeout(() => {
-  //   this.exoClickService.loadPopunder();
-  // }, 1000); // Espera 1 segundo para que el DOM tenga las .game-card
   this.filteredGames = this.allGames.filter(game => game.categories.includes(category));
 
   this.dataLayer.pushCategorySelect(category);
