@@ -60,7 +60,8 @@
     "KISS_ROULETTE": "Ruleta de Besos",
     "HIGHER_LOWER_SHOT": "Tragos y cartas",
     "ROULETTE_HOT_PARTY": "Ruleta de fiesta",
-    "FANTASY_CARDS": "Cartas de Fantasías 🎭"
+    "FANTASY_CARDS": "Cartas de Fantasías 🎭",
+    "WOULD_YOU_RATHER": "¿Qué Prefieres? 🆚"
   },
   "EXTREME_MODE": "Modo Extremo",
   "ACTION": "Acción",
@@ -443,6 +444,17 @@
     "START": "Comenzar 🎭",
     "TAP": "Toca para girar",
     "NEXT": "Siguiente carta ➡️",
+    "BACK": "Cambiar niveles"
+  },
+  "WOULD_YOU_RATHER": {
+    "TITLE": "¿Qué Prefieres?",
+    "SUBTITLE": "Elige entre las dos opciones y descúbrelo juntos 🔥",
+    "CHOOSE_LEVEL": "Elige los niveles a incluir:",
+    "QUESTIONS_AVAILABLE": "preguntas disponibles",
+    "START": "Comenzar 🆚",
+    "TAP": "Toca para revelar",
+    "WOULD_LABEL": "¿Qué prefieres?",
+    "NEXT": "Siguiente ➡️",
     "BACK": "Cambiar niveles"
   }
 }

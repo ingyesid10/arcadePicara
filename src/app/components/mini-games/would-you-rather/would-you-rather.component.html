@@ -1,0 +1,94 @@
+<div class="wyr-wrapper">
+
+  <!-- SETUP PHASE -->
+  <div *ngIf="currentPhase === 'setup'" class="wyr-setup">
+    <div class="wyr-title">
+      <span class="wyr-icon-big">🆚</span>
+      <h2>{{ 'WOULD_YOU_RATHER.TITLE' | translate }}</h2>
+      <p class="wyr-subtitle">{{ 'WOULD_YOU_RATHER.SUBTITLE' | translate }}</p>
+    </div>
+
+    <div class="wyr-levels-label">{{ 'WOULD_YOU_RATHER.CHOOSE_LEVEL' | translate }}</div>
+
+    <div class="wyr-levels">
+      <button
+        *ngFor="let lvl of levelList"
+        class="wyr-level-btn"
+        [class.active]="selectedLevels.has(lvl)"
+        [style.--lvl-color]="levelColor(lvl)"
+        (click)="toggleLevel(lvl)">
+        {{ levelLabel(lvl) }}
+      </button>
+    </div>
+
+    <div class="wyr-count-info">
+      {{ filteredQuestions.length }} {{ 'WOULD_YOU_RATHER.QUESTIONS_AVAILABLE' | translate }}
+    </div>
+
+    <button class="btn-wyr-start" (click)="startGame()">
+      {{ 'WOULD_YOU_RATHER.START' | translate }}
+    </button>
+  </div>
+
+  <!-- PLAYING PHASE -->
+  <div *ngIf="currentPhase === 'playing'" class="wyr-playing">
+
+    <div class="wyr-progress">
+      {{ usedIndices.length }} / {{ filteredQuestions.length }}
+    </div>
+
+    <div class="wyr-card-area">
+      <div class="wyr-card" [class.flipped]="flipped" (click)="!flipped && drawCard()">
+
+        <!-- FRONT -->
+        <div class="wyr-card-front">
+          <span class="wyr-card-logo">🆚</span>
+          <span class="wyr-card-tap">{{ 'WOULD_YOU_RATHER.TAP' | translate }}</span>
+        </div>
+
+        <!-- BACK -->
+        <div class="wyr-card-back"
+          [style.border-color]="currentQuestion ? levelColor(currentQuestion.level) : '#fff'"
+          [style.box-shadow]="currentQuestion ? '0 0 30px ' + levelColor(currentQuestion.level) + '55' : 'none'">
+          <div *ngIf="currentQuestion" class="wyr-card-content">
+
+            <div class="wyr-level-badge"
+              [style.background]="levelColor(currentQuestion.level)">
+              {{ levelLabel(currentQuestion.level) }}
+            </div>
+
+            <div class="wyr-emoji">{{ currentQuestion.emoji }}</div>
+
+            <p class="wyr-label">{{ 'WOULD_YOU_RATHER.WOULD_LABEL' | translate }}</p>
+
+            <div class="wyr-options">
+              <div class="wyr-option wyr-option-a">
+                <span class="wyr-opt-letter">A</span>
+                <span class="wyr-opt-text">{{ currentQuestion.optionA[lang] }}</span>
+              </div>
+
+              <div class="wyr-vs">VS</div>
+
+              <div class="wyr-option wyr-option-b">
+                <span class="wyr-opt-letter">B</span>
+                <span class="wyr-opt-text">{{ currentQuestion.optionB[lang] }}</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="wyr-actions">
+      <button class="btn-wyr-next" [disabled]="animating || !flipped" (click)="drawCard()">
+        {{ 'WOULD_YOU_RATHER.NEXT' | translate }}
+      </button>
+      <button class="btn-wyr-back" (click)="backToSetup()">
+        {{ 'WOULD_YOU_RATHER.BACK' | translate }}
+      </button>
+    </div>
+
+  </div>
+</div>

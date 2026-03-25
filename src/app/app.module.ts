@@ -21,6 +21,7 @@ import { KissRouletteComponent } from './components/mini-games/kiss-roulette/kis
 import { HigherLowerShotComponent } from './components/mini-games/higher-lower-shot/higher-lower-shot.component';
 import { RouletteHotPartyComponent } from './components/mini-games/roulette-party/roulette-hot-party.component';
 import { FantasyCardsComponent } from './components/mini-games/fantasy-cards/fantasy-cards.component';
+import { WouldYouRatherComponent } from './components/mini-games/would-you-rather/would-you-rather.component';
 
 //cookie
 import { CookieConsentComponent } from './components/cookie-consent/cookie-consent.component';
@@ -47,7 +48,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     HigherLowerShotComponent,
     RouletteHotPartyComponent,
     DiceOralComponent,
-    FantasyCardsComponent
+    FantasyCardsComponent,
+    WouldYouRatherComponent
   ],
   imports: [
     BrowserModule,

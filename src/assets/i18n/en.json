@@ -61,7 +61,8 @@
         "KISS_ROULETTE": "Kiss Roulette",
         "HIGHER_LOWER_SHOT": "Drinks and cards ",
         "ROULETTE_HOT_PARTY": "Hot Party Roulette",
-        "FANTASY_CARDS": "Fantasy Cards 🎭"
+        "FANTASY_CARDS": "Fantasy Cards 🎭",
+        "WOULD_YOU_RATHER": "Would You Rather? 🆚"
     },
     "EXTREME_MODE": "Extreme Mode",
     "ACTION": "Action",
@@ -444,6 +445,17 @@
         "START": "Start 🎭",
         "TAP": "Tap to reveal",
         "NEXT": "Next card ➡️",
+        "BACK": "Change levels"
+    },
+    "WOULD_YOU_RATHER": {
+        "TITLE": "Would You Rather?",
+        "SUBTITLE": "Pick between two options and discover your answer together 🔥",
+        "CHOOSE_LEVEL": "Choose the levels to include:",
+        "QUESTIONS_AVAILABLE": "questions available",
+        "START": "Start 🆚",
+        "TAP": "Tap to reveal",
+        "WOULD_LABEL": "Would you rather...",
+        "NEXT": "Next ➡️",
         "BACK": "Change levels"
     }
 }
