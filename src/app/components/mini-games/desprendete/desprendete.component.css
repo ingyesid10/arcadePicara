@@ -1,11 +1,11 @@
 :root {
-  --primary-pink: #ff007f;
-  --secondary-yellow: #ffd046;
-  --accent-teal: #00ffcc;
-  --dark-bg: #100010;
-  --card-bg: #1a0015;
-  --text-light: #ffd6e8;
-  --text-gold: #ffd66a;
+  --primary-pink: #ab47bc;
+  --secondary-yellow: #e0c97f;
+  --accent-teal: #00e5ff;
+  --dark-bg: #0f0a23;
+  --card-bg: #1a1a2e;
+  --text-light: #e8e8e8;
+  --text-gold: #e0c97f;
   --modal-width: 400px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #200020, #0a0010);
+  background: linear-gradient(135deg, #1a1a2e, #0f0a23);
   color: var(--text-light);
   font-family: 'Arial', sans-serif;
   min-height: 100vh;
@@ -76,7 +76,7 @@ body {
   width: 280px;
   height: 280px;
   border-radius: 50%;
-  background: radial-gradient(circle at center, #400030, #100010);
+  background: radial-gradient(circle at center, #2d1b69, #0f0a23);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,7 +91,7 @@ body {
   width: 90%;
   height: 90%;
   border-radius: 50%;
-  background: radial-gradient(circle at center, #200020, #100010);
+  background: radial-gradient(circle at center, #1a1a2e, #0f0a23);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,7 +138,7 @@ body {
 
 /* Controles */
 .controls-section {
-  background: rgba(255, 0, 127, 0.1);
+  background: rgba(171, 71, 188, 0.1);
   padding: 20px;
   border-radius: 15px;
   border: 1px solid var(--primary-pink);
@@ -208,10 +208,10 @@ body {
 }
 
 .btn-spin {
-  background: var(--secondary-yellow);
-  color: #fdfafa;
-  background: #9d9d42;
-    border: 2px solid;
+  background: linear-gradient(135deg, #ab47bc, #7c4dff);
+  color: #fff;
+  border: none;
+  border-radius: 28px;
 }
 
 .btn-start {
@@ -246,7 +246,7 @@ body {
 
 /* Resultados */
 .result-section {
-  background: rgba(255, 0, 127, 0.1);
+  background: rgba(171, 71, 188, 0.1);
   padding: 20px;
   border-radius: 15px;
   border: 1px solid var(--primary-pink);
@@ -291,7 +291,7 @@ body {
 
 /* Jugadores */
 .players-section {
-  background: rgba(255, 0, 127, 0.1);
+  background: rgba(171, 71, 188, 0.1);
   padding: 20px;
   border-radius: 15px;
   border: 1px solid var(--primary-pink);

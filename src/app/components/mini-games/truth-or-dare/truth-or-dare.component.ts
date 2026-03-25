@@ -14,7 +14,10 @@ export class TruthOrDareComponent implements OnInit, OnDestroy {
   resultName = '';
   resultSub = '';
   hasSpun = false;
+  spinning = false;
   labels: any = {};
+  currentPhase: 'setup' | 'playing' = 'setup';
+  showInstructions = false;
 
   private spinInterval: any = null;
   private langSub?: Subscription;
@@ -56,6 +59,7 @@ export class TruthOrDareComponent implements OnInit, OnDestroy {
 
     this.showResult = false;
     this.hasSpun = true;
+    this.spinning = true;
 
     this.spinInterval = setInterval(() => {
       const randomIndex = Math.floor(Math.random() * this.segments.length);
@@ -68,6 +72,7 @@ export class TruthOrDareComponent implements OnInit, OnDestroy {
         clearInterval(this.spinInterval);
         this.spinInterval = null;
       }
+      this.spinning = false;
       const finalIndex = Math.floor(Math.random() * this.segments.length);
       this.currentSegmentDisplay = this.segments[finalIndex];
       this.finalizeResult(finalIndex);
@@ -93,5 +98,16 @@ export class TruthOrDareComponent implements OnInit, OnDestroy {
     this.currentSegmentDisplay = '-';
     this.showResult = false;
     this.hasSpun = false;
+    this.spinning = false;
+  }
+
+  startGame() {
+    this.currentPhase = 'playing';
+    this.reset();
+  }
+
+  backToSetup() {
+    this.reset();
+    this.currentPhase = 'setup';
   }
 }

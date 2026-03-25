@@ -17,6 +17,8 @@ export class SpinBeerComponent implements OnInit, OnDestroy {
   labels: any = {};
   rulesList: any[] = [];
   gameRules: any = {};
+  currentPhase: 'setup' | 'playing' = 'setup';
+  showInstructions = false;
 
   private langSub?: Subscription;
 
@@ -133,5 +135,15 @@ export class SpinBeerComponent implements OnInit, OnDestroy {
 
   closeRulesModal() {
     this.showRulesModal = false;
+  }
+
+  startGame() {
+    this.currentPhase = 'playing';
+  }
+
+  backToSetup() {
+    this.currentPhase = 'setup';
+    this.showResult = false;
+    this.spinning = false;
   }
 }

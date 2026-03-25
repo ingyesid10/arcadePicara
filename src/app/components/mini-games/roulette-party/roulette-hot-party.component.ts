@@ -15,6 +15,8 @@ export class RouletteHotPartyComponent implements OnDestroy {
   resultName = '';
   resultDesc = '';
   hasSpun = false;
+  currentPhase: 'setup' | 'playing' = 'setup';
+  showInstructions = false;
 
   private spinInterval: any = null;
   private langSub?: Subscription;
@@ -82,5 +84,14 @@ export class RouletteHotPartyComponent implements OnDestroy {
     this.resultName = '';
     this.resultDesc = '';
     this.hasSpun = false;
+  }
+
+  startGamePhase() {
+    this.currentPhase = 'playing';
+  }
+
+  backToSetup() {
+    this.reset();
+    this.currentPhase = 'setup';
   }
 }

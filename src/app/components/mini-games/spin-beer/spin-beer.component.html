@@ -1,58 +1,94 @@
-<div class="dice-container">
-  <!-- 🔗 Enlace para abrir reglas -->
-  <div class="rules-link">
-    <a href="javascript:void(0)" (click)="openRulesModal()" class="rules-btn">
-      📋 {{ labels.VIEW_RULES }}
-    </a>
-  </div>
+<div class="sb-wrapper">
 
-  <!-- 🎯 Zona de los dados -->
-  <div class="dice-stage">
-    <div class="die" [ngClass]="{'spin': spinning}">
-      <img [src]="leftDieImage" [alt]="'Left die: ' + leftDieValue" class="die-image">
+  <!-- SETUP -->
+  <div *ngIf="currentPhase === 'setup'" class="sb-setup">
+    <div class="sb-title">
+      <span class="sb-icon-big">🎲</span>
+      <h2>{{ labels.TITLE || 'Tragos Rápidos' }}</h2>
+      <p class="sb-subtitle">{{ labels.SUBTITLE || 'Lanza los dados y descubre quién bebe' }}</p>
     </div>
-    <div class="die" [ngClass]="{'spin': spinning}">
-      <img [src]="rightDieImage" [alt]="'Right die: ' + rightDieValue" class="die-image">
-    </div>
-  </div>
 
-  <!-- 🎮 Botón para lanzar los dados -->
-  <div class="actions-center">
-    <button class="btn-yellow" (click)="startSpin()" [disabled]="spinning">
-      🎲 {{ spinning ? labels.ROLLING : labels.ROLL }}
+    <!-- Cómo se juega -->
+    <div class="sb-how-wrapper">
+      <button class="sb-how-btn" (click)="showInstructions = !showInstructions">
+        {{ showInstructions ? '▲' : '▼' }} {{ labels.HOW_TO_PLAY || 'Cómo jugar' }}
+      </button>
+      <div class="sb-instructions" *ngIf="showInstructions">
+        <ol>
+          <li>{{ labels.HOW_1 || 'Lanza los dos dados.' }}</li>
+          <li>{{ labels.HOW_2 || 'Según el resultado, alguien bebe.' }}</li>
+          <li>{{ labels.HOW_3 || 'Si sacas dobles, hay reglas especiales.' }}</li>
+          <li>{{ labels.HOW_4 || 'Pasa el turno al siguiente.' }}</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Referencia de reglas rápida -->
+    <div class="sb-rules-preview">
+      <div class="sb-rule-chip" *ngFor="let rule of rulesList">
+        <span class="sb-chip-value">{{ rule.value }}</span>
+        <span class="sb-chip-desc">{{ rule.description }}</span>
+      </div>
+    </div>
+
+    <button class="btn-sb-start" (click)="startGame()">
+      {{ labels.START || 'Comenzar' }}
     </button>
   </div>
 
-  <!-- 💥 Resultado del lanzamiento -->
-  <div *ngIf="showResult" class="combination-card">
-    <div class="info-section">
-      <h2>{{ resultName }}</h2>
-      <p>{{ resultDesc }}</p>
+  <!-- PLAYING -->
+  <div *ngIf="currentPhase === 'playing'" class="sb-playing">
 
-      <div class="actions">
-        <button class="btn-yellow" (click)="startSpin()">{{ labels.ROLL_AGAIN }}</button>
+    <!-- Zona de dados -->
+    <div class="sb-dice-stage">
+      <div class="sb-die" [ngClass]="{'spin': spinning}">
+        <img [src]="leftDieImage" [alt]="'Left die: ' + leftDieValue" class="sb-die-image">
       </div>
+      <div class="sb-die" [ngClass]="{'spin': spinning}">
+        <img [src]="rightDieImage" [alt]="'Right die: ' + rightDieValue" class="sb-die-image">
+      </div>
+    </div>
+
+    <!-- Botón lanzar -->
+    <div class="sb-actions">
+      <button class="btn-sb-roll" (click)="startSpin()" [disabled]="spinning">
+        🎲 {{ spinning ? labels.ROLLING : labels.ROLL }}
+      </button>
+    </div>
+
+    <!-- Resultado -->
+    <div *ngIf="showResult" class="sb-result">
+      <div class="sb-result-name">{{ resultName }}</div>
+      <p class="sb-result-desc">{{ resultDesc }}</p>
+      <button class="btn-sb-roll" (click)="startSpin()">{{ labels.ROLL_AGAIN }}</button>
+    </div>
+
+    <div class="sb-bottom-actions">
+      <button class="sb-rules-link" (click)="openRulesModal()">
+        📋 {{ labels.VIEW_RULES }}
+      </button>
+      <button class="btn-sb-back" (click)="backToSetup()">
+        {{ labels.BACK || 'Volver' }}
+      </button>
     </div>
   </div>
 
-  <!-- 📋 Modal de Reglas -->
-  <div *ngIf="showRulesModal" class="modal-overlay" (click)="closeRulesModal()">
-    <div class="modal-card animate-modal" (click)="$event.stopPropagation()">
-      <div class="modal-header">
+  <!-- Modal de Reglas -->
+  <div *ngIf="showRulesModal" class="sb-modal-overlay" (click)="closeRulesModal()">
+    <div class="sb-modal-card" (click)="$event.stopPropagation()">
+      <div class="sb-modal-header">
         <h2>📋 {{ labels.RULES_TITLE }}</h2>
-        <button class="close-btn" (click)="closeRulesModal()">×</button>
+        <button class="sb-close-btn" (click)="closeRulesModal()">×</button>
       </div>
-
-      <div class="modal-content">
-        <div class="rules-list">
-          <div *ngFor="let rule of rulesList" class="rule-item">
-            <span class="rule-value">{{ rule.value }}</span>
-            <span class="rule-description">{{ rule.description }}</span>
+      <div class="sb-modal-content">
+        <div class="sb-rules-list">
+          <div *ngFor="let rule of rulesList" class="sb-rule-item">
+            <span class="sb-rule-value">{{ rule.value }}</span>
+            <span class="sb-rule-description">{{ rule.description }}</span>
           </div>
         </div>
-
-        <div class="modal-footer">
-          <button class="btn-yellow" (click)="closeRulesModal()">{{ labels.UNDERSTOOD }}</button>
+        <div class="sb-modal-footer">
+          <button class="btn-sb-roll" (click)="closeRulesModal()">{{ labels.UNDERSTOOD }}</button>
         </div>
       </div>
     </div>

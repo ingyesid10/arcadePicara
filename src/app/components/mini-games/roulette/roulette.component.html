@@ -1,36 +1,68 @@
-<div class="roulette-container">
-  <div class="roulette-wrapper">
-    <div class="roulette-circle">{{ currentSegmentDisplay }}</div>
+<div class="rl-wrapper">
 
-    <div class="roulette-panel">
-      <h3 class="roulette-title">{{ 'ROULETTE.TITLE' | translate }}</h3>
-      <p class="roulette-description">{{ 'ROULETTE.DESCRIPTION' | translate }}</p>
+  <!-- SETUP -->
+  <div *ngIf="currentPhase === 'setup'" class="rl-setup">
+    <div class="rl-title">
+      <span class="rl-icon-big">🎰</span>
+      <h2>{{ 'ROULETTE.TITLE' | translate }}</h2>
+      <p class="rl-subtitle">{{ 'ROULETTE.DESCRIPTION' | translate }}</p>
+    </div>
 
-      <div class="roulette-input">
-        <label>{{ 'ROULETTE.TIME' | translate }}</label>
-        <input type="number" [(ngModel)]="modalSeconds" min="5" />
-      </div>
-
-      <div class="roulette-actions">
-        <div class="timer">{{ formatTimer(countdownRemaining) }}</div>
-
-        <button class="btn" (click)="startSpin()">
-          {{ hasSpun ? ('ROULETTE.RETRY' | translate) : ('ROULETTE.SPIN' | translate) }}
-        </button>
-
-        <button class="btn secondary" (click)="startCountdown(modalSeconds)" [disabled]="!showResult">
-          {{ 'ROULETTE.START' | translate }}
-        </button>
-
-        <button class="btn secondary" (click)="reset()">
-          {{ 'ROULETTE.RESET' | translate }}
-        </button>
+    <!-- Cómo se juega -->
+    <div class="rl-how-wrapper">
+      <button class="rl-how-btn" (click)="showInstructions = !showInstructions">
+        {{ showInstructions ? '▲' : '▼' }} {{ 'ROULETTE.HOW_TO_PLAY' | translate }}
+      </button>
+      <div class="rl-instructions" *ngIf="showInstructions">
+        <ol>
+          <li>{{ 'ROULETTE.HOW_1' | translate }}</li>
+          <li>{{ 'ROULETTE.HOW_2' | translate }}</li>
+          <li>{{ 'ROULETTE.HOW_3' | translate }}</li>
+          <li>{{ 'ROULETTE.HOW_4' | translate }}</li>
+        </ol>
       </div>
     </div>
+
+    <button class="btn-rl-start" (click)="startGamePhase()">
+      {{ 'ROULETTE.START' | translate }}
+    </button>
   </div>
 
-  <div *ngIf="showResult" class="roulette-result">
-    <div class="result-title">{{ resultName }}</div>
-    <div class="result-desc">{{ resultDesc }}</div>
+  <!-- PLAYING -->
+  <div *ngIf="currentPhase === 'playing'" class="rl-playing">
+
+    <div class="rl-roulette-area">
+      <div class="rl-roulette">{{ currentSegmentDisplay }}</div>
+    </div>
+
+    <!-- Timer -->
+    <div class="rl-timer">{{ formatTimer(countdownRemaining) }}</div>
+
+    <!-- Config -->
+    <div class="rl-time-config">
+      <label>{{ 'ROULETTE.TIME' | translate }}</label>
+      <input type="number" [(ngModel)]="modalSeconds" min="5" class="rl-time-input" />
+    </div>
+
+    <div class="rl-actions">
+      <button class="btn-rl-spin" (click)="startSpin()">
+        {{ hasSpun ? ('ROULETTE.RETRY' | translate) : ('ROULETTE.SPIN' | translate) }}
+      </button>
+      <button class="btn-rl-secondary" (click)="startCountdown(modalSeconds)" [disabled]="!showResult">
+        {{ 'ROULETTE.START' | translate }}
+      </button>
+    </div>
+
+    <!-- Resultado -->
+    <div *ngIf="showResult" class="rl-result">
+      <div class="rl-result-name">{{ resultName }}</div>
+      <p class="rl-result-desc">{{ resultDesc }}</p>
+    </div>
+
+    <div class="rl-bottom-actions">
+      <button class="btn-rl-back" (click)="backToSetup()">
+        {{ 'ROULETTE.RESET' | translate }}
+      </button>
+    </div>
   </div>
 </div>

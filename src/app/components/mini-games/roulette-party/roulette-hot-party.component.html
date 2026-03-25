@@ -1,33 +1,65 @@
-<div class="roulette-container">
-  <h2 class="roulette-title">{{ 'ROULETTE_HOT_PARTY.TITLE' | translate }}</h2>
-  <p class="roulette-description">{{ 'ROULETTE_HOT_PARTY.DESCRIPTION' | translate }}</p>
+<div class="rhp-wrapper">
 
-  <div class="roulette-panel">
-    <h3 class="customize-title">{{ 'ROULETTE_HOT_PARTY.CUSTOMIZE' | translate }}</h3>
-    <div class="options">
-      <label *ngFor="let option of allOptions">
-        <input type="checkbox" [(ngModel)]="option.enabled" (change)="updateActiveSegments()" />
+  <!-- SETUP -->
+  <div *ngIf="currentPhase === 'setup'" class="rhp-setup">
+    <div class="rhp-title">
+      <span class="rhp-icon-big">🎯</span>
+      <h2>{{ 'ROULETTE_HOT_PARTY.TITLE' | translate }}</h2>
+      <p class="rhp-subtitle">{{ 'ROULETTE_HOT_PARTY.DESCRIPTION' | translate }}</p>
+    </div>
+
+    <!-- Cómo se juega -->
+    <div class="rhp-how-wrapper">
+      <button class="rhp-how-btn" (click)="showInstructions = !showInstructions">
+        {{ showInstructions ? '▲' : '▼' }} {{ 'ROULETTE_HOT_PARTY.HOW_TO_PLAY' | translate }}
+      </button>
+      <div class="rhp-instructions" *ngIf="showInstructions">
+        <ol>
+          <li>{{ 'ROULETTE_HOT_PARTY.HOW_1' | translate }}</li>
+          <li>{{ 'ROULETTE_HOT_PARTY.HOW_2' | translate }}</li>
+          <li>{{ 'ROULETTE_HOT_PARTY.HOW_3' | translate }}</li>
+          <li>{{ 'ROULETTE_HOT_PARTY.HOW_4' | translate }}</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Personalización -->
+    <div class="rhp-section-label">{{ 'ROULETTE_HOT_PARTY.CUSTOMIZE' | translate }}</div>
+    <div class="rhp-chips">
+      <label *ngFor="let option of allOptions" class="rhp-chip" [class.active]="option.enabled">
+        <input type="checkbox" [(ngModel)]="option.enabled" (change)="updateActiveSegments()" hidden />
         {{ option.label }}
       </label>
     </div>
-  </div>
 
-  <div class="roulette-display">
-    <div class="roulette-circle">{{ currentSegmentDisplay }}</div>
-    <div class="pointer"></div>
-  </div>
-
-  <div class="roulette-actions">
-    <button class="btn" (click)="startSpin()">
-      {{ hasSpun ? ('ROULETTE_HOT_PARTY.BUTTONS.RETRY' | translate) : ('ROULETTE_HOT_PARTY.BUTTONS.SPIN' | translate) }}
-    </button>
-    <button class="btn secondary" (click)="reset()">
-      {{ 'ROULETTE_HOT_PARTY.BUTTONS.RESET' | translate }}
+    <button class="btn-rhp-start" (click)="startGamePhase()">
+      {{ 'ROULETTE_HOT_PARTY.BUTTONS.SPIN' | translate }}
     </button>
   </div>
 
-  <div *ngIf="showResult" class="roulette-result">
-    <div class="result-title">{{ resultName }}</div>
-    <div class="result-desc">{{ resultDesc }}</div>
+  <!-- PLAYING -->
+  <div *ngIf="currentPhase === 'playing'" class="rhp-playing">
+
+    <div class="rhp-roulette-area">
+      <div class="rhp-roulette">{{ currentSegmentDisplay }}</div>
+    </div>
+
+    <div class="rhp-actions">
+      <button class="btn-rhp-spin" (click)="startSpin()">
+        {{ hasSpun ? ('ROULETTE_HOT_PARTY.BUTTONS.RETRY' | translate) : ('ROULETTE_HOT_PARTY.BUTTONS.SPIN' | translate) }}
+      </button>
+    </div>
+
+    <!-- Resultado -->
+    <div *ngIf="showResult" class="rhp-result">
+      <div class="rhp-result-name">{{ resultName }}</div>
+      <p class="rhp-result-desc">{{ resultDesc }}</p>
+    </div>
+
+    <div class="rhp-bottom-actions">
+      <button class="btn-rhp-back" (click)="backToSetup()">
+        {{ 'ROULETTE_HOT_PARTY.BUTTONS.RESET' | translate }}
+      </button>
+    </div>
   </div>
 </div>

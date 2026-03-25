@@ -1,26 +1,58 @@
-<div class="container">
-  <div class="roulette-container">
-    <div class="roulette-display">
-      {{ currentSegmentDisplay }}
+<div class="tod-wrapper">
+
+  <!-- SETUP -->
+  <div *ngIf="currentPhase === 'setup'" class="tod-setup">
+    <div class="tod-title">
+      <span class="tod-icon-big">🎯</span>
+      <h2>{{ labels.TITLE }}</h2>
+      <p class="tod-subtitle">{{ labels.DESCRIPTION }}</p>
     </div>
 
-    <div class="controls">
-      <h3>{{ labels.TITLE }}</h3>
-      <p>{{ labels.DESCRIPTION }}</p>
-
-      <div class="buttons">
-        <button class="btn" (click)="startSpin()">
-          {{ hasSpun ? labels.RETRY : labels.SPIN }}
-        </button>
-        <button class="btn secondary" (click)="reset()">
-          {{ labels.RESET }}
-        </button>
+    <!-- Cómo se juega -->
+    <div class="tod-how-wrapper">
+      <button class="tod-how-btn" (click)="showInstructions = !showInstructions">
+        {{ showInstructions ? '▲' : '▼' }} {{ labels.HOW_TO_PLAY || 'Cómo jugar' }}
+      </button>
+      <div class="tod-instructions" *ngIf="showInstructions">
+        <ol>
+          <li>{{ labels.HOW_1 }}</li>
+          <li>{{ labels.HOW_2 }}</li>
+          <li>{{ labels.HOW_3 }}</li>
+          <li>{{ labels.HOW_4 }}</li>
+        </ol>
       </div>
     </div>
+
+    <button class="btn-tod-start" (click)="startGame()">
+      {{ labels.START || 'Comenzar' }}
+    </button>
   </div>
 
-  <div *ngIf="showResult" class="result">
-    <div class="result-text" [innerHTML]="resultName"></div>
-    <p class="result-sub" [innerHTML]="resultSub"></p>
+  <!-- PLAYING -->
+  <div *ngIf="currentPhase === 'playing'" class="tod-playing">
+
+    <div class="tod-roulette-area">
+      <div class="tod-roulette" [class.spinning]="spinning">
+        {{ currentSegmentDisplay }}
+      </div>
+    </div>
+
+    <div class="tod-actions">
+      <button class="btn-tod-spin" (click)="startSpin()" [disabled]="spinning">
+        {{ spinning ? '...' : (hasSpun ? labels.RETRY : labels.SPIN) }}
+      </button>
+    </div>
+
+    <!-- Resultado -->
+    <div *ngIf="showResult" class="tod-result">
+      <div class="tod-result-label" [innerHTML]="resultName"></div>
+      <p class="tod-result-desc" [innerHTML]="resultSub"></p>
+    </div>
+
+    <div class="tod-bottom-actions">
+      <button class="btn-tod-back" (click)="backToSetup()">
+        {{ labels.RESET }}
+      </button>
+    </div>
   </div>
 </div>

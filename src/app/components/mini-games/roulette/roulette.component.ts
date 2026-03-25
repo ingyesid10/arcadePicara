@@ -23,6 +23,8 @@ export class RouletteComponent implements OnInit, OnDestroy {
   combos: any = {};
   texts: any = {};
   currentLang: 'es' | 'en' = environment.idiomaPorDefecto;
+  currentPhase: 'setup' | 'playing' = 'setup';
+  showInstructions = false;
 
   private spinInterval: any = null;
   private countdownInterval: any = null;
@@ -166,5 +168,14 @@ export class RouletteComponent implements OnInit, OnDestroy {
     const mm = String(Math.floor(s / 60)).padStart(2, '0');
     const ss = String(s % 60).padStart(2, '0');
     return `${mm}:${ss}`;
+  }
+
+  startGamePhase() {
+    this.currentPhase = 'playing';
+  }
+
+  backToSetup() {
+    this.reset();
+    this.currentPhase = 'setup';
   }
 }
