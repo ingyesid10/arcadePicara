@@ -1,0 +1,71 @@
+<div class="fc-wrapper">
+
+  <!-- SETUP PHASE -->
+  <div *ngIf="currentPhase === 'setup'" class="fc-setup">
+    <div class="fc-title">
+      <span class="fc-icon-big">🎭</span>
+      <h2>{{ 'FANTASY_CARDS.TITLE' | translate }}</h2>
+      <p class="fc-subtitle">{{ 'FANTASY_CARDS.SUBTITLE' | translate }}</p>
+    </div>
+
+    <div class="fc-levels-label">{{ 'FANTASY_CARDS.CHOOSE_LEVEL' | translate }}</div>
+
+    <div class="fc-levels">
+      <button
+        *ngFor="let lvl of levelList"
+        class="fc-level-btn"
+        [class.active]="selectedLevels.has(lvl)"
+        [style.--lvl-color]="levelColor(lvl)"
+        (click)="toggleLevel(lvl)">
+        {{ levelLabel(lvl) }}
+      </button>
+    </div>
+
+    <div class="fc-count-info">
+      {{ filteredFantasies.length }} {{ 'FANTASY_CARDS.CARDS_AVAILABLE' | translate }}
+    </div>
+
+    <button class="btn-start" (click)="startGame()">
+      {{ 'FANTASY_CARDS.START' | translate }}
+    </button>
+  </div>
+
+  <!-- PLAYING PHASE -->
+  <div *ngIf="currentPhase === 'playing'" class="fc-playing">
+
+    <div class="fc-progress">
+      {{ usedIndices.length }} / {{ filteredFantasies.length }}
+    </div>
+
+    <div class="fc-card-area">
+      <div class="fc-card" [class.flipped]="flipped" (click)="!flipped && drawCard()">
+        <div class="fc-card-front">
+          <span class="fc-card-logo">🎭</span>
+          <span class="fc-card-tap">{{ 'FANTASY_CARDS.TAP' | translate }}</span>
+        </div>
+        <div class="fc-card-back"
+          [style.border-color]="currentFantasy ? levelColor(currentFantasy.level) : '#fff'"
+          [style.box-shadow]="currentFantasy ? '0 0 30px ' + levelColor(currentFantasy.level) + '55' : 'none'">
+          <div *ngIf="currentFantasy">
+            <div class="fc-card-level-badge"
+              [style.background]="levelColor(currentFantasy.level)">
+              {{ levelLabel(currentFantasy.level) }}
+            </div>
+            <div class="fc-card-emoji">{{ currentFantasy.emoji }}</div>
+            <div class="fc-card-text">{{ currentFantasy.text[lang] }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fc-actions">
+      <button class="btn-next" [disabled]="animating || !flipped" (click)="drawCard()">
+        {{ 'FANTASY_CARDS.NEXT' | translate }}
+      </button>
+      <button class="btn-back" (click)="backToSetup()">
+        {{ 'FANTASY_CARDS.BACK' | translate }}
+      </button>
+    </div>
+
+  </div>
+</div>

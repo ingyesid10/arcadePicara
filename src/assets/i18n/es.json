@@ -59,7 +59,8 @@
     "COUPLES_CHALLENGE": "Desafío de Parejas",
     "KISS_ROULETTE": "Ruleta de Besos",
     "HIGHER_LOWER_SHOT": "Tragos y cartas",
-    "ROULETTE_HOT_PARTY": "Ruleta de fiesta"
+    "ROULETTE_HOT_PARTY": "Ruleta de fiesta",
+    "FANTASY_CARDS": "Cartas de Fantasías 🎭"
   },
   "EXTREME_MODE": "Modo Extremo",
   "ACTION": "Acción",
@@ -433,5 +434,15 @@
   },
   "BUTTONS": {
     "BACK": "⬅ Volver al inicio"
+  },
+  "FANTASY_CARDS": {
+    "TITLE": "Cartas de Fantasías",
+    "SUBTITLE": "Descubrid una fantasía al azar y vived el momento juntos 🔥",
+    "CHOOSE_LEVEL": "Elige los niveles a incluir:",
+    "CARDS_AVAILABLE": "cartas disponibles",
+    "START": "Comenzar 🎭",
+    "TAP": "Toca para girar",
+    "NEXT": "Siguiente carta ➡️",
+    "BACK": "Cambiar niveles"
   }
 }

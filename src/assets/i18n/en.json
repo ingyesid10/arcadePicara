@@ -60,7 +60,8 @@
         "COUPLES_CHALLENGE": "Couples Challenge",
         "KISS_ROULETTE": "Kiss Roulette",
         "HIGHER_LOWER_SHOT": "Drinks and cards ",
-        "ROULETTE_HOT_PARTY": "Hot Party Roulette"
+        "ROULETTE_HOT_PARTY": "Hot Party Roulette",
+        "FANTASY_CARDS": "Fantasy Cards 🎭"
     },
     "EXTREME_MODE": "Extreme Mode",
     "ACTION": "Action",
@@ -434,5 +435,15 @@
     },
     "BUTTONS": {
         "BACK": "⬅ Back to Home"
+    },
+    "FANTASY_CARDS": {
+        "TITLE": "Fantasy Cards",
+        "SUBTITLE": "Reveal a random fantasy and live the moment together 🔥",
+        "CHOOSE_LEVEL": "Choose the levels to include:",
+        "CARDS_AVAILABLE": "cards available",
+        "START": "Start 🎭",
+        "TAP": "Tap to reveal",
+        "NEXT": "Next card ➡️",
+        "BACK": "Change levels"
     }
 }
