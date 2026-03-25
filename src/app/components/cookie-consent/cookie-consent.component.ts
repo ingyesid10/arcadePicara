@@ -16,8 +16,7 @@ export class CookieConsentComponent {
   acceptCookies() {
     localStorage.setItem('cookie-consent', 'accepted');
     this.showBanner = false;
-    // Aquí puedes cargar tus scripts de anuncios o analytics
-    this.loadAdsScript();
+    // No cargar scripts externos de anuncios
   }
 
   rejectCookies() {
@@ -25,11 +24,6 @@ export class CookieConsentComponent {
     this.showBanner = false;
   }
 
-  private loadAdsScript() {
-    const script = document.createElement('script');
-    script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
-    script.async = true;
-    script.setAttribute('data-ad-client', 'TU_ID_DE_CLIENTE'); // Ejemplo: ca-pub-xxxxxxxxxx
-    document.head.appendChild(script);
-  }
+  // Eliminado: No cargar AdSense ni scripts externos
+  // private loadAdsScript() { ... }
 }

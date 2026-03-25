@@ -1,3 +1,8 @@
+# Ignore root-level Angular build artifacts
+main-*.js
+polyfills-*.js
+styles-*.css
+chunk-*.js
 # Dependencies
 node_modules/
 
