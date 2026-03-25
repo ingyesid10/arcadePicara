@@ -1,0 +1,37 @@
+<div class="hpc-wrapper">
+  <h2>Desafío Hot Físico 🔥</h2>
+  <p>Reta a tus amigos o pareja con actividades físicas y eróticas. Si no cumplen, ¡beben o pagan penitencia!</p>
+
+  <div class="hpc-card-area">
+    <button (click)="drawCard()" class="hpc-btn-draw">{{ lang === 'es' ? 'Sacar reto' : 'Draw challenge' }}</button>
+    <div *ngIf="currentCard" class="hpc-card">
+      <div class="hpc-card-type" [ngClass]="currentCard.type">{{ currentCard.type | uppercase }}</div>
+      <div class="hpc-card-text">{{ currentCard.text[lang] }}</div>
+    </div>
+  </div>
+
+  <div class="hpc-history" *ngIf="history.length > 0">
+    <h4>{{ lang === 'es' ? 'Retos jugados:' : 'Challenges played:' }}</h4>
+    <ul>
+      <li *ngFor="let card of history">{{ card.text[lang] }}</li>
+    </ul>
+  </div>
+
+  <div class="hpc-custom">
+    <h4>{{ lang === 'es' ? 'Agrega tu propio reto:' : 'Add your own challenge:' }}</h4>
+    <input [(ngModel)]="newCustomTextES" placeholder="Reto en español..." />
+    <input [(ngModel)]="newCustomTextEN" placeholder="Challenge in English..." />
+    <select [(ngModel)]="newCustomType">
+      <option value="fisico">{{ lang === 'es' ? 'Físico' : 'Physical' }}</option>
+      <option value="erotico">{{ lang === 'es' ? 'Erótico' : 'Erotic' }}</option>
+      <option value="mixto">{{ lang === 'es' ? 'Mixto' : 'Mixed' }}</option>
+    </select>
+    <button (click)="addCustomCard()">{{ lang === 'es' ? 'Agregar' : 'Add' }}</button>
+    <ul *ngIf="customCards.length > 0">
+      <li *ngFor="let card of customCards; let i = index">
+        {{ card.text[lang] }} <span class="hpc-type">({{ card.type }})</span>
+        <button (click)="removeCustomCard(i)">{{ lang === 'es' ? 'Eliminar' : 'Delete' }}</button>
+      </li>
+    </ul>
+  </div>
+</div>

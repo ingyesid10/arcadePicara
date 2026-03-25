@@ -1,0 +1,97 @@
+.hpc-wrapper {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #181a2b;
+  border-radius: 18px;
+  color: #fff;
+  box-shadow: 0 4px 24px #0005;
+  font-family: inherit;
+}
+.hpc-card-area {
+  margin: 24px 0;
+  text-align: center;
+}
+.hpc-btn-draw {
+  background: linear-gradient(90deg, #ff6b35, #d62246);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 32px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 8px #d6224633;
+  transition: background 0.2s;
+}
+.hpc-btn-draw:hover {
+  background: linear-gradient(90deg, #d62246, #ff6b35);
+}
+.hpc-card {
+  background: #23244a;
+  border-radius: 14px;
+  padding: 22px 18px;
+  margin: 0 auto;
+  max-width: 340px;
+  box-shadow: 0 2px 12px #d6224633;
+  margin-bottom: 10px;
+}
+.hpc-card-type {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.hpc-card-type.fisico { color: #3be8b0; }
+.hpc-card-type.erotico { color: #ff6b35; }
+.hpc-card-type.mixto { color: #f7c948; }
+.hpc-card-text {
+  font-size: 1.15rem;
+  color: #fff;
+  margin-bottom: 0;
+}
+.hpc-history {
+  margin: 18px 0;
+}
+.hpc-history ul {
+  padding-left: 18px;
+  color: #aaa;
+  font-size: 0.95rem;
+}
+.hpc-custom {
+  margin-top: 28px;
+  background: #23244a;
+  border-radius: 12px;
+  padding: 16px 12px;
+}
+.hpc-custom input, .hpc-custom select {
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  background: #181a2b;
+  color: #fff;
+}
+.hpc-custom button {
+  background: #3be8b0;
+  color: #181a2b;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+.hpc-custom ul {
+  margin-top: 10px;
+  padding-left: 18px;
+}
+.hpc-type {
+  font-size: 0.85rem;
+  color: #f7c948;
+  margin-left: 6px;
+}
