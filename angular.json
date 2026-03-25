@@ -18,7 +18,7 @@
             "tsConfig": "tsconfig.app.json",
             "assets": ["src/favicon.ico", "src/assets", "src/404.html", "src/robots.txt", "src/sitemap.xml"],
             "styles": ["src/styles.css"],
-            "scripts": ["src/assets/js/sw.js"],
+            "scripts": [],
             "optimization": {
               "fonts": {
                 "inline": false
