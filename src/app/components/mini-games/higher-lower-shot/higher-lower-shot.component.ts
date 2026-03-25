@@ -204,13 +204,17 @@ export class HigherLowerShotComponent implements OnInit, OnDestroy {
 
     if (currentValue === nextValue) {
       this.gameResult = 'tie';
-    } else if (
-      (this.playerGuess === 'higher' && nextValue > currentValue) ||
-      (this.playerGuess === 'lower' && nextValue < currentValue)
-    ) {
-      this.gameResult = 'win';
     } else {
-      this.gameResult = 'lose';
+      // En modo simple, el jugador 2 (el que adivina) gana si acierta
+      const guessIsCorrect =
+        (this.playerGuess === 'higher' && nextValue > currentValue) ||
+        (this.playerGuess === 'lower' && nextValue < currentValue);
+      if (this.gameMode === 'simple') {
+        this.gameResult = guessIsCorrect ? 'win' : 'lose';
+      } else {
+        // En modo ruleta, la lógica es igual (jugador B adivina)
+        this.gameResult = guessIsCorrect ? 'win' : 'lose';
+      }
     }
 
     this.secondCardRevealed = true;
