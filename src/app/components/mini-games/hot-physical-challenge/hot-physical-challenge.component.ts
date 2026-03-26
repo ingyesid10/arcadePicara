@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 interface ChallengeCard {
   text: { es: string; en: string };
@@ -11,6 +12,8 @@ interface ChallengeCard {
   styleUrls: ['./hot-physical-challenge.component.css']
 })
 export class HotPhysicalChallengeComponent implements OnInit {
+
+  constructor(private translate: TranslateService) {}
 
   predefinedCards: ChallengeCard[] = [
     // ─── FISICOS ───
@@ -76,7 +79,7 @@ export class HotPhysicalChallengeComponent implements OnInit {
   filterType: 'todos' | 'fisico' | 'erotico' | 'mixto' = 'todos';
 
   get lang(): 'es' | 'en' {
-    return (localStorage.getItem('appLang') as 'es' | 'en') || 'es';
+    return ((this.translate.currentLang || this.translate.defaultLang || localStorage.getItem('appLang') || 'es') as 'es' | 'en');
   }
 
   get remaining(): number {

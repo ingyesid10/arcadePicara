@@ -34,6 +34,11 @@ export class AppComponent implements OnInit, OnDestroy {
     const browserLang = this.translate.getBrowserLang();
     const initialLang = savedLang || (browserLang?.match(/en|es/) ? browserLang : 'es');
 
+    // Persist so all components (including mini-games) read the same language
+    if (!savedLang) {
+      localStorage.setItem('appLang', initialLang);
+    }
+
     this.currentLang = initialLang;
     this.translate.use(initialLang);
   }

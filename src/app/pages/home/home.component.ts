@@ -105,8 +105,11 @@ export class HomePage implements OnInit, OnDestroy {
   }
 
   private translateGameNames(): void {
-    this.allGames.forEach(game => {
-      game.translatedName = this.translate.instant(game.name);
+    const keys = this.allGames.map(g => g.name);
+    this.translate.get(keys).subscribe(translations => {
+      this.allGames.forEach(game => {
+        game.translatedName = translations[game.name];
+      });
     });
   }
 
