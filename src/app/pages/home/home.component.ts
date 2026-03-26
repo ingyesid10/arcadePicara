@@ -47,7 +47,8 @@ export class HomePage implements OnInit, OnDestroy {
     { name: 'GAMES.HOT_CONFESSIONS', icon: 'retos.svg', width: '65', id: 'hot-confessions', categories: ['fiesta', 'pareja'] },
     { name: 'GAMES.CONFIESA_TODO', icon: 'verdadReto.svg', width: '65', id: 'confiesa-todo', categories: ['fiesta', 'pareja'] },
     { name: 'GAMES.KINGS_CUP', icon: 'shot.svg', width: '90', id: 'kings-cup', categories: ['fiesta'] },
-    { name: 'GAMES.YO_NUNCA', icon: 'cartas.svg', width: '65', id: 'yo-nunca', categories: ['fiesta'] }
+    { name: 'GAMES.YO_NUNCA', icon: 'cartas.svg', width: '65', id: 'yo-nunca', categories: ['fiesta'] },
+    { name: 'GAMES.HOT_PHYSICAL_CHALLENGE', icon: 'retos.svg', width: '65', id: 'hot-physical-challenge', categories: ['fiesta', 'pareja'] }
   ];
 
   constructor(

@@ -1,3 +1,4 @@
+import { HotPhysicalChallengeComponent } from './components/mini-games/hot-physical-challenge/hot-physical-challenge.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
@@ -57,7 +58,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     HotConfessionsComponent,
     ConfiesaTodoComponent,
     KingsCupComponent,
-    YoNuncaComponent
+    YoNuncaComponent,
+    HotPhysicalChallengeComponent
   ],
   imports: [
     BrowserModule,
