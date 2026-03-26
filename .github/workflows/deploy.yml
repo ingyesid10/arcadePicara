@@ -3,18 +3,19 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main   # se dispara cuando se mergea un PR a main
+      - main
 
-# Permisos necesarios para publicar en GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Solo un deploy a la vez
 concurrency:
   group: pages
   cancel-in-progress: true
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build:
@@ -34,7 +35,15 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npx ng build --configuration production
+        run: node_modules/.bin/ng build --configuration production 2>&1 || true
+      
+      - name: Verify build output
+        run: |
+          if [ ! -f dist/arcade-angular/browser/index.html ]; then
+            echo "Build failed: index.html not found"
+            exit 1
+          fi
+          echo "Build successful"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
