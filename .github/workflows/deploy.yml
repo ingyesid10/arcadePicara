@@ -14,13 +14,12 @@ concurrency:
   group: pages
   cancel-in-progress: true
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,15 +34,18 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: node_modules/.bin/ng build --configuration production 2>&1 || true
-      
-      - name: Verify build output
+        shell: bash
         run: |
-          if [ ! -f dist/arcade-angular/browser/index.html ]; then
-            echo "Build failed: index.html not found"
+          set +e
+          node_modules/.bin/ng build --configuration production 2>&1
+          BUILD_EXIT=$?
+          if [ -f "dist/arcade-angular/browser/index.html" ]; then
+            echo "✅ Build output verified"
+            exit 0
+          else
+            echo "❌ Build failed - no output found (exit code: $BUILD_EXIT)"
             exit 1
           fi
-          echo "Build successful"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
