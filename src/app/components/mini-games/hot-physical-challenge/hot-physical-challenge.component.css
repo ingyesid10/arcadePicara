@@ -1,97 +1,358 @@
+/* ═══ WRAPPER ═══ */
 .hpc-wrapper {
-  max-width: 480px;
+  max-width: 500px;
   margin: 0 auto;
-  padding: 24px;
-  background: #181a2b;
-  border-radius: 18px;
+  padding: 20px 16px;
   color: #fff;
-  box-shadow: 0 4px 24px #0005;
   font-family: inherit;
 }
-.hpc-card-area {
-  margin: 24px 0;
+
+/* ═══ INTRO / START SCREEN ═══ */
+.hpc-intro {
   text-align: center;
 }
-.hpc-btn-draw {
+.hpc-title-icon {
+  font-size: 3rem;
+  margin-bottom: 4px;
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+.hpc-intro h2 {
+  font-size: 1.6rem;
+  margin: 0 0 6px;
   background: linear-gradient(90deg, #ff6b35, #d62246);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.hpc-subtitle {
+  color: #aaa;
+  font-size: 0.95rem;
+  margin-bottom: 18px;
+}
+
+/* ─── Filter ─── */
+.hpc-filter {
+  margin-bottom: 16px;
+}
+.hpc-filter-label {
+  display: block;
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 8px;
+}
+.hpc-filter-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hpc-filter-buttons button {
+  background: #23244a;
+  border: 2px solid #333;
+  color: #ccc;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.hpc-filter-buttons button.active {
+  border-color: #ff6b35;
+  color: #fff;
+  background: #2a1a30;
+}
+.hpc-filter-buttons button.active.fisico { border-color: #3be8b0; }
+.hpc-filter-buttons button.active.erotico { border-color: #ff6b35; }
+.hpc-filter-buttons button.active.mixto { border-color: #f7c948; }
+
+/* ─── Start Button ─── */
+.hpc-btn-start {
+  background: linear-gradient(135deg, #ff6b35, #d62246);
   color: #fff;
   border: none;
   border-radius: 30px;
-  padding: 12px 32px;
-  font-size: 1.1rem;
+  padding: 14px 48px;
+  font-size: 1.2rem;
   font-weight: 700;
   cursor: pointer;
-  margin-bottom: 18px;
-  box-shadow: 0 2px 8px #d6224633;
-  transition: background 0.2s;
+  margin-top: 10px;
+  box-shadow: 0 4px 20px rgba(214, 34, 70, 0.4);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
-.hpc-btn-draw:hover {
-  background: linear-gradient(90deg, #d62246, #ff6b35);
+.hpc-btn-start:hover {
+  transform: scale(1.04);
+  box-shadow: 0 6px 28px rgba(214, 34, 70, 0.5);
+}
+
+/* ═══ GAME SCREEN ═══ */
+.hpc-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hpc-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 14px;
+}
+.hpc-back-btn {
+  background: none;
+  border: 1px solid #444;
+  color: #ccc;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.hpc-back-btn:hover { border-color: #ff6b35; color: #fff; }
+.hpc-counter {
+  color: #888;
+  font-size: 0.9rem;
+}
+.hpc-counter strong {
+  color: #ff6b35;
+  font-size: 1.1rem;
+}
+
+/* ─── Card ─── */
+.hpc-card-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
+  min-height: 200px;
+  align-items: center;
 }
 .hpc-card {
-  background: #23244a;
-  border-radius: 14px;
-  padding: 22px 18px;
-  margin: 0 auto;
-  max-width: 340px;
-  box-shadow: 0 2px 12px #d6224633;
-  margin-bottom: 10px;
+  background: linear-gradient(145deg, #1e1f3d, #2a1a30);
+  border: 2px solid #333;
+  border-radius: 16px;
+  padding: 28px 22px 18px;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+  position: relative;
+  user-select: none;
+}
+.hpc-card:active { transform: scale(0.97); }
+.hpc-card-back {
+  border: 2px dashed #555;
+  background: #1a1b35;
+}
+.hpc-card-back-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: #888;
+  font-size: 1rem;
+}
+.hpc-card-back-icon {
+  font-size: 3rem;
+  animation: pulse 1.5s infinite;
 }
 .hpc-card-type {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  margin-bottom: 8px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
 }
 .hpc-card-type.fisico { color: #3be8b0; }
 .hpc-card-type.erotico { color: #ff6b35; }
 .hpc-card-type.mixto { color: #f7c948; }
 .hpc-card-text {
   font-size: 1.15rem;
+  line-height: 1.5;
+  color: #eee;
+}
+.hpc-card-tap {
+  margin-top: 16px;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+/* Card animation */
+.hpc-card-anim {
+  animation: cardIn 0.35s ease-out;
+}
+@keyframes cardIn {
+  0% { opacity: 0; transform: translateY(30px) scale(0.92); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ─── Draw Button ─── */
+.hpc-btn-draw {
+  background: linear-gradient(90deg, #ff6b35, #d62246);
   color: #fff;
-  margin-bottom: 0;
-}
-.hpc-history {
-  margin: 18px 0;
-}
-.hpc-history ul {
-  padding-left: 18px;
-  color: #aaa;
-  font-size: 0.95rem;
-}
-.hpc-custom {
-  margin-top: 28px;
-  background: #23244a;
-  border-radius: 12px;
-  padding: 16px 12px;
-}
-.hpc-custom input, .hpc-custom select {
-  padding: 7px 12px;
-  border-radius: 8px;
-  border: 1px solid #444;
-  margin-right: 8px;
-  margin-bottom: 8px;
-  font-size: 1rem;
-  background: #181a2b;
-  color: #fff;
-}
-.hpc-custom button {
-  background: #3be8b0;
-  color: #181a2b;
   border: none;
-  border-radius: 8px;
-  padding: 7px 18px;
+  border-radius: 30px;
+  padding: 12px 36px;
+  font-size: 1.05rem;
   font-weight: 700;
   cursor: pointer;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 3px 14px rgba(214, 34, 70, 0.35);
+  transition: transform 0.15s;
 }
-.hpc-custom ul {
-  margin-top: 10px;
-  padding-left: 18px;
+.hpc-btn-draw:hover { transform: scale(1.03); }
+.hpc-btn-draw:active { transform: scale(0.97); }
+
+/* ═══ CUSTOM CARDS SECTION ═══ */
+.hpc-custom-section {
+  margin-bottom: 18px;
 }
-.hpc-type {
+.hpc-toggle-btn {
+  background: none;
+  border: 1px solid #444;
+  color: #aaa;
+  border-radius: 10px;
+  padding: 8px 18px;
   font-size: 0.85rem;
-  color: #f7c948;
-  margin-left: 6px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  transition: border-color 0.2s, color 0.2s;
+}
+.hpc-toggle-btn:hover { border-color: #ff6b35; color: #fff; }
+.hpc-custom-form {
+  margin-top: 12px;
+  background: #1a1b35;
+  border-radius: 12px;
+  padding: 14px;
+}
+.hpc-custom-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.hpc-custom-row input {
+  flex: 1;
+  min-width: 140px;
+  padding: 9px 12px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #12132a;
+  color: #fff;
+  font-size: 0.95rem;
+}
+.hpc-custom-row input:focus {
+  outline: none;
+  border-color: #ff6b35;
+}
+.hpc-custom-row select {
+  padding: 9px 10px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #12132a;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.hpc-add-btn {
+  background: #3be8b0;
+  color: #111;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 20px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.hpc-add-btn:hover { background: #2dd89a; }
+.hpc-custom-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+}
+.hpc-custom-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid #222;
+  font-size: 0.9rem;
+}
+.hpc-custom-text {
+  flex: 1;
+  color: #ccc;
+}
+.hpc-remove-btn {
+  background: none;
+  border: none;
+  color: #d62246;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.hpc-remove-btn:hover { background: rgba(214, 34, 70, 0.15); }
+
+/* ═══ BADGES ═══ */
+.hpc-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+.hpc-badge.sm { font-size: 0.65rem; padding: 2px 8px; }
+.hpc-badge.fisico { background: rgba(59, 232, 176, 0.15); color: #3be8b0; }
+.hpc-badge.erotico { background: rgba(255, 107, 53, 0.15); color: #ff6b35; }
+.hpc-badge.mixto { background: rgba(247, 201, 72, 0.15); color: #f7c948; }
+
+/* ═══ HISTORY ═══ */
+.hpc-history-section {
+  width: 100%;
+}
+.hpc-history-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.hpc-history-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #1c1d38;
+  font-size: 0.88rem;
+  color: #999;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.hpc-history-num {
+  color: #555;
+  font-size: 0.8rem;
+  min-width: 22px;
+}
+
+/* ═══ SCROLLBAR ═══ */
+.hpc-history-list::-webkit-scrollbar { width: 4px; }
+.hpc-history-list::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
+
+/* ═══ RESPONSIVE ═══ */
+@media (max-width: 480px) {
+  .hpc-wrapper { padding: 14px 10px; }
+  .hpc-card { padding: 22px 16px 14px; }
+  .hpc-card-text { font-size: 1.05rem; }
+  .hpc-btn-start { padding: 12px 36px; font-size: 1.1rem; }
+  .hpc-btn-draw { padding: 10px 28px; font-size: 0.95rem; }
+  .hpc-custom-row { flex-direction: column; }
+  .hpc-custom-row input, .hpc-custom-row select { width: 100%; }
 }

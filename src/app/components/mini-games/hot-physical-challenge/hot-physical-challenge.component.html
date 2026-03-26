@@ -1,37 +1,108 @@
 <div class="hpc-wrapper">
-  <h2>Desafío Hot Físico 🔥</h2>
-  <p>Reta a tus amigos o pareja con actividades físicas y eróticas. Si no cumplen, ¡beben o pagan penitencia!</p>
+  <!-- ═══ PANTALLA INICIO ═══ -->
+  <div *ngIf="!started" class="hpc-intro">
+    <div class="hpc-title-icon">🔥</div>
+    <h2>{{ lang === 'es' ? 'Desafío Hot Físico' : 'Hot Physical Challenge' }}</h2>
+    <p class="hpc-subtitle">
+      {{ lang === 'es'
+        ? 'Retos físicos y eróticos para subir la temperatura. ¿Quién se atreve?'
+        : 'Physical and erotic challenges to turn up the heat. Who dares?' }}
+    </p>
 
-  <div class="hpc-card-area">
-    <button (click)="drawCard()" class="hpc-btn-draw">{{ lang === 'es' ? 'Sacar reto' : 'Draw challenge' }}</button>
-    <div *ngIf="currentCard" class="hpc-card">
-      <div class="hpc-card-type" [ngClass]="currentCard.type">{{ currentCard.type | uppercase }}</div>
-      <div class="hpc-card-text">{{ currentCard.text[lang] }}</div>
+    <!-- Filtro de categoría -->
+    <div class="hpc-filter">
+      <span class="hpc-filter-label">{{ lang === 'es' ? 'Categoría:' : 'Category:' }}</span>
+      <div class="hpc-filter-buttons">
+        <button *ngFor="let t of ['todos','fisico','erotico','mixto']"
+                [class.active]="filterType === t"
+                [ngClass]="t"
+                (click)="filterType = $any(t)">
+          {{ typeLabel(t) }}
+        </button>
+      </div>
     </div>
+
+    <!-- Retos personalizados (se pueden agregar antes de empezar) -->
+    <div class="hpc-custom-section">
+      <button class="hpc-toggle-btn" (click)="showCustom = !showCustom">
+        {{ showCustom
+          ? (lang === 'es' ? '▲ Ocultar retos propios' : '▲ Hide custom challenges')
+          : (lang === 'es' ? '＋ Agregar retos propios' : '＋ Add custom challenges') }}
+      </button>
+
+      <div *ngIf="showCustom" class="hpc-custom-form">
+        <div class="hpc-custom-row">
+          <input [(ngModel)]="newCustomText"
+                 [placeholder]="lang === 'es' ? 'Escribe tu reto...' : 'Write your challenge...'"
+                 (keyup.enter)="addCustomCard()" />
+          <select [(ngModel)]="newCustomType">
+            <option value="fisico">{{ typeLabel('fisico') }}</option>
+            <option value="erotico">{{ typeLabel('erotico') }}</option>
+            <option value="mixto">{{ typeLabel('mixto') }}</option>
+          </select>
+          <button class="hpc-add-btn" (click)="addCustomCard()">{{ lang === 'es' ? 'Agregar' : 'Add' }}</button>
+        </div>
+
+        <ul *ngIf="customCards.length" class="hpc-custom-list">
+          <li *ngFor="let card of customCards; let i = index">
+            <span class="hpc-custom-text">{{ card.text[lang] }}</span>
+            <span class="hpc-badge" [ngClass]="card.type">{{ typeLabel(card.type) }}</span>
+            <button class="hpc-remove-btn" (click)="removeCustomCard(i)">✕</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <button class="hpc-btn-start" (click)="start()">
+      {{ lang === 'es' ? '¡Empezar!' : 'Start!' }}
+    </button>
   </div>
 
-  <div class="hpc-history" *ngIf="history.length > 0">
-    <h4>{{ lang === 'es' ? 'Retos jugados:' : 'Challenges played:' }}</h4>
-    <ul>
-      <li *ngFor="let card of history">{{ card.text[lang] }}</li>
-    </ul>
-  </div>
+  <!-- ═══ PANTALLA DE JUEGO ═══ -->
+  <div *ngIf="started" class="hpc-game">
+    <div class="hpc-top-bar">
+      <button class="hpc-back-btn" (click)="restart()">← {{ lang === 'es' ? 'Volver' : 'Back' }}</button>
+      <span class="hpc-counter">
+        {{ lang === 'es' ? 'Quedan' : 'Left' }}: <strong>{{ remaining }}</strong>
+      </span>
+    </div>
 
-  <div class="hpc-custom">
-    <h4>{{ lang === 'es' ? 'Agrega tu propio reto:' : 'Add your own challenge:' }}</h4>
-    <input [(ngModel)]="newCustomTextES" placeholder="Reto en español..." />
-    <input [(ngModel)]="newCustomTextEN" placeholder="Challenge in English..." />
-    <select [(ngModel)]="newCustomType">
-      <option value="fisico">{{ lang === 'es' ? 'Físico' : 'Physical' }}</option>
-      <option value="erotico">{{ lang === 'es' ? 'Erótico' : 'Erotic' }}</option>
-      <option value="mixto">{{ lang === 'es' ? 'Mixto' : 'Mixed' }}</option>
-    </select>
-    <button (click)="addCustomCard()">{{ lang === 'es' ? 'Agregar' : 'Add' }}</button>
-    <ul *ngIf="customCards.length > 0">
-      <li *ngFor="let card of customCards; let i = index">
-        {{ card.text[lang] }} <span class="hpc-type">({{ card.type }})</span>
-        <button (click)="removeCustomCard(i)">{{ lang === 'es' ? 'Eliminar' : 'Delete' }}</button>
-      </li>
-    </ul>
+    <!-- Carta actual -->
+    <div class="hpc-card-area">
+      <div *ngIf="!currentCard" class="hpc-card hpc-card-back" (click)="drawCard()">
+        <div class="hpc-card-back-content">
+          <span class="hpc-card-back-icon">🔥</span>
+          <span>{{ lang === 'es' ? 'Toca para sacar reto' : 'Tap to draw challenge' }}</span>
+        </div>
+      </div>
+
+      <div *ngIf="currentCard" class="hpc-card" [class.hpc-card-anim]="cardAnim" (click)="drawCard()">
+        <div class="hpc-card-type" [ngClass]="currentCard.type">
+          {{ typeLabel(currentCard.type) }}
+        </div>
+        <div class="hpc-card-text">{{ currentCard.text[lang] }}</div>
+        <div class="hpc-card-tap">{{ lang === 'es' ? 'Toca para siguiente' : 'Tap for next' }}</div>
+      </div>
+    </div>
+
+    <button class="hpc-btn-draw" (click)="drawCard()">
+      {{ lang === 'es' ? '🎲 Sacar reto' : '🎲 Draw challenge' }}
+    </button>
+
+    <!-- Historial colapsable -->
+    <div *ngIf="history.length > 0" class="hpc-history-section">
+      <button class="hpc-toggle-btn" (click)="showHistory = !showHistory">
+        {{ showHistory
+          ? (lang === 'es' ? '▲ Ocultar historial' : '▲ Hide history')
+          : (lang === 'es' ? '▼ Historial (' + history.length + ')' : '▼ History (' + history.length + ')') }}
+      </button>
+      <ul *ngIf="showHistory" class="hpc-history-list">
+        <li *ngFor="let card of history; let i = index">
+          <span class="hpc-history-num">{{ i + 1 }}.</span>
+          <span class="hpc-badge sm" [ngClass]="card.type">{{ typeLabel(card.type) }}</span>
+          {{ card.text[lang] }}
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
