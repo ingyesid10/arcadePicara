@@ -1,0 +1,103 @@
+<div class="pdf-converter">
+
+  <div class="converter-header">
+    <h2 class="converter-title">📄 PDF a Imagen</h2>
+    <p class="converter-subtitle">
+      Convierte tu PDF a {{ format === 'jpeg' ? 'JPG' : 'PNG' }} · Todo ocurre en tu navegador, sin enviar datos a ningún servidor
+    </p>
+  </div>
+
+  <!-- Options bar -->
+  <div class="options-bar">
+    <div class="option-group">
+      <label>Formato de salida</label>
+      <div class="format-selector">
+        <button [class.active]="format === 'jpeg'" (click)="format = 'jpeg'">JPG</button>
+        <button [class.active]="format === 'png'" (click)="format = 'png'">PNG</button>
+      </div>
+    </div>
+
+    <div class="option-group">
+      <label>Resolución (DPI)</label>
+      <select [(ngModel)]="dpi" class="dpi-select">
+        <option *ngFor="let d of dpiOptions" [value]="d">{{ d }} DPI</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Drop zone -->
+  <div
+    #dropZone
+    class="drop-zone"
+    [class.dragging]="isDragging"
+    [class.has-file]="selectedFile"
+    (dragover)="onDragOver($event)"
+    (dragleave)="onDragLeave($event)"
+    (drop)="onDrop($event)"
+    (click)="openFilePicker()"
+  >
+    <input
+      #fileInput
+      type="file"
+      accept="application/pdf,.pdf"
+      style="display:none"
+      (change)="onFileInput($event)"
+    />
+
+    <ng-container *ngIf="!selectedFile">
+      <div class="drop-icon">📂</div>
+      <p class="drop-text">Arrastra tu PDF aquí o <span class="link">haz clic para seleccionarlo</span></p>
+      <p class="drop-hint">Solo archivos PDF</p>
+    </ng-container>
+
+    <ng-container *ngIf="selectedFile">
+      <div class="drop-icon">📋</div>
+      <p class="drop-text selected-name">{{ selectedFile.name }}</p>
+      <p class="drop-hint">{{ (selectedFile.size / 1024 / 1024).toFixed(2) }} MB · Clic para cambiar</p>
+    </ng-container>
+  </div>
+
+  <!-- Error -->
+  <p class="error-msg" *ngIf="errorMsg">⚠️ {{ errorMsg }}</p>
+
+  <!-- Action buttons -->
+  <div class="action-bar" *ngIf="selectedFile && !isConverting">
+    <button class="btn-convert" (click)="convert()" [disabled]="isConverting">
+      🔄 Convertir a {{ format === 'jpeg' ? 'JPG' : 'PNG' }}
+    </button>
+    <button class="btn-reset" (click)="reset()">✕ Limpiar</button>
+  </div>
+
+  <!-- Progress -->
+  <div class="progress-container" *ngIf="isConverting">
+    <p class="progress-label">Convirtiendo... {{ progress }}% ({{ pages.length }}/{{ totalPages }} páginas)</p>
+    <div class="progress-bar-track">
+      <div class="progress-bar-fill" [style.width.%]="progress"></div>
+    </div>
+  </div>
+
+  <!-- Results -->
+  <div class="results-section" *ngIf="pages.length > 0 && !isConverting">
+    <div class="results-header">
+      <h3 class="results-title">✅ {{ pages.length }} página(s) convertida(s)</h3>
+      <button class="btn-download-all" (click)="downloadAll()" [disabled]="isDownloadingZip">
+        <span *ngIf="!isDownloadingZip">⬇️ Descargar todo (.zip)</span>
+        <span *ngIf="isDownloadingZip">Generando ZIP...</span>
+      </button>
+    </div>
+
+    <div class="pages-grid">
+      <div class="page-card" *ngFor="let page of pages">
+        <div class="page-preview-wrap">
+          <img [src]="page.dataUrl" [alt]="'Página ' + page.pageNum" class="page-preview" loading="lazy" />
+        </div>
+        <div class="page-info">
+          <span class="page-num">Pág. {{ page.pageNum }}</span>
+          <span class="page-size">{{ page.width }}×{{ page.height }}px</span>
+        </div>
+        <button class="btn-dl-page" (click)="downloadPage(page)">⬇ Descargar</button>
+      </div>
+    </div>
+  </div>
+
+</div>

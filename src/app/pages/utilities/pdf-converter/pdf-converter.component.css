@@ -1,0 +1,357 @@
+.pdf-converter {
+  width: 100%;
+  padding: 4px 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Header */
+.converter-header {
+  text-align: center;
+}
+
+.converter-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.4rem;
+  color: #ffd046;
+  text-shadow: 0 0 12px rgba(255, 208, 70, 0.4);
+  margin-bottom: 6px;
+}
+
+.converter-subtitle {
+  font-size: 0.68rem;
+  color: rgba(255, 255, 255, 0.45);
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Options */
+.options-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.option-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.option-group label {
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.55);
+  font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.format-selector {
+  display: flex;
+  gap: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid #3a1060;
+}
+
+.format-selector button {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7rem;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.format-selector button.active {
+  background: #c81f2b;
+  color: #ffd046;
+}
+
+.format-selector button:hover:not(.active) {
+  background: rgba(200, 31, 43, 0.2);
+  color: #fff;
+}
+
+.dpi-select {
+  background: #1a0a2e;
+  border: 2px solid #3a1060;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7rem;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.dpi-select:focus {
+  border-color: #ffd046;
+}
+
+/* Drop zone */
+.drop-zone {
+  background: linear-gradient(135deg, #1a0a2e 0%, #0d0520 100%);
+  border: 2px dashed #3a1060;
+  border-radius: 14px;
+  padding: 40px 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.drop-zone:hover,
+.drop-zone.dragging {
+  border-color: #ffd046;
+  background: linear-gradient(135deg, #200d3a 0%, #120620 100%);
+}
+
+.drop-icon {
+  font-size: 2.5rem;
+}
+
+.drop-text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.drop-text.selected-name {
+  color: #ffd046;
+  word-break: break-all;
+}
+
+.link {
+  color: #c81f2b;
+  text-decoration: underline;
+}
+
+.drop-hint {
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.35);
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Error */
+.error-msg {
+  color: #ff5555;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 10px;
+  background: rgba(255, 50, 50, 0.1);
+  border: 1px solid rgba(255, 50, 50, 0.3);
+  border-radius: 8px;
+}
+
+/* Action buttons */
+.action-bar {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-convert {
+  background: linear-gradient(135deg, #c81f2b 0%, #a01520 100%);
+  color: #ffd046;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 28px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 14px rgba(200, 31, 43, 0.4);
+}
+
+.btn-convert:hover:not(:disabled) {
+  transform: scale(1.04);
+  box-shadow: 0 6px 20px rgba(200, 31, 43, 0.6);
+}
+
+.btn-convert:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-reset {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  border: 2px solid #3a1060;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-reset:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+/* Progress */
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.progress-label {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.progress-bar-track {
+  width: 100%;
+  max-width: 400px;
+  height: 8px;
+  background: #1a0a2e;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #3a1060;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #c81f2b, #ffd046);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+/* Results */
+.results-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.results-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.85rem;
+  color: #ffd046;
+}
+
+.btn-download-all {
+  background: linear-gradient(135deg, #2a0d50 0%, #1a083a 100%);
+  color: #ffd046;
+  border: 2px solid #5a20a0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.65rem;
+  cursor: pointer;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-download-all:hover:not(:disabled) {
+  border-color: #ffd046;
+  transform: scale(1.03);
+}
+
+.btn-download-all:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 14px;
+}
+
+.page-card {
+  background: #10052a;
+  border: 1px solid #2a0a50;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.page-card:hover {
+  border-color: #ffd046;
+  transform: scale(1.02);
+}
+
+.page-preview-wrap {
+  background: #fff;
+  aspect-ratio: 1 / 1.41; /* A4 ratio */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.page-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 10px;
+}
+
+.page-num {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.6rem;
+  color: #ffd046;
+}
+
+.page-size {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.55rem;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.btn-dl-page {
+  background: #c81f2b;
+  color: #ffd046;
+  border: none;
+  padding: 8px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.6rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  width: 100%;
+}
+
+.btn-dl-page:hover {
+  background: #e02535;
+}
+
+@media (max-width: 600px) {
+  .pages-grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  }
+
+  .options-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+}

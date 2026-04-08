@@ -23,8 +23,11 @@ export class SidebarComponent {
   }
 
     goNews() {
-    // Navega a /home (si ya estás en /home, con onSameUrlNavigation: 'reload' el evento se dispara)
     this.router.navigate(['/news']);
+  }
+
+  goUtilities() {
+    this.router.navigate(['/utilities']);
   }
 
   toggleCollapse() {

@@ -1,0 +1,26 @@
+<div class="utilities-view">
+
+  <!-- Hub: tool picker -->
+  <div *ngIf="!activeTool" class="tools-hub">
+    <div class="hub-header">
+      <h1 class="hub-title">⚙️ Utilidades</h1>
+      <p class="hub-subtitle">Herramientas gratuitas que funcionan directamente en tu navegador</p>
+    </div>
+
+    <div class="tools-grid">
+      <div class="tool-card" *ngFor="let tool of tools" (click)="selectTool(tool.id)">
+        <div class="tool-icon">{{ tool.icon }}</div>
+        <h3 class="tool-name">{{ tool.name }}</h3>
+        <p class="tool-desc">{{ tool.description }}</p>
+        <button class="btn-use">Usar herramienta →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tool view -->
+  <div *ngIf="activeTool" class="tool-view">
+    <button class="btn-back" (click)="goBack()">← Volver</button>
+    <app-pdf-converter *ngIf="activeTool === 'pdf-converter'"></app-pdf-converter>
+  </div>
+
+</div>
