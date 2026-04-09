@@ -5,13 +5,14 @@ import { FormsModule } from '@angular/forms';
 
 import { UtilitiesComponent } from './utilities.component';
 import { PdfConverterComponent } from './pdf-converter/pdf-converter.component';
+import { ImageToPdfComponent } from './image-to-pdf/image-to-pdf.component';
 
 const routes: Routes = [
   { path: '', component: UtilitiesComponent }
 ];
 
 @NgModule({
-  declarations: [UtilitiesComponent, PdfConverterComponent],
+  declarations: [UtilitiesComponent, PdfConverterComponent, ImageToPdfComponent],
   imports: [
     CommonModule,
     FormsModule,

@@ -24,6 +24,10 @@
   "UPDATES": [
     {
       "date": "Abril 2026",
+      "text": "🖼️ Nueva herramienta en *Utilidades*: <strong>Imagen a PDF</strong> — sube una o varias imágenes (JPG, PNG, WEBP, GIF, BMP, TIFF), ordénalas como quieras y genera un PDF descargable al instante. Todo en tu navegador, sin servidores. 📷✨"
+    },
+    {
+      "date": "Abril 2026",
       "text": "⚙️ Nueva sección *Utilidades* — herramientas gratuitas que funcionan directamente en tu navegador. El primer recurso disponible es el conversor de <strong>PDF a imagen</strong>: sube tu PDF, elige el formato de salida (JPG o PNG) y la resolución, y descarga cada página como imagen o todas juntas en un ZIP. ¡Sin subir datos a ningún servidor! 📄✨"
     },
     {

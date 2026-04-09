@@ -24,6 +24,10 @@
   "UPDATES": [
     {
       "date": "April 2026",
+      "text": "🖼️ New tool in *Utilities*: <strong>Image to PDF</strong> — upload one or more images (JPG, PNG, WEBP, GIF, BMP, TIFF), reorder them however you like, and generate a downloadable PDF instantly. Runs entirely in your browser, no server involved. 📷✨"
+    },
+    {
+      "date": "April 2026",
       "text": "⚙️ New *Utilities* section — free tools that run entirely in your browser. The first tool available is the <strong>PDF to Image</strong> converter: upload your PDF, choose the output format (JPG or PNG) and resolution, and download each page as an image or all pages together as a ZIP. No data is sent to any server! 📄✨"
     },
     {

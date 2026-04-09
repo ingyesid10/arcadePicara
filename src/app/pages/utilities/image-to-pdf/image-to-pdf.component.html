@@ -1,0 +1,90 @@
+<div class="img-to-pdf">
+
+  <div class="converter-header">
+    <h2 class="converter-title">🖼️ Imagen a PDF</h2>
+    <p class="converter-subtitle">
+      Combina una o varias imágenes en un PDF · JPG, PNG, WEBP, GIF, BMP · 100% en tu navegador
+    </p>
+  </div>
+
+  <!-- Drop zone -->
+  <div
+    class="drop-zone"
+    [class.dragging]="isDragging"
+    [class.has-files]="images.length > 0"
+    (dragover)="onDragOver($event)"
+    (dragleave)="onDragLeave($event)"
+    (drop)="onDrop($event)"
+    (click)="openFilePicker()"
+  >
+    <input
+      #fileInput
+      type="file"
+      accept="image/*"
+      multiple
+      style="display:none"
+      (change)="onFileInput($event)"
+    />
+    <div class="drop-icon">🖼️</div>
+    <p class="drop-text">
+      <ng-container *ngIf="images.length === 0">
+        Arrastra imágenes aquí o <span class="link">haz clic para seleccionarlas</span>
+      </ng-container>
+      <ng-container *ngIf="images.length > 0">
+        {{ images.length }} imagen(es) · <span class="link">Agregar más</span>
+      </ng-container>
+    </p>
+    <p class="drop-hint">JPG, PNG, WEBP, GIF, BMP, TIFF · Múltiples archivos permitidos</p>
+  </div>
+
+  <!-- Error -->
+  <p class="error-msg" *ngIf="errorMsg">⚠️ {{ errorMsg }}</p>
+
+  <!-- Image list -->
+  <div class="image-list" *ngIf="images.length > 0">
+    <div class="list-header">
+      <span class="list-title">Páginas del PDF (arrastra para reordenar)</span>
+    </div>
+
+    <div class="image-row" *ngFor="let img of images; let i = index">
+      <div class="row-thumb">
+        <img [src]="img.objectUrl" [alt]="img.name" />
+      </div>
+      <div class="row-info">
+        <span class="row-name">{{ img.name }}</span>
+        <span class="row-size">{{ img.sizeKb }} KB</span>
+      </div>
+      <div class="row-actions">
+        <button class="btn-order" (click)="moveUp(i)" [disabled]="i === 0" title="Subir">▲</button>
+        <button class="btn-order" (click)="moveDown(i)" [disabled]="i === images.length - 1" title="Bajar">▼</button>
+        <button class="btn-remove" (click)="removeImage(i)" title="Eliminar">✕</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Output name + actions -->
+  <div class="action-bar" *ngIf="images.length > 0">
+    <div class="name-group">
+      <label class="name-label">Nombre del PDF</label>
+      <div class="name-input-wrap">
+        <input
+          class="name-input"
+          type="text"
+          [(ngModel)]="outputName"
+          placeholder="documento"
+          maxlength="80"
+        />
+        <span class="name-ext">.pdf</span>
+      </div>
+    </div>
+
+    <div class="btn-group">
+      <button class="btn-convert" (click)="convert()" [disabled]="isConverting">
+        <span *ngIf="!isConverting">⬇️ Generar PDF</span>
+        <span *ngIf="isConverting">Generando...</span>
+      </button>
+      <button class="btn-reset" (click)="reset()">✕ Limpiar</button>
+    </div>
+  </div>
+
+</div>

@@ -21,6 +21,7 @@
   <div *ngIf="activeTool" class="tool-view">
     <button class="btn-back" (click)="goBack()">← Volver</button>
     <app-pdf-converter *ngIf="activeTool === 'pdf-converter'"></app-pdf-converter>
+    <app-image-to-pdf *ngIf="activeTool === 'image-to-pdf'"></app-image-to-pdf>
   </div>
 
 </div>

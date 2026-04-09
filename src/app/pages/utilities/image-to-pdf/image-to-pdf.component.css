@@ -1,0 +1,327 @@
+.img-to-pdf {
+  width: 100%;
+  padding: 4px 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Header */
+.converter-header {
+  text-align: center;
+}
+
+.converter-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.4rem;
+  color: #ffd046;
+  text-shadow: 0 0 12px rgba(255, 208, 70, 0.4);
+  margin-bottom: 6px;
+}
+
+.converter-subtitle {
+  font-size: 0.68rem;
+  color: rgba(255, 255, 255, 0.45);
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Drop zone */
+.drop-zone {
+  background: linear-gradient(135deg, #1a0a2e 0%, #0d0520 100%);
+  border: 2px dashed #3a1060;
+  border-radius: 14px;
+  padding: 36px 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.drop-zone:hover,
+.drop-zone.dragging {
+  border-color: #ffd046;
+  background: linear-gradient(135deg, #200d3a 0%, #120620 100%);
+}
+
+.drop-icon {
+  font-size: 2.5rem;
+}
+
+.drop-text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.link {
+  color: #c81f2b;
+  text-decoration: underline;
+}
+
+.drop-hint {
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.35);
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Error */
+.error-msg {
+  color: #ff5555;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 10px;
+  background: rgba(255, 50, 50, 0.1);
+  border: 1px solid rgba(255, 50, 50, 0.3);
+  border-radius: 8px;
+}
+
+/* Image list */
+.image-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.list-header {
+  padding: 0 4px;
+}
+
+.list-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.image-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #10052a;
+  border: 1px solid #2a0a50;
+  border-radius: 10px;
+  padding: 8px 12px;
+  transition: border-color 0.2s ease;
+}
+
+.image-row:hover {
+  border-color: #5a20a0;
+}
+
+.row-thumb {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.row-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.row-name {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.65rem;
+  color: #ffd046;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.row-size {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.55rem;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.row-actions {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.btn-order {
+  background: transparent;
+  border: 1px solid #3a1060;
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  font-size: 0.65rem;
+  transition: border-color 0.2s ease, color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-order:hover:not(:disabled) {
+  border-color: #ffd046;
+  color: #ffd046;
+}
+
+.btn-order:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+
+.btn-remove {
+  background: transparent;
+  border: 1px solid #3a1060;
+  color: rgba(255, 100, 100, 0.6);
+  border-radius: 6px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  font-size: 0.7rem;
+  transition: border-color 0.2s ease, color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-remove:hover {
+  border-color: #ff5555;
+  color: #ff5555;
+}
+
+/* Action bar */
+.action-bar {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.name-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+  min-width: 160px;
+  max-width: 320px;
+}
+
+.name-label {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.45);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.name-input-wrap {
+  display: flex;
+  align-items: center;
+  background: #1a0a2e;
+  border: 2px solid #3a1060;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-color 0.2s ease;
+}
+
+.name-input-wrap:focus-within {
+  border-color: #ffd046;
+}
+
+.name-input {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7rem;
+  padding: 8px 10px;
+  outline: none;
+  flex: 1;
+  min-width: 0;
+}
+
+.name-ext {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.3);
+  padding: 0 10px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn-convert {
+  background: linear-gradient(135deg, #c81f2b 0%, #a01520 100%);
+  color: #ffd046;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 28px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 14px rgba(200, 31, 43, 0.4);
+}
+
+.btn-convert:hover:not(:disabled) {
+  transform: scale(1.04);
+  box-shadow: 0 6px 20px rgba(200, 31, 43, 0.6);
+}
+
+.btn-convert:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-reset {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  border: 2px solid #3a1060;
+  border-radius: 10px;
+  padding: 12px 16px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-reset:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .action-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .name-group {
+    max-width: 100%;
+  }
+
+  .btn-group {
+    justify-content: center;
+  }
+}
