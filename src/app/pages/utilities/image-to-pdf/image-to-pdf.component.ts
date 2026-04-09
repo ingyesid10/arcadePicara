@@ -126,11 +126,13 @@ export class ImageToPdfComponent {
         canvas.height = img.naturalHeight;
         const ctx = canvas.getContext('2d');
         if (!ctx) { reject(new Error('canvas context failed')); return; }
+        // Fill white background so transparent PNGs don't become black in the PDF
+        ctx.fillStyle = '#ffffff';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
         ctx.drawImage(img, 0, 0);
         URL.revokeObjectURL(url);
-        // Always encode as JPEG for smaller PDF size, except PNG with transparency
-        const mimeType = file.type === 'image/png' ? 'image/png' : 'image/jpeg';
-        resolve({ dataUrl: canvas.toDataURL(mimeType, 0.92), width: img.naturalWidth, height: img.naturalHeight });
+        // Always JPEG — avoids the async image-reload issue in buildPdf for PNG
+        resolve({ dataUrl: canvas.toDataURL('image/jpeg', 0.92), width: img.naturalWidth, height: img.naturalHeight });
       };
       img.onerror = () => { URL.revokeObjectURL(url); reject(new Error(`Failed to load ${file.name}`)); };
       img.src = url;
@@ -167,40 +169,18 @@ export class ImageToPdfComponent {
 
     // Write image XObjects
     for (const page of pages) {
-      const isJpeg = page.dataUrl.startsWith('data:image/jpeg');
       const b64 = page.dataUrl.split(',')[1];
       const imgBytes = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
       const colorSpace = 'DeviceRGB';
-      const filter = isJpeg ? '/DCTDecode' : '/FlateDecode';
 
       offsets.push(pos);
       const imgObjId = nextObjId++;
       imageObjects.push({ objId: imgObjId, width: page.width, height: page.height, colorSpace });
 
-      if (isJpeg) {
-        write(`${imgObjId} 0 obj\n<< /Type /XObject /Subtype /Image /Width ${page.width} /Height ${page.height} /ColorSpace /${colorSpace} /BitsPerComponent 8 /Filter ${filter} /Length ${imgBytes.length} >>\nstream\n`);
-        writeBytes(imgBytes);
-        write('\nendstream\nendobj\n');
-      } else {
-        // For PNG: decode to raw RGB via canvas and store uncompressed
-        const canvas = document.createElement('canvas');
-        canvas.width = page.width;
-        canvas.height = page.height;
-        const ctx = canvas.getContext('2d')!;
-        const img = new Image();
-        img.src = page.dataUrl;
-        ctx.drawImage(img, 0, 0);
-        const imgData = ctx.getImageData(0, 0, page.width, page.height);
-        const rawRgb = new Uint8Array(page.width * page.height * 3);
-        for (let i = 0; i < page.width * page.height; i++) {
-          rawRgb[i * 3] = imgData.data[i * 4];
-          rawRgb[i * 3 + 1] = imgData.data[i * 4 + 1];
-          rawRgb[i * 3 + 2] = imgData.data[i * 4 + 2];
-        }
-        write(`${imgObjId} 0 obj\n<< /Type /XObject /Subtype /Image /Width ${page.width} /Height ${page.height} /ColorSpace /${colorSpace} /BitsPerComponent 8 /Length ${rawRgb.length} >>\nstream\n`);
-        writeBytes(rawRgb);
-        write('\nendstream\nendobj\n');
-      }
+      // Always JPEG (loadImageToCanvas always returns image/jpeg)
+      write(`${imgObjId} 0 obj\n<< /Type /XObject /Subtype /Image /Width ${page.width} /Height ${page.height} /ColorSpace /${colorSpace} /BitsPerComponent 8 /Filter /DCTDecode /Length ${imgBytes.length} >>\nstream\n`);
+      writeBytes(imgBytes);
+      write('\nendstream\nendobj\n');
     }
 
     // Write page content streams + page objects
